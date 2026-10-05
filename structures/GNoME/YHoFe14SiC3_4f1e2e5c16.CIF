@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_YHoFe14(SiC)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.44284142
+_cell_length_b   6.44284109
+_cell_length_c   6.44284134
+_cell_angle_alpha   83.53604301
+_cell_angle_beta   83.53604417
+_cell_angle_gamma   83.53603045
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YHoFe14(SiC)3
+_chemical_formula_sum   'Y1 Ho1 Fe14 Si3 C3'
+_cell_volume   262.69883887
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.652572  0.652572  0.652572  1
+  Ho  Ho1  1  0.346852  0.346852  0.346852  1
+  Fe  Fe2  1  0.715385  0.284424  0.000265  1
+  Fe  Fe3  1  0.000265  0.715385  0.284424  1
+  Fe  Fe4  1  0.284424  0.000265  0.715385  1
+  Fe  Fe5  1  0.000265  0.284424  0.715385  1
+  Fe  Fe6  1  0.715385  0.000265  0.284424  1
+  Fe  Fe7  1  0.284424  0.715385  0.000265  1
+  Fe  Fe8  1  0.340248  0.862787  0.340248  1
+  Fe  Fe9  1  0.340248  0.340248  0.862787  1
+  Fe  Fe10  1  0.862787  0.340248  0.340248  1
+  Fe  Fe11  1  0.659483  0.137709  0.659483  1
+  Fe  Fe12  1  0.659483  0.659483  0.137709  1
+  Fe  Fe13  1  0.137709  0.659483  0.659483  1
+  Fe  Fe14  1  0.903180  0.903180  0.903180  1
+  Fe  Fe15  1  0.097172  0.097172  0.097172  1
+  Si  Si16  1  0.000015  0.000015  0.499932  1
+  Si  Si17  1  0.499932  0.000015  0.000015  1
+  Si  Si18  1  0.000015  0.499932  0.000015  1
+  C  C19  1  0.499544  0.499544  0.001071  1
+  C  C20  1  0.001071  0.499544  0.499544  1
+  C  C21  1  0.499544  0.001071  0.499544  1

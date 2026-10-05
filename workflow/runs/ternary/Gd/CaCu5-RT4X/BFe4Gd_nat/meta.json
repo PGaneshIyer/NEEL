@@ -1,0 +1,29 @@
+{
+ "name": "BFe4Gd_nat",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "CaCu5-RT4X",
+ "hree_group": "Gd",
+ "kind": "native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/MP/GdFe4B_mp-aaackssb.CIF",
+ "provenance": {
+  "kind": "native",
+  "hree_group": "Gd",
+  "sources": "MP;OQMD",
+  "db_ids": "MP:mp-aaackssb;OQMD:2016038",
+  "parents": [
+   "BFe4Gd"
+  ],
+  "e_hull_min": "6.811583333407589e-05"
+ }
+}

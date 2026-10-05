@@ -1,0 +1,108 @@
+{
+  "defaults": {
+    "encut": 520,
+    "kppa": 8000,
+    "mode": "static",
+    "potcar_symbols": {
+      "Fe": "Fe_pv", "Co": "Co_pv", "Al": "Al", "Ga": "Ga_d", "Si": "Si",
+      "Gd": "Gd", "Tb": "Tb_3", "Dy": "Dy_3", "Ho": "Ho_3", "Er": "Er_3", "Tm": "Tm_3",
+      "Y": "Y_sv", "Zr": "Zr_sv", "B": "B", "C": "C", "N": "N", "H": "H"
+    },
+    "magmom_init": { "Fe": 2.5, "Co": 1.5, "Gd": 7.0, "default": 0.0 },
+    "incar_overrides": {}
+  },
+  "compounds": [
+    {
+      "name": "GdAlFe4",
+      "structure": "../structures/GNoME/GdAlFe4_ff39b00188.CIF",
+      "re_element": "Gd",
+      "tm_elements": ["Fe"],
+      "polytype": "CaCu5",
+      "ldau": {
+        "Gd": { "L": 3, "U": 6.7, "J": 0.7,
+                "ref": "Ueff=6 eV on Gd 4f, standard for Gd intermetallics/GdN (Harmon-Antropov LDA+U Gd; widely reused in VASP PBE+U Gd studies)" }
+      },
+      "kppa": 8000,
+      "mode": "static",
+      "note": "GNoME ff39b00188, Cmmm, Alexandria agm001170630 converged FM-aligned (Gd +6.77, Fe +1.99 muB) - verify vs ferri"
+    },
+    {
+      "name": "GdGaFe4",
+      "structure": "../structures/GNoME/GdGaFe4_b3f45e7b51.CIF",
+      "re_element": "Gd",
+      "tm_elements": ["Fe"],
+      "polytype": "CaCu5",
+      "ldau": {
+        "Gd": { "L": 3, "U": 6.7, "J": 0.7,
+                "ref": "same Gd 4f Ueff=6 eV as GdAlFe4" }
+      },
+      "kppa": 8000,
+      "mode": "static",
+      "note": "GNoME b3f45e7b51, Cmmm, Alexandria agm001174805 converged FM-aligned - verify vs ferri"
+    },
+    {
+      "name": "Gd2Fe17C3",
+      "structure": "../structures/MP/Gd2Fe17C3_mp-aaacpuja.CIF",
+      "re_element": "Gd", "tm_elements": ["Fe"], "polytype": "Th2Zn17",
+      "ldau": { "Gd": { "L": 3, "U": 6.7, "J": 0.7, "ref": "same Gd 4f Ueff=6 eV" } },
+      "note": "MP mp-aaacpuja, FM-labeled, ehull 0.015; 2-17 carbide (Sm2Fe17N3 analog)"
+    },
+    {
+      "name": "Gd2Fe14C",
+      "structure": "../structures/MP/Gd2Fe14C_mp-aaacqdhk.CIF",
+      "re_element": "Gd", "tm_elements": ["Fe"], "polytype": "Nd2Fe14B",
+      "ldau": { "Gd": { "L": 3, "U": 6.7, "J": 0.7, "ref": "same Gd 4f Ueff=6 eV" } },
+      "note": "MP mp-aaacqdhk, FM-labeled, ehull 0.036; 2-14-1 carbide, 68-atom cell (heaviest run)"
+    },
+    {
+      "name": "GdFe10Si2",
+      "structure": "../structures/MP/GdFe5Si_mp-aaacrsmf.CIF",
+      "re_element": "Gd", "tm_elements": ["Fe"], "polytype": "ThMn12",
+      "ldau": { "Gd": { "L": 3, "U": 6.7, "J": 0.7, "ref": "same Gd 4f Ueff=6 eV" } },
+      "note": "MP mp-aaacrsmf (listed as GdFe5Si = Gd(Fe5Si)2), FM-labeled, ehull 0.028; 1-12 with Si stabilizer"
+    },
+    {
+      "name": "GdCo4Si",
+      "structure": "../structures/MP/GdCo4Si_mp-aaacrtlh.CIF",
+      "re_element": "Gd", "tm_elements": ["Co"], "polytype": "CaCu5",
+      "ldau": { "Gd": { "L": 3, "U": 6.7, "J": 0.7, "ref": "same Gd 4f Ueff=6 eV" } },
+      "magmom_init": { "Co": 1.5 },
+      "note": "MP mp-aaacrtlh, FM-labeled, ehull 0.046; RT4X CaCu5 class - same family as GdAlFe4/GdGaFe4"
+    },
+    {
+      "name": "GdCo9Si4",
+      "structure": "../structures/MP/Co9GdSi4_mp-aaacpxri.CIF",
+      "re_element": "Gd", "tm_elements": ["Co"], "polytype": "LaCo9Si4",
+      "ldau": { "Gd": { "L": 3, "U": 6.7, "J": 0.7, "ref": "same Gd 4f Ueff=6 eV" } },
+      "magmom_init": { "Co": 1.5 },
+      "note": "MP mp-aaacpxri, FM-labeled, ehull 0.005 (nearly on hull); 1-9-4 type"
+    },
+    {
+      "name": "Gd2Fe17H3",
+      "structure": "../structures/MP/Gd2Fe17H3_mp-aaacptzh.CIF",
+      "re_element": "Gd", "tm_elements": ["Fe"], "polytype": "Th2Zn17",
+      "ldau": { "Gd": { "L": 3, "U": 6.7, "J": 0.7, "ref": "same Gd 4f Ueff=6 eV" } },
+      "note": "MP mp-aaacptzh, FM-labeled, ehull 0.102; 2-17 hydride"
+    },
+    {
+      "name": "Gd2Fe17N2",
+      "structure": "../structures/MP/Gd2Fe17N2_mp-aaacrskv.CIF",
+      "re_element": "Gd", "tm_elements": ["Fe"], "polytype": "Th2Zn17",
+      "ldau": { "Gd": { "L": 3, "U": 6.7, "J": 0.7, "ref": "same Gd 4f Ueff=6 eV" } },
+      "note": "MP mp-aaacrskv, FM-labeled, ehull 0.169; 2-17 nitride (Sm2Fe17N3 analog)"
+    },
+    {
+      "name": "GdFe2_validation",
+      "structure": "../structures/validation/GdFe2_mp-aaaabdsr.CIF",
+      "re_element": "Gd",
+      "tm_elements": ["Fe"],
+      "polytype": "Laves-C15",
+      "kind": "validation",
+      "ldau": {
+        "Gd": { "L": 3, "U": 6.7, "J": 0.7, "ref": "same as above" }
+      },
+      "enabled": true,
+      "note": "MP mp-aaaabdsr, Fd-3m C15. Experimentally a FERRIMAGNET - protocol sanity check: ferri MUST win here by a clear margin before trusting any campaign result."
+    }
+  ]
+}

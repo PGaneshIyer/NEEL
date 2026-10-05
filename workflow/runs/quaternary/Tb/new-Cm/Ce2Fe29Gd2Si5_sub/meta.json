@@ -1,0 +1,36 @@
+{
+ "name": "Ce2Fe29Gd2Si5_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-Cm",
+ "hree_group": "Tb",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Ce2Fe29Gd2Si5_from_Ce2Fe29Si5Tb2.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Tb",
+  "substituted_from": "Ce2Fe29Si5Tb2",
+  "parent_hree": [
+   "Tb"
+  ],
+  "parents": [
+   "Ce2Fe29Si5Tb2"
+  ],
+  "parent_db_ids": [
+   "GNoME:8f6575d5bc"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-1.0582",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

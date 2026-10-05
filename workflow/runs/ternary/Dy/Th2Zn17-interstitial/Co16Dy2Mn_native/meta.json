@@ -1,0 +1,27 @@
+{
+ "name": "Co16Dy2Mn_native",
+ "re_element": "Dy",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "Th2Zn17-interstitial",
+ "hree_group": "Dy",
+ "kind": "native_direct",
+ "ldau": {
+  "Dy": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Gd Ueff reused across heavy RE series (Harmon-Antropov) - not independently verified per element"
+  }
+ },
+ "source_structure": "../structures/GNoME/Dy2MnCo16_0e6c8cfb41.CIF",
+ "provenance": {
+  "kind": "native_hree_series",
+  "note": "direct explicit-4f DFT+U on Dy itself (GNoME id 0e6c8cfb41), no Gd surrogate, no de Gennes projection - verifies the Gd-substituted motif-series projection",
+  "source_gnome_id": "0e6c8cfb41",
+  "parent_hree": [
+   "Dy"
+  ]
+ }
+}

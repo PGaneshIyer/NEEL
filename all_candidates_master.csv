@@ -1,0 +1,1153 @@
+formula,elements,nelements,tm_frac,n_sources,sources,db_ids,e_hull_min_eV_atom,gnome_e_decomp,mag_uB_atom,ms_fm_T,ms_ferri_T,coupling_hints,spacegroup,cif_path
+BErFe4,B Er Fe,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:0a4011685b0b2856;MP:mp-aaaaaend;OQMD:8337,0.0,,1.85085,,,moment present (FM-init calc) | unknown -> potentially FM,191,
+C3Er2Fe17,C Er Fe,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:2b37184082febc08;MP:mp-aaacraik;OQMD:28816,0.001,,2.34597,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
+Er2Fe14Si3,Er Fe Si,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:3ceb913cd7125f49;MP:mp-aaacqnvp;OQMD:665610,0.001059677776716783,,2.16767,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,194,
+C3Fe17Ho2,C Fe Ho,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:e6bd5242bad8b336;MP:mp-aaacqzqa;OQMD:28826,0.0011,,2.35146,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
+C3Dy2Fe17,C Dy Fe,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:76769efe025e6488;MP:mp-aaacrarg;OQMD:28807,0.0016,,2.35485,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
+C3Fe17Tb2,C Fe Tb,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:281749237df7c34c;MP:mp-aaacpuql;OQMD:28838,0.0022,,2.35734,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
+B4Co11Dy3,B Co Dy,3,0.611,3,AFLOW;MP;OQMD,AFLOW:aflow:3c7ff7a577d5fa13;MP:mp-aaaabtst;OQMD:28270,0.0024566596430357635,,0.911071,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
+Co9Si4Tb,Co Si Tb,3,0.643,3,AFLOW;MP;OQMD,AFLOW:aflow:1d669b1c54361629;MP:mp-aaaaahad;OQMD:12892,0.0065,,1.12904,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,140,
+BCo4Ho,B Co Ho,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:f5e940d1a1812afd;MP:mp-aaackuqe;OQMD:1785061,0.007174882611339417,,1.02583,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
+BCo4Tb,B Co Tb,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:675d30fc230eda6e;MP:mp-aaacksov;OQMD:1785034,0.0093,,1.08027,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
+BCo4Dy,B Co Dy,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:5f904933989818dc;MP:mp-aaackunx;OQMD:2018665,0.009505630019319644,,1.03765,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
+Co12Fe5Ho2,Co Fe Ho,3,0.895,3,AFLOW;MP;OQMD,AFLOW:aflow:fca1f3be90d868fa;MP:mp-aaacqdcb;OQMD:663201,0.0122,,1.99114,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
+BCo4Er,B Co Er,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:0a440e0a5974d06d;MP:mp-aaacktun;OQMD:1785100,0.01406664081887199,,1.02389,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
+Al2Dy2Fe15,Al Dy Fe,3,0.789,3,AFLOW;MP;OQMD,AFLOW:aflow:7f40e61ccc7a2a97;MP:mp-aaacqbia;OQMD:690577,0.025673072350719972,,2.39878,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
+Co14Ho2Mn3,Co Ho Mn,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:c518e89c26d84e9b;MP:mp-aaacqjkl;OQMD:663534,0.02737564644399583,,2.07341,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
+Al3Dy2Fe14,Al Dy Fe,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:89c771eb93fb3ca4;MP:mp-aaackyem;OQMD:658310,0.02789312735314947,,2.23178,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,20,
+Co15Cr2Ho2,Co Cr Ho,3,0.789,3,AFLOW;MP;OQMD,AFLOW:aflow:5357b6d278ebedc6;MP:mp-aaacqbcu;OQMD:663019,0.0286,,1.88975,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
+Al3Er2Fe14,Al Er Fe,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:728c7d3b82c1b2b9;MP:mp-aaacqgmp;OQMD:672279,0.03181478194535631,,2.21663,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
+Co9Si2Tb,Co Si Tb,3,0.75,3,AFLOW;MP;OQMD,AFLOW:aflow:df06d4f766080f9a;MP:mp-aaacpuju;OQMD:29481,0.0429,,1.46027,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,141,
+Co9ErSi2,Co Er Si,3,0.75,3,AFLOW;MP;OQMD,AFLOW:aflow:63bdd48a96a204c2;MP:mp-aaacpvgo;OQMD:29244,0.0554,,1.3597,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,141,
+Al3Co14Ho2,Al Co Ho,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:6257a4af60bcf039;MP:mp-aaacqouz;OQMD:658105,0.0678,,1.31088,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,194,
+Co12Ho2Ni5,Co Ho Ni,3,0.632,3,AFLOW;MP;OQMD,AFLOW:aflow:c1041603f10b7579;MP:mp-aaacqole;OQMD:663537,0.0739,,1.33569,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
+Fe17N3Tb2,Fe N Tb,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:74aad1893f2adfda;MP:mp-aaacpvgb;OQMD:2052407,0.08410588783968648,,2.30444,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
+Dy2Fe17N3,Dy Fe N,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:9f64e1f056be8a02;MP:mp-aaacqhnc;OQMD:29843,0.09003565898088273,,2.30252,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
+AlFe4Tb,Al Fe Tb,3,0.667,2,Alexandria;GNoME,Alexandria:agm088888227;GNoME:28210daaeb,-0.0544,-0.0544,1.234,2.28,0.08,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",Cmmm,structures/GNoME/TbAlFe4_28210daaeb.CIF
+AlDyFe4,Al Dy Fe,3,0.667,2,Alexandria;GNoME,Alexandria:agm077625729;GNoME:ea6fe0e101,-0.0511,-0.0511,1.232,2.41,0.21,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",Cmmm,structures/GNoME/DyAlFe4_ea6fe0e101.CIF
+AlFe4Gd,Al Fe Gd,3,0.667,2,Alexandria;GNoME,Alexandria:agm001170630;GNoME:ff39b00188,-0.0511,-0.0511,2.423,1.99,0.18,FM-aligned RE | FM-aligned RE (Alexandria),Cmmm,structures/GNoME/GdAlFe4_ff39b00188.CIF
+AlFe4Ho,Al Fe Ho,3,0.667,2,Alexandria;GNoME,Alexandria:agm002367715;GNoME:5a0a9002d2,-0.0482,-0.0482,1.216,2.43,0.21,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",Cmmm,structures/GNoME/HoAlFe4_5a0a9002d2.CIF
+Fe4SiTm,Fe Si Tm,3,0.667,2,Alexandria;GNoME,Alexandria:agm003752443;GNoME:33c5a0779b,-0.0341,-0.0341,2.112,2.15,0.2,"ferri (RE 5d antiparallel, Alexandria)",Cmmm,structures/GNoME/TmFe4Si_33c5a0779b.CIF
+Fe4GaTm,Fe Ga Tm,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174823;GNoME:d827f5719b,-0.0295,-0.0295,1.247,2.06,0.19,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",Cmmm,structures/GNoME/TmGaFe4_d827f5719b.CIF
+Fe9HoZr2,Fe Ho Zr,3,0.75,2,Alexandria;GNoME,Alexandria:agm055544939;GNoME:91c5708db8,-0.0238,-0.0238,2.7,1.96,0.6,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/HoZr2Fe9_91c5708db8.CIF
+Fe9TbZr2,Fe Tb Zr,3,0.75,2,Alexandria;GNoME,Alexandria:agm044244099;GNoME:b4ba653a2b,-0.0237,-0.0237,2.704,1.89,0.67,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TbZr2Fe9_b4ba653a2b.CIF
+ErFe9Zr2,Er Fe Zr,3,0.75,2,Alexandria;GNoME,Alexandria:agm043150978;GNoME:e619525ab6,-0.0216,-0.0216,2.698,1.91,0.68,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/ErZr2Fe9_e619525ab6.CIF
+Fe4HoSi,Fe Ho Si,3,0.667,2,Alexandria;GNoME,Alexandria:agm088754393;GNoME:5a6b93738c,-0.0212,-0.0212,1.228,2.55,0.22,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",Cmmm,structures/GNoME/HoFe4Si_5a6b93738c.CIF
+Fe9Hf2Tb,Fe Hf Tb,3,0.75,2,Alexandria;GNoME,Alexandria:agm055155429;GNoME:89b9902a14,-0.0205,-0.0205,2.69,1.9,0.68,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TbHf2Fe9_89b9902a14.CIF
+CoEr2Fe3,Co Er Fe,3,0.667,2,Alexandria;GNoME,Alexandria:agm005848293;GNoME:0776de5619,-0.0202,-0.0202,1.11,3.0,1.45,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/Er2Fe3Co_0776de5619.CIF
+Fe9Hf2Ho,Fe Hf Ho,3,0.75,2,Alexandria;GNoME,Alexandria:agm055354199;GNoME:c176a0f312,-0.0199,-0.0199,2.685,1.99,0.61,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/HoHf2Fe9_c176a0f312.CIF
+Fe4GaHo,Fe Ga Ho,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174806;GNoME:ebc4ef448a,-0.0199,-0.0199,1.258,2.43,0.21,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",Cmmm,structures/GNoME/HoGaFe4_ebc4ef448a.CIF
+CoFe3Tm2,Co Fe Tm,3,0.667,2,Alexandria;GNoME,Alexandria:agm005848280;GNoME:e069103869,-0.0197,-0.0197,1.107,2.53,0.96,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/Tm2Fe3Co_e069103869.CIF
+Fe3RuTm2,Fe Ru Tm,3,0.5,2,Alexandria;GNoME,Alexandria:agm005841688;GNoME:9a334783f6,-0.0192,-0.0192,0.942,2.45,0.93,"ferri (RE 5d antiparallel, Alexandria)",R-3m,structures/GNoME/Tm2Fe3Ru_9a334783f6.CIF
+ErFe9Hf2,Er Fe Hf,3,0.75,2,Alexandria;GNoME,Alexandria:agm053510147;GNoME:bf14335cbb,-0.0192,-0.0192,2.682,1.92,0.68,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/ErHf2Fe9_bf14335cbb.CIF
+Fe9TmZr2,Fe Tm Zr,3,0.75,2,Alexandria;GNoME,Alexandria:agm053976541;GNoME:15e68b29be,-0.019,-0.019,2.694,1.78,0.82,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TmZr2Fe9_15e68b29be.CIF
+DyFe9Hf2,Dy Fe Hf,3,0.75,2,Alexandria;GNoME,Alexandria:agm055418264;GNoME:e5558cb591,-0.0188,-0.0188,2.688,1.97,0.61,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/DyHf2Fe9_e5558cb591.CIF
+ErFe9Ta2,Er Fe Ta,3,0.75,2,Alexandria;GNoME,Alexandria:agm005943811;GNoME:9f38555801,-0.0181,-0.0181,1.317,1.99,0.71,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/ErTa2Fe9_9f38555801.CIF
+Fe9HoTa2,Fe Ho Ta,3,0.75,2,Alexandria;GNoME,Alexandria:agm005943840;GNoME:32e46e1415,-0.018,-0.018,1.32,2.07,0.64,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/HoTa2Fe9_32e46e1415.CIF
+Fe9Ta2Tm,Fe Ta Tm,3,0.75,2,Alexandria;GNoME,Alexandria:agm005943805;GNoME:d5e58dc722,-0.0171,-0.0171,1.314,1.86,0.85,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TmTa2Fe9_d5e58dc722.CIF
+DyFe9Ta2,Dy Fe Ta,3,0.75,2,Alexandria;GNoME,Alexandria:agm005943830;GNoME:1b91251285,-0.0166,-0.0166,1.321,2.06,0.64,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/DyTa2Fe9_1b91251285.CIF
+Al2C3Fe15Ho2,Al C Fe Ho,4,0.682,2,Alexandria;GNoME,Alexandria:agm009169709;GNoME:105c8bc9e1,-0.0155,-0.0155,1.319,2.24,0.5,"ferri (RE 5d antiparallel, Alexandria)",C2/m,structures/GNoME/Ho2Al2Fe5C3_105c8bc9e1.CIF
+Al2C3Er2Fe15,Al C Er Fe,4,0.682,2,Alexandria;GNoME,Alexandria:agm009170945;GNoME:0ca7649c59,-0.0152,-0.0152,1.315,2.15,0.59,"ferri (RE 5d antiparallel, Alexandria)",C2/m,structures/GNoME/Er2Al2Fe5C3_0ca7649c59.CIF
+CoFe8Tb3,Co Fe Tb,3,0.75,2,Alexandria;GNoME,Alexandria:agm017220265;GNoME:3f07ceb629,-0.015,-0.015,2.952,2.75,0.64,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/Tb3Fe8Co_3f07ceb629.CIF
+B2Fe7Tm3,B Fe Tm,3,0.583,2,Alexandria;GNoME,Alexandria:agm002361428;GNoME:833d70d89e,-0.0149,-0.0149,0.461,2.57,0.45,"ferri (RE 5d antiparallel, Alexandria)",P6_3/mmc,structures/GNoME/Tm3Fe7B2_833d70d89e.CIF
+ErFe9Nb2,Er Fe Nb,3,0.75,2,Alexandria;GNoME,Alexandria:agm043999881;GNoME:81affb61e7,-0.0147,-0.0147,2.551,1.99,0.71,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/ErNb2Fe9_81affb61e7.CIF
+Er3Fe8Os,Er Fe Os,3,0.667,2,Alexandria;GNoME,Alexandria:agm005991984;GNoME:2c0fe326f9,-0.0145,-0.0145,1.309,2.78,0.65,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/Er3Fe8Os_2c0fe326f9.CIF
+Fe9HoNb2,Fe Ho Nb,3,0.75,2,Alexandria;GNoME,Alexandria:agm044281407;GNoME:216a2580b7,-0.0145,-0.0145,2.551,2.05,0.63,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/HoNb2Fe9_216a2580b7.CIF
+Fe9Nb2Tm,Fe Nb Tm,3,0.75,2,Alexandria;GNoME,Alexandria:agm054127814;GNoME:4222895dfc,-0.0136,-0.0136,2.55,1.85,0.85,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TmNb2Fe9_4222895dfc.CIF
+Al3C2Er2Fe14,Al C Er Fe,4,0.667,2,Alexandria;GNoME,Alexandria:agm009134495;GNoME:70710c6267,-0.0132,-0.0132,1.165,2.08,0.5,"ferri (RE 5d antiparallel, Alexandria)",C2/m,structures/GNoME/Er2Al3Fe7C2_70710c6267.CIF
+DyFe9Nb2,Dy Fe Nb,3,0.75,2,Alexandria;GNoME,Alexandria:agm056016514;GNoME:7aadf7d11d,-0.0131,-0.0131,2.551,2.05,0.63,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/DyNb2Fe9_7aadf7d11d.CIF
+Fe9Nb2Tb,Fe Nb Tb,3,0.75,2,Alexandria;GNoME,Alexandria:agm047757273;GNoME:405fd57c13,-0.013,-0.013,2.552,1.98,0.7,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TbNb2Fe9_405fd57c13.CIF
+Fe8OsTm3,Fe Os Tm,3,0.667,2,Alexandria;GNoME,Alexandria:agm005991976;GNoME:197528bf3d,-0.0129,-0.0129,1.303,2.42,0.27,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/Tm3Fe8Os_197528bf3d.CIF
+CoDy2Fe3,Co Dy Fe,3,0.667,2,Alexandria;GNoME,Alexandria:agm005848315;GNoME:cd0a0d8652,-0.0127,-0.0127,1.115,3.19,1.66,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/Dy2Fe3Co_cd0a0d8652.CIF
+B2Er3Fe7,B Er Fe,3,0.583,2,Alexandria;GNoME,Alexandria:agm002361420;GNoME:d4d5873ef6,-0.0109,-0.0109,0.461,2.98,0.88,"ferri (RE 5d antiparallel, Alexandria)",P6_3/mmc,structures/GNoME/Er3Fe7B2_d4d5873ef6.CIF
+ErFe9Ti2,Er Fe Ti,3,0.75,2,Alexandria;GNoME,Alexandria:agm054477770;GNoME:d1127b401b,-0.0105,-0.0105,2.529,2.02,0.72,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/ErTi2Fe9_d1127b401b.CIF
+Fe9HoTi2,Fe Ho Ti,3,0.75,2,Alexandria;GNoME,Alexandria:agm045765416;GNoME:d34e2ca5d8,-0.0105,-0.0105,2.537,2.08,0.64,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/HoTi2Fe9_d34e2ca5d8.CIF
+B2Dy3Fe7,B Dy Fe,3,0.583,2,Alexandria;GNoME,Alexandria:agm002361419;GNoME:a3cb1289aa,-0.0098,-0.0098,0.459,3.15,1.08,"ferri (RE 5d antiparallel, Alexandria)",P6_3/mmc,structures/GNoME/Dy3Fe7B2_a3cb1289aa.CIF
+CoFe3Ho2,Co Fe Ho,3,0.667,2,Alexandria;GNoME,Alexandria:agm005848321;GNoME:e3d22fe7b4,-0.0094,-0.0094,1.113,3.24,1.69,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/Ho2Fe3Co_e3d22fe7b4.CIF
+Fe9TbTi2,Fe Tb Ti,3,0.75,2,Alexandria;GNoME,Alexandria:agm047230189;GNoME:8eb1f0ce71,-0.0094,-0.0094,2.551,2.0,0.71,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TbTi2Fe9_8eb1f0ce71.CIF
+Fe9Ti2Tm,Fe Ti Tm,3,0.75,2,Alexandria;GNoME,Alexandria:agm045766423;GNoME:7bd52706aa,-0.0092,-0.0092,2.522,1.87,0.86,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TmTi2Fe9_7bd52706aa.CIF
+Fe4GaGd,Fe Ga Gd,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174805;GNoME:b3f45e7b51,-0.0092,-0.0092,2.444,2.03,0.18,FM-aligned RE | FM-aligned RE (Alexandria),Cmmm,structures/GNoME/GdGaFe4_b3f45e7b51.CIF
+Fe9Tm2Zr,Fe Tm Zr,3,0.75,2,Alexandria;GNoME,Alexandria:agm053908579;GNoME:194e5a0600,-0.0087,-0.0087,1.371,2.2,0.33,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/Tm2ZrFe9_194e5a0600.CIF
+Er2Fe3Ru,Er Fe Ru,3,0.5,2,Alexandria;GNoME,Alexandria:agm005841695;GNoME:50fbe0dad5,-0.0068,-0.0068,0.951,2.91,1.4,"ferri (RE 5d antiparallel, Alexandria)",R-3m,structures/GNoME/Er2Fe3Ru_50fbe0dad5.CIF
+AlFe3Tm2,Al Fe Tm,3,0.5,2,Alexandria;GNoME,Alexandria:agm005687899;GNoME:c6029f1bbd,-0.0068,-0.0068,0.681,2.43,0.92,"ferri (RE 5d antiparallel, Alexandria)",P6_3/mmc,structures/GNoME/Tm2AlFe3_c6029f1bbd.CIF
+B2Fe7Tb3,B Fe Tb,3,0.583,2,Alexandria;GNoME,Alexandria:agm002361426;GNoME:9f62347120,-0.006,-0.006,0.458,2.91,0.86,"ferri (RE 5d antiparallel, Alexandria)",P6_3/mmc,structures/GNoME/Tb3Fe7B2_9f62347120.CIF
+Fe8TmZr3,Fe Tm Zr,3,0.667,2,Alexandria;GNoME,Alexandria:agm005993724;GNoME:db1b6013eb,-0.0054,-0.0054,1.06,1.55,0.64,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/TmZr3Fe8_db1b6013eb.CIF
+Fe9Sc2Tb,Fe Sc Tb,3,0.75,2,Alexandria;GNoME,Alexandria:agm005929270;GNoME:6144502e97,-0.0049,-0.0049,1.276,1.89,0.67,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TbSc2Fe9_6144502e97.CIF
+Dy2Fe9Zr,Dy Fe Zr,3,0.75,2,Alexandria;GNoME,Alexandria:agm005931426;GNoME:5040a969b2,-0.0049,-0.0049,2.796,2.54,0.07,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/Dy2ZrFe9_5040a969b2.CIF
+Er2Fe9Tb,Er Fe Tb,3,0.75,2,Alexandria;GNoME,Alexandria:agm055363230;GNoME:2e82a68368,-0.004,-0.004,2.77,2.96,0.52,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TbEr2Fe9_2e82a68368.CIF
+Fe9HoSc2,Fe Ho Sc,3,0.75,2,Alexandria;GNoME,Alexandria:agm005929250;GNoME:1d106c2beb,-0.0036,-0.0036,1.271,1.96,0.6,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/HoSc2Fe9_1d106c2beb.CIF
+Dy4Fe19P12Ti,Dy Fe P Ti,4,0.528,2,Alexandria;GNoME,Alexandria:agm021086387;GNoME:0e78131841,-0.0035,-0.0035,0.135,2.07,0.0,fe_moment_collapsed,Pm,structures/GNoME/Dy4TiFe19P12_0e78131841.CIF
+ErFe9Sc2,Er Fe Sc,3,0.75,2,Alexandria;GNoME,Alexandria:agm005929217;GNoME:c2dda2c344,-0.0028,-0.0028,1.267,1.91,0.68,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/ErSc2Fe9_c2dda2c344.CIF
+Fe9Sc2Tm,Fe Sc Tm,3,0.75,2,Alexandria;GNoME,Alexandria:agm005929197;GNoME:3e6b6a3c85,-0.0026,-0.0026,1.264,1.79,0.82,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TmSc2Fe9_3e6b6a3c85.CIF
+Fe9Ho2Tb,Fe Ho Tb,3,0.75,2,Alexandria;GNoME,Alexandria:agm043627393;GNoME:7afac0e6cf,-0.0025,-0.0025,2.804,3.08,0.65,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TbHo2Fe9_7afac0e6cf.CIF
+Fe9Tb2Tm,Fe Tb Tm,3,0.75,2,Alexandria;GNoME,Alexandria:agm044167911;GNoME:5beb0bf182,-0.0014,-0.0014,1.428,2.8,0.39,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/Tb2TmFe9_5beb0bf182.CIF
+ErFe9Tb2,Er Fe Tb,3,0.75,2,Alexandria;GNoME,Alexandria:agm046199095;GNoME:3820306ccc,-0.0012,-0.0012,1.436,2.93,0.52,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/Tb2ErFe9_3820306ccc.CIF
+Dy2Fe9Tb,Dy Fe Tb,3,0.75,2,Alexandria;GNoME,Alexandria:agm054742267;GNoME:13308b01a6,-0.0011,-0.0011,2.846,3.09,0.65,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/TbDy2Fe9_13308b01a6.CIF
+Fe9HoTb2,Fe Ho Tb,3,0.75,2,Alexandria;GNoME,Alexandria:agm053578755;GNoME:348a40011d,-0.0009,-0.0009,1.445,2.99,0.58,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/Tb2HoFe9_348a40011d.CIF
+Fe10TbY,Fe Tb Y,3,0.833,2,Alexandria;GNoME,Alexandria:agm005588364;GNoME:ddbfedaafc,-0.0006,-0.0006,1.624,2.04,0.81,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",Pmmm,structures/GNoME/TbYFe10_ddbfedaafc.CIF
+Fe9Tb2Y,Fe Tb Y,3,0.75,2,Alexandria;GNoME,Alexandria:agm055968704;GNoME:22bf868db7,-0.0006,-0.0006,1.456,2.34,0.06,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R-3m,structures/GNoME/Tb2YFe9_22bf868db7.CIF
+Fe8HoZr3,Fe Ho Zr,3,0.667,2,Alexandria;GNoME,Alexandria:agm005993765;GNoME:666361f684,-0.0002,-0.0002,1.062,1.74,0.44,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/HoZr3Fe8_666361f684.CIF
+Dy3Fe8Ho,Dy Fe Ho,3,0.667,2,Alexandria;GNoME,Alexandria:agm005995096;GNoME:f717449428,-0.0001,-0.0001,1.136,3.45,1.41,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/Dy3HoFe8_f717449428.CIF
+Fe9TbY2,Fe Tb Y,3,0.75,2,Alexandria;GNoME,Alexandria:agm055249248;GNoME:5d96ce49ec,-0.0001,-0.0001,1.46,1.77,0.63,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/TbY2Fe9_5d96ce49ec.CIF
+Fe4LuTm,Fe Lu Tm,3,0.667,2,Alexandria;GNoME,Alexandria:agm001175195;GNoME:fa11f36d1c,0.0,0.0005,1.04,1.94,0.18,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/TmLuFe4_fa11f36d1c.CIF
+B4Co11Gd3,B Co Gd,3,0.611,2,MP;OQMD,MP:mp-aaabimgc;OQMD:28277,0.0,,0.611,,,unknown -> potentially FM,P6/mmm,
+B6Co12Er,B Co Er,3,0.632,2,AFLOW;OQMD,AFLOW:aflow:6e5e137f8e066ee4;OQMD:1786110,0.0,,0.985606,,,moment present (FM-init calc) | unknown -> potentially FM,166,
+BCo14Tb2,B Co Tb,3,0.824,2,MP;OQMD,MP:mp-aaacqbjo;OQMD:655724,0.0,,1.073,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+BCo4Gd,B Co Gd,3,0.667,2,MP;OQMD,MP:mp-aaaaatqi;OQMD:26462,0.0,,0.049,,,unknown -> potentially FM,P6/mmm,
+BDy2Fe14,B Dy Fe,3,0.824,2,MP;OQMD,MP:mp-aaaaafyt;OQMD:56226,0.0,,1.828,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+BEr2Fe14,B Er Fe,3,0.824,2,MP;OQMD,MP:mp-aaaaaflo;OQMD:660179,0.0,,1.821,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+BFe14Gd2,B Fe Gd,3,0.824,2,MP;OQMD,MP:mp-aaacqern;OQMD:660253,0.0,,0.998,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+BFe14Ho2,B Fe Ho,3,0.824,2,MP;OQMD,MP:mp-aaaaavti;OQMD:655741,0.0,,1.825,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+BFe14Tb2,B Fe Tb,3,0.824,2,MP;OQMD,MP:mp-aaaaainn;OQMD:660383,0.0,,1.831,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+BFe14Tm2,B Fe Tm,3,0.824,2,MP;OQMD,MP:mp-aaaaairl;OQMD:660391,0.0,,1.817,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+BFe4Tm,B Fe Tm,3,0.667,2,MP;OQMD,MP:mp-aaacksmn;OQMD:2025477,0.0,,1.273,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
+C3Fe17Tm2,C Fe Tm,3,0.773,2,MP;OQMD,MP:mp-aaacqtcu;OQMD:28839,0.0,,1.592,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
+CDy2Fe14,C Dy Fe,3,0.824,2,MP;OQMD,MP:mp-aaabgmxx;OQMD:661289,0.0,,1.767,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+CEr2Fe14,C Er Fe,3,0.824,2,MP;OQMD,MP:mp-aaabghrr;OQMD:661312,0.0,,1.763,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+CFe14Ho2,C Fe Ho,3,0.824,2,MP;OQMD,MP:mp-aaabgnaz;OQMD:661345,0.0,,1.764,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+CFe14Tb2,C Fe Tb,3,0.824,2,MP;OQMD,MP:mp-aaacqddb;OQMD:661387,0.0,,1.777,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+CFe14Tm2,C Fe Tm,3,0.824,2,MP;OQMD,MP:mp-aaabglva;OQMD:661391,0.0,,1.761,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
+Co4MgTb,Co Mg Tb,3,0.667,2,MP;OQMD,MP:mp-aaaciycb;OQMD:2017261,0.0,,0.904,,,unknown -> potentially FM,F-43m,
+CoErFe,Co Er Fe,3,0.667,2,MP;OQMD,MP:mp-aaaekusf;OQMD:1530065,0.0,,1.047,,,unknown -> potentially FM,Imma,
+CoFeHo,Co Fe Ho,3,0.667,2,MP;OQMD,MP:mp-aaacrqqc;OQMD:1529453,0.0,,1.041,,,ferrimagnetic (MP label) | unknown -> potentially FM,Imma,
+B6Co12Tb,B Co Tb,3,0.632,2,AFLOW;OQMD,AFLOW:aflow:a6925b6045973ef8;OQMD:2025868,1.2726315789357567e-05,,1.00766,,,moment present (FM-init calc) | unknown -> potentially FM,166,
+CFe14Gd2,C Fe Gd,3,0.824,2,MP;OQMD,MP:mp-aaacqdhk;OQMD:661337,2.6321617647658002e-05,,2.527,,,"FM (MP label, FM-init) | unknown -> potentially FM",P4_2/mnm,structures/MP/Gd2Fe14C_mp-aaacqdhk.CIF
+DyFe4Ho,Dy Fe Ho,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174764;GNoME:cfc9116b1c,6.4111664e-05,0.0002,1.151,3.49,1.43,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/DyHoFe4_cfc9116b1c.CIF
+B6Co12Dy,B Co Dy,3,0.632,2,AFLOW;OQMD,AFLOW:aflow:2fb2b392878c1f86;OQMD:2025829,6.620473684237904e-05,,1.005,,,moment present (FM-init calc) | unknown -> potentially FM,166,
+BFe4Gd,B Fe Gd,3,0.667,2,MP;OQMD,MP:mp-aaackssb;OQMD:2016038,6.811583333407589e-05,,1.393,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
+ErFe4Ho,Er Fe Ho,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174879;GNoME:de938254f9,0.0001,0.001,1.116,3.42,1.32,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/HoErFe4_de938254f9.CIF
+DyErFe4,Dy Er Fe,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174762;GNoME:2667ef432f,0.00029635668,0.0008,1.139,3.36,1.3,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/DyErFe4_2667ef432f.CIF
+ErFe4Lu,Er Fe Lu,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174781;GNoME:a8c89b0f37,0.0004,0.0007,1.061,2.18,0.08,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/ErLuFe4_a8c89b0f37.CIF
+DyFe8Y3,Dy Fe Y,3,0.667,2,Alexandria;GNoME,Alexandria:agm005982441;GNoME:bc6cd6a209,0.00048763,0.0006,1.098,1.63,0.41,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/DyY3Fe8_bc6cd6a209.CIF
+Dy3Fe8Y,Dy Fe Y,3,0.667,2,Alexandria;GNoME,Alexandria:agm005982434;GNoME:18c0f3e496,0.0005,0.0005,1.129,2.86,0.81,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/Dy3YFe8_18c0f3e496.CIF
+B4Co11Ho3,B Co Ho,3,0.611,2,MP;OQMD,MP:mp-aaacprdm;OQMD:28285,0.0013186523159429142,,0.363,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
+Co9GdSi4,Co Gd Si,3,0.643,2,MP;OQMD,MP:mp-aaacpxri;OQMD:2053342,0.002280783039809553,,0.819,,,"FM (MP label, FM-init) | unknown -> potentially FM",I4/mcm,structures/MP/Co9GdSi4_mp-aaacpxri.CIF
+C3Fe17Gd2,C Fe Gd,3,0.773,2,MP;OQMD,MP:mp-aaacpuja;OQMD:28823,0.003162601241753993,,2.207,,,"FM (MP label, FM-init) | unknown -> potentially FM",R-3m,structures/MP/Gd2Fe17C3_mp-aaacpuja.CIF
+B4Co11Tb3,B Co Tb,3,0.611,2,MP;OQMD,MP:mp-aaacpqph;OQMD:28310,0.0039,,0.358,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
+B4Co11Er3,B Co Er,3,0.611,2,MP;OQMD,MP:mp-aaacpfru;OQMD:28275,0.006315246559307319,,0.359,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
+B4Co11Tm3,B Co Tm,3,0.611,2,MP;OQMD,MP:mp-aaacpqpf;OQMD:28313,0.008561131541528266,,0.358,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
+BCo4Tm,B Co Tm,3,0.667,2,MP;OQMD,MP:mp-aaacktho;OQMD:1785111,0.0157,,0.612,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
+Co8HoTb3,Co Ho Tb,3,0.667,2,MP;OQMD,MP:mp-aaacrhgb;OQMD:1981254,0.019,,0.276,,,ferrimagnetic (MP label) | unknown -> potentially FM,R3m,
+Al5Dy2Fe12,Al Dy Fe,3,0.632,2,MP;OQMD,MP:mp-aaacrstp;OQMD:657340,0.0233,,1.139,,,ferrimagnetic (MP label) | unknown -> potentially FM,R3m,
+Al2Fe15Tm2,Al Fe Tm,3,0.789,2,MP;OQMD,MP:mp-aaacqeiu;OQMD:658463,0.02864191239716185,,1.501,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
+Fe8TbV4,Fe Tb V,3,0.615,2,AFLOW;OQMD,AFLOW:aflow:88d463e46faf8b91;OQMD:30259,0.05995606585529209,,0.885759,,,moment present (FM-init calc) | unknown -> potentially FM,139,
+Dy2Fe14Ga3,Dy Fe Ga,3,0.737,2,MP;OQMD,MP:mp-aaacqmck;OQMD:672166,0.06153973503231637,,1.523,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
+Fe15Ga2Tm2,Fe Ga Tm,3,0.789,2,MP;OQMD,MP:mp-aaacqmte;OQMD:665977,0.0626,,1.954,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
+Co12Er2Ni5,Co Er Ni,3,0.632,2,MP;OQMD,MP:mp-aaacqmot;OQMD:663164,0.06363576078181088,,1.052,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
+Fe15Si2Tm2,Fe Si Tm,3,0.789,2,MP;OQMD,MP:mp-aaacqhtx;OQMD:666495,0.1022,,1.568,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
+Ce2Fe29Si5Tb2,Ce Fe Si Tb,4,0.763,1,GNoME,GNoME:8f6575d5bc,-1.0582,-1.0582,,1.84,1.0,,Cm,structures/GNoME/Tb2Ce2Fe29Si5_8f6575d5bc.CIF
+CoFe3Gd2,Co Fe Gd,3,0.667,1,GNoME,GNoME:be1a527992,-0.0748,-0.0748,,2.43,0.92,,R-3m,structures/GNoME/Gd2Fe3Co_be1a527992.CIF
+CoFe18P12Sc4Tm,Co Fe P Sc Tm,5,0.528,1,GNoME,GNoME:e92b0278be,-0.058,-0.058,,1.19,0.82,,Amm2,structures/GNoME/TmSc4Fe18CoP12_e92b0278be.CIF
+DyFe20P12Sc3,Dy Fe P Sc,4,0.556,1,GNoME,GNoME:fb9e924341,-0.053,-0.053,,1.4,0.86,,Pm,structures/GNoME/DySc3Fe5P34_fb9e924341.CIF
+Fe20P12Sc3Tm,Fe P Sc Tm,4,0.556,1,GNoME,GNoME:2c248288e9,-0.0526,-0.0526,,1.33,0.95,,Pm,structures/GNoME/TmSc3Fe5P34_2c248288e9.CIF
+CrFe19P12Sc3Tm,Cr Fe P Sc Tm,5,0.528,1,GNoME,GNoME:0488e8afe4,-0.0519,-0.0519,,1.27,0.89,,Pm,structures/GNoME/TmSc3CrFe19P12_0488e8afe4.CIF
+DyFe12HfP7,Dy Fe Hf P,4,0.571,1,GNoME,GNoME:d4df814ff8,-0.0503,-0.0503,,1.65,0.71,,P-6,structures/GNoME/DyHfFe12P7_d4df814ff8.CIF
+Al2DyFe4Tb,Al Dy Fe Tb,4,0.5,1,GNoME,GNoME:21acc229a8,-0.0465,-0.0465,,2.34,0.9,,Pmm2,structures/GNoME/TbDyAlFe22_21acc229a8.CIF
+Fe20HoP12Y3,Fe Ho P Y,4,0.556,1,GNoME,GNoME:6329554e34,-0.0463,-0.0463,,1.36,0.84,,Pm,structures/GNoME/Y3HoFe5P34_6329554e34.CIF
+DyFe20P12Y3,Dy Fe P Y,4,0.556,1,GNoME,GNoME:b869009586,-0.0459,-0.0459,,1.36,0.83,,Pm,structures/GNoME/DyY3Fe5P34_b869009586.CIF
+C3Er2Fe14Si3,C Er Fe Si,4,0.636,1,GNoME,GNoME:7a5f2167a2,-0.0429,-0.0429,,2.12,0.51,,R-3m,structures/GNoME/Er2Fe14SiC3_7a5f2167a2.CIF
+C3Fe14Ho2Si3,C Fe Ho Si,4,0.636,1,GNoME,GNoME:52acb1466e,-0.0423,-0.0423,,2.2,0.42,,R-3m,structures/GNoME/Ho2Fe14SiC3_52acb1466e.CIF
+C3DyErFe14Si3,C Dy Er Fe Si,5,0.636,1,GNoME,GNoME:f3b69604fa,-0.0416,-0.0416,,2.15,0.46,,R3m,structures/GNoME/DyErFe14SiC3_f3b69604fa.CIF
+C3DyFe14HoSi3,C Dy Fe Ho Si,5,0.636,1,GNoME,GNoME:68be8d42ae,-0.0416,-0.0416,,2.19,0.42,,R3m,structures/GNoME/DyHoFe14SiC3_68be8d42ae.CIF
+C3Dy2Fe14Si3,C Dy Fe Si,4,0.636,1,GNoME,GNoME:f86f91cdf1,-0.0411,-0.0411,,2.2,0.42,,R-3m,structures/GNoME/Dy2Fe14SiC3_f86f91cdf1.CIF
+Al2Fe4HoTb,Al Fe Ho Tb,4,0.5,1,GNoME,GNoME:bb85dd88fd,-0.0408,-0.0408,,2.35,0.91,,Pmm2,structures/GNoME/TbHoAlFe22_bb85dd88fd.CIF
+C3ErFe14Si3Tb,C Er Fe Si Tb,5,0.636,1,GNoME,GNoME:a1cb8ee5f8,-0.0408,-0.0408,,2.11,0.51,,R3m,structures/GNoME/TbErFe14SiC3_a1cb8ee5f8.CIF
+C3DyFe14Si3Tb,C Dy Fe Si Tb,5,0.636,1,GNoME,GNoME:b60076c6ff,-0.0404,-0.0404,,2.14,0.46,,R3m,structures/GNoME/TbDyFe14SiC3_b60076c6ff.CIF
+C3Fe14Si3Tb2,C Fe Si Tb,4,0.636,1,GNoME,GNoME:6475e0d8ce,-0.0399,-0.0399,,2.09,0.5,,R-3m,structures/GNoME/Tb2Fe14SiC3_6475e0d8ce.CIF
+DyFe12P7Sc,Dy Fe P Sc,4,0.571,1,GNoME,GNoME:c5f104e26a,-0.0393,-0.0393,,1.66,0.71,,P-6,structures/GNoME/DyScFe12P7_c5f104e26a.CIF
+C3CeErFe14Si3,C Ce Er Fe Si,5,0.636,1,GNoME,GNoME:7759ad953a,-0.0388,-0.0388,,1.7,0.9,,R3m,structures/GNoME/CeErFe14SiC3_7759ad953a.CIF
+DyFe11NiP7Y,Dy Fe Ni P Y,5,0.524,1,GNoME,GNoME:4ade3b4529,-0.0356,-0.0356,,1.51,0.6,,Pm,structures/GNoME/DyYFe11NiP7_4ade3b4529.CIF
+C3Fe14HoNdSi3,C Fe Ho Nd Si,5,0.636,1,GNoME,GNoME:6f17608a5c,-0.0345,-0.0345,,1.73,0.85,,R3m,structures/GNoME/NdHoFe14SiC3_6f17608a5c.CIF
+Al2DyErFe4,Al Dy Er Fe,4,0.5,1,GNoME,GNoME:89edeecaf5,-0.0341,-0.0341,,2.36,0.91,,Pmm2,structures/GNoME/DyErAlFe22_89edeecaf5.CIF
+C3DyFe14NdSi3,C Dy Fe Nd Si,5,0.636,1,GNoME,GNoME:b7f38e3f0c,-0.0341,-0.0341,,1.73,0.85,,R3m,structures/GNoME/NdDyFe14SiC3_b7f38e3f0c.CIF
+Fe11NiP7TmY,Fe Ni P Tm Y,5,0.524,1,GNoME,GNoME:a4840f8579,-0.0341,-0.0341,,1.39,0.74,,Pm,structures/GNoME/YTmFe11NiP7_a4840f8579.CIF
+ErFe10P6Sc,Er Fe P Sc,4,0.556,1,GNoME,GNoME:0bfb4d52c7,-0.0338,-0.0338,,1.61,0.64,,Pmc2_1,structures/GNoME/ErScFe5P32_0bfb4d52c7.CIF
+C3Fe14NdSi3Tb,C Fe Nd Si Tb,5,0.636,1,GNoME,GNoME:24ca52186a,-0.0336,-0.0336,,1.68,0.89,,R3m,structures/GNoME/TbNdFe14SiC3_24ca52186a.CIF
+DyFe12P7Y,Dy Fe P Y,4,0.571,1,GNoME,GNoME:d9135127f4,-0.0335,-0.0335,,1.63,0.71,,P-6,structures/GNoME/DyYFe12P7_d9135127f4.CIF
+ErFe9MnP6Sc,Er Fe Mn P Sc,5,0.5,1,GNoME,GNoME:328798065c,-0.0335,-0.0335,,1.48,0.53,,Pmc2_1,structures/GNoME/ErScMnFe3P23_328798065c.CIF
+Fe6Ge4LuTb,Fe Ge Lu Tb,4,0.5,1,GNoME,GNoME:3bf92eea85,-0.0334,-0.0334,,1.36,0.23,,P-6m2,structures/GNoME/TbLuFe3Ge22_3bf92eea85.CIF
+Fe10P6ScTm,Fe P Sc Tm,4,0.556,1,GNoME,GNoME:1f6857259d,-0.0332,-0.0332,,1.51,0.75,,Pmc2_1,structures/GNoME/TmScFe5P32_1f6857259d.CIF
+Fe12P7TmY,Fe P Tm Y,4,0.571,1,GNoME,GNoME:64f4d8f598,-0.0329,-0.0329,,1.5,0.85,,P-6,structures/GNoME/YTmFe12P7_64f4d8f598.CIF
+BFe3SiTm,B Fe Si Tm,4,0.5,1,GNoME,GNoME:083db865ed,-0.0318,-0.0318,,2.08,0.11,,P6/mmm,structures/GNoME/TmFe3SiB_083db865ed.CIF
+AlC3Dy2Fe14Si2,Al C Dy Fe Si,5,0.636,1,GNoME,GNoME:104a89eea4,-0.0316,-0.0316,,2.17,0.41,,C2/m,structures/GNoME/Dy2AlFe14Si2C3_104a89eea4.CIF
+Co23Gd3Y3,Co Gd Y,3,0.793,1,GNoME,GNoME:3e5bdbf9b3,-0.0316,-0.0316,,1.63,0.44,,R3m,structures/GNoME/Gd3Y3Co23_3e5bdbf9b3.CIF
+Fe6Ge4LuTm,Fe Ge Lu Tm,4,0.5,1,GNoME,GNoME:874d30f4f2,-0.0314,-0.0314,,1.25,0.36,,P-6m2,structures/GNoME/TmLuFe3Ge22_874d30f4f2.CIF
+C3Fe14HoSi3Sm,C Fe Ho Si Sm,5,0.636,1,GNoME,GNoME:26c8269412,-0.0304,-0.0304,,1.74,0.86,,R3m,structures/GNoME/SmHoFe14SiC3_26c8269412.CIF
+AlC3Fe14Si2Tb2,Al C Fe Si Tb,5,0.636,1,GNoME,GNoME:314ca9dcb7,-0.0304,-0.0304,,2.08,0.5,,C2/m,structures/GNoME/Tb2AlFe14Si2C3_314ca9dcb7.CIF
+AlBFe3Tb,Al B Fe Tb,4,0.5,1,GNoME,GNoME:80db801a74,-0.0295,-0.0295,,2.22,0.39,,P6/mmm,structures/GNoME/TbAlFe3B_80db801a74.CIF
+C3Dy2Fe11Mn3Si3,C Dy Fe Mn Si,5,0.5,1,GNoME,GNoME:aa635d4fd5,-0.0294,-0.0294,,1.93,0.14,,R32,structures/GNoME/Dy2Mn3Fe11SiC3_aa635d4fd5.CIF
+AlBDyFe3,Al B Dy Fe,4,0.5,1,GNoME,GNoME:431e2053d1,-0.0293,-0.0293,,2.38,0.54,,P6/mmm,structures/GNoME/DyAlFe3B_431e2053d1.CIF
+B2Fe6LuSi2Tm,B Fe Lu Si Tm,5,0.5,1,GNoME,GNoME:0f3dd0d658,-0.0292,-0.0292,,1.54,0.44,,P6/mmm,structures/GNoME/TmLuFe6SiB2_0f3dd0d658.CIF
+AlBFe3Ho,Al B Fe Ho,4,0.5,1,GNoME,GNoME:74ee06cbd2,-0.0291,-0.0291,,2.39,0.54,,P6/mmm,structures/GNoME/HoAlFe3B_74ee06cbd2.CIF
+Al3C2ErFe14Tb,Al C Er Fe Tb,5,0.667,1,GNoME,GNoME:3e22562acc,-0.0291,-0.0291,,2.08,0.5,,Cm,structures/GNoME/TbErAl3Fe7C2_3e22562acc.CIF
+CeCo9Er2,Ce Co Er,3,0.75,1,GNoME,GNoME:7de83c6606,-0.0291,-0.0291,,2.18,0.24,,R-3m,structures/GNoME/CeEr2Co9_7de83c6606.CIF
+C3Fe14Si3SmTb,C Fe Si Sm Tb,5,0.636,1,GNoME,GNoME:533a182d73,-0.029,-0.029,,1.69,0.9,,R3m,structures/GNoME/TbSmFe14SiC3_533a182d73.CIF
+ErFe6Ho3Os2,Er Fe Ho Os,4,0.5,1,GNoME,GNoME:174cf0b7cd,-0.0288,-0.0288,,3.06,1.56,,Cm,structures/GNoME/Ho3ErFe3Os2_174cf0b7cd.CIF
+Fe6Ho3Os2Tm,Fe Ho Os Tm,4,0.5,1,GNoME,GNoME:237c62e17a,-0.0287,-0.0287,,2.94,1.45,,Cm,structures/GNoME/Ho3TmFe3Os2_237c62e17a.CIF
+C3Fe14HoScSi3,C Fe Ho Sc Si,5,0.636,1,GNoME,GNoME:8a2a472d08,-0.0283,-0.0283,,1.78,0.88,,R3m,structures/GNoME/HoScFe14SiC3_8a2a472d08.CIF
+C3ErFe14ScSi3,C Er Fe Sc Si,5,0.636,1,GNoME,GNoME:12199886ff,-0.0282,-0.0282,,1.74,0.93,,R3m,structures/GNoME/ErScFe14SiC3_12199886ff.CIF
+C3DyFe14ScSi3,C Dy Fe Sc Si,5,0.636,1,GNoME,GNoME:0c15ea3d4b,-0.028,-0.028,,1.78,0.88,,R3m,structures/GNoME/DyScFe14SiC3_0c15ea3d4b.CIF
+C3Fe14ScSi3Tb,C Fe Sc Si Tb,5,0.636,1,GNoME,GNoME:c460e37fea,-0.0276,-0.0276,,1.73,0.92,,R3m,structures/GNoME/TbScFe14SiC3_c460e37fea.CIF
+Al2Fe4TbTm,Al Fe Tb Tm,4,0.5,1,GNoME,GNoME:fc07892573,-0.0275,-0.0275,,2.1,0.65,,Pmm2,structures/GNoME/TbTmAlFe22_fc07892573.CIF
+BErFe3Si,B Er Fe Si,4,0.5,1,GNoME,GNoME:d36a9d8958,-0.0275,-0.0275,,2.37,0.42,,P6/mmm,structures/GNoME/ErFe3SiB_d36a9d8958.CIF
+Al2DyFe4Tm,Al Dy Fe Tm,4,0.5,1,GNoME,GNoME:5810d0dd06,-0.0271,-0.0271,,2.2,0.74,,Pmm2,structures/GNoME/DyTmAlFe22_5810d0dd06.CIF
+B2ErFe6Si2Tm,B Er Fe Si Tm,5,0.5,1,GNoME,GNoME:7d90ee2237,-0.0271,-0.0271,,2.24,0.27,,P6/mmm,structures/GNoME/ErTmFe6SiB2_7d90ee2237.CIF
+Fe10P6TmY,Fe P Tm Y,4,0.556,1,GNoME,GNoME:0271126fc4,-0.0268,-0.0268,,1.47,0.74,,Pmc2_1,structures/GNoME/YTmFe5P32_0271126fc4.CIF
+Be3Fe6HoTa2,Be Fe Ho Ta,4,0.5,1,GNoME,GNoME:1a91f98861,-0.0261,-0.0261,,1.76,0.2,,R-3m,structures/GNoME/HoTa2BeFe23_1a91f98861.CIF
+Al2B2DyErFe6,Al B Dy Er Fe,5,0.5,1,GNoME,GNoME:3f258ae0f2,-0.0259,-0.0259,,2.32,0.47,,P6/mmm,structures/GNoME/DyErAl2Fe3B2_3f258ae0f2.CIF
+B2Fe6HoSi2Tm,B Fe Ho Si Tm,5,0.5,1,GNoME,GNoME:91c3a76aea,-0.0258,-0.0258,,2.29,0.34,,P6/mmm,structures/GNoME/HoTmFe6SiB2_91c3a76aea.CIF
+CoFe18P12Sc2Tm3,Co Fe P Sc Tm,5,0.528,1,GNoME,GNoME:b40c2a5e6f,-0.0257,-0.0257,,1.54,0.44,,P-62m,structures/GNoME/Tm3Sc2Fe18CoP12_b40c2a5e6f.CIF
+CrDy2Fe19P12Y2,Cr Dy Fe P Y,5,0.528,1,GNoME,GNoME:1d125e91ba,-0.0254,-0.0254,,1.56,0.52,,Pm,structures/GNoME/Dy2Y2CrFe19P12_1d125e91ba.CIF
+DyFe6Ho3Os2,Dy Fe Ho Os,4,0.5,1,GNoME,GNoME:6bcd8b8b87,-0.0253,-0.0253,,3.11,1.62,,Cm,structures/GNoME/DyHo3Fe3Os2_6bcd8b8b87.CIF
+Al2B2Fe6HoTm,Al B Fe Ho Tm,5,0.5,1,GNoME,GNoME:1825072d7d,-0.0252,-0.0252,,2.18,0.32,,P6/mmm,structures/GNoME/HoTmAl2Fe3B2_1825072d7d.CIF
+Al2B2DyFe6Tm,Al B Dy Fe Tm,5,0.5,1,GNoME,GNoME:4f7eaca8fb,-0.0249,-0.0249,,2.19,0.33,,P6/mmm,structures/GNoME/DyTmAl2Fe3B2_4f7eaca8fb.CIF
+AlBErFe3,Al B Er Fe,4,0.5,1,GNoME,GNoME:e5de6e5dd3,-0.0246,-0.0246,,2.26,0.4,,P6/mmm,structures/GNoME/ErAlFe3B_e5de6e5dd3.CIF
+Al2B2Fe6TbTm,Al B Fe Tb Tm,5,0.5,1,GNoME,GNoME:3cc39ebb4b,-0.0246,-0.0246,,2.11,0.25,,P6/mmm,structures/GNoME/TbTmAl2Fe3B2_3cc39ebb4b.CIF
+Fe12NbP7Tm,Fe Nb P Tm,4,0.571,1,GNoME,GNoME:bc798743c1,-0.0244,-0.0244,,1.53,0.87,,P-6,structures/GNoME/TmNbFe12P7_bc798743c1.CIF
+AlBFe3Tm,Al B Fe Tm,4,0.5,1,GNoME,GNoME:24e3dd9374,-0.0244,-0.0244,,1.97,0.1,,P6/mmm,structures/GNoME/TmAlFe3B_24e3dd9374.CIF
+Fe11MnNbP7Tm,Fe Mn Nb P Tm,5,0.524,1,GNoME,GNoME:63d1951575,-0.0243,-0.0243,,1.42,0.76,,Pm,structures/GNoME/TmMnNbFe11P7_63d1951575.CIF
+DyFe3OsTm,Dy Fe Os Tm,4,0.5,1,GNoME,GNoME:c4ca5c8c6f,-0.0242,-0.0242,,2.76,1.27,,R3m,structures/GNoME/DyTmFe3Os_c4ca5c8c6f.CIF
+CrDyFe9P6Y,Cr Dy Fe P Y,5,0.5,1,GNoME,GNoME:4f9da08048,-0.0241,-0.0241,,1.5,0.46,,Pmc2_1,structures/GNoME/DyYCrFe3P23_4f9da08048.CIF
+DyFe3HoOs,Dy Fe Ho Os,4,0.5,1,GNoME,GNoME:32e2ec720e,-0.024,-0.024,,3.11,1.62,,R3m,structures/GNoME/DyHoFe3Os_32e2ec720e.CIF
+DyErFe3Os,Dy Er Fe Os,4,0.5,1,GNoME,GNoME:dda778d82b,-0.024,-0.024,,3.0,1.51,,R3m,structures/GNoME/DyErFe3Os_dda778d82b.CIF
+Fe6Ho3Os2Y,Fe Ho Os Y,4,0.5,1,GNoME,GNoME:d22dcf9f6f,-0.0239,-0.0239,,2.51,1.02,,Cm,structures/GNoME/YHo3Fe3Os2_d22dcf9f6f.CIF
+Co16Er6Fe7,Co Er Fe,3,0.793,1,GNoME,GNoME:28643bcc20,-0.0239,-0.0239,,2.66,0.39,,Fm-3m,structures/GNoME/Er6Fe7Co16_28643bcc20.CIF
+Fe8HoLu2Os,Fe Ho Lu Os,4,0.667,1,GNoME,GNoME:2c50a2b086,-0.0238,-0.0238,,1.73,0.44,,R-3m,structures/GNoME/HoLu2Fe8Os_2c50a2b086.CIF
+Co16Fe7Tm6,Co Fe Tm,3,0.793,1,GNoME,GNoME:f75910465c,-0.0233,-0.0233,,2.37,0.05,,Fm-3m,structures/GNoME/Tm6Fe7Co16_f75910465c.CIF
+Co16Fe7Ho6,Co Fe Ho,3,0.793,1,GNoME,GNoME:11e259efed,-0.0232,-0.0232,,2.82,0.55,,Fm-3m,structures/GNoME/Ho6Fe7Co16_11e259efed.CIF
+DyFe3LuOs,Dy Fe Lu Os,4,0.5,1,GNoME,GNoME:41f1bfc45f,-0.0231,-0.0231,,1.95,0.44,,R3m,structures/GNoME/DyLuFe3Os_41f1bfc45f.CIF
+Co9Er4Fe5,Co Er Fe,3,0.778,1,GNoME,GNoME:e9cc9d8828,-0.0231,-0.0231,,2.73,0.5,,R-3m,structures/GNoME/Er4Fe5Co9_e9cc9d8828.CIF
+Fe12P7TaTm,Fe P Ta Tm,4,0.571,1,GNoME,GNoME:1700714135,-0.023,-0.023,,1.54,0.87,,P-6,structures/GNoME/TmTaFe12P7_1700714135.CIF
+Co17GdTb,Co Gd Tb,3,0.895,1,GNoME,GNoME:477b1f2674,-0.023,-0.023,,2.08,0.54,,R3m,structures/GNoME/TbGdCo17_477b1f2674.CIF
+Co2Fe7Lu2Tb,Co Fe Lu Tb,4,0.75,1,GNoME,GNoME:63f4b12d36,-0.0228,-0.0228,,1.54,0.37,,R3m,structures/GNoME/TbLu2Fe7Co2_63f4b12d36.CIF
+B2DyFe6Si2Tm,B Dy Fe Si Tm,5,0.5,1,GNoME,GNoME:239fb1da1c,-0.0228,-0.0228,,2.28,0.34,,P6/mmm,structures/GNoME/DyTmFe6SiB2_239fb1da1c.CIF
+Al2C3Er2Fe14Si,Al C Er Fe Si,5,0.636,1,GNoME,GNoME:69accb0bf6,-0.0226,-0.0226,,2.08,0.5,,C2/m,structures/GNoME/Er2Al2Fe14SiC3_69accb0bf6.CIF
+Co6Er3Fe2,Co Er Fe,3,0.727,1,GNoME,GNoME:dbb5772f36,-0.0225,-0.0225,,2.87,0.93,,Im-3m,structures/GNoME/Er3FeCo32_dbb5772f36.CIF
+Al2C3Fe14Ho2Si,Al C Fe Ho Si,5,0.636,1,GNoME,GNoME:c922b2b443,-0.0224,-0.0224,,2.16,0.41,,C2/m,structures/GNoME/Ho2Al2Fe14SiC3_c922b2b443.CIF
+Co14Ga3Tm2,Co Ga Tm,3,0.737,1,GNoME,GNoME:21d97b3555,-0.0224,-0.0224,,1.72,0.4,,R3m,structures/GNoME/Tm2Ga3Co14_21d97b3555.CIF
+CoFe8TbZr2,Co Fe Tb Zr,4,0.75,1,GNoME,GNoME:b172db92ec,-0.0223,-0.0223,,1.74,0.53,,R3m,structures/GNoME/TbZr2Fe8Co_b172db92ec.CIF
+Co6Fe2Tm3,Co Fe Tm,3,0.727,1,GNoME,GNoME:9422878278,-0.0222,-0.0222,,2.46,0.51,,Im-3m,structures/GNoME/Tm3FeCo32_9422878278.CIF
+Fe4GaTb2Zn,Fe Ga Tb Zn,4,0.5,1,GNoME,GNoME:fa441220ab,-0.0221,-0.0221,,2.27,0.82,,Pmm2,structures/GNoME/Tb2ZnGaFe4_fa441220ab.CIF
+B2Fe6Si2TmY,B Fe Si Tm Y,5,0.5,1,GNoME,GNoME:a5e3055cf8,-0.022,-0.022,,1.51,0.43,,P6/mmm,structures/GNoME/YTmFe6SiB2_a5e3055cf8.CIF
+CErFe3Ga,C Er Fe Ga,4,0.5,1,GNoME,GNoME:d3a236c547,-0.022,-0.022,,2.33,0.41,,P6/mmm,structures/GNoME/ErGaFe3C_d3a236c547.CIF
+ErFe3OsY,Er Fe Os Y,4,0.5,1,GNoME,GNoME:33eb3f8948,-0.022,-0.022,,1.81,0.32,,R3m,structures/GNoME/YErFe3Os_33eb3f8948.CIF
+Co19Fe4Tm6,Co Fe Tm,3,0.793,1,GNoME,GNoME:d75e285565,-0.0219,-0.0219,,2.31,0.09,,R-3m,structures/GNoME/Tm6Fe4Co19_d75e285565.CIF
+CoFe8Lu2Tb,Co Fe Lu Tb,4,0.75,1,GNoME,GNoME:5b755cd15d,-0.0218,-0.0218,,1.67,0.51,,R-3m,structures/GNoME/TbLu2Fe8Co_5b755cd15d.CIF
+Fe3HoOsY,Fe Ho Os Y,4,0.5,1,GNoME,GNoME:96cc20cff2,-0.0218,-0.0218,,1.92,0.44,,R3m,structures/GNoME/YHoFe3Os_96cc20cff2.CIF
+Co2Er3Fe4,Co Er Fe,3,0.667,1,GNoME,GNoME:4bf3c396aa,-0.0218,-0.0218,,3.17,1.26,,P-1,structures/GNoME/Er3Fe2Co2_4bf3c396aa.CIF
+Co18Fe5Tm6,Co Fe Tm,3,0.793,1,GNoME,GNoME:e5c25b6afd,-0.0218,-0.0218,,2.33,0.08,,C2/m,structures/GNoME/Tm6Fe5Co18_e5c25b6afd.CIF
+ErFe8Lu2Os,Er Fe Lu Os,4,0.667,1,GNoME,GNoME:6e7711a32d,-0.0216,-0.0216,,1.66,0.5,,R-3m,structures/GNoME/ErLu2Fe8Os_6e7711a32d.CIF
+DyFe3OsY,Dy Fe Os Y,4,0.5,1,GNoME,GNoME:3e9d4fb7c9,-0.0216,-0.0216,,1.91,0.43,,R3m,structures/GNoME/DyYFe3Os_3e9d4fb7c9.CIF
+AlCErFe3,Al C Er Fe,4,0.5,1,GNoME,GNoME:71d5faa4f9,-0.0216,-0.0216,,2.32,0.41,,P6/mmm,structures/GNoME/ErAlFe3C_71d5faa4f9.CIF
+Co2Fe4Tm3,Co Fe Tm,3,0.667,1,GNoME,GNoME:58f3e1cdf2,-0.0216,-0.0216,,2.72,0.78,,P-1,structures/GNoME/Tm3Fe2Co2_58f3e1cdf2.CIF
+Co17Fe6Tm6,Co Fe Tm,3,0.793,1,GNoME,GNoME:7455294ff4,-0.0216,-0.0216,,2.33,0.06,,Immm,structures/GNoME/Tm6Fe6Co17_7455294ff4.CIF
+Fe6Ho3Os2Tb,Fe Ho Os Tb,4,0.5,1,GNoME,GNoME:9233ec60e1,-0.0215,-0.0215,,3.05,1.56,,Cm,structures/GNoME/TbHo3Fe3Os2_9233ec60e1.CIF
+Co5Fe4Tm3,Co Fe Tm,3,0.75,1,GNoME,GNoME:de8776b8c1,-0.0213,-0.0213,,2.47,0.3,,Cm,structures/GNoME/Tm3Fe4Co5_de8776b8c1.CIF
+Co3Er2Fe,Co Er Fe,3,0.667,1,GNoME,GNoME:146f797ce5,-0.0212,-0.0212,,3.17,1.41,,R-3m,structures/GNoME/Er2FeCo3_146f797ce5.CIF
+Co16HfTm2,Co Hf Tm,3,0.842,1,GNoME,GNoME:989177e27a,-0.0211,-0.0211,,1.88,0.55,,P-3m1,structures/GNoME/Tm2HfCo16_989177e27a.CIF
+Co16Dy6Fe7,Co Dy Fe,3,0.793,1,GNoME,GNoME:c16bc8df99,-0.0211,-0.0211,,2.79,0.55,,Fm-3m,structures/GNoME/Dy6Fe7Co16_c16bc8df99.CIF
+B2ErFe6Si2Y,B Er Fe Si Y,5,0.5,1,GNoME,GNoME:b2e0eebdc7,-0.021,-0.021,,1.66,0.28,,P6/mmm,structures/GNoME/YErFe6SiB2_b2e0eebdc7.CIF
+AlB2Fe12Tb3,Al B Fe Tb,4,0.667,1,GNoME,GNoME:dc0c172d92,-0.021,-0.021,,2.5,0.09,,Cmmm,structures/GNoME/Tb3AlFe6B2_dc0c172d92.CIF
+DyFe6Ho2Os2Tb,Dy Fe Ho Os Tb,5,0.5,1,GNoME,GNoME:e3c4e1c9fb,-0.0209,-0.0209,,3.03,1.55,,Cm,structures/GNoME/TbDyHo2Fe3Os2_e3c4e1c9fb.CIF
+Fe4GaHo2Zn,Fe Ga Ho Zn,4,0.5,1,GNoME,GNoME:767267baef,-0.0209,-0.0209,,2.48,1.01,,Pmm2,structures/GNoME/Ho2ZnGaFe4_767267baef.CIF
+Fe8OsTbTm2,Fe Os Tb Tm,4,0.667,1,GNoME,GNoME:2a117365e1,-0.0209,-0.0209,,2.52,0.39,,R-3m,structures/GNoME/TbTm2Fe8Os_2a117365e1.CIF
+AlCFe3Ho,Al C Fe Ho,4,0.5,1,GNoME,GNoME:6a2a07e840,-0.0208,-0.0208,,2.46,0.56,,P6/mmm,structures/GNoME/HoAlFe3C_6a2a07e840.CIF
+Al2Fe8Re2Tb,Al Fe Re Tb,4,0.615,1,GNoME,GNoME:7492091624,-0.0207,-0.0207,,1.71,0.52,,Immm,structures/GNoME/TbAl2Fe4Re2_7492091624.CIF
+Co3FeTm2,Co Fe Tm,3,0.667,1,GNoME,GNoME:86dafb0d41,-0.0207,-0.0207,,2.69,0.91,,R-3m,structures/GNoME/Tm2FeCo3_86dafb0d41.CIF
+Co4Er3Fe5,Co Er Fe,3,0.75,1,GNoME,GNoME:87edf800e9,-0.0207,-0.0207,,2.89,0.67,,Cm,structures/GNoME/Er3Fe5Co4_87edf800e9.CIF
+Dy2Fe6HoOs2Tb,Dy Fe Ho Os Tb,5,0.5,1,GNoME,GNoME:9195f1c159,-0.0206,-0.0206,,3.03,1.55,,Cm,structures/GNoME/TbDy2HoFe3Os2_9195f1c159.CIF
+Dy3Fe6Os2Tb,Dy Fe Os Tb,4,0.5,1,GNoME,GNoME:8ff19fe50c,-0.0206,-0.0206,,3.02,1.55,,Cm,structures/GNoME/TbDy3Fe3Os2_8ff19fe50c.CIF
+DyFe9HfZr,Dy Fe Hf Zr,4,0.75,1,GNoME,GNoME:47653224db,-0.0206,-0.0206,,1.96,0.6,,R3m,structures/GNoME/DyHfZrFe9_47653224db.CIF
+Fe8OsTm2Y,Fe Os Tm Y,4,0.667,1,GNoME,GNoME:a4d52ea86a,-0.0206,-0.0206,,1.95,0.18,,R-3m,structures/GNoME/YTm2Fe8Os_a4d52ea86a.CIF
+Al2B2Fe6SmTm,Al B Fe Sm Tm,5,0.5,1,GNoME,GNoME:1cadc15805,-0.0205,-0.0205,,1.42,0.41,,P6/mmm,structures/GNoME/SmTmAl2Fe3B2_1cadc15805.CIF
+Co6Fe2Tb3,Co Fe Tb,3,0.727,1,GNoME,GNoME:0a03effbaf,-0.0205,-0.0205,,2.8,0.9,,Im-3m,structures/GNoME/Tb3FeCo32_0a03effbaf.CIF
+ErFe9HfZr,Er Fe Hf Zr,4,0.75,1,GNoME,GNoME:8c62e98d11,-0.0204,-0.0204,,1.92,0.68,,R3m,structures/GNoME/ErHfZrFe9_8c62e98d11.CIF
+Al3C3Fe14Tb2,Al C Fe Tb,4,0.636,1,GNoME,GNoME:79fbbb60fd,-0.0204,-0.0204,,2.03,0.49,,R-3m,structures/GNoME/Tb2Al3Fe14C3_79fbbb60fd.CIF
+Co6Fe2Ho3,Co Fe Ho,3,0.727,1,GNoME,GNoME:5af587c982,-0.0204,-0.0204,,3.06,1.13,,Im-3m,structures/GNoME/Ho3FeCo32_5af587c982.CIF
+Al3C3Dy2Fe14,Al C Dy Fe,4,0.636,1,GNoME,GNoME:ee0de6a908,-0.0203,-0.0203,,2.13,0.41,,R-3m,structures/GNoME/Dy2Al3Fe14C3_ee0de6a908.CIF
+Co16Fe7Tb6,Co Fe Tb,3,0.793,1,GNoME,GNoME:9f5ac79920,-0.0203,-0.0203,,2.61,0.38,,Fm-3m,structures/GNoME/Tb6Fe7Co16_9f5ac79920.CIF
+Al3C3Fe14Tm2,Al C Fe Tm,4,0.636,1,GNoME,GNoME:8ae7dc3a5e,-0.02,-0.02,,1.89,0.67,,R-3m,structures/GNoME/Tm2Al3Fe14C3_8ae7dc3a5e.CIF
+Co15Fe8Ho6,Co Fe Ho,3,0.793,1,GNoME,GNoME:735d3dbc01,-0.02,-0.02,,2.83,0.54,,R3m,structures/GNoME/Ho6Fe8Co15_735d3dbc01.CIF
+Co13Fe6Tb5,Co Fe Tb,3,0.792,1,GNoME,GNoME:4da0d2525b,-0.02,-0.02,,2.62,0.39,,R-3m,structures/GNoME/Tb5Fe6Co13_4da0d2525b.CIF
+DyFe4Ga2Tb,Dy Fe Ga Tb,4,0.5,1,GNoME,GNoME:53c95a1917,-0.0199,-0.0199,,2.36,0.91,,Pmm2,structures/GNoME/TbDyGaFe22_53c95a1917.CIF
+Be3C3Fe14Tm2,Be C Fe Tm,4,0.636,1,GNoME,GNoME:a5661ee22c,-0.0199,-0.0199,,2.04,0.72,,R-3m,structures/GNoME/Tm2Be3Fe14C3_a5661ee22c.CIF
+Er2Fe8OsTb,Er Fe Os Tb,4,0.667,1,GNoME,GNoME:5817bd0b37,-0.0199,-0.0199,,2.76,0.64,,R-3m,structures/GNoME/TbEr2Fe8Os_5817bd0b37.CIF
+Al3C3Fe14Ho2,Al C Fe Ho,4,0.636,1,GNoME,GNoME:8607f06849,-0.0199,-0.0199,,2.14,0.41,,R-3m,structures/GNoME/Ho2Al3Fe14C3_8607f06849.CIF
+Al3C3DyFe14Ho,Al C Dy Fe Ho,5,0.636,1,GNoME,GNoME:c468d822a8,-0.0199,-0.0199,,2.13,0.41,,R3m,structures/GNoME/DyHoAl3Fe14C3_c468d822a8.CIF
+DyFe18Hf4Y,Dy Fe Hf Y,4,0.75,1,GNoME,GNoME:12aed8b2ea,-0.0198,-0.0198,,1.63,0.95,,P-6m2,structures/GNoME/DyYHf2Fe92_12aed8b2ea.CIF
+BFe3HoSi,B Fe Ho Si,4,0.5,1,GNoME,GNoME:85a31685c9,-0.0198,-0.0198,,2.47,0.56,,P6/mmm,structures/GNoME/HoFe3SiB_85a31685c9.CIF
+Al3C3DyFe14Tb,Al C Dy Fe Tb,5,0.636,1,GNoME,GNoME:77ba7aaf4a,-0.0198,-0.0198,,2.09,0.45,,R3m,structures/GNoME/TbDyAl3Fe14C3_77ba7aaf4a.CIF
+Co11Fe7Tb6,Co Fe Tb,3,0.75,1,GNoME,GNoME:4aef736b20,-0.0198,-0.0198,,2.8,0.7,,Cm,structures/GNoME/Tb6Fe7Co11_4aef736b20.CIF
+CoErFe3Tm,Co Er Fe Tm,4,0.667,1,GNoME,GNoME:2105fa47a0,-0.0197,-0.0197,,2.76,1.2,,R3m,structures/GNoME/ErTmFe3Co_2105fa47a0.CIF
+C3ErFe14Si3Y,C Er Fe Si Y,5,0.636,1,GNoME,GNoME:0126095d08,-0.0197,-0.0197,,1.71,0.91,,R3m,structures/GNoME/YErFe14SiC3_0126095d08.CIF
+C3Fe14HoSi3Y,C Fe Ho Si Y,5,0.636,1,GNoME,GNoME:4f1e2e5c16,-0.0197,-0.0197,,1.75,0.86,,R3m,structures/GNoME/YHoFe14SiC3_4f1e2e5c16.CIF
+B2Fe6Si2TbTm,B Fe Si Tb Tm,5,0.5,1,GNoME,GNoME:0be2f965b2,-0.0197,-0.0197,,2.2,0.26,,P6/mmm,structures/GNoME/TbTmFe6SiB2_0be2f965b2.CIF
+B2Fe8HoTb,B Fe Ho Tb,4,0.667,1,GNoME,GNoME:4f9a395771,-0.0197,-0.0197,,2.67,0.16,,P6/mmm,structures/GNoME/TbHoFe4B2_4f9a395771.CIF
+Co22FeTm6,Co Fe Tm,3,0.793,1,GNoME,GNoME:432d7bc6c1,-0.0197,-0.0197,,2.29,0.14,,Fm-3m,structures/GNoME/Tm6FeCo22_432d7bc6c1.CIF
+Fe18Hf4HoY,Fe Hf Ho Y,4,0.75,1,GNoME,GNoME:1083dc6221,-0.0196,-0.0196,,1.64,0.95,,P-6m2,structures/GNoME/YHoHf2Fe92_1083dc6221.CIF
+Co2ErFe7Tb2,Co Er Fe Tb,4,0.75,1,GNoME,GNoME:151d9e79d0,-0.0196,-0.0196,,2.65,0.78,,Cm,structures/GNoME/Tb2ErFe7Co2_151d9e79d0.CIF
+CoFe8HoZr2,Co Fe Ho Zr,4,0.75,1,GNoME,GNoME:bb0d7181b7,-0.0196,-0.0196,,1.81,0.46,,R3m,structures/GNoME/HoZr2Fe8Co_bb0d7181b7.CIF
+Co5Fe2Tb2,Co Fe Tb,3,0.778,1,GNoME,GNoME:4628c3a3d0,-0.0196,-0.0196,,2.67,0.51,,R-3m,structures/GNoME/Tb2Fe2Co5_4628c3a3d0.CIF
+Al3C3Fe14HoTm,Al C Fe Ho Tm,5,0.636,1,GNoME,GNoME:f06be616d7,-0.0195,-0.0195,,2.01,0.54,,R3m,structures/GNoME/HoTmAl3Fe14C3_f06be616d7.CIF
+Al3C3Er2Fe14,Al C Er Fe,4,0.636,1,GNoME,GNoME:939eb85108,-0.0195,-0.0195,,2.06,0.49,,R-3m,structures/GNoME/Er2Al3Fe14C3_939eb85108.CIF
+DyFe8OsTm2,Dy Fe Os Tm,4,0.667,1,GNoME,GNoME:12023accb7,-0.0193,-0.0193,,2.59,0.46,,R-3m,structures/GNoME/DyTm2Fe8Os_12023accb7.CIF
+Al3C3ErFe14Tb,Al C Er Fe Tb,5,0.636,1,GNoME,GNoME:11955fa14d,-0.0192,-0.0192,,2.04,0.49,,R3m,structures/GNoME/TbErAl3Fe14C3_11955fa14d.CIF
+Al3C3DyFe14Tm,Al C Dy Fe Tm,5,0.636,1,GNoME,GNoME:85387b0735,-0.0191,-0.0191,,2.02,0.54,,R3m,structures/GNoME/DyTmAl3Fe14C3_85387b0735.CIF
+ErFe18Hf4Y,Er Fe Hf Y,4,0.75,1,GNoME,GNoME:81dec251a6,-0.019,-0.019,,1.6,0.99,,P-6m2,structures/GNoME/YErHf2Fe92_81dec251a6.CIF
+Fe9HoLuZr,Fe Ho Lu Zr,4,0.75,1,GNoME,GNoME:f099760085,-0.019,-0.019,,1.92,0.59,,R3m,structures/GNoME/HoLuZrFe9_f099760085.CIF
+C3Fe14Si3TbY,C Fe Si Tb Y,5,0.636,1,GNoME,GNoME:305af6ef71,-0.0189,-0.0189,,1.7,0.9,,R3m,structures/GNoME/TbYFe14SiC3_305af6ef71.CIF
+Fe9HfHoNb,Fe Hf Ho Nb,4,0.75,1,GNoME,GNoME:243a9e8126,-0.0189,-0.0189,,2.02,0.62,,R3m,structures/GNoME/HoHfNbFe9_243a9e8126.CIF
+Al3C3Fe14TbTm,Al C Fe Tb Tm,5,0.636,1,GNoME,GNoME:78360553c5,-0.0189,-0.0189,,1.97,0.58,,R3m,structures/GNoME/TbTmAl3Fe14C3_78360553c5.CIF
+Co18Er6Fe5,Co Er Fe,3,0.793,1,GNoME,GNoME:3b366dbd9a,-0.0189,-0.0189,,2.65,0.42,,C2/m,structures/GNoME/Er6Fe5Co18_3b366dbd9a.CIF
+Al3C2Fe14SmTb,Al C Fe Sm Tb,5,0.667,1,GNoME,GNoME:dcc4eace71,-0.0188,-0.0188,,1.66,0.88,,Cm,structures/GNoME/TbSmAl3Fe7C2_dcc4eace71.CIF
+DyFe12MgP7,Dy Fe Mg P,4,0.571,1,GNoME,GNoME:503390febb,-0.0188,-0.0188,,1.65,0.71,,P-6,structures/GNoME/DyMgFe12P7_503390febb.CIF
+B2DyFe8Tb,B Dy Fe Tb,4,0.667,1,GNoME,GNoME:e1ed214437,-0.0188,-0.0188,,2.66,0.16,,P6/mmm,structures/GNoME/TbDyFe4B2_e1ed214437.CIF
+C2DyErFe14Ga3,C Dy Er Fe Ga,5,0.667,1,GNoME,GNoME:d1a4c704aa,-0.0187,-0.0187,,2.11,0.45,,Cm,structures/GNoME/DyErGa3Fe7C2_d1a4c704aa.CIF
+CoFe3LuTm,Co Fe Lu Tm,4,0.667,1,GNoME,GNoME:a6611a534a,-0.0187,-0.0187,,1.67,0.09,,R3m,structures/GNoME/TmLuFe3Co_a6611a534a.CIF
+Fe8LuOsTb2,Fe Lu Os Tb,4,0.667,1,GNoME,GNoME:ff5c556ede,-0.0187,-0.0187,,2.2,0.08,,R3m,structures/GNoME/Tb2LuFe8Os_ff5c556ede.CIF
+Co17Dy6Fe6,Co Dy Fe,3,0.793,1,GNoME,GNoME:f36345a518,-0.0187,-0.0187,,2.78,0.56,,Immm,structures/GNoME/Dy6Fe6Co17_f36345a518.CIF
+Co7Fe7Tb4,Co Fe Tb,3,0.778,1,GNoME,GNoME:b995f00987,-0.0186,-0.0186,,2.7,0.44,,P1,structures/GNoME/Tb4FeCo7_b995f00987.CIF
+CoFe18Lu4P12Tm,Co Fe Lu P Tm,5,0.528,1,GNoME,GNoME:c0dd8e7979,-0.0185,-0.0185,,1.17,0.8,,P-6,structures/GNoME/TmLu4Fe18CoP12_c0dd8e7979.CIF
+CoErFe3Lu,Co Er Fe Lu,4,0.667,1,GNoME,GNoME:fbc752073c,-0.0185,-0.0185,,1.92,0.34,,R3m,structures/GNoME/ErLuFe3Co_fbc752073c.CIF
+Fe8Ho2LuOs,Fe Ho Lu Os,4,0.667,1,GNoME,GNoME:008cc75c5f,-0.0185,-0.0185,,2.35,0.2,,R3m,structures/GNoME/Ho2LuFe8Os_008cc75c5f.CIF
+CoFe18P12Tm5,Co Fe P Tm,4,0.528,1,GNoME,GNoME:0ea0b45a0d,-0.0185,-0.0185,,1.88,0.07,,P-62m,structures/GNoME/Tm5Fe18CoP12_0ea0b45a0d.CIF
+Co5FeTb4,Co Fe Tb,3,0.6,1,GNoME,GNoME:909ef2fc07,-0.0185,-0.0185,,3.02,1.7,,C2/m,structures/GNoME/Tb4FeCo5_909ef2fc07.CIF
+Fe18Hf4TmY,Fe Hf Tm Y,4,0.75,1,GNoME,GNoME:6291cc8e15,-0.0184,-0.0184,,1.53,1.05,,P-6m2,structures/GNoME/YTmHf2Fe92_6291cc8e15.CIF
+DyEr2Fe8Os,Dy Er Fe Os,4,0.667,1,GNoME,GNoME:73a2ffdf15,-0.0184,-0.0184,,2.83,0.71,,R-3m,structures/GNoME/DyEr2Fe8Os_73a2ffdf15.CIF
+Be3C3ErFe14Tm,Be C Er Fe Tm,5,0.636,1,GNoME,GNoME:debd454451,-0.0183,-0.0183,,2.12,0.63,,R3m,structures/GNoME/ErTmBe3Fe14C3_debd454451.CIF
+Al2DyFe8Re2,Al Dy Fe Re,4,0.615,1,GNoME,GNoME:272fea4f68,-0.0183,-0.0183,,1.79,0.45,,Immm,structures/GNoME/DyAl2Fe4Re2_272fea4f68.CIF
+Fe8Lu2OsTm,Fe Lu Os Tm,4,0.667,1,GNoME,GNoME:125b99eb65,-0.0182,-0.0182,,1.53,0.63,,R-3m,structures/GNoME/TmLu2Fe8Os_125b99eb65.CIF
+Al2BeC3Er2Fe14,Al Be C Er Fe,5,0.636,1,GNoME,GNoME:a9bcae8ea1,-0.0182,-0.0182,,2.11,0.51,,C2/m,structures/GNoME/Er2BeAl2Fe14C3_a9bcae8ea1.CIF
+Al2BeC3Fe14Ho2,Al Be C Fe Ho,5,0.636,1,GNoME,GNoME:ca7188fa41,-0.0182,-0.0182,,2.19,0.42,,C2/m,structures/GNoME/Ho2BeAl2Fe14C3_ca7188fa41.CIF
+Fe8Ho2OsY,Fe Ho Os Y,4,0.667,1,GNoME,GNoME:ba37bd7ede,-0.0182,-0.0182,,2.31,0.2,,R-3m,structures/GNoME/YHo2Fe8Os_ba37bd7ede.CIF
+Al3C2DyFe14Sm,Al C Dy Fe Sm,5,0.667,1,GNoME,GNoME:d465c50718,-0.0181,-0.0181,,1.7,0.84,,Cm,structures/GNoME/SmDyAl3Fe7C2_d465c50718.CIF
+DyFe9LuZr,Dy Fe Lu Zr,4,0.75,1,GNoME,GNoME:9cac9ac575,-0.018,-0.018,,1.93,0.59,,R3m,structures/GNoME/DyLuZrFe9_9cac9ac575.CIF
+Fe9HfTmZr,Fe Hf Tm Zr,4,0.75,1,GNoME,GNoME:acd45cc6b6,-0.0179,-0.0179,,1.78,0.82,,R3m,structures/GNoME/TmHfZrFe9_acd45cc6b6.CIF
+AlBe2C3Er2Fe14,Al Be C Er Fe,5,0.636,1,GNoME,GNoME:623291e2ca,-0.0179,-0.0179,,2.15,0.52,,C2/m,structures/GNoME/Er2Be2AlFe14C3_623291e2ca.CIF
+Dy2Fe11P7W,Dy Fe P W,4,0.524,1,GNoME,GNoME:1c990bf386,-0.0179,-0.0179,,1.95,0.14,,Pm,structures/GNoME/Dy2Fe11P7W_1c990bf386.CIF
+Co18Fe5Ho6,Co Fe Ho,3,0.793,1,GNoME,GNoME:325ef7a2ba,-0.0179,-0.0179,,2.82,0.59,,C2/m,structures/GNoME/Ho6Fe5Co18_325ef7a2ba.CIF
+CoErFe8Zr2,Co Er Fe Zr,4,0.75,1,GNoME,GNoME:cad5a1e1b5,-0.0176,-0.0176,,1.76,0.53,,Cm,structures/GNoME/ErZr2Fe8Co_cad5a1e1b5.CIF
+Fe8OsTbZr2,Fe Os Tb Zr,4,0.667,1,GNoME,GNoME:53cc5826ff,-0.0176,-0.0176,,1.7,0.51,,R-3m,structures/GNoME/TbZr2Fe8Os_53cc5826ff.CIF
+Be3C3Fe14HoTm,Be C Fe Ho Tm,5,0.636,1,GNoME,GNoME:38ad31abd1,-0.0175,-0.0175,,2.16,0.58,,R3m,structures/GNoME/HoTmBe3Fe14C3_38ad31abd1.CIF
+B2ErFe6Si2Tb,B Er Fe Si Tb,5,0.5,1,GNoME,GNoME:da8a727f7f,-0.0175,-0.0175,,2.35,0.41,,P6/mmm,structures/GNoME/TbErFe6SiB2_da8a727f7f.CIF
+Be3C3Fe14HoLu,Be C Fe Ho Lu,5,0.636,1,GNoME,GNoME:50fe5487eb,-0.0174,-0.0174,,1.84,0.91,,R3m,structures/GNoME/HoLuBe3Fe14C3_50fe5487eb.CIF
+Fe11Ho2NiP7,Fe Ho Ni P,4,0.524,1,GNoME,GNoME:6e63a6a131,-0.0174,-0.0174,,1.98,0.14,,Pm,structures/GNoME/Ho2Fe11NiP7_6e63a6a131.CIF
+Co6Dy3Fe2,Co Dy Fe,3,0.727,1,GNoME,GNoME:789c1fb479,-0.0174,-0.0174,,3.02,1.12,,Im-3m,structures/GNoME/Dy3FeCo32_789c1fb479.CIF
+Co17Fe6Tb6,Co Fe Tb,3,0.793,1,GNoME,GNoME:c26d8a4cc2,-0.0174,-0.0174,,2.61,0.4,,Immm,structures/GNoME/Tb6Fe6Co17_c26d8a4cc2.CIF
+CoEr2Fe8Tb,Co Er Fe Tb,4,0.75,1,GNoME,GNoME:e15832a20a,-0.0173,-0.0173,,2.8,0.65,,R-3m,structures/GNoME/TbEr2Fe8Co_e15832a20a.CIF
+CFe3GaHo,C Fe Ga Ho,4,0.5,1,GNoME,GNoME:6b59c7556b,-0.0173,-0.0173,,2.47,0.56,,P6/mmm,structures/GNoME/HoGaFe3C_6b59c7556b.CIF
+Be3C3Er2Fe14,Be C Er Fe,4,0.636,1,GNoME,GNoME:8c06e4f5da,-0.0173,-0.0173,,2.21,0.53,,R-3m,structures/GNoME/Er2Be3Fe14C3_8c06e4f5da.CIF
+Fe8HoOsTm2,Fe Ho Os Tm,4,0.667,1,GNoME,GNoME:85e6fc234b,-0.0173,-0.0173,,2.61,0.46,,R-3m,structures/GNoME/HoTm2Fe8Os_85e6fc234b.CIF
+Co11Fe7Ho6,Co Fe Ho,3,0.75,1,GNoME,GNoME:c6533f2a3a,-0.0173,-0.0173,,3.06,0.92,,Cm,structures/GNoME/Ho6Fe7Co11_c6533f2a3a.CIF
+Al3Fe6HoZr2,Al Fe Ho Zr,4,0.5,1,GNoME,GNoME:bde0023a89,-0.0172,-0.0172,,1.45,0.17,,R-3m,structures/GNoME/HoZr2AlFe23_bde0023a89.CIF
+AlBe2C3Fe14Ho2,Al Be C Fe Ho,5,0.636,1,GNoME,GNoME:405ab9f2eb,-0.0171,-0.0171,,2.24,0.43,,C2/m,structures/GNoME/Ho2Be2AlFe14C3_405ab9f2eb.CIF
+DyFe4Si,Dy Fe Si,3,0.667,1,GNoME,GNoME:eff9589013,-0.0171,-0.0171,,2.53,0.22,,Cmmm,structures/GNoME/DyFe4Si_eff9589013.CIF
+ErFe8SiZr2,Er Fe Si Zr,4,0.667,1,GNoME,GNoME:2cc41d7a24,-0.017,-0.017,,1.76,0.53,,Cm,structures/GNoME/ErZr2Fe8Si_2cc41d7a24.CIF
+Fe8OsTb2Tm,Fe Os Tb Tm,4,0.667,1,GNoME,GNoME:e4de54c19d,-0.017,-0.017,,2.64,0.52,,R3m,structures/GNoME/Tb2TmFe8Os_e4de54c19d.CIF
+Be3C3Fe14TmY,Be C Fe Tm Y,5,0.636,1,GNoME,GNoME:cdf8cd0c31,-0.0169,-0.0169,,1.69,1.04,,R3m,structures/GNoME/YTmBe3Fe14C3_cdf8cd0c31.CIF
+DyFe11NiP7Tb,Dy Fe Ni P Tb,5,0.524,1,GNoME,GNoME:0c680d0d4c,-0.0169,-0.0169,,1.93,0.19,,Pm,structures/GNoME/TbDyFe11NiP7_0c680d0d4c.CIF
+Dy2Fe11NiP7,Dy Fe Ni P,4,0.524,1,GNoME,GNoME:b09b04f5a8,-0.0169,-0.0169,,1.98,0.14,,Pm,structures/GNoME/Dy2Fe11NiP7_b09b04f5a8.CIF
+Co18Dy6Fe5,Co Dy Fe,3,0.793,1,GNoME,GNoME:15e684e0e8,-0.0169,-0.0169,,2.78,0.58,,C2/m,structures/GNoME/Dy6Fe5Co18_15e684e0e8.CIF
+Fe12MgP7Tm,Fe Mg P Tm,4,0.571,1,GNoME,GNoME:9656d72042,-0.0168,-0.0168,,1.51,0.86,,P-6,structures/GNoME/TmMgFe12P7_9656d72042.CIF
+CoEr2Fe18P12Tm3,Co Er Fe P Tm,5,0.528,1,GNoME,GNoME:27eb020986,-0.0168,-0.0168,,1.98,0.03,,P-62m,structures/GNoME/Er2Tm3Fe18CoP12_27eb020986.CIF
+Fe9HfNbTm,Fe Hf Nb Tm,4,0.75,1,GNoME,GNoME:f8f319fc29,-0.0167,-0.0167,,1.82,0.84,,R3m,structures/GNoME/TmHfNbFe9_f8f319fc29.CIF
+Fe18Hf4LuTm,Fe Hf Lu Tm,4,0.75,1,GNoME,GNoME:b7ad129164,-0.0166,-0.0166,,1.54,1.06,,P-6m2,structures/GNoME/TmLuHf2Fe92_b7ad129164.CIF
+ErFe8OsTb2,Er Fe Os Tb,4,0.667,1,GNoME,GNoME:d8eb50fb1d,-0.0166,-0.0166,,2.74,0.64,,R3m,structures/GNoME/Tb2ErFe8Os_d8eb50fb1d.CIF
+Be3C3ErFe14Ho,Be C Er Fe Ho,5,0.636,1,GNoME,GNoME:cad2c34fdf,-0.0166,-0.0166,,2.26,0.48,,R3m,structures/GNoME/HoErBe3Fe14C3_cad2c34fdf.CIF
+Co7Fe16Tm6,Co Fe Tm,3,0.793,1,GNoME,GNoME:6f80e153ab,-0.0166,-0.0166,,2.1,0.23,,Fm-3m,structures/GNoME/Tm6Fe16Co7_6f80e153ab.CIF
+Al3C2ErFe14Sm,Al C Er Fe Sm,5,0.667,1,GNoME,GNoME:164a6cfe31,-0.0165,-0.0165,,1.67,0.88,,Cm,structures/GNoME/SmErAl3Fe7C2_164a6cfe31.CIF
+Fe8Ho2OsTm,Fe Ho Os Tm,4,0.667,1,GNoME,GNoME:37136cb6a1,-0.0165,-0.0165,,2.77,0.65,,R3m,structures/GNoME/Ho2TmFe8Os_37136cb6a1.CIF
+Fe8OsTmY2,Fe Os Tm Y,4,0.667,1,GNoME,GNoME:2e614669cf,-0.0165,-0.0165,,1.49,0.61,,R3m,structures/GNoME/Y2TmFe8Os_2e614669cf.CIF
+CoFe8Hf2Ho,Co Fe Hf Ho,4,0.75,1,GNoME,GNoME:472f77adea,-0.0165,-0.0165,,1.84,0.47,,R3m,structures/GNoME/HoHf2Fe8Co_472f77adea.CIF
+CoFe8TbTm2,Co Fe Tb Tm,4,0.75,1,GNoME,GNoME:86beb361b4,-0.0165,-0.0165,,2.57,0.4,,R-3m,structures/GNoME/TbTm2Fe8Co_86beb361b4.CIF
+CoEr4Fe18P12Tm,Co Er Fe P Tm,5,0.528,1,GNoME,GNoME:d90b154432,-0.0165,-0.0165,,2.07,0.13,,P-6,structures/GNoME/Er4TmFe18CoP12_d90b154432.CIF
+Be3C3DyFe14Lu,Be C Dy Fe Lu,5,0.636,1,GNoME,GNoME:2334524df8,-0.0163,-0.0163,,1.84,0.91,,R3m,structures/GNoME/DyLuBe3Fe14C3_2334524df8.CIF
+B2Fe8TbY,B Fe Tb Y,4,0.667,1,GNoME,GNoME:994983fe1a,-0.0163,-0.0163,,1.91,0.58,,P6/mmm,structures/GNoME/TbYFe4B2_994983fe1a.CIF
+CoErFe6Lu,Co Er Fe Lu,4,0.778,1,GNoME,GNoME:329adb3328,-0.0163,-0.0163,,1.88,0.31,,Cm,structures/GNoME/ErLuFe6Co_329adb3328.CIF
+CoEr5Fe18P12,Co Er Fe P,4,0.528,1,GNoME,GNoME:7a125e2496,-0.0163,-0.0163,,2.12,0.18,,P-62m,structures/GNoME/Er5Fe18CoP12_7a125e2496.CIF
+CoFe18HoP12Tm4,Co Fe Ho P Tm,5,0.528,1,GNoME,GNoME:4932e32eeb,-0.0163,-0.0163,,1.96,0.01,,P-6,structures/GNoME/HoTm4Fe18CoP12_4932e32eeb.CIF
+Fe8HoOsTb2,Fe Ho Os Tb,4,0.667,1,GNoME,GNoME:6acf043c3f,-0.0162,-0.0162,,2.79,0.7,,R3m,structures/GNoME/Tb2HoFe8Os_6acf043c3f.CIF
+Co3Fe11Tb4,Co Fe Tb,3,0.778,1,GNoME,GNoME:975a584fcd,-0.0162,-0.0162,,2.55,0.56,,P1,structures/GNoME/Tb4Fe11Co3_975a584fcd.CIF
+Dy2Fe8OsTm,Dy Fe Os Tm,4,0.667,1,GNoME,GNoME:ca711b5932,-0.0161,-0.0161,,2.76,0.64,,R3m,structures/GNoME/Dy2TmFe8Os_ca711b5932.CIF
+Fe9HoNbTa,Fe Ho Nb Ta,4,0.75,1,GNoME,GNoME:ebe55b7e90,-0.0161,-0.0161,,2.06,0.63,,R3m,structures/GNoME/HoTaNbFe9_ebe55b7e90.CIF
+Be3C3DyFe14Tm,Be C Dy Fe Tm,5,0.636,1,GNoME,GNoME:596fd0983a,-0.0161,-0.0161,,2.17,0.58,,R3m,structures/GNoME/DyTmBe3Fe14C3_596fd0983a.CIF
+BDyFe3Si,B Dy Fe Si,4,0.5,1,GNoME,GNoME:809aaa95cb,-0.0161,-0.0161,,2.5,0.57,,P6/mmm,structures/GNoME/DyFe3SiB_809aaa95cb.CIF
+B2Fe7HoLu2,B Fe Ho Lu,4,0.583,1,GNoME,GNoME:7f63ad381e,-0.0161,-0.0161,,1.79,0.34,,R-3m,structures/GNoME/HoLu2Fe7B2_7f63ad381e.CIF
+Be3C3Fe14Ho2,Be C Fe Ho,4,0.636,1,GNoME,GNoME:a7a80daa57,-0.016,-0.016,,2.3,0.44,,R-3m,structures/GNoME/Ho2Be3Fe14C3_a7a80daa57.CIF
+Fe9HfTaTb,Fe Hf Ta Tb,4,0.75,1,GNoME,GNoME:6967cd4da9,-0.0159,-0.0159,,1.94,0.69,,R3m,structures/GNoME/TbHfTaFe9_6967cd4da9.CIF
+Fe8SiTmZr2,Fe Si Tm Zr,4,0.667,1,GNoME,GNoME:1b3cb863fb,-0.0159,-0.0159,,1.64,0.67,,Cm,structures/GNoME/TmZr2Fe8Si_1b3cb863fb.CIF
+CrFe19P12ScTm3,Cr Fe P Sc Tm,5,0.528,1,GNoME,GNoME:dd64ccb48a,-0.0159,-0.0159,,1.62,0.5,,Pm,structures/GNoME/Tm3ScCrFe19P12_dd64ccb48a.CIF
+Al2Fe8HoRe2,Al Fe Ho Re,4,0.615,1,GNoME,GNoME:388490fe02,-0.0159,-0.0159,,1.79,0.45,,Immm,structures/GNoME/HoAl2Fe4Re2_388490fe02.CIF
+CoFe6TbY,Co Fe Tb Y,4,0.778,1,GNoME,GNoME:169b658068,-0.0159,-0.0159,,1.87,0.31,,Cm,structures/GNoME/TbYFe6Co_169b658068.CIF
+Co2Fe4Tb3,Co Fe Tb,3,0.667,1,GNoME,GNoME:10f80d9ff9,-0.0159,-0.0159,,3.11,1.24,,P-1,structures/GNoME/Tb3Fe2Co2_10f80d9ff9.CIF
+DyFe8Ho2Os,Dy Fe Ho Os,4,0.667,1,GNoME,GNoME:ed4c114624,-0.0158,-0.0158,,2.94,0.83,,R-3m,structures/GNoME/DyHo2Fe8Os_ed4c114624.CIF
+ErFe8Ho2Os,Er Fe Ho Os,4,0.667,1,GNoME,GNoME:a46759ecd6,-0.0158,-0.0158,,2.9,0.77,,R3m,structures/GNoME/Ho2ErFe8Os_a46759ecd6.CIF
+ErFe8OsY2,Er Fe Os Y,4,0.667,1,GNoME,GNoME:49bc0b34fc,-0.0158,-0.0158,,1.61,0.49,,R3m,structures/GNoME/Y2ErFe8Os_49bc0b34fc.CIF
+DyFe9NbZr,Dy Fe Nb Zr,4,0.75,1,GNoME,GNoME:bf9d2baa6a,-0.0157,-0.0157,,1.99,0.61,,R3m,structures/GNoME/DyZrNbFe9_bf9d2baa6a.CIF
+Fe8HoOsZr2,Fe Ho Os Zr,4,0.667,1,GNoME,GNoME:c08a00c8c3,-0.0157,-0.0157,,1.77,0.45,,R-3m,structures/GNoME/HoZr2Fe8Os_c08a00c8c3.CIF
+B2Fe6ScSi2Tm,B Fe Sc Si Tm,5,0.5,1,GNoME,GNoME:775f6aacfc,-0.0157,-0.0157,,1.56,0.44,,P6/mmm,structures/GNoME/TmScFe6SiB2_775f6aacfc.CIF
+Co3Fe11Tb3Y,Co Fe Tb Y,4,0.778,1,GNoME,GNoME:8c68a929a3,-0.0157,-0.0157,,2.15,0.17,,P1,structures/GNoME/Tb3YFe11Co3_8c68a929a3.CIF
+Co5Fe13Tb6,Co Fe Tb,3,0.75,1,GNoME,GNoME:f4eb18762b,-0.0156,-0.0156,,2.56,0.84,,Cm,structures/GNoME/Tb6Fe13Co5_f4eb18762b.CIF
+Fe18P12PtTm5,Fe P Pt Tm,4,0.5,1,GNoME,GNoME:d400c0be36,-0.0156,-0.0156,,1.85,0.07,,P-62m,structures/GNoME/Tm5Fe18P12Pt_d400c0be36.CIF
+Co19Er6Fe4,Co Er Fe,3,0.793,1,GNoME,GNoME:d7fd8651d1,-0.0156,-0.0156,,2.65,0.43,,R-3m,structures/GNoME/Er6Fe4Co19_d7fd8651d1.CIF
+Al3C2Fe14SmTm,Al C Fe Sm Tm,5,0.667,1,GNoME,GNoME:0797052a6b,-0.0155,-0.0155,,1.58,0.97,,Cm,structures/GNoME/SmTmAl3Fe7C2_0797052a6b.CIF
+Fe9HfTaTm,Fe Hf Ta Tm,4,0.75,1,GNoME,GNoME:3d85bf0fa7,-0.0155,-0.0155,,1.82,0.83,,R3m,structures/GNoME/TmHfTaFe9_3d85bf0fa7.CIF
+Dy2ErFe8Os,Dy Er Fe Os,4,0.667,1,GNoME,GNoME:0839214860,-0.0155,-0.0155,,2.88,0.77,,R3m,structures/GNoME/Dy2ErFe8Os_0839214860.CIF
+DyFe8OsTb2,Dy Fe Os Tb,4,0.667,1,GNoME,GNoME:71d9bdac2e,-0.0155,-0.0155,,2.78,0.69,,R3m,structures/GNoME/Tb2DyFe8Os_71d9bdac2e.CIF
+CoErFe8Tb2,Co Er Fe Tb,4,0.75,1,GNoME,GNoME:54b14d391d,-0.0155,-0.0155,,2.77,0.65,,R3m,structures/GNoME/Tb2ErFe8Co_54b14d391d.CIF
+Be3C3DyErFe14,Be C Dy Er Fe,5,0.636,1,GNoME,GNoME:926f7e187c,-0.0155,-0.0155,,2.25,0.48,,R3m,structures/GNoME/DyErBe3Fe14C3_926f7e187c.CIF
+Co18Fe5Tb6,Co Fe Tb,3,0.793,1,GNoME,GNoME:2d43f1f6e5,-0.0155,-0.0155,,2.59,0.41,,C2/m,structures/GNoME/Tb6Fe5Co18_2d43f1f6e5.CIF
+Fe11NiP7Tm2,Fe Ni P Tm,4,0.524,1,GNoME,GNoME:05e46d131d,-0.0154,-0.0154,,1.72,0.42,,Pm,structures/GNoME/Tm2Fe11NiP7_05e46d131d.CIF
+Dy2Fe8OsY,Dy Fe Os Y,4,0.667,1,GNoME,GNoME:96fb5030c8,-0.0154,-0.0154,,2.31,0.2,,R-3m,structures/GNoME/Dy2YFe8Os_96fb5030c8.CIF
+ErFe8OsTm2,Er Fe Os Tm,4,0.667,1,GNoME,GNoME:0e9d4bffb4,-0.0153,-0.0153,,2.55,0.4,,R-3m,structures/GNoME/ErTm2Fe8Os_0e9d4bffb4.CIF
+Co3Fe11Tb2Y2,Co Fe Tb Y,4,0.778,1,GNoME,GNoME:9f00fe368c,-0.0153,-0.0153,,1.77,0.22,,P1,structures/GNoME/Tb2Y2Fe11Co3_9f00fe368c.CIF
+Fe8HoOsY2,Fe Ho Os Y,4,0.667,1,GNoME,GNoME:9a61fd256a,-0.0152,-0.0152,,1.67,0.42,,R3m,structures/GNoME/Y2HoFe8Os_9a61fd256a.CIF
+Co8MgTm3,Co Mg Tm,3,0.667,1,GNoME,GNoME:85d2b925f5,-0.0152,-0.0152,,2.24,0.54,,R3m,structures/GNoME/Tm3MgCo8_85d2b925f5.CIF
+Co2Fe12TbY3,Co Fe Tb Y,4,0.778,1,GNoME,GNoME:55ebfa6dbc,-0.0151,-0.0151,,1.47,0.7,,Cm,structures/GNoME/TbY3Fe6Co2_55ebfa6dbc.CIF
+Fe9HfHoTi,Fe Hf Ho Ti,4,0.75,1,GNoME,GNoME:1aa4ed623e,-0.0151,-0.0151,,2.03,0.63,,R3m,structures/GNoME/HoHfTiFe9_1aa4ed623e.CIF
+ErFe9TaTi,Er Fe Ta Ti,4,0.75,1,GNoME,GNoME:5f0765334e,-0.015,-0.015,,2.0,0.71,,R3m,structures/GNoME/ErTaTiFe9_5f0765334e.CIF
+Dy2Fe8HoOs,Dy Fe Ho Os,4,0.667,1,GNoME,GNoME:3ec3e7ff54,-0.0149,-0.0149,,2.94,0.83,,R3m,structures/GNoME/Dy2HoFe8Os_3ec3e7ff54.CIF
+Fe9HfTbTi,Fe Hf Tb Ti,4,0.75,1,GNoME,GNoME:21463ef758,-0.0149,-0.0149,,1.96,0.69,,R3m,structures/GNoME/TbHfTiFe9_21463ef758.CIF
+Fe8OsTb3,Fe Os Tb,3,0.667,1,GNoME,GNoME:16f0bf6c6e,-0.0149,-0.0149,,2.73,0.64,,R-3m,structures/GNoME/Tb3Fe8Os_16f0bf6c6e.CIF
+DyFe8OsZr2,Dy Fe Os Zr,4,0.667,1,GNoME,GNoME:da129c5c99,-0.0149,-0.0149,,1.76,0.45,,R-3m,structures/GNoME/DyZr2Fe8Os_da129c5c99.CIF
+Be3C3DyFe14Ho,Be C Dy Fe Ho,5,0.636,1,GNoME,GNoME:ded825694b,-0.0149,-0.0149,,2.29,0.44,,R3m,structures/GNoME/DyHoBe3Fe14C3_ded825694b.CIF
+CoFe18Ho2P12Tm3,Co Fe Ho P Tm,5,0.528,1,GNoME,GNoME:9af882f309,-0.0149,-0.0149,,2.02,0.08,,P-62m,structures/GNoME/Ho2Tm3Fe18CoP12_9af882f309.CIF
+Co19Fe4Ho6,Co Fe Ho,3,0.793,1,GNoME,GNoME:bff3daef30,-0.0149,-0.0149,,2.8,0.6,,R-3m,structures/GNoME/Ho6Fe4Co19_bff3daef30.CIF
+Be3C3Fe13MnTm2,Be C Fe Mn Tm,5,0.591,1,GNoME,GNoME:39ba89c02c,-0.0148,-0.0148,,1.94,0.62,,C2,structures/GNoME/Tm2MnBe3Fe13C3_39ba89c02c.CIF
+CoFe6LuTm,Co Fe Lu Tm,4,0.778,1,GNoME,GNoME:a49fab0739,-0.0148,-0.0148,,1.75,0.5,,Cm,structures/GNoME/TmLuFe6Co_a49fab0739.CIF
+Dy3Fe20P12Sc,Dy Fe P Sc,4,0.556,1,GNoME,GNoME:80aaa66dc1,-0.0148,-0.0148,,1.9,0.32,,Pm,structures/GNoME/Dy3ScFe5P34_80aaa66dc1.CIF
+DyFe9TiZr,Dy Fe Ti Zr,4,0.75,1,GNoME,GNoME:42e67880bc,-0.0147,-0.0147,,2.0,0.62,,R3m,structures/GNoME/DyZrTiFe9_42e67880bc.CIF
+Er3Fe20P12Sc,Er Fe P Sc,4,0.556,1,GNoME,GNoME:c184cafe8b,-0.0147,-0.0147,,1.83,0.4,,Pm,structures/GNoME/Er3ScFe5P34_c184cafe8b.CIF
+Co19Dy6Fe4,Co Dy Fe,3,0.793,1,GNoME,GNoME:7bb947f8c0,-0.0147,-0.0147,,2.76,0.59,,C2/m,structures/GNoME/Dy6Fe4Co19_7bb947f8c0.CIF
+Co4HoLu,Co Ho Lu,3,0.667,1,GNoME,GNoME:79a1425566,-0.0146,-0.0146,,2.14,0.47,,F-43m,structures/GNoME/HoLuCo4_79a1425566.CIF
+Co4ErLu,Co Er Lu,3,0.667,1,GNoME,GNoME:b4d7d01b8d,-0.0146,-0.0146,,2.02,0.34,,F-43m,structures/GNoME/ErLuCo4_b4d7d01b8d.CIF
+Ce4CoFe18P12Tm,Ce Co Fe P Tm,5,0.528,1,GNoME,GNoME:8244e5ad19,-0.0145,-0.0145,,1.13,0.77,,P-6,structures/GNoME/Ce4TmFe18CoP12_8244e5ad19.CIF
+ErFe8OsZr2,Er Fe Os Zr,4,0.667,1,GNoME,GNoME:0742c27108,-0.0145,-0.0145,,1.71,0.52,,R-3m,structures/GNoME/ErZr2Fe8Os_0742c27108.CIF
+DyFe8OsY2,Dy Fe Os Y,4,0.667,1,GNoME,GNoME:529b00c139,-0.0145,-0.0145,,1.67,0.42,,R3m,structures/GNoME/DyY2Fe8Os_529b00c139.CIF
+CrEr2Fe9P6,Cr Er Fe P,4,0.5,1,GNoME,GNoME:f1567b6c91,-0.0145,-0.0145,,1.93,0.05,,Pmc2_1,structures/GNoME/Er2CrFe3P23_f1567b6c91.CIF
+Fe9HfScTb,Fe Hf Sc Tb,4,0.75,1,GNoME,GNoME:6b2dfe2ed5,-0.0144,-0.0144,,1.9,0.67,,R3m,structures/GNoME/TbHfScFe9_6b2dfe2ed5.CIF
+CoFe18Ho2Lu3P12,Co Fe Ho Lu P,5,0.528,1,GNoME,GNoME:ad1e49d32e,-0.0144,-0.0144,,1.49,0.46,,P-62m,structures/GNoME/Ho2Lu3Fe18CoP12_ad1e49d32e.CIF
+Er2Fe20P12ScTm,Er Fe P Sc Tm,5,0.556,1,GNoME,GNoME:f254608089,-0.0144,-0.0144,,1.78,0.45,,Pm,structures/GNoME/Er2TmScFe5P34_f254608089.CIF
+CoFe8Ho2Tb,Co Fe Ho Tb,4,0.75,1,GNoME,GNoME:bb9b064e20,-0.0143,-0.0143,,2.91,0.78,,R-3m,structures/GNoME/TbHo2Fe8Co_bb9b064e20.CIF
+Er2Fe8OsTm,Er Fe Os Tm,4,0.667,1,GNoME,GNoME:e9198fc857,-0.0143,-0.0143,,2.66,0.52,,R3m,structures/GNoME/Er2TmFe8Os_e9198fc857.CIF
+Co2ErFe16Y5,Co Er Fe Y,4,0.75,1,GNoME,GNoME:811e63b322,-0.0142,-0.0142,,1.35,0.78,,P3m1,structures/GNoME/Y5ErFe8Co2_811e63b322.CIF
+DyFe9HfTi,Dy Fe Hf Ti,4,0.75,1,GNoME,GNoME:b439cdb92f,-0.0142,-0.0142,,2.03,0.62,,R3m,structures/GNoME/DyHfTiFe9_b439cdb92f.CIF
+CoFe18Ho5P12,Co Fe Ho P,4,0.528,1,GNoME,GNoME:4b405194f8,-0.0142,-0.0142,,2.24,0.31,,P-62m,structures/GNoME/Ho5Fe18CoP12_4b405194f8.CIF
+Fe18Ho5P12Pt,Fe Ho P Pt,4,0.5,1,GNoME,GNoME:8d7bdcc681,-0.0142,-0.0142,,2.2,0.31,,P-62m,structures/GNoME/Ho5Fe18P12Pt_8d7bdcc681.CIF
+Fe9LuTmZr,Fe Lu Tm Zr,4,0.75,1,GNoME,GNoME:24571258c3,-0.0141,-0.0141,,1.74,0.8,,R3m,structures/GNoME/TmLuZrFe9_24571258c3.CIF
+CoErFe13Y3,Co Er Fe Y,4,0.778,1,GNoME,GNoME:1f3b6e718b,-0.0141,-0.0141,,1.58,0.8,,R3m,structures/GNoME/Y3ErFe13Co_1f3b6e718b.CIF
+Co2Fe16Tb5Y,Co Fe Tb Y,4,0.75,1,GNoME,GNoME:552894a2f9,-0.0141,-0.0141,,2.49,0.36,,P3m1,structures/GNoME/Tb5YFe8Co2_552894a2f9.CIF
+Co2Fe16TmY5,Co Fe Tm Y,4,0.75,1,GNoME,GNoME:0c30ae3f4a,-0.014,-0.014,,1.29,0.85,,P3m1,structures/GNoME/Y5TmFe8Co2_0c30ae3f4a.CIF
+Dy3Fe8Os,Dy Fe Os,3,0.667,1,GNoME,GNoME:b15213e3af,-0.014,-0.014,,2.92,0.82,,R-3m,structures/GNoME/Dy3Fe8Os_b15213e3af.CIF
+DyFe9NbSc,Dy Fe Nb Sc,4,0.75,1,GNoME,GNoME:8abc230406,-0.014,-0.014,,2.01,0.62,,R3m,structures/GNoME/DyScNbFe9_8abc230406.CIF
+CrFe9HoP6Tm,Cr Fe Ho P Tm,5,0.5,1,GNoME,GNoME:b7f20c41ad,-0.0139,-0.0139,,1.88,0.1,,Pmc2_1,structures/GNoME/HoTmCrFe3P23_b7f20c41ad.CIF
+Co2Dy3Fe4,Co Dy Fe,3,0.667,1,GNoME,GNoME:937e9ef9f0,-0.0139,-0.0139,,3.36,1.49,,P-1,structures/GNoME/Dy3Fe2Co2_937e9ef9f0.CIF
+Fe13Ho4Os,Fe Ho Os,3,0.722,1,GNoME,GNoME:137ac64171,-0.0138,-0.0138,,2.92,0.55,,R-3m,structures/GNoME/Ho4Fe13Os_137ac64171.CIF
+Al5Er6Fe18,Al Er Fe,3,0.621,1,GNoME,GNoME:0f8b082a5d,-0.0138,-0.0138,,2.46,0.43,,R3m,structures/GNoME/Er6Al5Fe18_0f8b082a5d.CIF
+B4Fe14LuTm5,B Fe Lu Tm,4,0.583,1,GNoME,GNoME:02a6435975,-0.0138,-0.0138,,2.32,0.2,,P3m1,structures/GNoME/Tm5LuFe7B22_02a6435975.CIF
+Co19Fe4Tb6,Co Fe Tb,3,0.793,1,GNoME,GNoME:3863aaa537,-0.0138,-0.0138,,2.59,0.42,,C2/m,structures/GNoME/Tb6Fe4Co19_3863aaa537.CIF
+Fe9HfHoSc,Fe Hf Ho Sc,4,0.75,1,GNoME,GNoME:fc8f8e1369,-0.0137,-0.0137,,1.99,0.61,,R3m,structures/GNoME/HoHfScFe9_fc8f8e1369.CIF
+Fe20P12ScTm3,Fe P Sc Tm,4,0.556,1,GNoME,GNoME:187620271c,-0.0137,-0.0137,,1.68,0.56,,Pm,structures/GNoME/Tm3ScFe5P34_187620271c.CIF
+CoEr3Fe13Tb,Co Er Fe Tb,4,0.778,1,GNoME,GNoME:848e1f2ae6,-0.0137,-0.0137,,2.77,0.38,,R3m,structures/GNoME/TbEr3Fe13Co_848e1f2ae6.CIF
+Cr2Dy3Fe18P12Tm,Cr Dy Fe P Tm,5,0.5,1,GNoME,GNoME:17c9c35ee2,-0.0137,-0.0137,,1.95,0.02,,Pm,structures/GNoME/Dy3TmCr2Fe3P26_17c9c35ee2.CIF
+CoEr3Fe13Y,Co Er Fe Y,4,0.778,1,GNoME,GNoME:4200cc1e0b,-0.0137,-0.0137,,2.38,0.01,,R3m,structures/GNoME/YEr3Fe13Co_4200cc1e0b.CIF
+Co9DyZr2,Co Dy Zr,3,0.75,1,GNoME,GNoME:b59cd1790d,-0.0137,-0.0137,,1.73,0.31,,R-3m,structures/GNoME/DyZr2Co9_b59cd1790d.CIF
+Fe9TaTiTm,Fe Ta Ti Tm,4,0.75,1,GNoME,GNoME:5448ea46de,-0.0136,-0.0136,,1.87,0.86,,R3m,structures/GNoME/TmTaTiFe9_5448ea46de.CIF
+Al3DyFe6Zr2,Al Dy Fe Zr,4,0.5,1,GNoME,GNoME:e40a92f8cd,-0.0136,-0.0136,,1.45,0.17,,R-3m,structures/GNoME/DyZr2AlFe23_e40a92f8cd.CIF
+CrDy2Fe9P6,Cr Dy Fe P,4,0.5,1,GNoME,GNoME:d599ff8b4e,-0.0136,-0.0136,,2.03,0.06,,Pmc2_1,structures/GNoME/Dy2CrFe3P23_d599ff8b4e.CIF
+CrDyErFe9P6,Cr Dy Er Fe P,5,0.5,1,GNoME,GNoME:49c45097cb,-0.0136,-0.0136,,1.98,0.01,,Pmc2_1,structures/GNoME/DyErCrFe3P23_49c45097cb.CIF
+ErFe9NbSc,Er Fe Nb Sc,4,0.75,1,GNoME,GNoME:0a501b0ae2,-0.0135,-0.0135,,1.97,0.7,,R3m,structures/GNoME/ErScNbFe9_0a501b0ae2.CIF
+CoFe8TbY2,Co Fe Tb Y,4,0.75,1,GNoME,GNoME:b5b0da2b88,-0.0134,-0.0134,,1.63,0.49,,P3m1,structures/GNoME/TbY2Fe8Co_b5b0da2b88.CIF
+Co2Fe12LuTm3,Co Fe Lu Tm,4,0.778,1,GNoME,GNoME:2c72c0527c,-0.0134,-0.0134,,2.06,0.19,,Cm,structures/GNoME/Tm3LuFe6Co2_2c72c0527c.CIF
+Al5Fe18Tm6,Al Fe Tm,3,0.621,1,GNoME,GNoME:0ad66247ee,-0.0134,-0.0134,,2.15,0.11,,R3m,structures/GNoME/Tm6Al5Fe18_0ad66247ee.CIF
+Fe8OsTb2Y,Fe Os Tb Y,4,0.667,1,GNoME,GNoME:3bbf2fa004,-0.0134,-0.0134,,2.16,0.07,,R-3m,structures/GNoME/Tb2YFe8Os_3bbf2fa004.CIF
+Co4LuTb,Co Lu Tb,3,0.667,1,GNoME,GNoME:153ff631b5,-0.0134,-0.0134,,1.97,0.33,,F-43m,structures/GNoME/TbLuCo4_153ff631b5.CIF
+Be3Fe6Nb2Tb,Be Fe Nb Tb,4,0.5,1,GNoME,GNoME:e436793186,-0.0133,-0.0133,,1.67,0.28,,R-3m,structures/GNoME/TbBe3NbFe32_e436793186.CIF
+CoFe13Tb2Tm2,Co Fe Tb Tm,4,0.778,1,GNoME,GNoME:e8ff5b59d8,-0.0133,-0.0133,,2.6,0.21,,R-3m,structures/GNoME/Tb2Tm2Fe13Co_e8ff5b59d8.CIF
+CrFe9Ho2P6,Cr Fe Ho P,4,0.5,1,GNoME,GNoME:082a5d8b38,-0.0133,-0.0133,,2.03,0.06,,Pmc2_1,structures/GNoME/Ho2CrFe3P23_082a5d8b38.CIF
+CoFe13Tm2Y2,Co Fe Tm Y,4,0.778,1,GNoME,GNoME:1e2c66fefb,-0.0132,-0.0132,,1.82,0.59,,R-3m,structures/GNoME/Y2Tm2Fe13Co_1e2c66fefb.CIF
+B2Fe8HoLu,B Fe Ho Lu,4,0.667,1,GNoME,GNoME:27f4233184,-0.0132,-0.0132,,2.03,0.52,,P6/mmm,structures/GNoME/HoLuFe4B2_27f4233184.CIF
+Al2ErFe8Re2,Al Er Fe Re,4,0.615,1,GNoME,GNoME:b13f76b1fa,-0.0132,-0.0132,,1.72,0.52,,Immm,structures/GNoME/ErAl2Fe4Re2_b13f76b1fa.CIF
+Fe9TbTmZr,Fe Tb Tm Zr,4,0.75,1,GNoME,GNoME:e39b837602,-0.0132,-0.0132,,2.3,0.19,,R3m,structures/GNoME/TbTmZrFe9_e39b837602.CIF
+Co23Lu3Tm3,Co Lu Tm,3,0.793,1,GNoME,GNoME:732e9abc14,-0.0132,-0.0132,,1.67,0.46,,R3m,structures/GNoME/Tm3Lu3Co23_732e9abc14.CIF
+Co2Fe16HoY5,Co Fe Ho Y,4,0.75,1,GNoME,GNoME:5c1e5234df,-0.0131,-0.0131,,1.38,0.75,,P3m1,structures/GNoME/Y5HoFe8Co2_5c1e5234df.CIF
+DyFe9HfSc,Dy Fe Hf Sc,4,0.75,1,GNoME,GNoME:a9a08ca1da,-0.0131,-0.0131,,1.98,0.61,,R3m,structures/GNoME/DyHfScFe9_a9a08ca1da.CIF
+B2DyFe8Lu,B Dy Fe Lu,4,0.667,1,GNoME,GNoME:f303704009,-0.0131,-0.0131,,2.02,0.51,,P6/mmm,structures/GNoME/DyLuFe4B2_f303704009.CIF
+B2ErFe6ScSi2,B Er Fe Sc Si,5,0.5,1,GNoME,GNoME:a59977f1b0,-0.0131,-0.0131,,1.7,0.28,,P6/mmm,structures/GNoME/ErScFe6SiB2_a59977f1b0.CIF
+Fe9MnP6Tm2,Fe Mn P Tm,4,0.5,1,GNoME,GNoME:dc623cc3fc,-0.0131,-0.0131,,1.74,0.26,,Pmc2_1,structures/GNoME/Tm2MnFe3P23_dc623cc3fc.CIF
+CrDyFe9P6Tb,Cr Dy Fe P Tb,5,0.5,1,GNoME,GNoME:ba391fa1a6,-0.0131,-0.0131,,1.97,0.01,,Pmc2_1,structures/GNoME/TbDyCrFe3P23_ba391fa1a6.CIF
+Fe4SiTb,Fe Si Tb,3,0.667,1,GNoME,GNoME:de0662848d,-0.013,-0.013,,2.38,0.08,,Cmmm,structures/GNoME/TbFe4Si_de0662848d.CIF
+Cr2Dy3Fe18P12Tb,Cr Dy Fe P Tb,5,0.5,1,GNoME,GNoME:389f97458e,-0.013,-0.013,,1.99,0.03,,Pm,structures/GNoME/TbDy3Cr2Fe3P26_389f97458e.CIF
+CoFe18P12Tm4Y,Co Fe P Tm Y,5,0.528,1,GNoME,GNoME:096dd261a4,-0.0129,-0.0129,,1.7,0.25,,Amm2,structures/GNoME/YTm4Fe18CoP12_096dd261a4.CIF
+Al6Fe17Tm6,Al Fe Tm,3,0.586,1,GNoME,GNoME:60f3f09411,-0.0129,-0.0129,,2.09,0.17,,Imm2,structures/GNoME/Tm6Al6Fe17_60f3f09411.CIF
+Er2Fe9MnP6,Er Fe Mn P,4,0.5,1,GNoME,GNoME:3c08bf5d29,-0.0129,-0.0129,,1.94,0.05,,Pmc2_1,structures/GNoME/Er2MnFe3P23_3c08bf5d29.CIF
+B2DyFe7Ho2,B Dy Fe Ho,4,0.583,1,GNoME,GNoME:f94682ef14,-0.0128,-0.0128,,3.18,1.09,,R3m,structures/GNoME/DyHo2Fe7B2_f94682ef14.CIF
+DyFe9NbTi,Dy Fe Nb Ti,4,0.75,1,GNoME,GNoME:51321de1b0,-0.0128,-0.0128,,2.05,0.63,,R3m,structures/GNoME/DyTiNbFe9_51321de1b0.CIF
+ErFe18Mn2P12Tm3,Er Fe Mn P Tm,5,0.5,1,GNoME,GNoME:30869c61ed,-0.0128,-0.0128,,1.79,0.21,,Pm,structures/GNoME/ErTm3Mn2Fe3P26_30869c61ed.CIF
+Co2Fe16Ho3Y3,Co Fe Ho Y,4,0.75,1,GNoME,GNoME:76b8314609,-0.0128,-0.0128,,2.03,0.11,,P3m1,structures/GNoME/Y3Ho3Fe8Co2_76b8314609.CIF
+CrDyFe9P6Tm,Cr Dy Fe P Tm,5,0.5,1,GNoME,GNoME:bf57fe15dd,-0.0128,-0.0128,,1.88,0.1,,Pmc2_1,structures/GNoME/DyTmCrFe3P23_bf57fe15dd.CIF
+Dy2Fe9MnP6,Dy Fe Mn P,4,0.5,1,GNoME,GNoME:801945ed5f,-0.0128,-0.0128,,2.03,0.06,,Pmc2_1,structures/GNoME/Dy2MnFe3P23_801945ed5f.CIF
+Co23ErLu5,Co Er Lu,3,0.793,1,GNoME,GNoME:c186304cbb,-0.0128,-0.0128,,1.34,0.82,,I4mm,structures/GNoME/ErLu5Co23_c186304cbb.CIF
+Fe9HfTiTm,Fe Hf Ti Tm,4,0.75,1,GNoME,GNoME:60d9dbb94d,-0.0127,-0.0127,,1.84,0.84,,R3m,structures/GNoME/TmHfTiFe9_60d9dbb94d.CIF
+B2Fe8LuTb,B Fe Lu Tb,4,0.667,1,GNoME,GNoME:5aa7890fa6,-0.0127,-0.0127,,1.94,0.59,,P6/mmm,structures/GNoME/TbLuFe4B2_5aa7890fa6.CIF
+Co2Er2Fe7Sc,Co Er Fe Sc,4,0.75,1,GNoME,GNoME:6d1180698e,-0.0127,-0.0127,,2.18,0.22,,Cm,structures/GNoME/Er2ScFe7Co2_6d1180698e.CIF
+Co6DyTb3,Co Dy Tb,3,0.6,1,GNoME,GNoME:ae7e419898,-0.0127,-0.0127,,3.11,1.83,,Cm,structures/GNoME/Tb3DyCo6_ae7e419898.CIF
+Co23TmY5,Co Tm Y,3,0.793,1,GNoME,GNoME:5b94ab9d65,-0.0127,-0.0127,,1.23,0.84,,I4mm,structures/GNoME/Y5TmCo23_5b94ab9d65.CIF
+B2Er2Fe7Ho,B Er Fe Ho,4,0.583,1,GNoME,GNoME:ed49964dc5,-0.0126,-0.0126,,3.05,0.95,,R-3m,structures/GNoME/HoEr2Fe7B2_ed49964dc5.CIF
+ErFe9LuMnP6,Er Fe Lu Mn P,5,0.5,1,GNoME,GNoME:8b4c67ad89,-0.0126,-0.0126,,1.47,0.52,,Pmc2_1,structures/GNoME/ErLuMnFe3P23_8b4c67ad89.CIF
+Cr2Dy3Fe18P12Y,Cr Dy Fe P Y,5,0.5,1,GNoME,GNoME:775b749060,-0.0126,-0.0126,,1.77,0.2,,Pm,structures/GNoME/Dy3YCr2Fe3P26_775b749060.CIF
+Fe9TmYZr,Fe Tm Y Zr,4,0.75,1,GNoME,GNoME:e78be84431,-0.0125,-0.0125,,1.73,0.8,,R3m,structures/GNoME/YTmZrFe9_e78be84431.CIF
+Co2Fe7TmZr2,Co Fe Tm Zr,4,0.75,1,GNoME,GNoME:0307364c7c,-0.0125,-0.0125,,1.48,0.52,,Cm,structures/GNoME/TmZr2Fe7Co2_0307364c7c.CIF
+Co3Dy4Fe11,Co Dy Fe,3,0.778,1,GNoME,GNoME:5dd35678d1,-0.0124,-0.0124,,2.73,0.73,,P1,structures/GNoME/Dy4Fe11Co3_5dd35678d1.CIF
+CoFe13Tb2Y2,Co Fe Tb Y,4,0.778,1,GNoME,GNoME:a1fe7fa04d,-0.0124,-0.0124,,1.96,0.4,,R-3m,structures/GNoME/Tb2Y2Fe13Co_a1fe7fa04d.CIF
+B2Dy2Fe7Ho,B Dy Fe Ho,4,0.583,1,GNoME,GNoME:9539b879df,-0.0122,-0.0122,,3.18,1.09,,R-3m,structures/GNoME/Dy2HoFe7B2_9539b879df.CIF
+Co3Fe11Ho4,Co Fe Ho,3,0.778,1,GNoME,GNoME:a4e5d8eb66,-0.0122,-0.0122,,2.74,0.73,,Cm,structures/GNoME/Ho4Fe11Co3_a4e5d8eb66.CIF
+Fe4GaTm2Zn,Fe Ga Tm Zn,4,0.5,1,GNoME,GNoME:37f5012d29,-0.0122,-0.0122,,1.99,0.5,,Pmm2,structures/GNoME/Tm2ZnGaFe4_37f5012d29.CIF
+Er4Fe13Os,Er Fe Os,3,0.722,1,GNoME,GNoME:dfbc81dc59,-0.0121,-0.0121,,2.77,0.38,,R-3m,structures/GNoME/Er4Fe13Os_dfbc81dc59.CIF
+CoFe6Ho2,Co Fe Ho,3,0.778,1,GNoME,GNoME:a7b600ba63,-0.012,-0.012,,2.85,0.65,,C2/m,structures/GNoME/Ho2Fe6Co_a7b600ba63.CIF
+CoEr4Fe13,Co Er Fe,3,0.778,1,GNoME,GNoME:9823d2732a,-0.012,-0.012,,2.77,0.38,,R-3m,structures/GNoME/Er4Fe13Co_9823d2732a.CIF
+B2Fe8TbTm,B Fe Tb Tm,4,0.667,1,GNoME,GNoME:0543a62791,-0.012,-0.012,,2.46,0.06,,P6/mmm,structures/GNoME/TbTmFe4B2_0543a62791.CIF
+B2Fe7HoTm2,B Fe Ho Tm,4,0.583,1,GNoME,GNoME:00749f6e90,-0.0119,-0.0119,,2.8,0.67,,R3m,structures/GNoME/HoTm2Fe7B2_00749f6e90.CIF
+CoDy2Fe11P7,Co Dy Fe P,4,0.571,1,GNoME,GNoME:afca34e75c,-0.0119,-0.0119,,1.98,0.14,,Pm,structures/GNoME/Dy2Fe11CoP7_afca34e75c.CIF
+Al4CFe13Tm2,Al C Fe Tm,4,0.65,1,GNoME,GNoME:2330272d5c,-0.0117,-0.0117,,1.82,0.59,,C2/m,structures/GNoME/Tm2Al4Fe13C_2330272d5c.CIF
+B2ErFe8Tb,B Er Fe Tb,4,0.667,1,GNoME,GNoME:b89bc6b098,-0.0117,-0.0117,,2.59,0.09,,P6/mmm,structures/GNoME/TbErFe4B2_b89bc6b098.CIF
+B2ErFe7Ho2,B Er Fe Ho,4,0.583,1,GNoME,GNoME:f19ba1d89f,-0.0116,-0.0116,,3.12,1.02,,R-3m,structures/GNoME/Ho2ErFe7B2_f19ba1d89f.CIF
+Fe11P7ReTm2,Fe P Re Tm,4,0.524,1,GNoME,GNoME:880cc6962a,-0.0116,-0.0116,,1.7,0.42,,Pm,structures/GNoME/Tm2Fe11ReP7_880cc6962a.CIF
+Co2Fe7Ho2Tb,Co Fe Ho Tb,4,0.75,1,GNoME,GNoME:87e6f26bf1,-0.0115,-0.0115,,2.78,0.91,,R3m,structures/GNoME/TbHo2Fe7Co2_87e6f26bf1.CIF
+Fe9ScTbZr,Fe Sc Tb Zr,4,0.75,1,GNoME,GNoME:d364efe2c3,-0.0115,-0.0115,,1.88,0.67,,R3m,structures/GNoME/TbZrScFe9_d364efe2c3.CIF
+Fe9Lu2Tb,Fe Lu Tb,3,0.75,1,GNoME,GNoME:12672be7d0,-0.0115,-0.0115,,1.82,0.65,,R-3m,structures/GNoME/TbLu2Fe9_12672be7d0.CIF
+CoEr3Fe13Ho,Co Er Fe Ho,4,0.778,1,GNoME,GNoME:7a450eed4c,-0.0115,-0.0115,,2.83,0.43,,R3m,structures/GNoME/HoEr3Fe13Co_7a450eed4c.CIF
+ErFe9LuNb,Er Fe Lu Nb,4,0.75,1,GNoME,GNoME:c466f6ebfe,-0.0114,-0.0114,,1.9,0.67,,R3m,structures/GNoME/ErLuNbFe9_c466f6ebfe.CIF
+Fe8OsTmZr2,Fe Os Tm Zr,4,0.667,1,GNoME,GNoME:d245d22d5d,-0.0114,-0.0114,,1.57,0.64,,R-3m,structures/GNoME/TmZr2Fe8Os_d245d22d5d.CIF
+Co3FeHo2,Co Fe Ho,3,0.667,1,GNoME,GNoME:42ee38cf9a,-0.0112,-0.0112,,3.39,1.65,,R-3m,structures/GNoME/Ho2FeCo3_42ee38cf9a.CIF
+Fe9HoScTa,Fe Ho Sc Ta,4,0.75,1,GNoME,GNoME:f9f97bc894,-0.0111,-0.0111,,2.02,0.62,,R3m,structures/GNoME/HoScTaFe9_f9f97bc894.CIF
+Co3DyTb,Co Dy Tb,3,0.6,1,GNoME,GNoME:e0b874fb6e,-0.0111,-0.0111,,3.17,1.89,,Aem2,structures/GNoME/TbDyCo3_e0b874fb6e.CIF
+Fe11MnP7TmZr,Fe Mn P Tm Zr,5,0.524,1,GNoME,GNoME:4bf93bf2e2,-0.011,-0.011,,1.41,0.76,,Pm,structures/GNoME/TmZrMnFe11P7_4bf93bf2e2.CIF
+Fe9ScTaTb,Fe Sc Ta Tb,4,0.75,1,GNoME,GNoME:7c59ad2917,-0.011,-0.011,,1.95,0.69,,R3m,structures/GNoME/TbScTaFe9_7c59ad2917.CIF
+Fe8Ga2Re2Tm,Fe Ga Re Tm,4,0.615,1,GNoME,GNoME:9278e3bb2d,-0.0109,-0.0109,,1.59,0.65,,Immm,structures/GNoME/TmGa2Fe4Re2_9278e3bb2d.CIF
+CoEr3Fe13Tm,Co Er Fe Tm,4,0.778,1,GNoME,GNoME:726ec31c08,-0.0109,-0.0109,,2.71,0.3,,R3m,structures/GNoME/Er3TmFe13Co_726ec31c08.CIF
+Al2Fe8Re2Tm,Al Fe Re Tm,4,0.615,1,GNoME,GNoME:99649ae659,-0.0108,-0.0108,,1.6,0.66,,Immm,structures/GNoME/TmAl2Fe4Re2_99649ae659.CIF
+B2Fe7Ho2Tb,B Fe Ho Tb,4,0.583,1,GNoME,GNoME:8329b7f15b,-0.0107,-0.0107,,3.1,1.02,,R-3m,structures/GNoME/TbHo2Fe7B2_8329b7f15b.CIF
+ErFe9ScTa,Er Fe Sc Ta,4,0.75,1,GNoME,GNoME:06663d0f6f,-0.0107,-0.0107,,1.96,0.7,,R3m,structures/GNoME/ErScTaFe9_06663d0f6f.CIF
+Be2C3Fe15Ho2,Be C Fe Ho,4,0.682,1,GNoME,GNoME:cf99ecb67c,-0.0106,-0.0106,,2.34,0.52,,C2/m,structures/GNoME/Ho2Be2Fe5C3_cf99ecb67c.CIF
+Al2C3Fe14GaHo2,Al C Fe Ga Ho,5,0.636,1,GNoME,GNoME:4a0b5127d5,-0.0106,-0.0106,,2.13,0.41,,C2/m,structures/GNoME/Ho2Al2GaFe14C3_4a0b5127d5.CIF
+Dy3Fe20P12Y,Dy Fe P Y,4,0.556,1,GNoME,GNoME:e7e8df7bf9,-0.0106,-0.0106,,1.89,0.31,,Pm,structures/GNoME/Dy3YFe5P34_e7e8df7bf9.CIF
+Dy2Fe9P6Ru,Dy Fe P Ru,4,0.5,1,GNoME,GNoME:640f6a8299,-0.0106,-0.0106,,2.01,0.06,,Pmc2_1,structures/GNoME/Dy2Fe9P6Ru_640f6a8299.CIF
+Dy4Fe13Os,Dy Fe Os,3,0.722,1,GNoME,GNoME:ac4c0a3f6e,-0.0105,-0.0105,,2.87,0.54,,R-3m,structures/GNoME/Dy4Fe13Os_ac4c0a3f6e.CIF
+B2DyFe7Lu2,B Dy Fe Lu,4,0.583,1,GNoME,GNoME:7d56aa4904,-0.0105,-0.0105,,1.78,0.34,,P6_3/mmc,structures/GNoME/DyLu2Fe7B2_7d56aa4904.CIF
+Co6Dy3Tb,Co Dy Tb,3,0.6,1,GNoME,GNoME:23e1c63cf3,-0.0105,-0.0105,,3.26,1.97,,Cm,structures/GNoME/TbDyCo23_23e1c63cf3.CIF
+Fe18Lu4TbY,Fe Lu Tb Y,4,0.75,1,GNoME,GNoME:1dee5c6f60,-0.0104,-0.0104,,1.54,0.95,,P-6m2,structures/GNoME/TbYLu2Fe92_1dee5c6f60.CIF
+ErFe9YZr,Er Fe Y Zr,4,0.75,1,GNoME,GNoME:96bc088aa7,-0.0104,-0.0104,,1.84,0.65,,R3m,structures/GNoME/YErZrFe9_96bc088aa7.CIF
+Fe11MnP7Tm2,Fe Mn P Tm,4,0.524,1,GNoME,GNoME:eb98075fa7,-0.0104,-0.0104,,1.72,0.42,,Pm,structures/GNoME/Tm2MnFe11P7_eb98075fa7.CIF
+Al3Fe20Tm6,Al Fe Tm,3,0.69,1,GNoME,GNoME:42627c9bc5,-0.0104,-0.0104,,2.3,0.0,,R3m,structures/GNoME/Tm6Al3Fe20_42627c9bc5.CIF
+Co5Dy4Fe,Co Dy Fe,3,0.6,1,GNoME,GNoME:be48886a8f,-0.0104,-0.0104,,3.34,1.99,,C2/m,structures/GNoME/Dy4FeCo5_be48886a8f.CIF
+CoFe13HoY3,Co Fe Ho Y,4,0.778,1,GNoME,GNoME:f4d790866f,-0.0103,-0.0103,,1.62,0.75,,R3m,structures/GNoME/Y3HoFe13Co_f4d790866f.CIF
+DyFe9ScTa,Dy Fe Sc Ta,4,0.75,1,GNoME,GNoME:062a7d2ae3,-0.0103,-0.0103,,2.01,0.62,,R3m,structures/GNoME/DyScTaFe9_062a7d2ae3.CIF
+Co6HoTb3,Co Ho Tb,3,0.6,1,GNoME,GNoME:49347a8de1,-0.0103,-0.0103,,3.13,1.84,,Cm,structures/GNoME/Tb3HoCo6_49347a8de1.CIF
+Co21Er6Fe2,Co Er Fe,3,0.793,1,GNoME,GNoME:5e48f9d563,-0.0103,-0.0103,,2.63,0.46,,Immm,structures/GNoME/Er6Fe2Co21_5e48f9d563.CIF
+B4DyFe14Tm5,B Dy Fe Tm,4,0.583,1,GNoME,GNoME:525e651f27,-0.0102,-0.0102,,2.68,0.56,,P-6m2,structures/GNoME/DyTm5Fe7B22_525e651f27.CIF
+Fe8OsSc2Tb,Fe Os Sc Tb,4,0.667,1,GNoME,GNoME:abd4bcf8de,-0.0102,-0.0102,,1.71,0.52,,R-3m,structures/GNoME/TbSc2Fe8Os_abd4bcf8de.CIF
+CoFe13Tb4,Co Fe Tb,3,0.778,1,GNoME,GNoME:5c067a0e66,-0.0101,-0.0101,,2.74,0.38,,R-3m,structures/GNoME/Tb4Fe13Co_5c067a0e66.CIF
+Co23Tm3Y3,Co Tm Y,3,0.793,1,GNoME,GNoME:3ae49c2313,-0.0101,-0.0101,,1.65,0.45,,R3m,structures/GNoME/Y3Tm3Co23_3ae49c2313.CIF
+Er2Fe11MnP7,Er Fe Mn P,4,0.524,1,GNoME,GNoME:20243c1709,-0.01,-0.01,,1.89,0.23,,Pm,structures/GNoME/Er2MnFe11P7_20243c1709.CIF
+CoDyFe3Y,Co Dy Fe Y,4,0.667,1,GNoME,GNoME:fa36486994,-0.0099,-0.0099,,1.96,0.45,,R3m,structures/GNoME/DyYFe3Co_fa36486994.CIF
+CrFe19P12Tm3Y,Cr Fe P Tm Y,5,0.528,1,GNoME,GNoME:5d5656937e,-0.0098,-0.0098,,1.61,0.5,,Pm,structures/GNoME/YTm3CrFe19P12_5d5656937e.CIF
+DyFe8SiZr2,Dy Fe Si Zr,4,0.667,1,GNoME,GNoME:72a9b0d7cf,-0.0097,-0.0097,,1.83,0.46,,Cm,structures/GNoME/DyZr2Fe8Si_72a9b0d7cf.CIF
+B2Fe7Ho2Y,B Fe Ho Y,4,0.583,1,GNoME,GNoME:78629c44ed,-0.0097,-0.0097,,2.46,0.38,,R3m,structures/GNoME/YHo2Fe7B2_78629c44ed.CIF
+Co3Fe4Ho2,Co Fe Ho,3,0.778,1,GNoME,GNoME:7f66970df2,-0.0097,-0.0097,,2.92,0.6,,P1,structures/GNoME/Ho2Fe4Co3_7f66970df2.CIF
+ErFe9ScZr,Er Fe Sc Zr,4,0.75,1,GNoME,GNoME:0c80e83806,-0.0096,-0.0096,,1.91,0.68,,R3m,structures/GNoME/ErZrScFe9_0c80e83806.CIF
+Fe20P12Tm3Y,Fe P Tm Y,4,0.556,1,GNoME,GNoME:c1f6b20dbe,-0.0096,-0.0096,,1.67,0.56,,Pm,structures/GNoME/YTm3Fe5P34_c1f6b20dbe.CIF
+Co2Fe6Ho3Tb,Co Fe Ho Tb,4,0.667,1,GNoME,GNoME:bf952b19fb,-0.0094,-0.0094,,3.13,1.6,,Cm,structures/GNoME/TbHo3Fe3Co2_bf952b19fb.CIF
+Fe18HoLu4Y,Fe Ho Lu Y,4,0.75,1,GNoME,GNoME:16973f93f8,-0.0094,-0.0094,,1.57,0.91,,P-6m2,structures/GNoME/YHoLu2Fe92_16973f93f8.CIF
+CoDy4Fe13,Co Dy Fe,3,0.778,1,GNoME,GNoME:e1236cf021,-0.0094,-0.0094,,2.93,0.55,,R-3m,structures/GNoME/Dy4Fe13Co_e1236cf021.CIF
+Fe7Re5Tb,Fe Re Tb,3,0.538,1,GNoME,GNoME:84e5951576,-0.0094,-0.0094,,1.55,0.37,,Imm2,structures/GNoME/TbFe7Re5_84e5951576.CIF
+Fe8RuTm2Y,Fe Ru Tm Y,4,0.667,1,GNoME,GNoME:cd949914ba,-0.0094,-0.0094,,1.95,0.18,,R-3m,structures/GNoME/YTm2Fe8Ru_cd949914ba.CIF
+Co6Tb3Y,Co Tb Y,3,0.6,1,GNoME,GNoME:350ad400f0,-0.0094,-0.0094,,2.43,1.16,,Cm,structures/GNoME/Tb3YCo6_350ad400f0.CIF
+Co22Er6Fe,Co Er Fe,3,0.793,1,GNoME,GNoME:9d5fcffa6d,-0.0094,-0.0094,,2.63,0.48,,Fm-3m,structures/GNoME/Er6FeCo22_9d5fcffa6d.CIF
+CoFe13Ho2Tm2,Co Fe Ho Tm,4,0.778,1,GNoME,GNoME:65fc334626,-0.0093,-0.0093,,2.73,0.3,,R-3m,structures/GNoME/Ho2Tm2Fe13Co_65fc334626.CIF
+DyFe18P12Ru2Tm3,Dy Fe P Ru Tm,5,0.5,1,GNoME,GNoME:89edbdf14a,-0.0093,-0.0093,,1.8,0.18,,Pm,structures/GNoME/DyTm3Fe18P6Ru2_89edbdf14a.CIF
+CrEr2Fe11P7,Cr Er Fe P,4,0.524,1,GNoME,GNoME:d589a1c7df,-0.0092,-0.0092,,1.9,0.24,,Pm,structures/GNoME/Er2CrFe11P7_d589a1c7df.CIF
+Al3Fe6TbZr2,Al Fe Tb Zr,4,0.5,1,GNoME,GNoME:bdb13c5880,-0.0092,-0.0092,,1.39,0.23,,R-3m,structures/GNoME/TbZr2AlFe23_bdb13c5880.CIF
+Be3C3Fe13Ho2Mn,Be C Fe Ho Mn,5,0.591,1,GNoME,GNoME:575e6678c2,-0.0091,-0.0091,,2.21,0.34,,C2,structures/GNoME/Ho2MnBe3Fe13C3_575e6678c2.CIF
+Fe7Ga2Hf2Ho,Fe Ga Hf Ho,4,0.583,1,GNoME,GNoME:0554ddb11e,-0.0091,-0.0091,,1.64,0.31,,R-3m,structures/GNoME/HoHf2Ga2Fe7_0554ddb11e.CIF
+Fe11Ho2OsP7,Fe Ho Os P,4,0.524,1,GNoME,GNoME:7950a597ef,-0.0091,-0.0091,,1.97,0.14,,Pm,structures/GNoME/Ho2Fe11P7Os_7950a597ef.CIF
+CoErFe3Ho,Co Er Fe Ho,4,0.667,1,GNoME,GNoME:d062499c9e,-0.009,-0.009,,3.1,1.56,,R3m,structures/GNoME/HoErFe3Co_d062499c9e.CIF
+DyFe8OsSc2,Dy Fe Os Sc,4,0.667,1,GNoME,GNoME:b2b3a4bee6,-0.009,-0.009,,1.78,0.45,,R-3m,structures/GNoME/DySc2Fe8Os_b2b3a4bee6.CIF
+Fe9ScTaTm,Fe Sc Ta Tm,4,0.75,1,GNoME,GNoME:c90ce584b5,-0.0089,-0.0089,,1.83,0.84,,R3m,structures/GNoME/TmScTaFe9_c90ce584b5.CIF
+Fe4Ga2TbY,Fe Ga Tb Y,4,0.5,1,GNoME,GNoME:ae614e2b6a,-0.0089,-0.0089,,1.5,0.05,,Pmm2,structures/GNoME/TbYGaFe22_ae614e2b6a.CIF
+Co3DyHo,Co Dy Ho,3,0.6,1,GNoME,GNoME:a5e5f8970c,-0.0089,-0.0089,,3.35,2.05,,Aem2,structures/GNoME/DyHoCo3_a5e5f8970c.CIF
+CoFe3HoTm,Co Fe Ho Tm,4,0.667,1,GNoME,GNoME:3b5c640476,-0.0088,-0.0088,,2.87,1.32,,R3m,structures/GNoME/HoTmFe3Co_3b5c640476.CIF
+B2Fe8SmTb,B Fe Sm Tb,4,0.667,1,GNoME,GNoME:5ab696d9f3,-0.0087,-0.0087,,1.9,0.57,,P6/mmm,structures/GNoME/TbSmFe4B2_5ab696d9f3.CIF
+CoFe13Ho3Tm,Co Fe Ho Tm,4,0.778,1,GNoME,GNoME:cd765565e0,-0.0087,-0.0087,,2.82,0.43,,R3m,structures/GNoME/Ho3TmFe13Co_cd765565e0.CIF
+Fe18Lu3Tm2Zr,Fe Lu Tm Zr,4,0.75,1,GNoME,GNoME:5071c9dc88,-0.0086,-0.0086,,1.74,0.8,,R3m,structures/GNoME/Tm2Lu3ZrFe18_5071c9dc88.CIF
+Al5C2DyFe12Sm,Al C Dy Fe Sm,5,0.571,1,GNoME,GNoME:9fd3294b3c,-0.0086,-0.0086,,1.47,0.63,,Cm,structures/GNoME/SmDyAl5Fe6C2_9fd3294b3c.CIF
+Co9NdTm2,Co Nd Tm,3,0.75,1,GNoME,GNoME:02df4decac,-0.0086,-0.0086,,1.87,0.03,,R-3m,structures/GNoME/NdTm2Co9_02df4decac.CIF
+Fe18Lu5P12Tm,Fe Lu P Tm,4,0.5,1,GNoME,GNoME:368c845cbc,-0.0085,-0.0085,,1.13,0.77,,Pmm2,structures/GNoME/TmLu5Fe3P26_368c845cbc.CIF
+Fe19P12Tm2Zr3,Fe P Tm Zr,4,0.528,1,GNoME,GNoME:de1a0125d2,-0.0085,-0.0085,,1.42,0.68,,P-62m,structures/GNoME/Tm2Zr3Fe19P12_de1a0125d2.CIF
+CoFe8Sc2Tb,Co Fe Sc Tb,4,0.75,1,GNoME,GNoME:fa6bb2e7e2,-0.0085,-0.0085,,1.75,0.53,,R-3m,structures/GNoME/TbSc2Fe8Co_fa6bb2e7e2.CIF
+CoFe3HoY,Co Fe Ho Y,4,0.667,1,GNoME,GNoME:b99e697555,-0.0085,-0.0085,,1.98,0.45,,R3m,structures/GNoME/YHoFe3Co_b99e697555.CIF
+Er2Fe8LuRu,Er Fe Lu Ru,4,0.667,1,GNoME,GNoME:1ab6d8d457,-0.0085,-0.0085,,2.22,0.08,,R3m,structures/GNoME/Er2LuFe8Ru_1ab6d8d457.CIF
+B4Dy5Fe14Tb,B Dy Fe Tb,4,0.583,1,GNoME,GNoME:4d5df43366,-0.0084,-0.0084,,3.12,1.05,,P-6m2,structures/GNoME/TbDy5Fe7B22_4d5df43366.CIF
+DyFe8Lu2Ru,Dy Fe Lu Ru,4,0.667,1,GNoME,GNoME:97a4b8233e,-0.0084,-0.0084,,1.71,0.43,,R-3m,structures/GNoME/DyLu2Fe8Ru_97a4b8233e.CIF
+Fe9LuTbTm,Fe Lu Tb Tm,4,0.75,1,GNoME,GNoME:753fc31f27,-0.0084,-0.0084,,2.27,0.19,,R3m,structures/GNoME/TbTmLuFe9_753fc31f27.CIF
+DyFe8RuTm2,Dy Fe Ru Tm,4,0.667,1,GNoME,GNoME:df3aa54043,-0.0083,-0.0083,,2.6,0.46,,R-3m,structures/GNoME/DyTm2Fe8Ru_df3aa54043.CIF
+Co2Fe7Sc2Tb,Co Fe Sc Tb,4,0.75,1,GNoME,GNoME:8110bad8a5,-0.0083,-0.0083,,1.61,0.39,,R3m,structures/GNoME/TbSc2Fe7Co2_8110bad8a5.CIF
+B2Fe7HoTb2,B Fe Ho Tb,4,0.583,1,GNoME,GNoME:947a163555,-0.0082,-0.0082,,3.03,0.95,,R-3m,structures/GNoME/Tb2HoFe7B2_947a163555.CIF
+Fe8HoOsSc2,Fe Ho Os Sc,4,0.667,1,GNoME,GNoME:4c205eeea3,-0.0082,-0.0082,,1.78,0.45,,R-3m,structures/GNoME/HoSc2Fe8Os_4c205eeea3.CIF
+Fe9ScTbTi,Fe Sc Tb Ti,4,0.75,1,GNoME,GNoME:cf871b4a37,-0.0081,-0.0081,,1.94,0.69,,R3m,structures/GNoME/TbScTiFe9_cf871b4a37.CIF
+CoFe13Ho4,Co Fe Ho,3,0.778,1,GNoME,GNoME:43c6534fdc,-0.008,-0.008,,2.94,0.56,,R-3m,structures/GNoME/Ho4Fe13Co_43c6534fdc.CIF
+Fe9Lu2P6Tm,Fe Lu P Tm,4,0.5,1,GNoME,GNoME:d6b8935184,-0.0079,-0.0079,,1.3,0.6,,Pmmn,structures/GNoME/TmLu2Fe3P23_d6b8935184.CIF
+CrFe19P12Tm4,Cr Fe P Tm,4,0.528,1,GNoME,GNoME:c041785bf6,-0.0079,-0.0079,,1.8,0.31,,Pm,structures/GNoME/Tm4CrFe19P12_c041785bf6.CIF
+Co21Dy6Fe2,Co Dy Fe,3,0.793,1,GNoME,GNoME:c0daa37fdf,-0.0079,-0.0079,,2.73,0.62,,Immm,structures/GNoME/Dy6Fe2Co21_c0daa37fdf.CIF
+Co16MnTb2,Co Mn Tb,3,0.842,1,GNoME,GNoME:c5c3fa2e33,-0.0079,-0.0079,,2.08,0.36,,R3m,structures/GNoME/Tb2MnCo16_c5c3fa2e33.CIF
+Fe9HoScTi,Fe Ho Sc Ti,4,0.75,1,GNoME,GNoME:56294c3d71,-0.0078,-0.0078,,2.03,0.63,,R3m,structures/GNoME/HoScTiFe9_56294c3d71.CIF
+B2Fe7Lu2Tb,B Fe Lu Tb,4,0.583,1,GNoME,GNoME:db9811d0e9,-0.0078,-0.0078,,1.7,0.41,,P6_3/mmc,structures/GNoME/TbLu2Fe7B2_db9811d0e9.CIF
+Co22Dy6Fe,Co Dy Fe,3,0.793,1,GNoME,GNoME:cdb0b07f30,-0.0078,-0.0078,,2.76,0.64,,Fm-3m,structures/GNoME/Dy6FeCo22_cdb0b07f30.CIF
+Fe7Ho3OsTb,Fe Ho Os Tb,4,0.583,1,GNoME,GNoME:b1cca7dadc,-0.0077,-0.0077,,3.21,1.45,,Cm,structures/GNoME/TbHo3Fe7Os_b1cca7dadc.CIF
+Fe18HoLu3Y2,Fe Ho Lu Y,4,0.75,1,GNoME,GNoME:9ab5ffe7e6,-0.0077,-0.0077,,1.55,0.9,,P3m1,structures/GNoME/Y2HoLuFe63_9ab5ffe7e6.CIF
+Fe9LuTmY,Fe Lu Tm Y,4,0.75,1,GNoME,GNoME:3f26140d1d,-0.0077,-0.0077,,1.69,0.78,,P-3m1,structures/GNoME/YTmLuFe9_3f26140d1d.CIF
+Al2Fe8Mo2Tm,Al Fe Mo Tm,4,0.615,1,GNoME,GNoME:a82318adad,-0.0077,-0.0077,,1.57,0.65,,Immm,structures/GNoME/TmAl2Fe4Mo2_a82318adad.CIF
+Fe8Lu2RuTb,Fe Lu Ru Tb,4,0.667,1,GNoME,GNoME:e6664c20d4,-0.0077,-0.0077,,1.65,0.5,,R-3m,structures/GNoME/TbLu2Fe8Ru_e6664c20d4.CIF
+Co22Er6Ga,Co Er Ga,3,0.759,1,GNoME,GNoME:97f566dc24,-0.0077,-0.0077,,2.55,0.54,,Fm-3m,structures/GNoME/Er6GaCo22_97f566dc24.CIF
+Co21Fe2Tb6,Co Fe Tb,3,0.793,1,GNoME,GNoME:74111a33e8,-0.0077,-0.0077,,2.55,0.45,,Immm,structures/GNoME/Tb6Fe2Co21_74111a33e8.CIF
+Fe18Lu4TmY,Fe Lu Tm Y,4,0.75,1,GNoME,GNoME:bad9cee146,-0.0076,-0.0076,,1.47,1.01,,P-6m2,structures/GNoME/YTmLu2Fe92_bad9cee146.CIF
+Dy2Fe18Sc3Zr,Dy Fe Sc Zr,4,0.75,1,GNoME,GNoME:ee70f31b53,-0.0076,-0.0076,,1.97,0.61,,R3m,structures/GNoME/Dy2ZrScFe63_ee70f31b53.CIF
+Co8Lu3Tm,Co Lu Tm,3,0.667,1,GNoME,GNoME:c46ce8c70b,-0.0076,-0.0076,,1.3,0.38,,P3m1,structures/GNoME/TmLu3Co8_c46ce8c70b.CIF
+Co16Tb2Ti,Co Tb Ti,3,0.842,1,GNoME,GNoME:51a72c30c0,-0.0076,-0.0076,,2.08,0.36,,R3m,structures/GNoME/Tb2TiCo16_51a72c30c0.CIF
+DyFe9ScTi,Dy Fe Sc Ti,4,0.75,1,GNoME,GNoME:45626f1830,-0.0075,-0.0075,,2.02,0.62,,R3m,structures/GNoME/DyScTiFe9_45626f1830.CIF
+Fe6Hf2HoSi3,Fe Hf Ho Si,4,0.5,1,GNoME,GNoME:82eae46ef6,-0.0075,-0.0075,,1.57,0.18,,R-3m,structures/GNoME/HoHf2Fe2Si3_82eae46ef6.CIF
+Co23Er3Tm3,Co Er Tm,3,0.793,1,GNoME,GNoME:3bd0ec5418,-0.0075,-0.0075,,2.45,0.32,,R3m,structures/GNoME/Er3Tm3Co23_3bd0ec5418.CIF
+B4Dy5Fe14Y,B Dy Fe Y,4,0.583,1,GNoME,GNoME:77304e1af5,-0.0074,-0.0074,,2.8,0.73,,P-6m2,structures/GNoME/Dy5YFe7B22_77304e1af5.CIF
+CoFe3HoLu,Co Fe Ho Lu,4,0.667,1,GNoME,GNoME:17496725d0,-0.0074,-0.0074,,2.03,0.46,,R3m,structures/GNoME/HoLuFe3Co_17496725d0.CIF
+Co9ErSc2,Co Er Sc,3,0.75,1,GNoME,GNoME:607008d425,-0.0074,-0.0074,,1.67,0.39,,R-3m,structures/GNoME/ErSc2Co9_607008d425.CIF
+B4Dy5Fe14Tm,B Dy Fe Tm,4,0.583,1,GNoME,GNoME:25b9fc1987,-0.0073,-0.0073,,3.06,0.98,,P3m1,structures/GNoME/Dy5TmFe7B22_25b9fc1987.CIF
+ErFe9ScTi,Er Fe Sc Ti,4,0.75,1,GNoME,GNoME:aca2d3bcbb,-0.0073,-0.0073,,1.96,0.7,,R3m,structures/GNoME/ErScTiFe9_aca2d3bcbb.CIF
+Fe6HfTm,Fe Hf Tm,3,0.75,1,GNoME,GNoME:51c18edd95,-0.0073,-0.0073,,2.02,0.58,,R3m,structures/GNoME/TmHfFe6_51c18edd95.CIF
+Co16Dy2Mn,Co Dy Mn,3,0.842,1,GNoME,GNoME:0e6c8cfb41,-0.0073,-0.0073,,2.19,0.27,,R3m,structures/GNoME/Dy2MnCo16_0e6c8cfb41.CIF
+B2Dy2Fe7Tb,B Dy Fe Tb,4,0.583,1,GNoME,GNoME:5110588020,-0.0072,-0.0072,,3.07,1.0,,P6_3/mmc,structures/GNoME/TbDy2Fe7B2_5110588020.CIF
+Fe8Lu2RuTm,Fe Lu Ru Tm,4,0.667,1,GNoME,GNoME:f5479176f0,-0.0072,-0.0072,,1.53,0.63,,R-3m,structures/GNoME/TmLu2Fe8Ru_f5479176f0.CIF
+CrDy4Fe19P12,Cr Dy Fe P,4,0.528,1,GNoME,GNoME:0a4800b38b,-0.0072,-0.0072,,2.08,0.0,,Pm,structures/GNoME/Dy4CrFe19P12_0a4800b38b.CIF
+DyFe18Lu3Y2,Dy Fe Lu Y,4,0.75,1,GNoME,GNoME:f64a5a2110,-0.0071,-0.0071,,1.56,0.91,,P3m1,structures/GNoME/DyY2LuFe63_f64a5a2110.CIF
+Fe9ScTmZr,Fe Sc Tm Zr,4,0.75,1,GNoME,GNoME:8c57fa6564,-0.0071,-0.0071,,1.77,0.81,,R3m,structures/GNoME/TmZrScFe9_8c57fa6564.CIF
+Co14Dy2Ga3,Co Dy Ga,3,0.737,1,GNoME,GNoME:ba031c1c77,-0.0071,-0.0071,,1.98,0.11,,R3m,structures/GNoME/Dy2Ga3Co14_ba031c1c77.CIF
+Er2Fe8HoRu,Er Fe Ho Ru,4,0.667,1,GNoME,GNoME:204baf5d08,-0.007,-0.007,,2.84,0.71,,R-3m,structures/GNoME/HoEr2Fe8Ru_204baf5d08.CIF
+AlC3Fe16Ho2,Al C Fe Ho,4,0.727,1,GNoME,GNoME:3012232b4b,-0.007,-0.007,,2.33,0.59,,C2/m,structures/GNoME/Ho2AlFe16C3_3012232b4b.CIF
+Dy2Fe9P6Ti,Dy Fe P Ti,4,0.5,1,GNoME,GNoME:64808d2050,-0.007,-0.007,,1.99,0.06,,Pmc2_1,structures/GNoME/Dy2TiFe3P23_64808d2050.CIF
+Co22FeTb6,Co Fe Tb,3,0.793,1,GNoME,GNoME:47b526b079,-0.007,-0.007,,2.57,0.47,,Fm-3m,structures/GNoME/Tb6FeCo22_47b526b079.CIF
+B2DyFe7Tm2,B Dy Fe Tm,4,0.583,1,GNoME,GNoME:b72095073e,-0.0069,-0.0069,,2.78,0.67,,P3m1,structures/GNoME/DyTm2Fe7B2_b72095073e.CIF
+C2Fe12Ga5Gd2,C Fe Ga Gd,4,0.571,1,GNoME,GNoME:2c8e7185cb,-0.0068,-0.0068,,1.62,0.46,,C2/m,structures/GNoME/Gd2Ga5Fe6C2_2c8e7185cb.CIF
+Er2Fe8RuY,Er Fe Ru Y,4,0.667,1,GNoME,GNoME:5b4695f3e7,-0.0068,-0.0068,,2.19,0.08,,R-3m,structures/GNoME/YEr2Fe8Ru_5b4695f3e7.CIF
+Co3HoTb,Co Ho Tb,3,0.6,1,GNoME,GNoME:0943a5d52b,-0.0068,-0.0068,,3.21,1.91,,Aem2,structures/GNoME/TbHoCo3_0943a5d52b.CIF
+Co16FeTb2,Co Fe Tb,3,0.895,1,GNoME,GNoME:723d0082ac,-0.0068,-0.0068,,2.2,0.47,,R3m,structures/GNoME/Tb2FeCo16_723d0082ac.CIF
+Co16Ho2Mn,Co Ho Mn,3,0.842,1,GNoME,GNoME:2c152f71a1,-0.0068,-0.0068,,2.2,0.27,,R3m,structures/GNoME/Ho2MnCo16_2c152f71a1.CIF
+CeFe18HoLu4P12,Ce Fe Ho Lu P,5,0.5,1,GNoME,GNoME:e5266fd061,-0.0067,-0.0067,,1.19,0.69,,Pmm2,structures/GNoME/CeHoLu4Fe3P26_e5266fd061.CIF
+DyFe8Ga2Re2,Dy Fe Ga Re,4,0.615,1,GNoME,GNoME:0f364a1f80,-0.0067,-0.0067,,1.77,0.45,,Immm,structures/GNoME/DyGa2Fe4Re2_0f364a1f80.CIF
+B2Er2Fe7Y,B Er Fe Y,4,0.583,1,GNoME,GNoME:1916e52e62,-0.0067,-0.0067,,2.33,0.24,,R3m,structures/GNoME/YEr2Fe7B2_1916e52e62.CIF
+CrDy3Fe19P12Tb,Cr Dy Fe P Tb,5,0.528,1,GNoME,GNoME:45f12f3011,-0.0067,-0.0067,,2.06,0.02,,Pm,structures/GNoME/TbDy3CrFe19P12_45f12f3011.CIF
+Fe4HoTbZn2,Fe Ho Tb Zn,4,0.5,1,GNoME,GNoME:59a336fcd4,-0.0066,-0.0066,,2.39,0.93,,Pmm2,structures/GNoME/TbHoZnFe22_59a336fcd4.CIF
+Er3Fe8Ru,Er Fe Ru,3,0.667,1,GNoME,GNoME:396c6d1683,-0.0066,-0.0066,,2.79,0.65,,R-3m,structures/GNoME/Er3Fe8Ru_396c6d1683.CIF
+Co23Er3Y3,Co Er Y,3,0.793,1,GNoME,GNoME:1872eee50c,-0.0066,-0.0066,,1.82,0.28,,R3m,structures/GNoME/Y3Er3Co23_1872eee50c.CIF
+Co16Dy2Ti,Co Dy Ti,3,0.842,1,GNoME,GNoME:72e5488a13,-0.0066,-0.0066,,2.19,0.27,,R3m,structures/GNoME/Dy2TiCo16_72e5488a13.CIF
+Fe8RuTbTm2,Fe Ru Tb Tm,4,0.667,1,GNoME,GNoME:045a7f5c7f,-0.0065,-0.0065,,2.52,0.39,,R-3m,structures/GNoME/TbTm2Fe8Ru_045a7f5c7f.CIF
+ErFe7Ho,Er Fe Ho,3,0.778,1,GNoME,GNoME:8bf563226b,-0.0065,-0.0065,,2.98,0.38,,R-3m,structures/GNoME/HoErFe7_8bf563226b.CIF
+ErFe9LuY,Er Fe Lu Y,4,0.75,1,GNoME,GNoME:c95486b47f,-0.0064,-0.0064,,1.83,0.65,,P-3m1,structures/GNoME/YErLuFe9_c95486b47f.CIF
+Fe18LuTm3Y2,Fe Lu Tm Y,4,0.75,1,GNoME,GNoME:021533ef2b,-0.0064,-0.0064,,1.92,0.55,,P3m1,structures/GNoME/Y2Tm3LuFe18_021533ef2b.CIF
+B2Fe7LuTb2,B Fe Lu Tb,4,0.583,1,GNoME,GNoME:63c789b63c,-0.0064,-0.0064,,2.33,0.24,,P-3m1,structures/GNoME/Tb2LuFe7B2_63c789b63c.CIF
+Fe9LuP6Tm2,Fe Lu P Tm,4,0.5,1,GNoME,GNoME:ce9eac34e7,-0.0064,-0.0064,,1.64,0.24,,Pmm2,structures/GNoME/Tm2LuFe3P23_ce9eac34e7.CIF
+Fe7OsSi4Tm2,Fe Os Si Tm,4,0.5,1,GNoME,GNoME:406826a65f,-0.0063,-0.0063,,1.75,0.04,,Pm,structures/GNoME/Tm2Fe7Si4Os_406826a65f.CIF
+Co6Dy3Y,Co Dy Y,3,0.6,1,GNoME,GNoME:55d81827d1,-0.0063,-0.0063,,2.62,1.35,,Cm,structures/GNoME/Dy3YCo6_55d81827d1.CIF
+Co23Dy3Tm3,Co Dy Tm,3,0.793,1,GNoME,GNoME:d84a32c7cd,-0.0063,-0.0063,,2.51,0.41,,R3m,structures/GNoME/Dy3Tm3Co23_d84a32c7cd.CIF
+Co14Er2Ga3,Co Er Ga,3,0.737,1,GNoME,GNoME:f6b6241512,-0.0063,-0.0063,,1.9,0.21,,R3m,structures/GNoME/Er2Ga3Co14_f6b6241512.CIF
+B2DyEr2Fe7,B Dy Er Fe,4,0.583,1,GNoME,GNoME:0b816d1d65,-0.0062,-0.0062,,3.04,0.95,,P6_3mc,structures/GNoME/DyEr2Fe7B2_0b816d1d65.CIF
+B2Fe7TbTm2,B Fe Tb Tm,4,0.583,1,GNoME,GNoME:702918c754,-0.0062,-0.0062,,2.67,0.59,,P6_3/mmc,structures/GNoME/TbTm2Fe7B2_702918c754.CIF
+ErFe9HoP6V,Er Fe Ho P V,5,0.5,1,GNoME,GNoME:3a011b8ff7,-0.0062,-0.0062,,1.98,0.01,,Pmc2_1,structures/GNoME/HoErVFe3P23_3a011b8ff7.CIF
+Co16MnTm2,Co Mn Tm,3,0.842,1,GNoME,GNoME:a27df9df29,-0.0062,-0.0062,,1.92,0.56,,R3m,structures/GNoME/Tm2MnCo16_a27df9df29.CIF
+Co14Ga3Ho2,Co Ga Ho,3,0.737,1,GNoME,GNoME:004c16c215,-0.0062,-0.0062,,1.99,0.11,,R3m,structures/GNoME/Ho2Ga3Co14_004c16c215.CIF
+Fe9ScTiTm,Fe Sc Ti Tm,4,0.75,1,GNoME,GNoME:8eb8899391,-0.0061,-0.0061,,1.83,0.84,,R3m,structures/GNoME/TmScTiFe9_8eb8899391.CIF
+Al2ErFe10,Al Er Fe,3,0.769,1,GNoME,GNoME:5645e002b6,-0.0061,-0.0061,,2.07,0.83,,Immm,structures/GNoME/ErAlFe52_5645e002b6.CIF
+Fe9Ho2P6V,Fe Ho P V,4,0.5,1,GNoME,GNoME:f443e83d17,-0.0061,-0.0061,,2.01,0.06,,Pmc2_1,structures/GNoME/Ho2VFe3P23_f443e83d17.CIF
+Co16Er2Mn,Co Er Mn,3,0.842,1,GNoME,GNoME:3e14a9c304,-0.0061,-0.0061,,2.11,0.37,,R3m,structures/GNoME/Er2MnCo16_3e14a9c304.CIF
+Co6TbY3,Co Tb Y,3,0.6,1,GNoME,GNoME:97e5e40672,-0.0061,-0.0061,,1.22,0.04,,Cm,structures/GNoME/TbYCo23_97e5e40672.CIF
+DyFe9LuSc,Dy Fe Lu Sc,4,0.75,1,GNoME,GNoME:73977a9c47,-0.006,-0.006,,1.93,0.6,,R3m,structures/GNoME/DyLuScFe9_73977a9c47.CIF
+Fe9HoLuP6V,Fe Ho Lu P V,5,0.5,1,GNoME,GNoME:4c3f5d97ce,-0.006,-0.006,,1.51,0.47,,Pmc2_1,structures/GNoME/HoLuVFe3P23_4c3f5d97ce.CIF
+B2DyFe7Y2,B Dy Fe Y,4,0.583,1,GNoME,GNoME:b136a2a8a6,-0.006,-0.006,,1.74,0.33,,P6_3/mmc,structures/GNoME/DyY2Fe7B2_b136a2a8a6.CIF
+DyFe9LuTm,Dy Fe Lu Tm,4,0.75,1,GNoME,GNoME:f844335cce,-0.006,-0.006,,2.35,0.12,,R3m,structures/GNoME/DyTmLuFe9_f844335cce.CIF
+CeCo22Ho,Ce Co Ho,3,0.917,1,GNoME,GNoME:227f76d1ad,-0.006,-0.006,,1.76,0.98,,I-4m2,structures/GNoME/CeHoCo22_227f76d1ad.CIF
+ErFe8RuTm2,Er Fe Ru Tm,4,0.667,1,GNoME,GNoME:b8d4e54081,-0.0059,-0.0059,,2.54,0.4,,R-3m,structures/GNoME/ErTm2Fe8Ru_b8d4e54081.CIF
+Fe9HoLuTm,Fe Ho Lu Tm,4,0.75,1,GNoME,GNoME:4278eef4a9,-0.0059,-0.0059,,2.34,0.12,,R3m,structures/GNoME/HoTmLuFe9_4278eef4a9.CIF
+ErFe7Y,Er Fe Y,3,0.778,1,GNoME,GNoME:af9a421c7d,-0.0058,-0.0058,,2.08,0.5,,R-3m,structures/GNoME/YErFe7_af9a421c7d.CIF
+Dy3Fe14Lu,Dy Fe Lu,3,0.778,1,GNoME,GNoME:b909378f4b,-0.0057,-0.0057,,2.61,0.03,,R3m,structures/GNoME/Dy3LuFe14_b909378f4b.CIF
+Co16FeHo2,Co Fe Ho,3,0.895,1,GNoME,GNoME:40b8440c5d,-0.0057,-0.0057,,2.31,0.37,,R3m,structures/GNoME/Ho2FeCo16_40b8440c5d.CIF
+DyEr2Fe8Ru,Dy Er Fe Ru,4,0.667,1,GNoME,GNoME:f73111eb6c,-0.0056,-0.0056,,2.83,0.71,,R-3m,structures/GNoME/DyEr2Fe8Ru_f73111eb6c.CIF
+Co16Ho2Ti,Co Ho Ti,3,0.842,1,GNoME,GNoME:6f030a31ea,-0.0056,-0.0056,,2.18,0.27,,R3m,structures/GNoME/Ho2TiCo16_6f030a31ea.CIF
+DyFe9LuTi,Dy Fe Lu Ti,4,0.75,1,GNoME,GNoME:03fc0c2326,-0.0055,-0.0055,,1.98,0.61,,R3m,structures/GNoME/DyLuTiFe9_03fc0c2326.CIF
+B4Fe14LuTb5,B Fe Lu Tb,4,0.583,1,GNoME,GNoME:cee79ef037,-0.0055,-0.0055,,2.62,0.55,,P3m1,structures/GNoME/Tb5LuFe7B22_cee79ef037.CIF
+Co23Er4Tm2,Co Er Tm,3,0.793,1,GNoME,GNoME:1579308ccc,-0.0055,-0.0055,,2.49,0.38,,Imm2,structures/GNoME/Er4Tm2Co23_1579308ccc.CIF
+B4Fe14Tb3Tm3,B Fe Tb Tm,4,0.583,1,GNoME,GNoME:2ec5aa6b19,-0.0054,-0.0054,,2.75,0.66,,P3m1,structures/GNoME/Tb3Tm3Fe7B22_2ec5aa6b19.CIF
+CoFe8HoSc2,Co Fe Ho Sc,4,0.75,1,GNoME,GNoME:057a142b7b,-0.0054,-0.0054,,1.82,0.46,,R-3m,structures/GNoME/HoSc2Fe8Co_057a142b7b.CIF
+C3Fe14Ga3Ho2,C Fe Ga Ho,4,0.636,1,GNoME,GNoME:20fff7c903,-0.0053,-0.0053,,2.12,0.4,,R-3m,structures/GNoME/Ho2Ga3Fe14C3_20fff7c903.CIF
+B4Fe14TbY5,B Fe Tb Y,4,0.583,1,GNoME,GNoME:05e7679cca,-0.0052,-0.0052,,1.35,0.72,,P-6m2,structures/GNoME/TbY5Fe7B22_05e7679cca.CIF
+Co16FeTm2,Co Fe Tm,3,0.895,1,GNoME,GNoME:04dbf08f76,-0.0052,-0.0052,,2.03,0.67,,R3m,structures/GNoME/Tm2FeCo16_04dbf08f76.CIF
+Co16TiTm2,Co Ti Tm,3,0.842,1,GNoME,GNoME:c08d1df486,-0.0051,-0.0051,,1.92,0.56,,R3m,structures/GNoME/Tm2TiCo16_c08d1df486.CIF
+Co16Er2Fe,Co Er Fe,3,0.895,1,GNoME,GNoME:bf68fd5cbd,-0.0051,-0.0051,,2.22,0.47,,R3m,structures/GNoME/Er2FeCo16_bf68fd5cbd.CIF
+ErFe8Ho2Ru,Er Fe Ho Ru,4,0.667,1,GNoME,GNoME:cb10f6068f,-0.005,-0.005,,2.9,0.77,,R3m,structures/GNoME/Ho2ErFe8Ru_cb10f6068f.CIF
+DyFe9LuY,Dy Fe Lu Y,4,0.75,1,GNoME,GNoME:71954e4811,-0.005,-0.005,,1.87,0.58,,P-3m1,structures/GNoME/DyYLuFe9_71954e4811.CIF
+Fe7HoY,Fe Ho Y,3,0.778,1,GNoME,GNoME:bcec3de363,-0.0048,-0.0048,,2.16,0.41,,R-3m,structures/GNoME/YHoFe7_bcec3de363.CIF
+Er3Fe18LuY2,Er Fe Lu Y,4,0.75,1,GNoME,GNoME:cc5422ffe6,-0.0048,-0.0048,,2.11,0.35,,P3m1,structures/GNoME/Y2Er3LuFe18_cc5422ffe6.CIF
+Fe18Sc3Tm2Zr,Fe Sc Tm Zr,4,0.75,1,GNoME,GNoME:3109f9c6e4,-0.0046,-0.0046,,1.77,0.82,,R3m,structures/GNoME/Tm2ZrScFe63_3109f9c6e4.CIF
+C3Er2Fe14Ga3,C Er Fe Ga,4,0.636,1,GNoME,GNoME:dda4464d71,-0.0046,-0.0046,,2.04,0.49,,R-3m,structures/GNoME/Er2Ga3Fe14C3_dda4464d71.CIF
+Co16Er2Ti,Co Er Ti,3,0.842,1,GNoME,GNoME:03130cbffd,-0.0046,-0.0046,,2.09,0.36,,R3m,structures/GNoME/Er2TiCo16_03130cbffd.CIF
+B4Fe14HoY5,B Fe Ho Y,4,0.583,1,GNoME,GNoME:c0cadd33e3,-0.0045,-0.0045,,1.38,0.68,,P3m1,structures/GNoME/Y5HoFe7B22_c0cadd33e3.CIF
+Fe18HoTm3Y2,Fe Ho Tm Y,4,0.75,1,GNoME,GNoME:33446d7e99,-0.0044,-0.0044,,2.23,0.22,,P3m1,structures/GNoME/Y2HoTmFe63_33446d7e99.CIF
+B4DyFe14Y5,B Dy Fe Y,4,0.583,1,GNoME,GNoME:200bab401c,-0.0043,-0.0043,,1.38,0.68,,P3m1,structures/GNoME/DyY5Fe7B22_200bab401c.CIF
+Fe8Ho2RuTm,Fe Ho Ru Tm,4,0.667,1,GNoME,GNoME:928ea60abb,-0.0043,-0.0043,,2.77,0.65,,R3m,structures/GNoME/Ho2TmFe8Ru_928ea60abb.CIF
+ErFe14Y3,Er Fe Y,3,0.778,1,GNoME,GNoME:902db07126,-0.0042,-0.0042,,1.68,0.89,,R3m,structures/GNoME/Y3ErFe14_902db07126.CIF
+B2Er2Fe7Tb,B Er Fe Tb,4,0.583,1,GNoME,GNoME:570fca5980,-0.0042,-0.0042,,2.95,0.87,,P3m1,structures/GNoME/TbEr2Fe7B2_570fca5980.CIF
+Fe8Ho3Ru,Fe Ho Ru,3,0.667,1,GNoME,GNoME:2d2496ffe9,-0.0042,-0.0042,,2.95,0.83,,R-3m,structures/GNoME/Ho3Fe8Ru_2d2496ffe9.CIF
+Fe18LuTm2Y3,Fe Lu Tm Y,4,0.75,1,GNoME,GNoME:54a5c41aa1,-0.0042,-0.0042,,1.67,0.77,,P3m1,structures/GNoME/Y3Tm2LuFe18_54a5c41aa1.CIF
+Fe11P7Tb2V,Fe P Tb V,4,0.524,1,GNoME,GNoME:84066e3db3,-0.0041,-0.0041,,1.86,0.23,,Pm,structures/GNoME/Tb2VFe11P7_84066e3db3.CIF
+Fe9HoTmY,Fe Ho Tm Y,4,0.75,1,GNoME,GNoME:9d96234b91,-0.0041,-0.0041,,2.31,0.12,,R3m,structures/GNoME/YHoTmFe9_9d96234b91.CIF
+Co3TbY,Co Tb Y,3,0.6,1,GNoME,GNoME:a2ae639f51,-0.0041,-0.0041,,1.83,0.56,,Aem2,structures/GNoME/TbYCo3_a2ae639f51.CIF
+Ce4ErFe19P12,Ce Er Fe P,4,0.528,1,GNoME,GNoME:47d5388093,-0.004,-0.004,,1.21,0.77,,P-6,structures/GNoME/Ce4ErFe19P12_47d5388093.CIF
+Co23Er4Y2,Co Er Y,3,0.793,1,GNoME,GNoME:44c86fb935,-0.004,-0.004,,2.1,0.02,,Imm2,structures/GNoME/Y2Er4Co23_44c86fb935.CIF
+DyFe18Tm3Y2,Dy Fe Tm Y,4,0.75,1,GNoME,GNoME:69634ff2f1,-0.0039,-0.0039,,2.23,0.22,,P3m1,structures/GNoME/DyY2TmFe63_69634ff2f1.CIF
+B4Fe14TmY5,B Fe Tm Y,4,0.583,1,GNoME,GNoME:fe7a055368,-0.0038,-0.0038,,1.28,0.79,,P-6m2,structures/GNoME/Y5TmFe7B22_fe7a055368.CIF
+Co23Er6N,Co Er N,3,0.767,1,GNoME,GNoME:22886ff0cf,-0.0037,-0.0037,,2.62,0.5,,Fm-3m,structures/GNoME/Er6Co23N_22886ff0cf.CIF
+Fe12MoP7Tm,Fe Mo P Tm,4,0.571,1,GNoME,GNoME:3c9f546006,-0.0036,-0.0036,,1.54,0.87,,P-6,structures/GNoME/TmFe12MoP7_3c9f546006.CIF
+B4ErFe14Y5,B Er Fe Y,4,0.583,1,GNoME,GNoME:9edebf5fea,-0.0034,-0.0034,,1.35,0.72,,P3m1,structures/GNoME/Y5ErFe7B22_9edebf5fea.CIF
+ErFe9TmY,Er Fe Tm Y,4,0.75,1,GNoME,GNoME:c3b0ebc45d,-0.0034,-0.0034,,2.27,0.19,,R3m,structures/GNoME/YErTmFe9_c3b0ebc45d.CIF
+Fe6TmY,Fe Tm Y,3,0.75,1,GNoME,GNoME:d9747f7f34,-0.0033,-0.0033,,1.9,0.54,,P3m1,structures/GNoME/YTmFe6_d9747f7f34.CIF
+Be3C3Er2Fe12Mn2,Be C Er Fe Mn,5,0.545,1,GNoME,GNoME:896bace22c,-0.0033,-0.0033,,2.02,0.34,,C2,structures/GNoME/Er2Mn2Be3Fe4C3_896bace22c.CIF
+Fe11P7Tb2Ti,Fe P Tb Ti,4,0.524,1,GNoME,GNoME:2c7e03b439,-0.0033,-0.0033,,1.83,0.23,,Pm,structures/GNoME/Tb2TiFe11P7_2c7e03b439.CIF
+BeCo16Tm2,Be Co Tm,3,0.842,1,GNoME,GNoME:6bab743e9f,-0.0033,-0.0033,,1.97,0.58,,C2/m,structures/GNoME/Tm2BeCo16_6bab743e9f.CIF
+Co22Er6Nb,Co Er Nb,3,0.759,1,GNoME,GNoME:46712e725b,-0.0033,-0.0033,,2.51,0.53,,Fm-3m,structures/GNoME/Er6NbCo22_46712e725b.CIF
+Fe8ScTmZr2,Fe Sc Tm Zr,4,0.667,1,GNoME,GNoME:e4ed2e9ff6,-0.0032,-0.0032,,1.57,0.64,,R3m,structures/GNoME/TmZr2ScFe8_e4ed2e9ff6.CIF
+Dy2Fe18Tm3Y,Dy Fe Tm Y,4,0.75,1,GNoME,GNoME:42e5df5150,-0.0031,-0.0031,,2.54,0.1,,P3m1,structures/GNoME/Dy2YTmFe63_42e5df5150.CIF
+DyFe8Ho2Ru,Dy Fe Ho Ru,4,0.667,1,GNoME,GNoME:25a3ff2c7f,-0.0029,-0.0029,,2.94,0.83,,R-3m,structures/GNoME/DyHo2Fe8Ru_25a3ff2c7f.CIF
+DyFe12P7Tm,Dy Fe P Tm,4,0.571,1,GNoME,GNoME:c8ae182b0b,-0.0029,-0.0029,,1.96,0.38,,P-6,structures/GNoME/DyTmFe12P7_c8ae182b0b.CIF
+Fe18Tb2Tm3Y,Fe Tb Tm Y,4,0.75,1,GNoME,GNoME:a027ed1511,-0.0029,-0.0029,,2.48,0.04,,P3m1,structures/GNoME/Tb2YTmFe63_a027ed1511.CIF
+DyFe14Y3,Dy Fe Y,3,0.778,1,GNoME,GNoME:bde1c1735b,-0.0028,-0.0028,,1.72,0.85,,R3m,structures/GNoME/DyY3Fe14_bde1c1735b.CIF
+ErFe18Tm2Y3,Er Fe Tm Y,4,0.75,1,GNoME,GNoME:04ed04e785,-0.0028,-0.0028,,1.97,0.48,,P3m1,structures/GNoME/Y3ErTmFe92_04ed04e785.CIF
+Fe9LuScTm,Fe Lu Sc Tm,4,0.75,1,GNoME,GNoME:9b5188ff18,-0.0027,-0.0027,,1.76,0.81,,R3m,structures/GNoME/TmLuScFe9_9b5188ff18.CIF
+Er2Fe18Tm3Y,Er Fe Tm Y,4,0.75,1,GNoME,GNoME:235ecf6db0,-0.0027,-0.0027,,2.49,0.04,,P3m1,structures/GNoME/YEr2TmFe63_235ecf6db0.CIF
+B2ErFe8Lu,B Er Fe Lu,4,0.667,1,GNoME,GNoME:b0db507257,-0.0026,-0.0026,,1.96,0.59,,P6/mmm,structures/GNoME/ErLuFe4B2_b0db507257.CIF
+CeCo17Dy,Ce Co Dy,3,0.895,1,GNoME,GNoME:1bb0f77260,-0.0026,-0.0026,,1.79,0.83,,R3m,structures/GNoME/CeDyCo17_1bb0f77260.CIF
+Fe6TbTm,Fe Tb Tm,3,0.75,1,GNoME,GNoME:26e0bff15f,-0.0025,-0.0025,,2.78,0.33,,P3m1,structures/GNoME/TbTmFe6_26e0bff15f.CIF
+DyFe4HoZn2,Dy Fe Ho Zn,4,0.5,1,GNoME,GNoME:206ff5aafc,-0.0024,-0.0024,,2.41,0.99,,Pmm2,structures/GNoME/DyHoZnFe22_206ff5aafc.CIF
+ErFe18Lu3Tm2,Er Fe Lu Tm,4,0.75,1,GNoME,GNoME:b8e269bb99,-0.0024,-0.0024,,2.02,0.49,,R3m,structures/GNoME/ErTm2LuFe63_b8e269bb99.CIF
+Fe14TbY3,Fe Tb Y,3,0.778,1,GNoME,GNoME:9d741bdfb5,-0.0023,-0.0023,,1.67,0.89,,R3m,structures/GNoME/TbY3Fe14_9d741bdfb5.CIF
+DyErFe9Tb,Dy Er Fe Tb,4,0.75,1,GNoME,GNoME:7c0d8e9209,-0.0023,-0.0023,,3.01,0.58,,R3m,structures/GNoME/TbDyErFe9_7c0d8e9209.CIF
+Fe13Ho4Ru,Fe Ho Ru,3,0.722,1,GNoME,GNoME:78dc7c712a,-0.0023,-0.0023,,2.91,0.55,,R-3m,structures/GNoME/Ho4Fe13Ru_78dc7c712a.CIF
+Fe6HoSc2Si3,Fe Ho Sc Si,4,0.5,1,GNoME,GNoME:28e3ec6bab,-0.0023,-0.0023,,1.55,0.18,,R-3m,structures/GNoME/HoSc2Fe2Si3_28e3ec6bab.CIF
+DyErFe9Ho,Dy Er Fe Ho,4,0.75,1,GNoME,GNoME:70e9dc1258,-0.0021,-0.0021,,3.09,0.65,,R3m,structures/GNoME/DyHoErFe9_70e9dc1258.CIF
+DyErFe9Tm,Dy Er Fe Tm,4,0.75,1,GNoME,GNoME:88116302f7,-0.0021,-0.0021,,2.91,0.46,,R3m,structures/GNoME/DyErTmFe9_88116302f7.CIF
+Fe18Ho2TmY3,Fe Ho Tm Y,4,0.75,1,GNoME,GNoME:adc71063e6,-0.0021,-0.0021,,2.08,0.35,,P3m1,structures/GNoME/Y3Ho2TmFe18_adc71063e6.CIF
+Fe18Tm5Y,Fe Tm Y,3,0.75,1,GNoME,GNoME:8f56fecccb,-0.0021,-0.0021,,2.38,0.09,,P-6m2,structures/GNoME/YTm5Fe18_8f56fecccb.CIF
+Dy3Fe18LuY2,Dy Fe Lu Y,4,0.75,1,GNoME,GNoME:d708be1024,-0.002,-0.002,,2.18,0.25,,P3m1,structures/GNoME/Dy3Y2LuFe18_d708be1024.CIF
+DyFe9ScTm,Dy Fe Sc Tm,4,0.75,1,GNoME,GNoME:efc80d4ddd,-0.002,-0.002,,2.4,0.13,,R3m,structures/GNoME/DyTmScFe9_efc80d4ddd.CIF
+Fe6HoTm,Fe Ho Tm,3,0.75,1,GNoME,GNoME:ba351037fb,-0.0019,-0.0019,,2.9,0.43,,P3m1,structures/GNoME/HoTmFe6_ba351037fb.CIF
+Fe9HoScTm,Fe Ho Sc Tm,4,0.75,1,GNoME,GNoME:3af5a41d20,-0.0019,-0.0019,,2.39,0.13,,R3m,structures/GNoME/HoTmScFe9_3af5a41d20.CIF
+DyFe12P7Zr,Dy Fe P Zr,4,0.571,1,GNoME,GNoME:4c4e373814,-0.0018,-0.0018,,1.65,0.71,,P-6,structures/GNoME/DyZrFe12P7_4c4e373814.CIF
+DyFe12LuP7,Dy Fe Lu P,4,0.571,1,GNoME,GNoME:c67ec79847,-0.0018,-0.0018,,1.63,0.7,,P-6,structures/GNoME/DyLuFe12P7_c67ec79847.CIF
+DyFe18Tm2Y3,Dy Fe Tm Y,4,0.75,1,GNoME,GNoME:3aa6a6184d,-0.0018,-0.0018,,1.98,0.44,,P3m1,structures/GNoME/DyY3TmFe92_3aa6a6184d.CIF
+BeCo16Dy2,Be Co Dy,3,0.842,1,GNoME,GNoME:301372c763,-0.0018,-0.0018,,2.24,0.28,,C2/m,structures/GNoME/Dy2BeCo16_301372c763.CIF
+Co9Sc2Tb,Co Sc Tb,3,0.75,1,GNoME,GNoME:673fb9bf0f,-0.0017,-0.0017,,1.7,0.39,,R-3m,structures/GNoME/TbSc2Co9_673fb9bf0f.CIF
+Fe7TbY,Fe Tb Y,3,0.778,1,GNoME,GNoME:199a31b241,-0.0016,-0.0016,,2.06,0.49,,R-3m,structures/GNoME/TbYFe7_199a31b241.CIF
+Co22Er6Ta,Co Er Ta,3,0.759,1,GNoME,GNoME:caa5a2c7b7,-0.0016,-0.0016,,2.52,0.53,,Fm-3m,structures/GNoME/Er6TaCo22_caa5a2c7b7.CIF
+Co9Er2Nd,Co Er Nd,3,0.75,1,GNoME,GNoME:e174919268,-0.0016,-0.0016,,2.17,0.24,,R-3m,structures/GNoME/NdEr2Co9_e174919268.CIF
+Fe6HoSi3Zr2,Fe Ho Si Zr,4,0.5,1,GNoME,GNoME:4d6dbea893,-0.0015,-0.0015,,1.55,0.18,,R-3m,structures/GNoME/HoZr2Fe2Si3_4d6dbea893.CIF
+Dy3Fe14Sc,Dy Fe Sc,3,0.778,1,GNoME,GNoME:923c03e89b,-0.0015,-0.0015,,2.66,0.03,,R3m,structures/GNoME/Dy3ScFe14_923c03e89b.CIF
+BeCo16Tb2,Be Co Tb,3,0.842,1,GNoME,GNoME:483621f55c,-0.0015,-0.0015,,2.15,0.37,,C2/m,structures/GNoME/Tb2BeCo16_483621f55c.CIF
+DyFe14Tb3,Dy Fe Tb,3,0.778,1,GNoME,GNoME:2b77d6bcf3,-0.0014,-0.0014,,2.89,0.33,,R3m,structures/GNoME/Tb3DyFe14_2b77d6bcf3.CIF
+Er5Fe18Y,Er Fe Y,3,0.75,1,GNoME,GNoME:88c116403b,-0.0013,-0.0013,,2.68,0.23,,P-6m2,structures/GNoME/YEr5Fe18_88c116403b.CIF
+Fe12LuP7Tm,Fe Lu P Tm,4,0.571,1,GNoME,GNoME:ff25380018,-0.0012,-0.0012,,1.5,0.85,,P-6,structures/GNoME/TmLuFe12P7_ff25380018.CIF
+Co23Dy3Er3,Co Dy Er,3,0.793,1,GNoME,GNoME:33e5bafcd4,-0.0012,-0.0012,,2.69,0.58,,R3m,structures/GNoME/Dy3Er3Co23_33e5bafcd4.CIF
+B2Fe8LuTm,B Fe Lu Tm,4,0.667,1,GNoME,GNoME:6fd0311dc2,-0.0011,-0.0011,,1.8,0.74,,P6/mmm,structures/GNoME/TmLuFe4B2_6fd0311dc2.CIF
+DyFe20P12Tm3,Dy Fe P Tm,4,0.556,1,GNoME,GNoME:0b091ec550,-0.001,-0.001,,1.94,0.29,,Pm,structures/GNoME/DyTm3Fe5P34_0b091ec550.CIF
+ErFe10P6Tm,Er Fe P Tm,4,0.556,1,GNoME,GNoME:28ecce3e03,-0.001,-0.001,,1.96,0.26,,Pmc2_1,structures/GNoME/ErTmFe5P32_28ecce3e03.CIF
+ErFe20P12Tm3,Er Fe P Tm,4,0.556,1,GNoME,GNoME:54da818ba7,-0.0009,-0.0009,,1.91,0.32,,Pm,structures/GNoME/ErTm3Fe5P34_54da818ba7.CIF
+DyFe9TbY,Dy Fe Tb Y,4,0.75,1,GNoME,GNoME:4926845d70,-0.0009,-0.0009,,2.41,0.01,,R3m,structures/GNoME/TbDyYFe9_4926845d70.CIF
+DyFe10LuP6,Dy Fe Lu P,4,0.556,1,GNoME,GNoME:2166331bec,-0.0008,-0.0008,,1.64,0.58,,Pmc2_1,structures/GNoME/DyLuFe5P32_2166331bec.CIF
+Fe20HoP12Tm3,Fe Ho P Tm,4,0.556,1,GNoME,GNoME:0d22a40dac,-0.0008,-0.0008,,1.93,0.29,,Pm,structures/GNoME/HoTm3Fe5P34_0d22a40dac.CIF
+Dy2Fe18HoY3,Dy Fe Ho Y,4,0.75,1,GNoME,GNoME:f513b018be,-0.0008,-0.0008,,2.17,0.25,,P3m1,structures/GNoME/Dy2Y3HoFe18_f513b018be.CIF
+DyFe6Y,Dy Fe Y,3,0.75,1,GNoME,GNoME:47d4df2590,-0.0007,-0.0007,,2.16,0.25,,P3m1,structures/GNoME/DyYFe6_47d4df2590.CIF
+ErFe9ScTm,Er Fe Sc Tm,4,0.75,1,GNoME,GNoME:aefb894080,-0.0007,-0.0007,,2.34,0.19,,R3m,structures/GNoME/ErTmScFe9_aefb894080.CIF
+Dy3Fe20P12Tb,Dy Fe P Tb,4,0.556,1,GNoME,GNoME:5d228cc367,-0.0007,-0.0007,,2.12,0.08,,Pm,structures/GNoME/TbDy3Fe5P34_5d228cc367.CIF
+ErFe10LuP6,Er Fe Lu P,4,0.556,1,GNoME,GNoME:01e80dfd53,-0.0006,-0.0006,,1.59,0.64,,Pmc2_1,structures/GNoME/ErLuFe5P32_01e80dfd53.CIF
+ErFe20HoP12Tm2,Er Fe Ho P Tm,5,0.556,1,GNoME,GNoME:502c6cbddf,-0.0006,-0.0006,,1.98,0.24,,Pm,structures/GNoME/HoErTm2Fe5P34_502c6cbddf.CIF
+ErFe8HfZr2,Er Fe Hf Zr,4,0.667,1,GNoME,GNoME:96d887c098,-0.0005,-0.0005,,1.69,0.51,,R3m,structures/GNoME/ErHfZrFe42_96d887c098.CIF
+Fe10HoP6Tm,Fe Ho P Tm,4,0.556,1,GNoME,GNoME:15ad9f8792,-0.0005,-0.0005,,2.01,0.21,,Pmc2_1,structures/GNoME/HoTmFe5P32_15ad9f8792.CIF
+Fe20HoLu3P12,Fe Ho Lu P,4,0.556,1,GNoME,GNoME:40d6e43b60,-0.0004,-0.0004,,1.38,0.85,,Pm,structures/GNoME/HoLu3Fe5P34_40d6e43b60.CIF
+ErFe10HoP6,Er Fe Ho P,4,0.556,1,GNoME,GNoME:c6dd1c78ca,-0.0004,-0.0004,,2.11,0.11,,Pmc2_1,structures/GNoME/HoErFe5P32_c6dd1c78ca.CIF
+Dy3Fe20HoP12,Dy Fe Ho P,4,0.556,1,GNoME,GNoME:212d6129fe,-0.0004,-0.0004,,2.15,0.05,,Pm,structures/GNoME/Dy3HoFe5P34_212d6129fe.CIF
+Co22Er6Hf,Co Er Hf,3,0.759,1,GNoME,GNoME:d01fddb3fc,-0.0004,-0.0004,,2.49,0.53,,Fm-3m,structures/GNoME/Er6HfCo22_d01fddb3fc.CIF
+Fe18HoY5,Fe Ho Y,3,0.75,1,GNoME,GNoME:d4fe78b3e4,-0.0003,-0.0003,,1.52,0.89,,P3m1,structures/GNoME/Y5HoFe18_d4fe78b3e4.CIF
+Dy3Fe18Tb2Y,Dy Fe Tb Y,4,0.75,1,GNoME,GNoME:c01426fb43,-0.0003,-0.0003,,2.74,0.33,,P3m1,structures/GNoME/Tb2Dy3YFe18_c01426fb43.CIF
+Co17TbY,Co Tb Y,3,0.895,1,GNoME,GNoME:0fc5d0bdb9,-0.0003,-0.0003,,1.74,0.88,,R3m,structures/GNoME/TbYCo17_0fc5d0bdb9.CIF
+Co3DyY,Co Dy Y,3,0.6,1,GNoME,GNoME:274edb0ab7,-0.0003,-0.0003,,1.96,0.69,,Aem2,structures/GNoME/DyYCo3_274edb0ab7.CIF
+Fe10HoLuP6,Fe Ho Lu P,4,0.556,1,GNoME,GNoME:1a7ce621ef,-0.0002,-0.0002,,1.64,0.58,,Pmc2_1,structures/GNoME/HoLuFe5P32_1a7ce621ef.CIF
+Dy3Fe20P12Tm,Dy Fe P Tm,4,0.556,1,GNoME,GNoME:9d695eda6e,-0.0002,-0.0002,,2.08,0.13,,Pm,structures/GNoME/Dy3TmFe5P34_9d695eda6e.CIF
+Co17HoTb,Co Ho Tb,3,0.895,1,GNoME,GNoME:49894d7cd7,-0.0001,-0.0001,,2.23,0.4,,R3m,structures/GNoME/TbHoCo17_49894d7cd7.CIF
+Co17DyTb,Co Dy Tb,3,0.895,1,GNoME,GNoME:a74edbb4e4,-0.0001,-0.0001,,2.24,0.4,,R3m,structures/GNoME/TbDyCo17_a74edbb4e4.CIF
+Co17DyY,Co Dy Y,3,0.895,1,GNoME,GNoME:643d358fd3,0.0,0.0,,1.79,0.83,,R3m,structures/GNoME/DyYCo17_643d358fd3.CIF
+Co17HoY,Co Ho Y,3,0.895,1,GNoME,GNoME:d228e10a7b,-0.0,-0.0,,1.8,0.83,,R3m,structures/GNoME/YHoCo17_d228e10a7b.CIF
+Co17ErTb,Co Er Tb,3,0.895,1,GNoME,GNoME:9c6e1809f4,0.0,0.0,,2.19,0.45,,R3m,structures/GNoME/TbErCo17_9c6e1809f4.CIF
+Co17DyHo,Co Dy Ho,3,0.895,1,GNoME,GNoME:5eaed61428,-0.0,-0.0,,2.29,0.35,,R3m,structures/GNoME/DyHoCo17_5eaed61428.CIF
+B6Co12Gd,B Co Gd,3,0.632,1,OQMD,OQMD:26461,0.0,,,,,unknown -> potentially FM,R-3m,
+BDyFe4,B Dy Fe,3,0.667,1,OQMD,OQMD:1368881,0.0,,,,,unknown -> potentially FM,P6/mmm,
+BFe4Ho,B Fe Ho,3,0.667,1,OQMD,OQMD:1372281,0.0,,,,,unknown -> potentially FM,P6/mmm,
+Co15Dy2Fe2,Co Dy Fe,3,0.895,1,OQMD,OQMD:1990454,0.0,,,,,unknown -> potentially FM,R-3m,
+Co15Fe2Tb2,Co Fe Tb,3,0.895,1,OQMD,OQMD:1991848,0.0,,,,,unknown -> potentially FM,R-3m,
+Co15Fe2Tm2,Co Fe Tm,3,0.895,1,OQMD,OQMD:1986274,0.0,,,,,unknown -> potentially FM,R-3m,
+Co17GdSm,Co Gd Sm,3,0.895,1,MP,MP:mp-aaacrjrz,0.0,,1.107,,,ferrimagnetic (MP label),R3m,
+Co2DyFe,Co Dy Fe,3,0.75,1,OQMD,OQMD:1491873,0.0,,,,,unknown -> potentially FM,R-3m,
+Co2ErFe,Co Er Fe,3,0.75,1,OQMD,OQMD:1504236,0.0,,,,,unknown -> potentially FM,R-3m,
+Co2FeGd2,Co Fe Gd,3,0.6,1,OQMD,OQMD:1370380,0.0,,,,,unknown -> potentially FM,Immm,
+Co2FeHo,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504162,0.0,,,,,unknown -> potentially FM,R-3m,
+Co2FeHo2,Co Fe Ho,3,0.6,1,OQMD,OQMD:1372088,0.0,,,,,unknown -> potentially FM,Immm,
+Co2FeTm,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505208,0.0,,,,,unknown -> potentially FM,R-3m,
+Co3Dy2Fe,Co Dy Fe,3,0.667,1,MP,MP:mp-aaacrsrm,0.0,,0.838,,,unknown -> potentially FM,R-3m,
+Co3FeTb2,Co Fe Tb,3,0.667,1,MP,MP:mp-aaacrhja,0.0,,0.83,,,unknown -> potentially FM,R-3m,
+Co4DyMg,Co Dy Mg,3,0.667,1,OQMD,OQMD:1373102,0.0,,,,,unknown -> potentially FM,F-43m,
+Co4DyY,Co Dy Y,3,0.667,1,OQMD,OQMD:1974831,0.0,,,,,unknown -> potentially FM,F-43m,
+Co4ErGd,Co Er Gd,3,0.667,1,MP,MP:mp-aaacrrrl,0.0,,0.498,,,ferrimagnetic (MP label),F-43m,
+Co4ErMg,Co Er Mg,3,0.667,1,OQMD,OQMD:1373103,0.0,,,,,unknown -> potentially FM,F-43m,
+Co4GaTb,Co Ga Tb,3,0.667,1,MP,MP:mp-aaacqtne,0.0,,0.995,,,ferrimagnetic (MP label),P6/mmm,
+Co4GdMg,Co Gd Mg,3,0.667,1,OQMD,OQMD:1987384,0.0,,,,,unknown -> potentially FM,F-43m,
+Co4GdPm,Co Gd Pm,3,0.667,1,OQMD,OQMD:1981800,0.0,,,,,unknown -> potentially FM,F-43m,
+Co4GdY,Co Gd Y,3,0.667,1,MP,MP:mp-aaacrsaz,0.0,,0.514,,,unknown -> potentially FM,F-43m,
+Co4HoMg,Co Ho Mg,3,0.667,1,OQMD,OQMD:1374761,0.0,,,,,unknown -> potentially FM,F-43m,
+Co4MgTm,Co Mg Tm,3,0.667,1,OQMD,OQMD:1366307,0.0,,,,,unknown -> potentially FM,F-43m,
+Co7Dy3Fe2,Co Dy Fe,3,0.75,1,OQMD,OQMD:1504602,0.0,,,,,unknown -> potentially FM,R-3m,
+Co7Er3Fe2,Co Er Fe,3,0.75,1,OQMD,OQMD:1491846,0.0,,,,,unknown -> potentially FM,R-3m,
+Co7Fe2Ho3,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504206,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Dy2Pm,Co Dy Pm,3,0.75,1,OQMD,OQMD:1979753,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Dy2Y,Co Dy Y,3,0.75,1,OQMD,OQMD:1505163,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9DyEr2,Co Dy Er,3,0.75,1,OQMD,OQMD:1504507,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9DyLu2,Co Dy Lu,3,0.75,1,OQMD,OQMD:1505184,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Er2Ho,Co Er Ho,3,0.75,1,OQMD,OQMD:1504511,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Er2Pm,Co Er Pm,3,0.75,1,OQMD,OQMD:1975571,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Er2Sm,Co Er Sm,3,0.75,1,OQMD,OQMD:1981146,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Er2Y,Co Er Y,3,0.75,1,OQMD,OQMD:1504508,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9ErHf2,Co Er Hf,3,0.75,1,OQMD,OQMD:1974176,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9ErLu2,Co Er Lu,3,0.75,1,OQMD,OQMD:1504513,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Hf2Ho,Co Hf Ho,3,0.75,1,OQMD,OQMD:1975570,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Hf2Tm,Co Hf Tm,3,0.75,1,OQMD,OQMD:1992294,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Ho2Pm,Co Ho Pm,3,0.75,1,OQMD,OQMD:1981147,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9HoLu2,Co Ho Lu,3,0.75,1,OQMD,OQMD:1505186,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9HoY2,Co Ho Y,3,0.75,1,OQMD,OQMD:1505162,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9Lu2Tm,Co Lu Tm,3,0.75,1,OQMD,OQMD:1505185,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9PmTm2,Co Pm Tm,3,0.75,1,OQMD,OQMD:1985328,0.0,,,,,unknown -> potentially FM,R-3m,
+Co9SmTm2,Co Sm Tm,3,0.75,1,OQMD,OQMD:1978358,0.0,,,,,unknown -> potentially FM,R-3m,
+CoDy3Fe8,Co Dy Fe,3,0.75,1,OQMD,OQMD:1504598,0.0,,,,,unknown -> potentially FM,R-3m,
+CoDyFe,Co Dy Fe,3,0.667,1,OQMD,OQMD:1982718,0.0,,,,,unknown -> potentially FM,Imma,
+CoEr3Fe8,Co Er Fe,3,0.75,1,OQMD,OQMD:1504290,0.0,,,,,unknown -> potentially FM,R-3m,
+CoFe8Ho3,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504200,0.0,,,,,unknown -> potentially FM,R-3m,
+CoFe8Tm3,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505207,0.0,,,,,unknown -> potentially FM,R-3m,
+CoFeTm,Co Fe Tm,3,0.667,1,OQMD,OQMD:1992464,0.0,,,,,unknown -> potentially FM,Imma,
+Dy2Fe9Y,Dy Fe Y,3,0.75,1,OQMD,OQMD:1491871,0.0,,,,,unknown -> potentially FM,R-3m,
+DyEr2Fe9,Dy Er Fe,3,0.75,1,OQMD,OQMD:1504231,0.0,,,,,unknown -> potentially FM,R-3m,
+DyFe6Th,Dy Fe Th,3,0.75,1,MP,MP:mp-aaacrtgw,0.0,,1.592,,,ferrimagnetic (MP label),R3m,
+DyFe9Ho2,Dy Fe Ho,3,0.75,1,OQMD,OQMD:1504184,0.0,,,,,unknown -> potentially FM,R-3m,
+DyFe9Lu2,Dy Fe Lu,3,0.75,1,OQMD,OQMD:1504595,0.0,,,,,unknown -> potentially FM,R-3m,
+Er2Fe9Gd,Er Fe Gd,3,0.75,1,OQMD,OQMD:1504232,0.0,,,,,unknown -> potentially FM,R-3m,
+Er2Fe9Ho,Er Fe Ho,3,0.75,1,OQMD,OQMD:1504156,0.0,,,,,unknown -> potentially FM,R-3m,
+Er2Fe9Y,Er Fe Y,3,0.75,1,OQMD,OQMD:1504233,0.0,,,,,unknown -> potentially FM,R-3m,
+ErFe4Zr,Er Fe Zr,3,0.667,1,OQMD,OQMD:1983199,0.0,,,,,unknown -> potentially FM,F-43m,
+ErFe9Lu2,Er Fe Lu,3,0.75,1,OQMD,OQMD:1504287,0.0,,,,,unknown -> potentially FM,R-3m,
+Fe23Gd3Y3,Fe Gd Y,3,0.793,1,MP,MP:mp-aaacrsjv,0.0,,1.003,,,ferrimagnetic (MP label),R3m,
+Fe4TmZr,Fe Tm Zr,3,0.667,1,OQMD,OQMD:1988772,0.0,,,,,unknown -> potentially FM,F-43m,
+Fe9GdHo2,Fe Gd Ho,3,0.75,1,OQMD,OQMD:1504188,0.0,,,,,unknown -> potentially FM,R-3m,
+Fe9GdLu2,Fe Gd Lu,3,0.75,1,OQMD,OQMD:1505238,0.0,,,,,unknown -> potentially FM,R-3m,
+Fe9GdTi2,Fe Gd Ti,3,0.75,1,OQMD,OQMD:1286938,0.0,,,,,unknown -> potentially FM,P4/mbm,
+Fe9GdTm2,Fe Gd Tm,3,0.75,1,OQMD,OQMD:1505216,0.0,,,,,unknown -> potentially FM,R-3m,
+Fe9Ho2Y,Fe Ho Y,3,0.75,1,OQMD,OQMD:1504189,0.0,,,,,unknown -> potentially FM,R-3m,
+Fe9HoLu2,Fe Ho Lu,3,0.75,1,OQMD,OQMD:1504161,0.0,,,,,unknown -> potentially FM,R-3m,
+Fe9Lu2Tm,Fe Lu Tm,3,0.75,1,OQMD,OQMD:1505215,0.0,,,,,unknown -> potentially FM,R-3m,
+BCo14Gd2,B Co Gd,3,0.824,1,OQMD,OQMD:655748,7.863823529075109e-06,,,,,unknown -> potentially FM,P42/mnm,
+B6Co12Ho,B Co Ho,3,0.632,1,OQMD,OQMD:2016907,2.0925263157778318e-05,,,,,unknown -> potentially FM,R-3m,
+B6Co12Tm,B Co Tm,3,0.632,1,OQMD,OQMD:1786124,5.7437894736889206e-05,,,,,unknown -> potentially FM,R-3m,
+DyFe18Y5,Dy Fe Y,3,0.75,1,GNoME,GNoME:36e5d973ca,0.0001,0.0001,,1.52,0.88,,P3m1,structures/GNoME/DyY5Fe18_36e5d973ca.CIF
+Dy5Fe18Tb,Dy Fe Tb,3,0.75,1,GNoME,GNoME:12b16e6d3a,0.0001,0.0001,,3.08,0.68,,P-6m2,structures/GNoME/TbDy5Fe18_12b16e6d3a.CIF
+Co17DyEr,Co Dy Er,3,0.895,1,GNoME,GNoME:78dccd9cbe,0.0001,0.0001,,2.24,0.4,,R3m,structures/GNoME/DyErCo17_78dccd9cbe.CIF
+Dy3Fe8Tb,Dy Fe Tb,3,0.667,1,MP,MP:mp-aaacrhef,0.0001,,1.195,,,ferrimagnetic (MP label),R3m,
+Co8Dy3Er,Co Dy Er,3,0.667,1,OQMD,OQMD:1977072,0.00012022958333338107,,,,,unknown -> potentially FM,Cm,
+Co7Fe2Tm3,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505205,0.00013209665732596965,,,,,unknown -> potentially FM,R-3m,
+Co9ErTm2,Co Er Tm,3,0.75,1,OQMD,OQMD:1504514,0.00016748916666742275,,,,,unknown -> potentially FM,R-3m,
+Co17ErY,Co Er Y,3,0.895,1,GNoME,GNoME:0e9a4b76cc,0.0002,0.0002,,1.75,0.88,,R3m,structures/GNoME/YErCo17_0e9a4b76cc.CIF
+Fe9HoTm2,Fe Ho Tm,3,0.75,1,OQMD,OQMD:1974178,0.00022585749999966265,,,,,unknown -> potentially FM,R-3m,
+Co17ErHo,Co Er Ho,3,0.895,1,GNoME,GNoME:25671b06d1,0.0003,0.0003,,2.26,0.4,,R3m,structures/GNoME/HoErCo17_25671b06d1.CIF
+ErFe9Tm2,Er Fe Tm,3,0.75,1,OQMD,OQMD:1504284,0.00031897333333338884,,,,,unknown -> potentially FM,R-3m,
+DyFe9Tm2,Dy Fe Tm,3,0.75,1,OQMD,OQMD:1992296,0.000325230833334203,,,,,unknown -> potentially FM,R-3m,
+Co9DyTm2,Co Dy Tm,3,0.75,1,OQMD,OQMD:1505212,0.00033741833333303384,,,,,unknown -> potentially FM,R-3m,
+Co9DyHo2,Co Dy Ho,3,0.75,1,OQMD,OQMD:1491944,0.0003600283333339005,,,,,unknown -> potentially FM,R-3m,
+Fe20Ho3P12Tm,Fe Ho P Tm,4,0.556,1,GNoME,GNoME:8f870269d2,0.0004,0.0004,,2.08,0.13,,Pm,structures/GNoME/Ho3TmFe5P34_8f870269d2.CIF
+ErFe20Ho3P12,Er Fe Ho P,4,0.556,1,GNoME,GNoME:d8d74fd71d,0.0004,0.0004,,2.13,0.08,,Pm,structures/GNoME/Ho3ErFe5P34_d8d74fd71d.CIF
+Co4HoTm,Co Ho Tm,3,0.667,1,GNoME,GNoME:7421cc6aca,0.0004,0.0004,,3.03,1.37,,F-43m,structures/GNoME/HoTmCo4_7421cc6aca.CIF
+Co17TbTm,Co Tb Tm,3,0.895,1,GNoME,GNoME:95aa4ea4fb,0.0004,0.0004,,2.11,0.55,,R3m,structures/GNoME/TbTmCo17_95aa4ea4fb.CIF
+Co17HoTm,Co Ho Tm,3,0.895,1,GNoME,GNoME:576bf05c9a,0.0004,0.0004,,2.16,0.5,,R3m,structures/GNoME/HoTmCo17_576bf05c9a.CIF
+Co17DyTm,Co Dy Tm,3,0.895,1,GNoME,GNoME:63b9d76674,0.0004,0.0004,,2.14,0.49,,R3m,structures/GNoME/DyTmCo17_63b9d76674.CIF
+Co4DyHo,Co Dy Ho,3,0.667,1,OQMD,OQMD:1983193,0.00040038166666733765,,,,,unknown -> potentially FM,F-43m,
+Co9Tm2Y,Co Tm Y,3,0.75,1,OQMD,OQMD:1986710,0.0004475358333332624,,,,,unknown -> potentially FM,R-3m,
+Fe9Tm2Y,Fe Tm Y,3,0.75,1,OQMD,OQMD:1992284,0.0004894908333336334,,,,,unknown -> potentially FM,R-3m,
+Fe12P7TmZr,Fe P Tm Zr,4,0.571,1,GNoME,GNoME:56e6fbe111,0.0005,0.0005,,1.51,0.86,,P-6,structures/GNoME/TmZrFe12P7_56e6fbe111.CIF
+Dy5Fe18Y,Dy Fe Y,3,0.75,1,GNoME,GNoME:4c3f8ab113,0.0005,0.0005,,2.81,0.39,,P-6m2,structures/GNoME/Dy5YFe18_4c3f8ab113.CIF
+Fe18TbY5,Fe Tb Y,3,0.75,1,GNoME,GNoME:76e5da10c8,0.0006,0.0006,,1.47,0.91,,P3m1,structures/GNoME/TbY5Fe18_76e5da10c8.CIF
+Co4ErHo,Co Er Ho,3,0.667,1,OQMD,OQMD:1977618,0.0006510708333332671,,,,,unknown -> potentially FM,F-43m,
+Co4DyTm,Co Dy Tm,3,0.667,1,OQMD,OQMD:1987373,0.0007138175000007962,,,,,unknown -> potentially FM,F-43m,
+Co4TmY,Co Tm Y,3,0.667,1,OQMD,OQMD:1980407,0.0007894166666674307,,,,,unknown -> potentially FM,F-43m,
+Co17LuTm,Co Lu Tm,3,0.895,1,GNoME,GNoME:86aef296f8,0.0008,0.0008,,1.68,0.99,,R3m,structures/GNoME/TmLuCo17_86aef296f8.CIF
+Co4DyEr,Co Dy Er,3,0.667,1,OQMD,OQMD:1981799,0.0008746591666656811,,,,,unknown -> potentially FM,F-43m,
+Co9Ho2Y,Co Ho Y,3,0.75,1,OQMD,OQMD:1505166,0.0008851416666667833,,,,,unknown -> potentially FM,R-3m,
+Co9HoTm2,Co Ho Tm,3,0.75,1,OQMD,OQMD:1505213,0.0008862458333330492,,,,,unknown -> potentially FM,R-3m,
+Fe20Tm9Y,Fe Tm Y,3,0.667,1,GNoME,GNoME:4d22330b64,0.0009,0.0009,,2.63,0.53,,I-4,structures/GNoME/YTm9Fe20_4d22330b64.CIF
+Co17ErTm,Co Er Tm,3,0.895,1,GNoME,GNoME:f32b846d4c,0.0009,0.0009,,2.09,0.54,,R3m,structures/GNoME/ErTmCo17_f32b846d4c.CIF
+Co4ErY,Co Er Y,3,0.667,1,OQMD,OQMD:1976225,0.0009337066666675053,,,,,unknown -> potentially FM,F-43m,
+Fe8Ho3Tb,Fe Ho Tb,3,0.667,1,MP,MP:mp-aaacrhba,0.001,,1.098,,,ferrimagnetic (MP label),R3m,
+Fe9GdY2,Fe Gd Y,3,0.75,1,OQMD,OQMD:1505035,0.001039563977143436,,,,,unknown -> potentially FM,R-3m,
+Co4GdHo,Co Gd Ho,3,0.667,1,OQMD,OQMD:1973436,0.0010419108333329652,,,,,unknown -> potentially FM,F-43m,
+Dy2Fe9Gd,Dy Fe Gd,3,0.75,1,OQMD,OQMD:1504548,0.00107927038910733,,,,,unknown -> potentially FM,R-3m,
+ErFe4Tm,Er Fe Tm,3,0.667,1,OQMD,OQMD:1983198,0.0012192358333323328,,,,,unknown -> potentially FM,F-43m,
+Fe7NiSi4Tm2,Fe Ni Si Tm,4,0.5,1,GNoME,GNoME:48922e838f,0.0015,0.0015,,1.8,0.04,,Pm,structures/GNoME/Tm2Fe7Si4Ni_48922e838f.CIF
+Co4GdTm,Co Gd Tm,3,0.667,1,OQMD,OQMD:1976224,0.0015243416666668452,,,,,unknown -> potentially FM,F-43m,
+Co17ErPr,Co Er Pr,3,0.895,1,MP,MP:mp-aaacrkuc,0.0016,,1.327,,,ferrimagnetic (MP label),R3m,
+Fe4HoTb,Fe Ho Tb,3,0.667,1,MP,MP:mp-aaacrgzx,0.0017,,1.266,,,unknown -> potentially FM,F-43m,
+Co4ErTm,Co Er Tm,3,0.667,1,OQMD,OQMD:1991554,0.0017550049999983663,,,,,unknown -> potentially FM,F-43m,
+Fe9Gd2Y,Fe Gd Y,3,0.75,1,OQMD,OQMD:1491926,0.00188276852285673,,,,,unknown -> potentially FM,R-3m,
+Co8Er3Fe,Co Er Fe,3,0.75,1,OQMD,OQMD:1504248,0.0024512500000010984,,,,,unknown -> potentially FM,R-3m,
+Co9DyY2,Co Dy Y,3,0.75,1,OQMD,OQMD:1505159,0.0024611120833347155,,,,,unknown -> potentially FM,R-3m,
+Dy2Fe9Ho,Dy Fe Ho,3,0.75,1,OQMD,OQMD:1504157,0.0027994037500006647,,,,,unknown -> potentially FM,R-3m,
+Co9Er2Tm,Co Er Tm,3,0.75,1,OQMD,OQMD:1504510,0.0028292679166679047,,,,,unknown -> potentially FM,R-3m,
+Co8FeTm3,Co Fe Tm,3,0.75,1,OQMD,OQMD:1491938,0.0029086775093383754,,,,,unknown -> potentially FM,R-3m,
+Co9ErHo2,Co Er Ho,3,0.75,1,OQMD,OQMD:1504515,0.0029290491666665586,,,,,unknown -> potentially FM,R-3m,
+ErFe9Ho2,Er Fe Ho,3,0.75,1,OQMD,OQMD:1504180,0.003000879583334254,,,,,unknown -> potentially FM,R-3m,
+Co9GdMg2,Co Gd Mg,3,0.75,1,OQMD,OQMD:1796576,0.0030308930609787704,,,,,unknown -> potentially FM,R-3m,
+Co9Dy2Ho,Co Dy Ho,3,0.75,1,OQMD,OQMD:1505242,0.0031405599999996536,,,,,unknown -> potentially FM,R-3m,
+DyFe9Y2,Dy Fe Y,3,0.75,1,OQMD,OQMD:1504584,0.0032572033333326117,,,,,unknown -> potentially FM,R-3m,
+Co9TbTm2,Co Tb Tm,3,0.75,1,OQMD,OQMD:1990901,0.0033288516293594472,,,,,unknown -> potentially FM,R-3m,
+Er2Fe9Tm,Er Fe Tm,3,0.75,1,OQMD,OQMD:1504234,0.0034128891666669187,,,,,unknown -> potentially FM,R-3m,
+Co8Dy3Ho,Co Dy Ho,3,0.667,1,OQMD,OQMD:1978466,0.003471265000000473,,,,,unknown -> potentially FM,R3m,
+DyFe9Gd2,Dy Fe Gd,3,0.75,1,OQMD,OQMD:1504580,0.0036772312775597837,,,,,unknown -> potentially FM,R-3m,
+Co8FeHo3,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504174,0.003935795833333727,,,,,unknown -> potentially FM,R-3m,
+B2Fe13Gd3,B Fe Gd,3,0.722,1,OQMD,OQMD:1785614,0.004086113089316251,,,,,unknown -> potentially FM,Cmmm,
+Co2Dy2Fe,Co Dy Fe,3,0.6,1,OQMD,OQMD:1377433,0.004297433000000073,,,,,unknown -> potentially FM,Immm,
+Co4HoTb,Co Ho Tb,3,0.667,1,MP,MP:mp-aaacrhag,0.0043,,0.679,,,unknown -> potentially FM,F-43m,
+B2Dy3Fe13,B Dy Fe,3,0.722,1,OQMD,OQMD:1785669,0.004519516026442211,,,,,unknown -> potentially FM,Cmmm,
+Co2FeTm2,Co Fe Tm,3,0.6,1,OQMD,OQMD:1368628,0.004611077000000352,,,,,unknown -> potentially FM,Immm,
+ErFe4Gd,Er Fe Gd,3,0.667,1,OQMD,OQMD:1984592,0.0046300567499985845,,,,,unknown -> potentially FM,F-43m,
+Fe4HoZr,Fe Ho Zr,3,0.667,1,OQMD,OQMD:1985986,0.0046819291666664875,,,,,unknown -> potentially FM,F-43m,
+Co8Dy3Fe,Co Dy Fe,3,0.75,1,OQMD,OQMD:1504561,0.004786037499999979,,,,,unknown -> potentially FM,R-3m,
+B2Fe13Ho3,B Fe Ho,3,0.722,1,OQMD,OQMD:1785623,0.0050516359156226875,,,,,unknown -> potentially FM,P6/mmm,
+B2Er3Fe13,B Er Fe,3,0.722,1,OQMD,OQMD:1785605,0.005338277034847877,,,,,unknown -> potentially FM,Cmm2,
+Fe9HoY2,Fe Ho Y,3,0.75,1,OQMD,OQMD:1504159,0.005421273333333573,,,,,unknown -> potentially FM,R-3m,
+Dy2ErFe9,Dy Er Fe,3,0.75,1,OQMD,OQMD:1504263,0.005441919166667447,,,,,unknown -> potentially FM,R-3m,
+Co14Ga3Tb2,Co Ga Tb,3,0.737,1,MP,MP:mp-aaacrhjx,0.0056,,1.172,,,ferrimagnetic (MP label),R3m,
+Co9Dy2Er,Co Dy Er,3,0.75,1,OQMD,OQMD:1504512,0.005661065000001048,,,,,unknown -> potentially FM,R-3m,
+Co8Er3Ni,Co Er Ni,3,0.667,1,OQMD,OQMD:1504525,0.005933711106062445,,,,,unknown -> potentially FM,R-3m,
+Fe9LuTm2,Fe Lu Tm,3,0.75,1,OQMD,OQMD:1505217,0.005962014583332842,,,,,unknown -> potentially FM,R-3m,
+Co9Ho2Tb,Co Ho Tb,3,0.75,1,OQMD,OQMD:1989508,0.005980791100798799,,,,,unknown -> potentially FM,R-3m,
+Fe4GdTm,Fe Gd Tm,3,0.667,1,OQMD,OQMD:1988771,0.0059836515833325415,,,,,unknown -> potentially FM,F-43m,
+Fe9Ho2Tm,Fe Ho Tm,3,0.75,1,OQMD,OQMD:1504192,0.0060409979166676925,,,,,unknown -> potentially FM,R-3m,
+Co8Ho3Ni,Co Ho Ni,3,0.667,1,OQMD,OQMD:1491816,0.006126006256416433,,,,,unknown -> potentially FM,R-3m,
+Co8Dy3Ni,Co Dy Ni,3,0.667,1,OQMD,OQMD:1491933,0.006197585610399958,,,,,unknown -> potentially FM,R-3m,
+Co9LuTm2,Co Lu Tm,3,0.75,1,OQMD,OQMD:1491935,0.006212412916664495,,,,,unknown -> potentially FM,R-3m,
+Fe9Gd2Ho,Fe Gd Ho,3,0.75,1,OQMD,OQMD:1504158,0.006252895416667556,,,,,unknown -> potentially FM,R-3m,
+ErFe5Si,Er Fe Si,3,0.714,1,MP,MP:mp-aaacrshy,0.0064,,1.563,,,ferrimagnetic (MP label),Immm,
+Co9Ho2Tm,Co Ho Tm,3,0.75,1,OQMD,OQMD:1505211,0.006479765833333345,,,,,unknown -> potentially FM,R-3m,
+B4Fe11Ho3,B Fe Ho,3,0.611,1,OQMD,OQMD:1785898,0.006486255475729452,,,,,unknown -> potentially FM,P6/mmm,
+Co4GdSm,Co Gd Sm,3,0.667,1,OQMD,OQMD:1983194,0.007006735458597924,,,,,unknown -> potentially FM,F-43m,
+Co9ErY2,Co Er Y,3,0.75,1,OQMD,OQMD:1491866,0.007180682500001173,,,,,unknown -> potentially FM,R-3m,
+ErFe9Y2,Er Fe Y,3,0.75,1,OQMD,OQMD:1504275,0.0075526237500008475,,,,,unknown -> potentially FM,R-3m,
+Co9Er2Lu,Co Er Lu,3,0.75,1,OQMD,OQMD:1504509,0.007921725000000296,,,,,unknown -> potentially FM,R-3m,
+B4Dy3Fe11,B Dy Fe,3,0.611,1,OQMD,OQMD:1785888,0.007997891378666633,,,,,unknown -> potentially FM,Cmmm,
+Dy2Fe9Tm,Dy Fe Tm,3,0.75,1,OQMD,OQMD:1491872,0.00828778625000065,,,,,unknown -> potentially FM,R-3m,
+Fe11MoTb,Fe Mo Tb,3,0.846,1,MP,MP:mp-aaacrhcr,0.0083,,1.636,,,ferrimagnetic (MP label),Imm2,
+Fe11TbW,Fe Tb W,3,0.846,1,MP,MP:mp-aaacrhdj,0.009,,1.629,,,ferrimagnetic (MP label),Imm2,
+Co9Dy2Tm,Co Dy Tm,3,0.75,1,OQMD,OQMD:1505210,0.00902372083333397,,,,,unknown -> potentially FM,R-3m,
+Er2Fe9Lu,Er Fe Lu,3,0.75,1,OQMD,OQMD:1504235,0.009050364583331874,,,,,unknown -> potentially FM,R-3m,
+ErFe9Gd2,Er Fe Gd,3,0.75,1,OQMD,OQMD:1504271,0.009643115000000556,,,,,unknown -> potentially FM,R-3m,
+Fe5HoSi,Fe Ho Si,3,0.714,1,MP,MP:mp-aaacrqvy,0.0098,,1.578,,,ferrimagnetic (MP label),Immm,
+Fe9TmY2,Fe Tm Y,3,0.75,1,OQMD,OQMD:1505036,0.010037400833332683,,,,,unknown -> potentially FM,R-3m,
+Co9TmY2,Co Tm Y,3,0.75,1,OQMD,OQMD:1505161,0.010083848333332701,,,,,unknown -> potentially FM,R-3m,
+C2Fe17Tb2,C Fe Tb,3,0.81,1,MP,MP:mp-aaacrhjp,0.0101,,1.716,,,ferrimagnetic (MP label),C2/m,
+Er4Fe23Y2,Er Fe Y,3,0.793,1,MP,MP:mp-aaacrfds,0.0102,,1.773,,,ferrimagnetic (MP label),Imm2,
+Fe8Tb3V,Fe Tb V,3,0.667,1,MP,MP:mp-aaacrhml,0.0104,,1.484,,,ferrimagnetic (MP label),Cm,
+Fe11HoTi,Fe Ho Ti,3,0.846,1,MP,MP:mp-aaacrquy,0.0106,,1.625,,,ferrimagnetic (MP label),Imm2,
+Fe3MoTb,Fe Mo Tb,3,0.6,1,MP,MP:mp-aaacrhpc,0.0107,,1.143,,,ferrimagnetic (MP label),Imm2,
+Co9PmTb2,Co Pm Tb,3,0.75,1,OQMD,OQMD:1982541,0.01079574437188107,,,,,unknown -> potentially FM,R-3m,
+B2Co13Gd3,B Co Gd,3,0.722,1,OQMD,OQMD:1785613,0.010993191385953588,,,,,unknown -> potentially FM,Amm2,
+C2Er2Fe17,C Er Fe,3,0.81,1,MP,MP:mp-aaacrthf,0.0111,,1.709,,,ferrimagnetic (MP label),C2/m,
+Fe11TbTi,Fe Tb Ti,3,0.846,1,MP,MP:mp-aaacrhbe,0.0112,,1.623,,,ferrimagnetic (MP label),Imm2,
+CErFe4,C Er Fe,3,0.667,1,OQMD,OQMD:1785101,0.011648689298766418,,,,,unknown -> potentially FM,P6/mmm,
+Fe9Ho2Lu,Fe Ho Lu,3,0.75,1,OQMD,OQMD:1504196,0.011681685416666782,,,,,unknown -> potentially FM,R-3m,
+DyFe11Ti,Dy Fe Ti,3,0.846,1,MP,MP:mp-aaacrtfj,0.0118,,1.644,,,ferrimagnetic (MP label),Imm2,
+DyFe5Si,Dy Fe Si,3,0.714,1,MP,MP:mp-aaacrsrv,0.0118,,1.564,,,ferrimagnetic (MP label),Immm,
+Co9Ho2Lu,Co Ho Lu,3,0.75,1,OQMD,OQMD:1505183,0.011862830833332921,,,,,unknown -> potentially FM,R-3m,
+Co11ErTi,Co Er Ti,3,0.846,1,MP,MP:mp-aaacrsul,0.0119,,1.142,,,ferrimagnetic (MP label),Imm2,
+Co11HoTi,Co Ho Ti,3,0.846,1,MP,MP:mp-aaacrqpi,0.012,,1.143,,,ferrimagnetic (MP label),Imm2,
+Co11DyTi,Co Dy Ti,3,0.846,1,MP,MP:mp-aaacrtdf,0.0122,,1.142,,,ferrimagnetic (MP label),Imm2,
+Fe5ReTb,Fe Re Tb,3,0.714,1,MP,MP:mp-aaacrhov,0.0122,,1.443,,,ferrimagnetic (MP label),Immm,
+Fe9Gd2Tm,Fe Gd Tm,3,0.75,1,OQMD,OQMD:1505214,0.012488361666666975,,,,,unknown -> potentially FM,R-3m,
+Dy2Fe9Lu,Dy Fe Lu,3,0.75,1,OQMD,OQMD:1504549,0.012918196249999625,,,,,unknown -> potentially FM,R-3m,
+CoFe2Tm,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505206,0.013610760166666347,,,,,unknown -> potentially FM,R-3m,
+Er3Fe8Ni,Er Fe Ni,3,0.667,1,OQMD,OQMD:1504319,0.013771847257887493,,,,,unknown -> potentially FM,R-3m,
+Co9Dy2Lu,Co Dy Lu,3,0.75,1,OQMD,OQMD:1505182,0.014024546250000158,,,,,unknown -> potentially FM,R-3m,
+ErFe11Ti,Er Fe Ti,3,0.846,1,MP,MP:mp-aaacrszg,0.0141,,1.648,,,ferrimagnetic (MP label),Imm2,
+Fe5MoTb,Fe Mo Tb,3,0.714,1,MP,MP:mp-aaacrhpa,0.0142,,1.451,,,ferrimagnetic (MP label),Immm,
+CoErFe2,Co Er Fe,3,0.75,1,OQMD,OQMD:1504301,0.014263915166665947,,,,,unknown -> potentially FM,R-3m,
+DyFe5Re,Dy Fe Re,3,0.714,1,MP,MP:mp-aaacrsty,0.0146,,1.452,,,ferrimagnetic (MP label),Immm,
+CoFe2Ho,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504212,0.014641966166666964,,,,,unknown -> potentially FM,R-3m,
+Fe5SiTb,Fe Si Tb,3,0.714,1,MP,MP:mp-aaacrhod,0.0148,,1.573,,,ferrimagnetic (MP label),Immm,
+DyFe5Mo,Dy Fe Mo,3,0.714,1,MP,MP:mp-aaacrsuo,0.015,,1.452,,,ferrimagnetic (MP label),Immm,
+CeDyFe4,Ce Dy Fe,3,0.667,1,MP,MP:mp-aaacruol,0.0151,,1.174,,,unknown -> potentially FM,F-43m,
+B2Co13Dy3,B Co Dy,3,0.722,1,OQMD,OQMD:1785668,0.01518695703598133,,,,,unknown -> potentially FM,Cmmm,
+Fe11TiTm,Fe Ti Tm,3,0.846,1,MP,MP:mp-aaacrgev,0.0152,,1.612,,,ferrimagnetic (MP label),Imm2,
+CoDyFe2,Co Dy Fe,3,0.75,1,OQMD,OQMD:1490546,0.015272114333333073,,,,,unknown -> potentially FM,R-3m,
+Dy3Fe8Ni,Dy Fe Ni,3,0.667,1,OQMD,OQMD:1504623,0.015353009774393439,,,,,unknown -> potentially FM,R-3m,
+Fe5HoRe,Fe Ho Re,3,0.714,1,MP,MP:mp-aaacrqxo,0.0161,,1.444,,,ferrimagnetic (MP label),Immm,
+Fe11ReTb,Fe Re Tb,3,0.846,1,MP,MP:mp-aaacrhcu,0.0162,,1.699,,,ferrimagnetic (MP label),Imm2,
+Co4GdSc,Co Gd Sc,3,0.667,1,OQMD,OQMD:1990184,0.01628074999999876,,,,,unknown -> potentially FM,F-43m,
+Fe5HoMo,Fe Ho Mo,3,0.714,1,MP,MP:mp-aaacrqwh,0.0163,,1.449,,,ferrimagnetic (MP label),Immm,
+Fe11GdW,Fe Gd W,3,0.846,1,MP,MP:mp-aaacrsku,0.0165,,2.171,,,ferrimagnetic (MP label),Imm2,
+Fe8Ho3Ni,Fe Ho Ni,3,0.667,1,OQMD,OQMD:1504040,0.01662804570000699,,,,,unknown -> potentially FM,R-3m,
+C3Fe34Gd4,C Fe Gd,3,0.829,1,MP,MP:mp-aaacrtkv,0.0168,,1.81,,,ferrimagnetic (MP label),P-1,
+C3Fe34Tb4,C Fe Tb,3,0.829,1,MP,MP:mp-aaacrhhe,0.017,,1.806,,,ferrimagnetic (MP label),P-1,
+C3Fe34Tm4,C Fe Tm,3,0.829,1,MP,MP:mp-aaacrgjr,0.0184,,1.79,,,ferrimagnetic (MP label),P-1,
+ErFe5Mo,Er Fe Mo,3,0.714,1,MP,MP:mp-aaacrslu,0.0184,,1.447,,,ferrimagnetic (MP label),Immm,
+ErFe5Re,Er Fe Re,3,0.714,1,MP,MP:mp-aaacrskm,0.0185,,1.449,,,ferrimagnetic (MP label),Immm,
+C3Er4Fe34,C Er Fe,3,0.829,1,MP,MP:mp-aaacrtkt,0.0186,,1.807,,,ferrimagnetic (MP label),P-1,
+C3Fe68Ho8,C Fe Ho,3,0.861,1,MP,MP:mp-aaacrsje,0.0188,,1.915,,,ferrimagnetic (MP label),Pm,
+Fe11HoRe,Fe Ho Re,3,0.846,1,MP,MP:mp-aaacrqtp,0.0188,,1.693,,,ferrimagnetic (MP label),Imm2,
+Fe9Gd2Lu,Fe Gd Lu,3,0.75,1,OQMD,OQMD:1505237,0.019094832916666846,,,,,unknown -> potentially FM,R-3m,
+Co2Fe7Tm3,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505209,0.01978762716666746,,,,,unknown -> potentially FM,R-3m,
+Co2Er3Fe7,Co Er Fe,3,0.75,1,OQMD,OQMD:1504243,0.019872633000000445,,,,,unknown -> potentially FM,R-3m,
+Fe5ReTm,Fe Re Tm,3,0.714,1,MP,MP:mp-aaacrfys,0.0199,,1.446,,,ferrimagnetic (MP label),Immm,
+Fe5MoTm,Fe Mo Tm,3,0.714,1,MP,MP:mp-aaacrgff,0.0204,,1.444,,,ferrimagnetic (MP label),Immm,
+Co2Fe7Ho3,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504168,0.020409013500001558,,,,,unknown -> potentially FM,R-3m,
+Fe34SmTb3,Fe Sm Tb,3,0.895,1,MP,MP:mp-aaacrhhv,0.0209,,2.077,,,ferrimagnetic (MP label),Cm,
+Co2Dy3Fe7,Co Dy Fe,3,0.75,1,OQMD,OQMD:1504557,0.02116141050000024,,,,,unknown -> potentially FM,R-3m,
+DyFe4Sm,Dy Fe Sm,3,0.667,1,MP,MP:mp-aaacrjkd,0.0213,,1.315,,,unknown -> potentially FM,F-43m,
+Fe29Si5Tb4,Fe Si Tb,3,0.763,1,MP,MP:mp-aaacrhhl,0.0213,,1.505,,,ferrimagnetic (MP label),C2/m,
+CFe17Gd2,C Fe Gd,3,0.85,1,MP,MP:mp-aaacrtap,0.0217,,1.044,,,ferrimagnetic (MP label),C2/m,
+Fe8Gd3Ni,Fe Gd Ni,3,0.667,1,OQMD,OQMD:1504970,0.021997359213371287,,,,,unknown -> potentially FM,R-3m,
+B2Co13Tm3,B Co Tm,3,0.722,1,OQMD,OQMD:1785574,0.022321999950464688,,,,,unknown -> potentially FM,Cmmm,
+Er3Fe34Y,Er Fe Y,3,0.895,1,MP,MP:mp-aaacrfdf,0.0225,,2.052,,,ferrimagnetic (MP label),P-6m2,
+ErFe4Sm,Er Fe Sm,3,0.667,1,MP,MP:mp-aaacrjjk,0.0225,,1.267,,,ferrimagnetic (MP label),F-43m,
+CFe17Ho2,C Fe Ho,3,0.85,1,MP,MP:mp-aaacrrqg,0.0226,,1.873,,,ferrimagnetic (MP label),Amm2,
+DyFe17Sm,Dy Fe Sm,3,0.895,1,MP,MP:mp-aaacrjjv,0.0229,,2.068,,,ferrimagnetic (MP label),R3m,
+CFe17Tb2,C Fe Tb,3,0.85,1,MP,MP:mp-aaacrhju,0.0233,,1.877,,,ferrimagnetic (MP label),C2/m,
+Co4InTm,Co In Tm,3,0.667,1,MP,MP:mp-aaacqruv,0.0234,,0.752,,,ferrimagnetic (MP label),F-43m,
+Fe4GdSc,Fe Gd Sc,3,0.667,1,OQMD,OQMD:1974854,0.023867903583570937,,,,,unknown -> potentially FM,F-43m,
+CDy2Fe17,C Dy Fe,3,0.85,1,MP,MP:mp-aaacrsth,0.0241,,1.868,,,ferrimagnetic (MP label),C2/m,
+Fe4GdZr,Fe Gd Zr,3,0.667,1,OQMD,OQMD:1984593,0.024581847750237473,,,,,unknown -> potentially FM,F-43m,
+Co4DyGa,Co Dy Ga,3,0.667,1,MP,MP:mp-aaacrtdu,0.0246,,0.679,,,ferrimagnetic (MP label),Cmmm,
+CrFe5Tb,Cr Fe Tb,3,0.714,1,MP,MP:mp-aaacrhoe,0.0247,,1.311,,,ferrimagnetic (MP label),Immm,
+ErFe17Sm,Er Fe Sm,3,0.895,1,MP,MP:mp-aaacrjkm,0.025,,2.074,,,ferrimagnetic (MP label),R3m,
+Co8Dy3Rh,Co Dy Rh,3,0.667,1,OQMD,OQMD:1504997,0.025073727796254608,,,,,unknown -> potentially FM,R-3m,
+CEr2Fe17,C Er Fe,3,0.85,1,MP,MP:mp-aaacrsmo,0.0252,,1.864,,,ferrimagnetic (MP label),C2/m,
+Co4HoY,Co Ho Y,3,0.667,1,MP,MP:mp-aaacrers,0.0252,,0.675,,,unknown -> potentially FM,F-43m,
+CrDyFe5,Cr Dy Fe,3,0.714,1,MP,MP:mp-aaacrtdr,0.0252,,1.317,,,ferrimagnetic (MP label),Immm,
+Er3Fe34Sm,Er Fe Sm,3,0.895,1,MP,MP:mp-aaacrjlz,0.0254,,1.986,,,ferrimagnetic (MP label),P-6m2,
+Dy3Fe8Rh,Dy Fe Rh,3,0.667,1,OQMD,OQMD:1504645,0.025460170909967272,,,,,unknown -> potentially FM,R-3m,
+CrFe5Ho,Cr Fe Ho,3,0.714,1,MP,MP:mp-aaacrquj,0.0258,,1.31,,,ferrimagnetic (MP label),Immm,
+Co9ErSi4,Co Er Si,3,0.643,1,MP,MP:mp-aaacrapo,0.0261,,0.391,,,ferrimagnetic (MP label),I4/mcm,
+Fe34NdTb3,Fe Nd Tb,3,0.895,1,MP,MP:mp-aaacrhhi,0.0264,,2.081,,,ferrimagnetic (MP label),Cm,
+CrErFe5,Cr Er Fe,3,0.714,1,MP,MP:mp-aaacrsgt,0.0272,,1.31,,,ferrimagnetic (MP label),Immm,
+Fe5GdSi,Fe Gd Si,3,0.714,1,MP,MP:mp-aaacrsmf,0.0277,,2.101,,,"FM (MP label, FM-init)",Immm,structures/MP/GdFe5Si_mp-aaacrsmf.CIF
+Fe5TbV,Fe Tb V,3,0.714,1,MP,MP:mp-aaacrhoo,0.0288,,1.301,,,ferrimagnetic (MP label),Immm,
+Co8Dy3Tb,Co Dy Tb,3,0.667,1,MP,MP:mp-aaacrhem,0.029,,0.067,,,ferrimagnetic (MP label),R3m,
+CrFe5Tm,Cr Fe Tm,3,0.714,1,MP,MP:mp-aaacrfti,0.029,,1.322,,,ferrimagnetic (MP label),Immm,
+DyFe5V,Dy Fe V,3,0.714,1,MP,MP:mp-aaacrsrc,0.0291,,1.301,,,ferrimagnetic (MP label),Immm,
+Co4HoZr,Co Ho Zr,3,0.667,1,MP,MP:mp-aaacrqkb,0.0295,,0.581,,,unknown -> potentially FM,F-43m,
+Fe5HoV,Fe Ho V,3,0.714,1,MP,MP:mp-aaacrqwu,0.0299,,1.307,,,ferrimagnetic (MP label),Immm,
+ErFe4Si,Er Fe Si,3,0.667,1,OQMD,OQMD:1785104,0.03018022583333263,,,,,unknown -> potentially FM,P6/mmm,
+Al2Fe15Ho2,Al Fe Ho,3,0.789,1,OQMD,OQMD:671864,0.030523237685729246,,,,,unknown -> potentially FM,P63/mmc,
+Co4ErIn,Co Er In,3,0.667,1,MP,MP:mp-aaacgijq,0.0307,,0.75,,,ferrimagnetic (MP label),F-43m,
+Er3Fe34Nd,Er Fe Nd,3,0.895,1,MP,MP:mp-aaacrlfb,0.0307,,2.078,,,ferrimagnetic (MP label),P-6m2,
+ErFe5V,Er Fe V,3,0.714,1,MP,MP:mp-aaacrsgx,0.0314,,1.304,,,ferrimagnetic (MP label),Immm,
+Fe9TbTm2,Fe Tb Tm,3,0.75,1,OQMD,OQMD:1975572,0.031420184993045656,,,,,unknown -> potentially FM,R-3m,
+Co9GdSi2,Co Gd Si,3,0.75,1,OQMD,OQMD:29314,0.03243749958333331,,,,,unknown -> potentially FM,I41/amd,
+Fe5GdV,Fe Gd V,3,0.714,1,MP,MP:mp-aaacrtmk,0.0328,,1.838,,,ferrimagnetic (MP label),Immm,
+B6Fe12Gd,B Fe Gd,3,0.632,1,OQMD,OQMD:1786104,0.03305502096796181,,,,,unknown -> potentially FM,R-3m,
+Fe5TmV,Fe Tm V,3,0.714,1,MP,MP:mp-aaacrghg,0.0343,,1.298,,,ferrimagnetic (MP label),Immm,
+ErFe17Nd,Er Fe Nd,3,0.895,1,MP,MP:mp-aaacrlbh,0.0363,,2.076,,,ferrimagnetic (MP label),R3m,
+Co4CuHo,Co Cu Ho,3,0.667,1,MP,MP:mp-aaacrqlm,0.0364,,0.872,,,ferrimagnetic (MP label),P-6m2,
+Co4HoIn,Co Ho In,3,0.667,1,MP,MP:mp-aaacgifq,0.0366,,0.74,,,ferrimagnetic (MP label),F-43m,
+Co5GdMo,Co Gd Mo,3,0.714,1,MP,MP:mp-aaacrtev,0.0372,,0.437,,,ferrimagnetic (MP label),Immm,
+Fe34Nd3Tb,Fe Nd Tb,3,0.895,1,MP,MP:mp-aaacrhcp,0.038,,2.094,,,ferrimagnetic (MP label),Cm,
+BFe4Tb,B Fe Tb,3,0.667,1,OQMD,OQMD:1377474,0.039103183388889004,,,,,unknown -> potentially FM,P6/mmm,
+Co11Ho3Si4,Co Ho Si,3,0.611,1,OQMD,OQMD:1785903,0.03993300410532513,,,,,unknown -> potentially FM,P6/mmm,
+Co4TbTm,Co Tb Tm,3,0.667,1,OQMD,OQMD:1990161,0.0410220846214011,,,,,unknown -> potentially FM,F-43m,
+Co11Dy3Si4,Co Dy Si,3,0.611,1,OQMD,OQMD:1785894,0.04168794478648441,,,,,unknown -> potentially FM,Cmmm,
+Co4DyTb,Co Dy Tb,3,0.667,1,OQMD,OQMD:1984588,0.04363366577242374,,,,,unknown -> potentially FM,F-43m,
+Co4ErTb,Co Er Tb,3,0.667,1,OQMD,OQMD:1985981,0.04375585275545084,,,,,unknown -> potentially FM,F-43m,
+Co4HoNi,Co Ho Ni,3,0.667,1,MP,MP:mp-aaacrqma,0.0448,,1.017,,,ferrimagnetic (MP label),P-6m2,
+Co4GdSi,Co Gd Si,3,0.667,1,MP,MP:mp-aaacrtlh,0.0463,,1.753,,,"FM (MP label, FM-init)",P-6m2,structures/MP/GdCo4Si_mp-aaacrtlh.CIF
+Co4TbY,Co Tb Y,3,0.667,1,OQMD,OQMD:1979013,0.04654481296778626,,,,,unknown -> potentially FM,F-43m,
+Co4DyIn,Co Dy In,3,0.667,1,MP,MP:mp-aaacgieu,0.0466,,0.742,,,ferrimagnetic (MP label),F-43m,
+ErFe34Nd3,Er Fe Nd,3,0.895,1,MP,MP:mp-aaacrmdt,0.0469,,2.026,,,ferrimagnetic (MP label),Cm,
+Fe17NdTb,Fe Nd Tb,3,0.895,1,MP,MP:mp-aaacrhbx,0.0477,,1.937,,,ferrimagnetic (MP label),R3m,
+Fe14Ga3Tm2,Fe Ga Tm,3,0.737,1,MP,MP:mp-aaacqdue,0.048,,1.501,,,ferrimagnetic (MP label),P6_3/mmc,
+DyFe34Pr3,Dy Fe Pr,3,0.895,1,MP,MP:mp-aaacrkpk,0.05,,2.086,,,ferrimagnetic (MP label),Cm,
+Fe9GdMg2,Fe Gd Mg,3,0.75,1,OQMD,OQMD:1796577,0.051258325725115544,,,,,unknown -> potentially FM,R-3m,
+B2Fe13Tb3,B Fe Tb,3,0.722,1,OQMD,OQMD:1785658,0.05127269873658898,,,,,unknown -> potentially FM,P2/m,
+C4Co11Ho3,C Co Ho,3,0.611,1,OQMD,OQMD:1785897,0.05303827556935378,,,,,unknown -> potentially FM,Cm,
+Co9Pu2Tb,Co Pu Tb,3,0.75,1,OQMD,OQMD:1986722,0.05422431620590368,,,,,unknown -> potentially FM,R-3m,
+Dy2Fe15Nb2,Dy Fe Nb,3,0.789,1,MP,MP:mp-aaacqdrv,0.0549,,1.562,,,ferrimagnetic (MP label),P6_3/mmc,
+Co12Gd2Mn5,Co Gd Mn,3,0.632,1,OQMD,OQMD:1287659,0.05593113103810865,,,,,unknown -> potentially FM,P63/mmc,
+Co5DyMo,Co Dy Mo,3,0.714,1,MP,MP:mp-aaacrtgx,0.0561,,0.962,,,ferrimagnetic (MP label),Immm,
+Fe4HoNi,Fe Ho Ni,3,0.667,1,OQMD,OQMD:1494909,0.056134450489855756,,,,,unknown -> potentially FM,Cmmm,
+Co4NdTb,Co Nd Tb,3,0.667,1,MP,MP:mp-aaacrhaq,0.057,,0.669,,,unknown -> potentially FM,F-43m,
+Co5ErMo,Co Er Mo,3,0.714,1,MP,MP:mp-aaacrskg,0.0579,,0.958,,,ferrimagnetic (MP label),Immm,
+ErFe8Mn4,Er Fe Mn,3,0.615,1,OQMD,OQMD:1783507,0.06274300726972933,,,,,unknown -> potentially FM,I4/mmm,
+C4Co11Dy3,C Co Dy,3,0.611,1,OQMD,OQMD:1785887,0.06561058368338546,,,,,unknown -> potentially FM,P6/mmm,
+Co5DyV,Co Dy V,3,0.714,1,MP,MP:mp-aaacrsrp,0.067,,0.905,,,ferrimagnetic (MP label),Immm,
+AlCo4Tb,Al Co Tb,3,0.667,1,MP,MP:mp-aaacrhdl,0.0671,,0.675,,,ferrimagnetic (MP label),Cmmm,
+AlCo4Dy,Al Co Dy,3,0.667,1,MP,MP:mp-aaacrspg,0.0681,,0.724,,,ferrimagnetic (MP label),P-6m2,
+Co8DyTb3,Co Dy Tb,3,0.667,1,OQMD,OQMD:1979860,0.07032369466942576,,,,,unknown -> potentially FM,R3m,
+Co8GdMn4,Co Gd Mn,3,0.615,1,OQMD,OQMD:29310,0.07099368847757372,,,,,unknown -> potentially FM,I4/mmm,
+AlCo4Tm,Al Co Tm,3,0.667,1,MP,MP:mp-aaacrfsm,0.0761,,0.738,,,ferrimagnetic (MP label),P-6m2,
+Fe17Gd2N3,Fe Gd N,3,0.773,1,OQMD,OQMD:30185,0.07855387187443558,,,,,unknown -> potentially FM,R-3m,
+Fe8Mn4Tm,Fe Mn Tm,3,0.615,1,OQMD,OQMD:1783638,0.07952285063576875,,,,,unknown -> potentially FM,I4/mmm,
+DyFe8Mn4,Dy Fe Mn,3,0.615,1,OQMD,OQMD:1783500,0.08012078875798201,,,,,unknown -> potentially FM,I4/mmm,
+Fe8HoMn4,Fe Ho Mn,3,0.615,1,OQMD,OQMD:1783611,0.0802903372367708,,,,,unknown -> potentially FM,I4/mmm,
+Fe17H3Tm2,Fe H Tm,3,0.773,1,MP,MP:mp-aaacqtda,0.0827,,1.705,,,ferrimagnetic (MP label),P6_3/mmc,
+Er2Fe17H3,Er Fe H,3,0.773,1,MP,MP:mp-aaacrakd,0.0841,,1.694,,,ferrimagnetic (MP label),P6_3/mmc,
+Fe8GdMn4,Fe Gd Mn,3,0.615,1,OQMD,OQMD:1783604,0.08475264032595732,,,,,unknown -> potentially FM,I4/mmm,
+Fe17H3Ho2,Fe H Ho,3,0.773,1,MP,MP:mp-aaacqznq,0.0851,,1.7,,,ferrimagnetic (MP label),P6_3/mmc,
+Dy2Fe17H3,Dy Fe H,3,0.773,1,MP,MP:mp-aaacratk,0.0858,,1.717,,,ferrimagnetic (MP label),P6_3/mmc,
+Fe17H3Tb2,Fe H Tb,3,0.773,1,MP,MP:mp-aaacqtvu,0.0869,,1.706,,,ferrimagnetic (MP label),P6_3/mmc,
+ErFe4Tb,Er Fe Tb,3,0.667,1,OQMD,OQMD:1976229,0.09050220233468877,,,,,unknown -> potentially FM,F-43m,
+Fe4TbTm,Fe Tb Tm,3,0.667,1,OQMD,OQMD:1979017,0.09057078793748977,,,,,unknown -> potentially FM,F-43m,
+DyFe4Tb,Dy Fe Tb,3,0.667,1,OQMD,OQMD:1974835,0.09105265620829336,,,,,unknown -> potentially FM,F-43m,
+Fe4GdTb,Fe Gd Tb,3,0.667,1,OQMD,OQMD:1987378,0.09255645826406703,,,,,unknown -> potentially FM,F-43m,
+Ce2Co9Ho,Ce Co Ho,3,0.75,1,OQMD,OQMD:1974177,0.09345312575026525,,,,,unknown -> potentially FM,R-3m,
+Fe4TbY,Fe Tb Y,3,0.667,1,OQMD,OQMD:1981805,0.09680914595358933,,,,,unknown -> potentially FM,F-43m,
+Fe17Ho2N3,Fe Ho N,3,0.773,1,MP,MP:mp-aaacqzmx,0.0977,,1.793,,,ferrimagnetic (MP label),P6_3/mmc,
+Fe17Gd2H3,Fe Gd H,3,0.773,1,MP,MP:mp-aaacptzh,0.102,,2.279,,,"FM (MP label, FM-init)",R-3m,structures/MP/Gd2Fe17H3_mp-aaacptzh.CIF
+Co8DyP2,Co Dy P,3,0.727,1,OQMD,OQMD:1958175,0.1057003068775963,,,,,unknown -> potentially FM,C2/m,
+Co14Gd2Mn3,Co Gd Mn,3,0.737,1,OQMD,OQMD:29311,0.10923126949478433,,,,,unknown -> potentially FM,R-3m,
+Er4Fe29Si5,Er Fe Si,3,0.763,1,MP,MP:mp-aaacruag,0.1112,,1.437,,,ferrimagnetic (MP label),P-1,
+Fe8Mn4Tb,Fe Mn Tb,3,0.615,1,OQMD,OQMD:1783631,0.1160077830893016,,,,,unknown -> potentially FM,I4/mmm,
+Fe29Ho4Si5,Fe Ho Si,3,0.763,1,MP,MP:mp-aaacrryi,0.1183,,1.443,,,ferrimagnetic (MP label),P-1,
+DyFe8P2,Dy Fe P,3,0.727,1,OQMD,OQMD:1958182,0.11961422494369467,,,,,unknown -> potentially FM,C2/m,
+Dy4Fe29Si5,Dy Fe Si,3,0.763,1,MP,MP:mp-aaacrtqy,0.121,,1.483,,,ferrimagnetic (MP label),P-1,
+Co17Gd2N3,Co Gd N,3,0.773,1,OQMD,OQMD:2053324,0.12282101984831842,,,,,unknown -> potentially FM,R-3m,
+C6Co12Gd,C Co Gd,3,0.632,1,OQMD,OQMD:1786103,0.12290347143690342,,,,,unknown -> potentially FM,R-3m,
+BFe8Ho3,B Fe Ho,3,0.667,1,OQMD,OQMD:1521760,0.1273909004166663,,,,,unknown -> potentially FM,R-3m,
+Co2FeTb2,Co Fe Tb,3,0.6,1,OQMD,OQMD:1365281,0.1366222270118412,,,,,unknown -> potentially FM,Immm,
+Co12GdSi6,Co Gd Si,3,0.632,1,OQMD,OQMD:1786113,0.13943073655060056,,,,,unknown -> potentially FM,R-3m,
+Fe17N2Tb2,Fe N Tb,3,0.81,1,MP,MP:mp-aaacrhjn,0.154,,1.835,,,ferrimagnetic (MP label),C2/m,
+Co9DyPu2,Co Dy Pu,3,0.75,1,OQMD,OQMD:1983935,0.16615688662438347,,,,,unknown -> potentially FM,R-3m,
+Fe17Gd2N2,Fe Gd N,3,0.81,1,MP,MP:mp-aaacrskv,0.1689,,2.461,,,"FM (MP label, FM-init)",C2/m,structures/MP/Gd2Fe17N2_mp-aaacrskv.CIF
+Cu4Fe8Tm,Cu Fe Tm,3,0.615,1,OQMD,OQMD:1783488,0.17419899637186076,,,,,unknown -> potentially FM,I4/mmm,
+Co9HoPu2,Co Ho Pu,3,0.75,1,OQMD,OQMD:1985329,0.17529340759757306,,,,,unknown -> potentially FM,R-3m,
+Cu4ErFe8,Cu Er Fe,3,0.615,1,OQMD,OQMD:1783433,0.1755913015008247,,,,,unknown -> potentially FM,I4/mmm,
+Cu4Fe8Ho,Cu Fe Ho,3,0.615,1,OQMD,OQMD:1783454,0.17579064841462264,,,,,unknown -> potentially FM,I4/mmm,
+Cu4DyFe8,Cu Dy Fe,3,0.615,1,OQMD,OQMD:1783426,0.17769514149124,,,,,unknown -> potentially FM,I4/mmm,
+Cu4Fe8Tb,Cu Fe Tb,3,0.615,1,OQMD,OQMD:1783482,0.1804482067594562,,,,,unknown -> potentially FM,I4/mmm,
+Co9Pu2Tm,Co Pu Tm,3,0.75,1,OQMD,OQMD:1986721,0.18046158308220486,,,,,unknown -> potentially FM,R-3m,
+Cu4Fe8Gd,Cu Fe Gd,3,0.615,1,OQMD,OQMD:1783447,0.1807770349401827,,,,,unknown -> potentially FM,I4/mmm,
+Co9ErPu2,Co Er Pu,3,0.75,1,OQMD,OQMD:1976965,0.18433080477882383,,,,,unknown -> potentially FM,R-3m,
+DyFe4Y,Dy Fe Y,3,0.667,1,MP,MP:mp-aaacrsfb,0.1979,,1.25,,,unknown -> potentially FM,F-43m,
+Dy6Fe16O,Dy Fe O,3,0.696,1,AFLOW,AFLOW:aflow:a515711c32482f2c,,,1.89765,,,moment present (FM-init calc),229,

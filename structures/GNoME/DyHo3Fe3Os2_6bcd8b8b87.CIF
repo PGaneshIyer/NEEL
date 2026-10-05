@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DyHo3(Fe3Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20807296
+_cell_length_b   5.20807299
+_cell_length_c   8.97375087
+_cell_angle_alpha   72.80569517
+_cell_angle_beta   90.59559154
+_cell_angle_gamma   120.56764963
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyHo3(Fe3Os)2
+_chemical_formula_sum   'Dy1 Ho3 Fe6 Os2'
+_cell_volume   197.29286991
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.875493  0.749552  0.374955  1
+  Ho  Ho1  1  0.375466  0.749662  0.874872  1
+  Ho  Ho2  1  0.999604  0.000603  0.999793  1
+  Ho  Ho3  1  0.499333  0.000235  0.500433  1
+  Fe  Fe4  1  0.437728  0.875511  0.186561  1
+  Fe  Fe5  1  0.937409  0.874686  0.688381  1
+  Fe  Fe6  1  0.187369  0.374688  0.437943  1
+  Fe  Fe7  1  0.687630  0.375196  0.937174  1
+  Fe  Fe8  1  0.937928  0.375710  0.186561  1
+  Fe  Fe9  1  0.436933  0.374210  0.688381  1
+  Os  Os10  1  0.437636  0.375762  0.186601  1
+  Os  Os11  1  0.937470  0.374185  0.688345  1

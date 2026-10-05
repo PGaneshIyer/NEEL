@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GdScFe6(SiB)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.06778200
+_cell_length_b   5.06845596
+_cell_length_c   6.59844700
+_cell_angle_alpha   90.00006081
+_cell_angle_beta   89.99998001
+_cell_angle_gamma   119.99312908
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdScFe6(SiB)2
+_chemical_formula_sum   'Gd1 Sc1 Fe6 Si2 B2'
+_cell_volume   146.78985143
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.99998300  0.00000000  0.99998400  1.0
+  Sc  Sc1  1  0.99998600  0.00000200  0.49999400  1.0
+  Fe  Fe2  1  0.49998400  0.00000000  0.28480600  1.0
+  Fe  Fe3  1  0.49998300  0.50000000  0.28485300  1.0
+  Fe  Fe4  1  0.99998300  0.50000000  0.28485500  1.0
+  Fe  Fe5  1  0.49998300  0.00000000  0.71519100  1.0
+  Fe  Fe6  1  0.49998300  0.50000000  0.71515400  1.0
+  Fe  Fe7  1  0.99998300  0.50000000  0.71515700  1.0
+  Si  Si8  1  0.33329500  0.66666667  0.99996500  1.0
+  Si  Si9  1  0.66666667  0.33336700  0.99996500  1.0
+  B  B10  1  0.33333333  0.66666667  0.50003700  1.0
+  B  B11  1  0.66666667  0.33333333  0.50003700  1.0

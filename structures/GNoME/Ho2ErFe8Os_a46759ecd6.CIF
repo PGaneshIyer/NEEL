@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ho2ErFe8Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.72666272
+_cell_length_b   8.72666288
+_cell_length_c   8.72666428
+_cell_angle_alpha   33.88496799
+_cell_angle_beta   33.88496534
+_cell_angle_gamma   33.88496679
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2ErFe8Os
+_chemical_formula_sum   'Ho2 Er1 Fe8 Os1'
+_cell_volume   184.10048659
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.000094  0.000094  0.000094  1
+  Ho  Ho1  1  0.858056  0.858056  0.858056  1
+  Er  Er2  1  0.141851  0.141851  0.141851  1
+  Fe  Fe3  1  0.332751  0.332751  0.332751  1
+  Fe  Fe4  1  0.667260  0.667260  0.667260  1
+  Fe  Fe5  1  0.077840  0.581802  0.581802  1
+  Fe  Fe6  1  0.581802  0.581802  0.077840  1
+  Fe  Fe7  1  0.581802  0.077840  0.581802  1
+  Fe  Fe8  1  0.418199  0.922225  0.418199  1
+  Fe  Fe9  1  0.922225  0.418199  0.418199  1
+  Fe  Fe10  1  0.418199  0.418199  0.922225  1
+  Os  Os11  1  0.499922  0.499922  0.499922  1

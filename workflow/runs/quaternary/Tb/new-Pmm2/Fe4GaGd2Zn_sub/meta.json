@@ -1,0 +1,42 @@
+{
+ "name": "Fe4GaGd2Zn_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-Pmm2",
+ "hree_group": "Tb",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Fe4GaGd2Zn_from_Fe4GaTb2Zn.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Tb",
+  "substituted_from": "Fe4GaTb2Zn",
+  "parent_hree": [
+   "Ho",
+   "Tb",
+   "Tm"
+  ],
+  "parents": [
+   "Fe4GaTb2Zn",
+   "Fe4GaHo2Zn",
+   "Fe4GaTm2Zn"
+  ],
+  "parent_db_ids": [
+   "GNoME:fa441220ab",
+   "GNoME:767267baef",
+   "GNoME:37f5012d29"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0221",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

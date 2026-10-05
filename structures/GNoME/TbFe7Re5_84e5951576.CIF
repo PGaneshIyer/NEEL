@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_TbFe7Re5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.73229566
+_cell_length_b   6.57901000
+_cell_length_c   6.57900926
+_cell_angle_alpha   83.52781544
+_cell_angle_beta   68.92123607
+_cell_angle_gamma   68.92122452
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbFe7Re5
+_chemical_formula_sum   'Tb1 Fe7 Re5'
+_cell_volume   178.30266959
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.989676  0.010324  0.010324  1
+  Fe  Fe1  1  0.290248  0.209752  0.209752  1
+  Fe  Fe2  1  0.502749  0.222160  0.772342  1
+  Fe  Fe3  1  0.502749  0.772342  0.222160  1
+  Fe  Fe4  1  0.004297  0.001304  0.493098  1
+  Fe  Fe5  1  0.501300  0.001304  0.493098  1
+  Fe  Fe6  1  0.501300  0.493098  0.001304  1
+  Fe  Fe7  1  0.004297  0.493098  0.001304  1
+  Re  Re8  1  0.005295  0.353333  0.636077  1
+  Re  Re9  1  0.005295  0.636077  0.353333  1
+  Re  Re10  1  0.639447  0.360553  0.360553  1
+  Re  Re11  1  0.350413  0.649587  0.649587  1
+  Re  Re12  1  0.702932  0.797068  0.797068  1

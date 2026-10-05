@@ -1,0 +1,29 @@
+{
+ "name": "Co5GdMo_nat",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "new-Immm",
+ "hree_group": "Gd",
+ "kind": "native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/MP/Gd(Co5Mo)2_mp-aaacrtev.CIF",
+ "provenance": {
+  "kind": "native",
+  "hree_group": "Gd",
+  "sources": "MP",
+  "db_ids": "MP:mp-aaacrtev",
+  "parents": [
+   "Co5GdMo"
+  ],
+  "e_hull_min": "0.0372"
+ }
+}

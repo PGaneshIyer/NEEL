@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Tm2MnBe3Fe13C3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.31612864
+_cell_length_b   6.32745266
+_cell_length_c   6.32745171
+_cell_angle_alpha   83.34826660
+_cell_angle_beta   83.32702734
+_cell_angle_gamma   83.32703824
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm2MnBe3Fe13C3
+_chemical_formula_sum   'Tm2 Mn1 Be3 Fe13 C3'
+_cell_volume   248.11629105
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.655120  0.654196  0.655654  1
+  Tm  Tm1  1  0.344880  0.344346  0.345804  1
+  Mn  Mn2  1  0.000000  0.722406  0.277594  1
+  Be  Be3  1  0.000654  0.001357  0.500875  1
+  Be  Be4  1  0.500000  0.998574  0.001426  1
+  Be  Be5  1  0.999346  0.499125  0.998643  1
+  Fe  Fe6  1  0.719133  0.279378  0.000590  1
+  Fe  Fe7  1  0.280867  0.999410  0.720622  1
+  Fe  Fe8  1  0.000000  0.281755  0.718245  1
+  Fe  Fe9  1  0.721365  0.998134  0.282146  1
+  Fe  Fe10  1  0.278635  0.717854  0.001866  1
+  Fe  Fe11  1  0.338460  0.860639  0.337796  1
+  Fe  Fe12  1  0.338929  0.337611  0.860923  1
+  Fe  Fe13  1  0.860030  0.338173  0.336961  1
+  Fe  Fe14  1  0.661071  0.139077  0.662389  1
+  Fe  Fe15  1  0.661540  0.662204  0.139361  1
+  Fe  Fe16  1  0.139970  0.663039  0.661827  1
+  Fe  Fe17  1  0.901033  0.902320  0.900609  1
+  Fe  Fe18  1  0.098967  0.099391  0.097680  1
+  C  C19  1  0.499323  0.500148  0.000916  1
+  C  C20  1  0.000000  0.501777  0.498223  1
+  C  C21  1  0.500677  0.999084  0.499852  1

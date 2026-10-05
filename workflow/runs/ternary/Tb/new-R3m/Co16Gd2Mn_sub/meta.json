@@ -1,0 +1,48 @@
+{
+ "name": "Co16Gd2Mn_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "new-R3m",
+ "hree_group": "Tb",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Co16Gd2Mn_from_Co16MnTb2.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Tb",
+  "substituted_from": "Co16MnTb2",
+  "parent_hree": [
+   "Dy",
+   "Er",
+   "Ho",
+   "Tb",
+   "Tm"
+  ],
+  "parents": [
+   "Co16MnTb2",
+   "Co16Dy2Mn",
+   "Co16Ho2Mn",
+   "Co16MnTm2",
+   "Co16Er2Mn"
+  ],
+  "parent_db_ids": [
+   "GNoME:c5c3fa2e33",
+   "GNoME:0e6c8cfb41",
+   "GNoME:2c152f71a1",
+   "GNoME:a27df9df29",
+   "GNoME:3e14a9c304"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0079",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

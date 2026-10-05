@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_DyHfFe12P7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.88946000
+_cell_length_b   8.88945984
+_cell_length_c   3.62284500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000060
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyHfFe12P7
+_chemical_formula_sum   'Dy1 Hf1 Fe12 P7'
+_cell_volume   247.93117288
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.333333  0.666667  0.000000  1
+  Hf  Hf1  1  0.000000  0.000000  0.500000  1
+  Fe  Fe2  1  0.730404  0.759571  0.000000  1
+  Fe  Fe3  1  0.240429  0.970833  0.000000  1
+  Fe  Fe4  1  0.029167  0.269596  0.000000  1
+  Fe  Fe5  1  0.942296  0.490810  0.000000  1
+  Fe  Fe6  1  0.509190  0.451485  0.000000  1
+  Fe  Fe7  1  0.548515  0.057704  0.000000  1
+  Fe  Fe8  1  0.099760  0.723566  0.500000  1
+  Fe  Fe9  1  0.276434  0.376194  0.500000  1
+  Fe  Fe10  1  0.623806  0.900240  0.500000  1
+  Fe  Fe11  1  0.760896  0.544332  0.500000  1
+  Fe  Fe12  1  0.455668  0.216565  0.500000  1
+  Fe  Fe13  1  0.783435  0.239104  0.500000  1
+  P  P14  1  0.970034  0.751225  0.000000  1
+  P  P15  1  0.248775  0.218808  0.000000  1
+  P  P16  1  0.781192  0.029966  0.000000  1
+  P  P17  1  0.066180  0.446678  0.500000  1
+  P  P18  1  0.553322  0.619500  0.500000  1
+  P  P19  1  0.380500  0.933820  0.500000  1
+  P  P20  1  0.666667  0.333333  0.000000  1

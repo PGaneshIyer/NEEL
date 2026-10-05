@@ -1,0 +1,39 @@
+{
+ "name": "Co16Gd2Mn_18h_mnanti_sub",
+ "kppa": 8000,
+ "mode": "relax",
+ "structure": "../structures/Gd_substituted/Co16Gd2Mn_18h_mnanti_sub.CIF",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "new-R3m",
+ "hree_group": "Tb",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "same Gd 4f Ueff=6 eV used throughout"
+  }
+ },
+ "potcar_symbols": {
+  "Gd": "Gd",
+  "Mn": "Mn_pv",
+  "Co": "Co"
+ },
+ "provenance": {
+  "kind": "mn_site_series",
+  "parent": "Co16Gd2Mn_sub",
+  "mn_sites": [
+   9
+  ],
+  "mn_antiparallel_to_gd": true,
+  "note": "single Mn on the 18h site; Mn initialised ANTIparallel to Gd (locked to that state) - twin of Co16Gd2Mn_18h_sub",
+  "lock_targets": {
+   "fm": 35,
+   "ferri": 11
+  }
+ }
+}

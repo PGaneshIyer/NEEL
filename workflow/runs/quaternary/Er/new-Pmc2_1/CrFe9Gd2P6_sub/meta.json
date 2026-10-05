@@ -1,0 +1,54 @@
+{
+ "name": "CrFe9Gd2P6_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-Pmc2_1",
+ "hree_group": "Er",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/CrFe9Gd2P6_from_CrEr2Fe9P6.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Er",
+  "substituted_from": "CrEr2Fe9P6",
+  "parent_hree": [
+   "Dy",
+   "Er",
+   "Ho",
+   "Tb",
+   "Tm"
+  ],
+  "parents": [
+   "CrEr2Fe9P6",
+   "CrFe9HoP6Tm",
+   "CrDy2Fe9P6",
+   "CrDyErFe9P6",
+   "CrFe9Ho2P6",
+   "CrDyFe9P6Tb",
+   "Cr2Dy3Fe18P12Tb",
+   "CrDyFe9P6Tm"
+  ],
+  "parent_db_ids": [
+   "GNoME:f1567b6c91",
+   "GNoME:b7f20c41ad",
+   "GNoME:d599ff8b4e",
+   "GNoME:49c45097cb",
+   "GNoME:082a5d8b38",
+   "GNoME:ba391fa1a6",
+   "GNoME:389f97458e",
+   "GNoME:bf57fe15dd"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0145",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

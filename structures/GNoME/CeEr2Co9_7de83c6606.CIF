@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CeEr2Co9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.63188286
+_cell_length_b   8.63188317
+_cell_length_c   8.63188399
+_cell_angle_alpha   33.33221674
+_cell_angle_beta   33.33221303
+_cell_angle_gamma   33.33221679
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeEr2Co9
+_chemical_formula_sum   'Ce1 Er2 Co9'
+_cell_volume   172.91121797
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.000000  0.000000  0.000000  1
+  Er  Er1  1  0.859896  0.859896  0.859896  1
+  Er  Er2  1  0.140104  0.140104  0.140104  1
+  Co  Co3  1  0.415697  0.921479  0.415697  1
+  Co  Co4  1  0.334870  0.334870  0.334870  1
+  Co  Co5  1  0.665130  0.665130  0.665130  1
+  Co  Co6  1  0.584303  0.584303  0.078521  1
+  Co  Co7  1  0.584303  0.078521  0.584303  1
+  Co  Co8  1  0.415697  0.415697  0.921479  1
+  Co  Co9  1  0.078521  0.584303  0.584303  1
+  Co  Co10  1  0.921479  0.415697  0.415697  1
+  Co  Co11  1  0.500000  0.500000  0.500000  1

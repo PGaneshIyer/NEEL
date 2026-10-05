@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_YTmFe11NiP7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.97826100
+_cell_length_b   8.95116613
+_cell_length_c   3.62961700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.09952890
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YTmFe11NiP7
+_chemical_formula_sum   'Y1 Tm1 Fe11 Ni1 P7'
+_cell_volume   252.36367269
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.001169  0.000191  0.500000  1
+  Tm  Tm1  1  0.332928  0.667026  0.000000  1
+  Fe  Fe2  1  0.240570  0.276783  0.000000  1
+  Fe  Fe3  1  0.036405  0.760295  0.000000  1
+  Fe  Fe4  1  0.938889  0.453136  0.000000  1
+  Fe  Fe5  1  0.511196  0.059236  0.000000  1
+  Fe  Fe6  1  0.545652  0.487398  0.000000  1
+  Fe  Fe7  1  0.101677  0.385017  0.500000  1
+  Fe  Fe8  1  0.279870  0.898152  0.500000  1
+  Fe  Fe9  1  0.617353  0.719425  0.500000  1
+  Fe  Fe10  1  0.765831  0.209661  0.500000  1
+  Fe  Fe11  1  0.450624  0.237435  0.500000  1
+  Fe  Fe12  1  0.784611  0.548186  0.500000  1
+  Ni  Ni13  1  0.727693  0.964180  0.000000  1
+  P  P14  1  0.971347  0.228773  0.000000  1
+  P  P15  1  0.257950  0.035150  0.000000  1
+  P  P16  1  0.778928  0.738184  0.000000  1
+  P  P17  1  0.067907  0.622119  0.500000  1
+  P  P18  1  0.546239  0.929690  0.500000  1
+  P  P19  1  0.377433  0.447223  0.500000  1
+  P  P20  1  0.665730  0.332735  0.000000  1

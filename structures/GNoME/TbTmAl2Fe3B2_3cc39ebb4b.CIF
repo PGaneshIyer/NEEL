@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbTmAl2(Fe3B)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.16241300
+_cell_length_b   5.16552746
+_cell_length_c   6.83998900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.98005077
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbTmAl2(Fe3B)2
+_chemical_formula_sum   'Tb1 Tm1 Al2 Fe6 B2'
+_cell_volume   157.99404674
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.999986  0.000000  0.000000  1
+  Tm  Tm1  1  0.999990  0.000000  0.500000  1
+  Al  Al2  1  0.333214  0.666466  0.000000  1
+  Al  Al3  1  0.666748  0.333534  0.000000  1
+  Fe  Fe4  1  0.499985  0.000000  0.295082  1
+  Fe  Fe5  1  0.499982  0.500000  0.295126  1
+  Fe  Fe6  1  0.999982  0.500000  0.295126  1
+  Fe  Fe7  1  0.499985  0.000000  0.704918  1
+  Fe  Fe8  1  0.499982  0.500000  0.704874  1
+  Fe  Fe9  1  0.999982  0.500000  0.704874  1
+  B  B10  1  0.333268  0.666570  0.500000  1
+  B  B11  1  0.666697  0.333430  0.500000  1

@@ -1,0 +1,48 @@
+{
+ "name": "AlFe2Gd_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-Pmm2",
+ "hree_group": "Dy",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/AlFe2Gd_from_Al2DyFe4Tb.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Dy",
+  "substituted_from": "Al2DyFe4Tb",
+  "parent_hree": [
+   "Dy",
+   "Er",
+   "Ho",
+   "Tb",
+   "Tm"
+  ],
+  "parents": [
+   "Al2DyFe4Tb",
+   "Al2Fe4HoTb",
+   "Al2DyErFe4",
+   "Al2Fe4TbTm",
+   "Al2DyFe4Tm"
+  ],
+  "parent_db_ids": [
+   "GNoME:21acc229a8",
+   "GNoME:bb85dd88fd",
+   "GNoME:89edeecaf5",
+   "GNoME:fc07892573",
+   "GNoME:5810d0dd06"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0465",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

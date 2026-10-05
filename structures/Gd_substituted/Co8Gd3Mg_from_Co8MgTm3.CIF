@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Gd3MgCo8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.66663126
+_cell_length_b   8.66663226
+_cell_length_c   8.66663178
+_cell_angle_alpha   33.42984391
+_cell_angle_beta   33.42983400
+_cell_angle_gamma   33.42984298
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Gd3MgCo8
+_chemical_formula_sum   'Gd3 Mg1 Co8'
+_cell_volume   175.94341225
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.62425100  0.62425100  0.62425100  1.0
+  Gd  Gd1  1  0.00359400  0.00359400  0.00359400  1.0
+  Gd  Gd2  1  0.49673200  0.49673200  0.49673200  1.0
+  Mg  Mg3  1  0.12629100  0.12629100  0.12629100  1.0
+  Co  Co4  1  0.56290000  0.06411900  0.56290000  1.0
+  Co  Co5  1  0.06211700  0.56021400  0.06211700  1.0
+  Co  Co6  1  0.06411900  0.56290000  0.56290000  1.0
+  Co  Co7  1  0.56021400  0.06211700  0.06211700  1.0
+  Co  Co8  1  0.81233400  0.81233400  0.81233400  1.0
+  Co  Co9  1  0.31243400  0.31243400  0.31243400  1.0
+  Co  Co10  1  0.56290000  0.56290000  0.06411900  1.0
+  Co  Co11  1  0.06211700  0.06211700  0.56021400  1.0

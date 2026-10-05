@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DyScTiFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.94837889
+_cell_length_b   4.94837870
+_cell_length_c   8.38298079
+_cell_angle_alpha   72.83380487
+_cell_angle_beta   72.83380535
+_cell_angle_gamma   59.99999056
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyScTiFe9
+_chemical_formula_sum   'Dy1 Sc1 Ti1 Fe9'
+_cell_volume   167.12636794
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.000796  0.000796  0.997613  1
+  Sc  Sc1  1  0.856127  0.856127  0.431619  1
+  Ti  Ti2  1  0.144127  0.144127  0.567618  1
+  Fe  Fe3  1  0.083135  0.586467  0.743930  1
+  Fe  Fe4  1  0.586467  0.586467  0.743930  1
+  Fe  Fe5  1  0.586467  0.083135  0.743930  1
+  Fe  Fe6  1  0.917377  0.412883  0.256858  1
+  Fe  Fe7  1  0.412883  0.412883  0.256858  1
+  Fe  Fe8  1  0.412883  0.917377  0.256858  1
+  Fe  Fe9  1  0.332820  0.332820  0.001539  1
+  Fe  Fe10  1  0.667151  0.667151  0.998545  1
+  Fe  Fe11  1  0.499766  0.499766  0.500702  1

@@ -1,0 +1,52 @@
+{
+ "name": "Fe5GdP3_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-Pnma",
+ "hree_group": "Er",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Fe5GdP3_from_ErFe10P6Tm.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Er",
+  "substituted_from": "ErFe10P6Tm",
+  "parent_hree": [
+   "Dy",
+   "Er",
+   "Ho",
+   "Tb",
+   "Tm"
+  ],
+  "parents": [
+   "ErFe10P6Tm",
+   "ErFe20P12Tm3",
+   "Dy3Fe20P12Tb",
+   "Fe10HoP6Tm",
+   "ErFe10HoP6",
+   "Dy3Fe20HoP12",
+   "ErFe20Ho3P12"
+  ],
+  "parent_db_ids": [
+   "GNoME:28ecce3e03",
+   "GNoME:54da818ba7",
+   "GNoME:5d228cc367",
+   "GNoME:15ad9f8792",
+   "GNoME:c6dd1c78ca",
+   "GNoME:212d6129fe",
+   "GNoME:d8d74fd71d"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.001",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

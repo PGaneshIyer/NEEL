@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Tb2AlFe14Si2C3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.45901345
+_cell_length_b   6.45778813
+_cell_length_c   6.48519258
+_cell_angle_alpha   83.55492137
+_cell_angle_beta   83.56776407
+_cell_angle_gamma   84.20369964
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2AlFe14Si2C3
+_chemical_formula_sum   'Tb2 Al1 Fe14 Si2 C3'
+_cell_volume   266.02887472
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.654472  0.654510  0.654061  1
+  Tb  Tb1  1  0.345447  0.345535  0.345945  1
+  Al  Al2  1  0.000118  0.999998  0.499995  1
+  Fe  Fe3  1  0.714246  0.285950  0.999995  1
+  Fe  Fe4  1  0.000280  0.710816  0.282046  1
+  Fe  Fe5  1  0.289058  0.999689  0.717871  1
+  Fe  Fe6  1  0.999749  0.289098  0.717939  1
+  Fe  Fe7  1  0.710727  0.000214  0.282048  1
+  Fe  Fe8  1  0.285946  0.714237  0.000008  1
+  Fe  Fe9  1  0.339804  0.339841  0.863746  1
+  Fe  Fe10  1  0.856363  0.344618  0.337887  1
+  Fe  Fe11  1  0.344586  0.856336  0.337906  1
+  Fe  Fe12  1  0.660093  0.660100  0.136301  1
+  Fe  Fe13  1  0.143661  0.655453  0.662152  1
+  Fe  Fe14  1  0.655426  0.143611  0.662147  1
+  Fe  Fe15  1  0.903789  0.903727  0.906257  1
+  Fe  Fe16  1  0.096275  0.096206  0.093646  1
+  Si  Si17  1  0.499938  0.999923  0.000005  1
+  Si  Si18  1  0.000021  0.500058  0.000041  1
+  C  C19  1  0.500042  0.500067  0.999998  1
+  C  C20  1  0.000015  0.500006  0.499988  1
+  C  C21  1  0.499944  0.000006  0.500020  1

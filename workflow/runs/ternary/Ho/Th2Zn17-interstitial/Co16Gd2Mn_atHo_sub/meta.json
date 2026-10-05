@@ -1,0 +1,27 @@
+{
+ "name": "Co16Gd2Mn_atHo_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "Th2Zn17-interstitial",
+ "hree_group": "Ho",
+ "kind": "Gd_surrogate_native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "same Gd 4f Ueff=6 eV used throughout"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Co16Gd2Mn_atHo_sub.CIF",
+ "provenance": {
+  "kind": "motif_series",
+  "note": "same Gd2MnCo16 substitution as Co16Gd2Mn_sub, but on Ho's OWN native GNoME-relaxed lattice (id 2c152f71a1), not Tb's transferred one",
+  "source_gnome_id": "2c152f71a1",
+  "parent_hree": [
+   "Ho"
+  ]
+ }
+}

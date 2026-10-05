@@ -1,0 +1,27 @@
+{
+ "name": "Co16Ho2Mn_native",
+ "re_element": "Ho",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "Th2Zn17-interstitial",
+ "hree_group": "Ho",
+ "kind": "native_direct",
+ "ldau": {
+  "Ho": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Gd Ueff reused across heavy RE series (Harmon-Antropov) - not independently verified per element"
+  }
+ },
+ "source_structure": "../structures/GNoME/Ho2MnCo16_2c152f71a1.CIF",
+ "provenance": {
+  "kind": "native_hree_series",
+  "note": "direct explicit-4f DFT+U on Ho itself (GNoME id 2c152f71a1), no Gd surrogate, no de Gennes projection - verifies the Gd-substituted motif-series projection",
+  "source_gnome_id": "2c152f71a1",
+  "parent_hree": [
+   "Ho"
+  ]
+ }
+}

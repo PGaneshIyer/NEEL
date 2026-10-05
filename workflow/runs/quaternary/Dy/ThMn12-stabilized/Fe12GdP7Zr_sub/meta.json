@@ -1,0 +1,39 @@
+{
+ "name": "Fe12GdP7Zr_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "ThMn12-stabilized",
+ "hree_group": "Dy",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Fe12GdP7Zr_from_DyFe12P7Zr.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Dy",
+  "substituted_from": "DyFe12P7Zr",
+  "parent_hree": [
+   "Dy",
+   "Tm"
+  ],
+  "parents": [
+   "DyFe12P7Zr",
+   "Fe12P7TmZr"
+  ],
+  "parent_db_ids": [
+   "GNoME:4c4e373814",
+   "GNoME:56e6fbe111"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0018",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

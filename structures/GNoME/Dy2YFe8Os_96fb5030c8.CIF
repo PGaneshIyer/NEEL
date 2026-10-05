@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Dy2YFe8Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.11151959
+_cell_length_b   5.11151895
+_cell_length_c   8.72196091
+_cell_angle_alpha   72.96080812
+_cell_angle_beta   72.96081294
+_cell_angle_gamma   60.00000385
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy2YFe8Os
+_chemical_formula_sum   'Dy2 Y1 Fe8 Os1'
+_cell_volume   185.71314331
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.141851  0.141851  0.574446  1
+  Dy  Dy1  1  0.858149  0.858149  0.425554  1
+  Y  Y2  1  0.000000  0.000000  0.000000  1
+  Fe  Fe3  1  0.078142  0.581530  0.758797  1
+  Fe  Fe4  1  0.581530  0.581530  0.758797  1
+  Fe  Fe5  1  0.581530  0.078142  0.758797  1
+  Fe  Fe6  1  0.921858  0.418470  0.241203  1
+  Fe  Fe7  1  0.418470  0.418470  0.241203  1
+  Fe  Fe8  1  0.418470  0.921858  0.241203  1
+  Fe  Fe9  1  0.332888  0.332888  0.001335  1
+  Fe  Fe10  1  0.667111  0.667111  0.998665  1
+  Os  Os11  1  0.500000  0.500000  0.500000  1

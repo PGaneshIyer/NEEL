@@ -1,0 +1,39 @@
+{
+ "name": "Fe20Gd3P12Y_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-Pm",
+ "hree_group": "Dy",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Fe20Gd3P12Y_from_Dy3Fe20P12Y.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Dy",
+  "substituted_from": "Dy3Fe20P12Y",
+  "parent_hree": [
+   "Dy",
+   "Tm"
+  ],
+  "parents": [
+   "Dy3Fe20P12Y",
+   "Fe20P12Tm3Y"
+  ],
+  "parent_db_ids": [
+   "GNoME:e7e8df7bf9",
+   "GNoME:c1f6b20dbe"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0106",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Tm6Fe16Co7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.40158421
+_cell_length_b   8.40158399
+_cell_length_c   8.40158300
+_cell_angle_alpha   60.00000785
+_cell_angle_beta   60.00000872
+_cell_angle_gamma   60.00000267
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm6Fe16Co7
+_chemical_formula_sum   'Tm6 Fe16 Co7'
+_cell_volume   419.34217744
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.707189  0.292811  0.292811  1
+  Tm  Tm1  1  0.292811  0.707189  0.707189  1
+  Tm  Tm2  1  0.292811  0.707189  0.292811  1
+  Tm  Tm3  1  0.292811  0.292811  0.707189  1
+  Tm  Tm4  1  0.707189  0.292811  0.707189  1
+  Tm  Tm5  1  0.707189  0.707189  0.292811  1
+  Fe  Fe6  1  0.325461  0.325461  0.325461  1
+  Fe  Fe7  1  0.325461  0.325461  0.023618  1
+  Fe  Fe8  1  0.023618  0.325461  0.325461  1
+  Fe  Fe9  1  0.325461  0.023618  0.325461  1
+  Fe  Fe10  1  0.674539  0.674539  0.674539  1
+  Fe  Fe11  1  0.674539  0.674539  0.976382  1
+  Fe  Fe12  1  0.674539  0.976382  0.674539  1
+  Fe  Fe13  1  0.976382  0.674539  0.674539  1
+  Fe  Fe14  1  0.122006  0.122006  0.122006  1
+  Fe  Fe15  1  0.122006  0.122006  0.633980  1
+  Fe  Fe16  1  0.633980  0.122006  0.122006  1
+  Fe  Fe17  1  0.122006  0.633980  0.122006  1
+  Fe  Fe18  1  0.877994  0.877994  0.877994  1
+  Fe  Fe19  1  0.877994  0.877994  0.366020  1
+  Fe  Fe20  1  0.877994  0.366020  0.877994  1
+  Fe  Fe21  1  0.366020  0.877994  0.877994  1
+  Co  Co22  1  0.500000  0.000000  0.000000  1
+  Co  Co23  1  0.000000  0.500000  0.500000  1
+  Co  Co24  1  0.000000  0.500000  0.000000  1
+  Co  Co25  1  0.000000  0.000000  0.500000  1
+  Co  Co26  1  0.500000  0.000000  0.500000  1
+  Co  Co27  1  0.500000  0.500000  0.000000  1
+  Co  Co28  1  0.000000  0.000000  0.000000  1

@@ -1,0 +1,40 @@
+{
+ "name": "Co15Gd2Mn2_6c_sub",
+ "kppa": 8000,
+ "mode": "relax",
+ "structure": "../structures/Gd_substituted/Co15Gd2Mn2_6c_sub.CIF",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "new-R3m",
+ "hree_group": "Tb",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "same Gd 4f Ueff=6 eV used throughout"
+  }
+ },
+ "potcar_symbols": {
+  "Gd": "Gd",
+  "Mn": "Mn_pv",
+  "Co": "Co"
+ },
+ "provenance": {
+  "kind": "mn_site_series",
+  "parent": "Co16Gd2Mn_sub",
+  "mn_sites": [
+   2,
+   18
+  ],
+  "mn_antiparallel_to_gd": false,
+  "note": "both 6c dumbbell atoms Mn - the saturated-current-site concentration point (x = 2/17)",
+  "lock_targets": {
+   "fm": 43,
+   "ferri": 0
+  }
+ }
+}

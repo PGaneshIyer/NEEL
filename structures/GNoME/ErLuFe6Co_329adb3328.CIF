@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_ErLuFe6Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.06312273
+_cell_length_b   5.06807564
+_cell_length_c   12.38377900
+_cell_angle_alpha   78.34709256
+_cell_angle_beta   78.20411101
+_cell_angle_gamma   60.03230487
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErLuFe6Co
+_chemical_formula_sum   'Er2 Lu2 Fe12 Co2'
+_cell_volume   267.59883750
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.946333  0.947000  0.160332  1
+  Er  Er1  1  0.053435  0.052319  0.840816  1
+  Lu  Lu2  1  0.849428  0.850702  0.450451  1
+  Lu  Lu3  1  0.149285  0.150687  0.550730  1
+  Fe  Fe4  1  0.722423  0.720995  0.834180  1
+  Fe  Fe5  1  0.277418  0.278988  0.166156  1
+  Fe  Fe6  1  0.611374  0.611940  0.165305  1
+  Fe  Fe7  1  0.389132  0.387004  0.834746  1
+  Fe  Fe8  1  0.000203  0.499606  0.000226  1
+  Fe  Fe9  1  0.500149  0.999700  0.000005  1
+  Fe  Fe10  1  0.499970  0.499600  0.000228  1
+  Fe  Fe11  1  0.389031  0.388980  0.331067  1
+  Fe  Fe12  1  0.890925  0.388984  0.331070  1
+  Fe  Fe13  1  0.388403  0.892188  0.331004  1
+  Fe  Fe14  1  0.610579  0.611237  0.668266  1
+  Fe  Fe15  1  0.109923  0.611236  0.668267  1
+  Co  Co16  1  0.500114  0.501180  0.498584  1
+  Co  Co17  1  0.611874  0.107659  0.668570  1

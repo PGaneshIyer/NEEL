@@ -1,0 +1,50 @@
+# --- licensed / copyrighted material: never commit ---
+# VASP PAW potentials are licensed to the group, not redistributable.
+# POTCAR.spec (the symbol list) is kept so anyone with a licence can rebuild them.
+POTCAR
+POTCAR_*
+# downloaded journal PDFs (papers/README.md keeps the annotated index + links)
+papers/*.pdf
+
+# --- VASP outputs: results live on NERSC CFS / Zenodo, analysis products are committed ---
+OUTCAR*
+OSZICAR*
+CONTCAR*
+XDATCAR*
+WAVECAR*
+WAVEDER*
+CHG
+CHG_*
+CHGCAR*
+DOSCAR*
+EIGENVAL*
+PROCAR*
+IBZKPT*
+PCDAT*
+REPORT*
+vasprun.xml*
+vaspout.h5*
+vasp.log*
+.node*
+*.bak_corrupted
+# any archived attempt (_01, _02, ...), whatever the file type
+*_[0-9][0-9]
+
+# --- scheduler scratch ---
+workflow/batch/logs/
+workflow/batch/*.slurm
+workflow/batch/custom*.manifest
+
+# --- tooling ---
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+*.pdf
+!papers/README.md
+
+# --- stale deck drafts (current MAGNITO_Fe-HREE_screening*.pptx are tracked) ---
+*_v0[0-9].pptx
+
+# personal whole-tree push script - superseded by push_new_runs.sh (explicit paths)
+myscript.sh

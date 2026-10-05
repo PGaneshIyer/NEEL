@@ -1,0 +1,64 @@
+# generated using pymatgen
+data_Tb2Ce2Fe29Si5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.36555629
+_cell_length_b   6.36555616
+_cell_length_c   12.66998838
+_cell_angle_alpha   82.36424340
+_cell_angle_beta   82.36424144
+_cell_angle_gamma   82.17229497
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2Ce2Fe29Si5
+_chemical_formula_sum   'Tb2 Ce2 Fe29 Si5'
+_cell_volume   500.64223977
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.342152  0.342152  0.170096  1
+  Tb  Tb1  1  0.341669  0.341669  0.670845  1
+  Ce  Ce2  1  0.657267  0.657267  0.330234  1
+  Ce  Ce3  1  0.657559  0.657559  0.828714  1
+  Fe  Fe4  1  0.301671  0.700614  0.999835  1
+  Fe  Fe5  1  0.298987  0.699798  0.499370  1
+  Fe  Fe6  1  0.699172  0.999297  0.151749  1
+  Fe  Fe7  1  0.699792  0.998549  0.650551  1
+  Fe  Fe8  1  0.000023  0.301933  0.349026  1
+  Fe  Fe9  1  0.000406  0.300731  0.849908  1
+  Fe  Fe10  1  0.301933  0.000023  0.349026  1
+  Fe  Fe11  1  0.300731  0.000406  0.849908  1
+  Fe  Fe12  1  0.999297  0.699172  0.151749  1
+  Fe  Fe13  1  0.998549  0.699792  0.650551  1
+  Fe  Fe14  1  0.699798  0.298987  0.499370  1
+  Fe  Fe15  1  0.700614  0.301671  0.999835  1
+  Fe  Fe16  1  0.340002  0.340002  0.424781  1
+  Fe  Fe17  1  0.340999  0.340999  0.922310  1
+  Fe  Fe18  1  0.341393  0.848325  0.170100  1
+  Fe  Fe19  1  0.339945  0.846921  0.670722  1
+  Fe  Fe20  1  0.848325  0.341393  0.170100  1
+  Fe  Fe21  1  0.846921  0.339945  0.670722  1
+  Fe  Fe22  1  0.659911  0.659911  0.073700  1
+  Fe  Fe23  1  0.659522  0.659522  0.575854  1
+  Fe  Fe24  1  0.658828  0.149649  0.329838  1
+  Fe  Fe25  1  0.660902  0.149920  0.829891  1
+  Fe  Fe26  1  0.149649  0.658828  0.329838  1
+  Fe  Fe27  1  0.149920  0.660902  0.829891  1
+  Fe  Fe28  1  0.904539  0.904539  0.451500  1
+  Fe  Fe29  1  0.905301  0.905301  0.952835  1
+  Fe  Fe30  1  0.094781  0.094781  0.047333  1
+  Fe  Fe31  1  0.093407  0.093407  0.547074  1
+  Fe  Fe32  1  0.002571  0.002571  0.249409  1
+  Si  Si33  1  0.001783  0.001783  0.749710  1
+  Si  Si34  1  0.003019  0.500503  0.000254  1
+  Si  Si35  1  0.999925  0.498234  0.501559  1
+  Si  Si36  1  0.498234  0.999925  0.501559  1
+  Si  Si37  1  0.500503  0.003019  0.000254  1

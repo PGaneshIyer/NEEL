@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Y3HoFe13Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.34383158
+_cell_length_b   12.34383212
+_cell_length_c   12.34383273
+_cell_angle_alpha   23.77606255
+_cell_angle_beta   23.77605809
+_cell_angle_gamma   23.77606641
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3HoFe13Co
+_chemical_formula_sum   'Y3 Ho1 Fe13 Co1'
+_cell_volume   268.55076716
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.052021  0.052021  0.052021  1
+  Y  Y1  1  0.850686  0.850686  0.850686  1
+  Y  Y2  1  0.149651  0.149651  0.149651  1
+  Ho  Ho3  1  0.947882  0.947882  0.947882  1
+  Fe  Fe4  1  0.720689  0.720689  0.720689  1
+  Fe  Fe5  1  0.279180  0.279180  0.279180  1
+  Fe  Fe6  1  0.612732  0.612732  0.612732  1
+  Fe  Fe7  1  0.387130  0.387130  0.387130  1
+  Fe  Fe8  1  0.499924  0.499924  0.999791  1
+  Fe  Fe9  1  0.999791  0.499924  0.499924  1
+  Fe  Fe10  1  0.499924  0.999791  0.499924  1
+  Fe  Fe11  1  0.391174  0.891898  0.391174  1
+  Fe  Fe12  1  0.391174  0.391174  0.891898  1
+  Fe  Fe13  1  0.891898  0.391174  0.391174  1
+  Fe  Fe14  1  0.608909  0.108237  0.608909  1
+  Fe  Fe15  1  0.608909  0.608909  0.108237  1
+  Fe  Fe16  1  0.108237  0.608909  0.608909  1
+  Co  Co17  1  0.500089  0.500089  0.500089  1

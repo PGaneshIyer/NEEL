@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoHf2Fe8Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.48173767
+_cell_length_b   8.48173764
+_cell_length_c   8.48173833
+_cell_angle_alpha   33.96969676
+_cell_angle_beta   33.96969595
+_cell_angle_gamma   33.96969968
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoHf2Fe8Co
+_chemical_formula_sum   'Ho1 Hf2 Fe8 Co1'
+_cell_volume   169.79914739
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.999966  0.999966  0.999966  1
+  Hf  Hf1  1  0.143030  0.143030  0.143030  1
+  Hf  Hf2  1  0.856973  0.856973  0.856973  1
+  Fe  Fe3  1  0.499744  0.499744  0.499744  1
+  Fe  Fe4  1  0.666891  0.666891  0.666891  1
+  Fe  Fe5  1  0.081072  0.586687  0.586687  1
+  Fe  Fe6  1  0.586687  0.586687  0.081072  1
+  Fe  Fe7  1  0.586687  0.081072  0.586687  1
+  Fe  Fe8  1  0.413559  0.918568  0.413559  1
+  Fe  Fe9  1  0.918568  0.413559  0.413559  1
+  Fe  Fe10  1  0.413559  0.413559  0.918568  1
+  Co  Co11  1  0.333265  0.333265  0.333265  1

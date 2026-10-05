@@ -1,0 +1,41 @@
+{
+ "name": "Co2Gd_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "Laves-C15",
+ "hree_group": "Er",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Co2Gd_from_Co4ErGd.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Er",
+  "substituted_from": "Co4ErGd",
+  "parent_hree": [
+   "Er",
+   "Gd",
+   "Ho",
+   "Tm"
+  ],
+  "parents": [
+   "Co4ErGd",
+   "Co4HoTm"
+  ],
+  "parent_db_ids": [
+   "MP:mp-aaacrrrl",
+   "GNoME:7421cc6aca"
+  ],
+  "sources": "MP",
+  "e_hull_min": "0.0",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

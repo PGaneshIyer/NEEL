@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Gd3Y3Co23
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.36707991
+_cell_length_b   8.36714948
+_cell_length_c   8.36598401
+_cell_angle_alpha   90.00062515
+_cell_angle_beta   59.99713380
+_cell_angle_gamma   120.00269432
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Gd3Y3Co23
+_chemical_formula_sum   'Gd3 Y3 Co23'
+_cell_volume   414.11345516
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.427353  0.713597  0.286455  1
+  Gd  Gd1  1  0.999987  0.286202  0.286431  1
+  Gd  Gd2  1  0.999814  0.713702  0.286530  1
+  Y  Y3  1  0.570994  0.285600  0.714524  1
+  Y  Y4  1  0.999924  0.714473  0.714468  1
+  Y  Y5  1  0.000106  0.285537  0.714399  1
+  Co  Co6  1  0.644709  0.322369  0.032879  1
+  Co  Co7  1  0.355185  0.322126  0.322697  1
+  Co  Co8  1  0.355144  0.033060  0.322696  1
+  Co  Co9  1  0.644237  0.322156  0.322707  1
+  Co  Co10  1  0.355620  0.677776  0.966597  1
+  Co  Co11  1  0.644687  0.677546  0.677742  1
+  Co  Co12  1  0.644725  0.967131  0.677736  1
+  Co  Co13  1  0.355133  0.677527  0.677727  1
+  Co  Co14  1  0.000899  0.000454  0.998670  1
+  Co  Co15  1  0.247796  0.123909  0.628306  1
+  Co  Co16  1  0.752452  0.123569  0.123992  1
+  Co  Co17  1  0.752414  0.628855  0.124020  1
+  Co  Co18  1  0.247092  0.123557  0.124016  1
+  Co  Co19  1  0.752834  0.876392  0.370771  1
+  Co  Co20  1  0.247512  0.876077  0.876410  1
+  Co  Co21  1  0.247522  0.371441  0.876401  1
+  Co  Co22  1  0.752158  0.876075  0.876384  1
+  Co  Co23  1  0.999831  0.999917  0.500030  1
+  Co  Co24  1  0.500067  0.500139  0.500023  1
+  Co  Co25  1  0.500054  0.999931  0.500034  1
+  Co  Co26  1  0.999819  0.499915  0.999125  1
+  Co  Co27  1  0.500968  0.001057  0.999107  1
+  Co  Co28  1  0.500961  0.499909  0.999122  1

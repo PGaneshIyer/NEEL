@@ -1,0 +1,40 @@
+{
+ "name": "Co5FeGd4_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co",
+  "Fe"
+ ],
+ "polytype": "new-C2_m",
+ "hree_group": "Tb",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Co5FeGd4_from_Co5FeTb4.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Tb",
+  "substituted_from": "Co5FeTb4",
+  "parent_hree": [
+   "Dy",
+   "Tb"
+  ],
+  "parents": [
+   "Co5FeTb4",
+   "Co5Dy4Fe"
+  ],
+  "parent_db_ids": [
+   "GNoME:909ef2fc07",
+   "GNoME:be48886a8f"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0185",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

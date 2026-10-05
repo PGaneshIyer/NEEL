@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Ho2MnBe3Fe13C3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32599310
+_cell_length_b   6.34368974
+_cell_length_c   6.34368944
+_cell_angle_alpha   83.45083392
+_cell_angle_beta   83.49020453
+_cell_angle_gamma   83.49022334
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2MnBe3Fe13C3
+_chemical_formula_sum   'Ho2 Mn1 Be3 Fe13 C3'
+_cell_volume   249.97687377
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.654972  0.654184  0.655510  1
+  Ho  Ho1  1  0.345028  0.344490  0.345816  1
+  Mn  Mn2  1  0.000000  0.722071  0.277929  1
+  Be  Be3  1  0.000404  0.000998  0.500784  1
+  Be  Be4  1  0.500000  0.998718  0.001282  1
+  Be  Be5  1  0.999596  0.499216  0.999002  1
+  Fe  Fe6  1  0.718989  0.279615  0.000762  1
+  Fe  Fe7  1  0.281011  0.999238  0.720385  1
+  Fe  Fe8  1  0.000000  0.281832  0.718168  1
+  Fe  Fe9  1  0.721024  0.997860  0.282261  1
+  Fe  Fe10  1  0.278976  0.717739  0.002140  1
+  Fe  Fe11  1  0.337922  0.860940  0.337350  1
+  Fe  Fe12  1  0.338507  0.337320  0.861071  1
+  Fe  Fe13  1  0.860366  0.337770  0.336598  1
+  Fe  Fe14  1  0.661493  0.138929  0.662680  1
+  Fe  Fe15  1  0.662078  0.662650  0.139060  1
+  Fe  Fe16  1  0.139634  0.663402  0.662230  1
+  Fe  Fe17  1  0.901400  0.902580  0.901168  1
+  Fe  Fe18  1  0.098600  0.098832  0.097420  1
+  C  C19  1  0.499527  0.500304  0.000663  1
+  C  C20  1  0.000000  0.501975  0.498025  1
+  C  C21  1  0.500473  0.999337  0.499696  1

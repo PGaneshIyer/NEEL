@@ -1,0 +1,240 @@
+id,formula,composition,elements,tm_frac,nsites,volume,spacegroup,crystal_system,e_form,e_decomp,ms_fm_T,ms_ferri_T,re_coupling_alex
+a5e5f8970c,DyHoCo3,Co6Dy2Ho2,Co Dy Ho,0.6,10,172.6321,Aem2,orthorhombic,-0.2184,-0.0089,3.35,2.05,
+be48886a8f,Dy4FeCo5,Co5Dy4Fe1,Co Dy Fe,0.6,10,174.719,C2/m,monoclinic,-0.2024,-0.0104,3.34,1.99,
+23e1c63cf3,Tb(DyCo2)3,Co6Dy3Tb1,Co Dy Tb,0.6,10,173.7818,Cm,monoclinic,-0.2056,-0.0105,3.26,1.97,
+0943a5d52b,TbHoCo3,Co6Ho2Tb2,Co Ho Tb,0.6,10,172.8702,Aem2,orthorhombic,-0.2089,-0.0068,3.21,1.91,
+e0b874fb6e,TbDyCo3,Co6Dy2Tb2,Co Dy Tb,0.6,10,174.9994,Aem2,orthorhombic,-0.2014,-0.0111,3.17,1.89,
+49347a8de1,Tb3HoCo6,Co6Ho1Tb3,Co Ho Tb,0.6,10,173.641,Cm,monoclinic,-0.2002,-0.0103,3.13,1.84,
+ae7e419898,Tb3DyCo6,Co6Dy1Tb3,Co Dy Tb,0.6,10,174.7056,Cm,monoclinic,-0.1967,-0.0127,3.11,1.83,
+909ef2fc07,Tb4FeCo5,Co5Fe1Tb4,Co Fe Tb,0.6,10,177.7622,C2/m,monoclinic,-0.1847,-0.0185,3.02,1.7,
+42ee38cf9a,Ho2FeCo3,Co3Fe1Ho2,Co Fe Ho,0.667,6,92.5069,R-3m,trigonal,-0.2143,-0.0112,3.39,1.65,
+937e9ef9f0,Dy3(Fe2Co)2,Co4Dy6Fe8,Co Dy Fe,0.667,18,288.1954,P-1,triclinic,-0.144,-0.0139,3.36,1.49,
+e3d22fe7b4,Ho2Fe3Co,Co1Fe3Ho2,Co Fe Ho,0.667,6,94.6695,R-3m,trigonal,-0.1507,-0.0094,3.43,1.49,AFM(5d antiparallel)->ferrimagnet
+cd0a0d8652,Dy2Fe3Co,Co1Dy2Fe3,Co Dy Fe,0.667,6,95.9363,R-3m,trigonal,-0.13,-0.0127,3.39,1.47,AFM(5d antiparallel)->ferrimagnet
+cfc9116b1c,DyHoFe4,Dy1Fe4Ho1,Dy Fe Ho,0.667,6,94.7875,F-43m,cubic,-0.089,0.0002,3.49,1.43,AFM(5d antiparallel)->ferrimagnet
+146f797ce5,Er2FeCo3,Co3Er2Fe1,Co Er Fe,0.667,6,91.5145,R-3m,trigonal,-0.2341,-0.0212,3.17,1.41,
+f717449428,Dy3HoFe8,Dy3Fe8Ho1,Dy Fe Ho,0.667,12,191.648,R3m,trigonal,-0.0841,-0.0001,3.45,1.41,AFM(5d antiparallel)->ferrimagnet
+7421cc6aca,HoTmCo4,Co4Ho1Tm1,Co Ho Tm,0.667,6,90.1382,F-43m,cubic,-0.2433,0.0004,3.03,1.37,
+55d81827d1,Dy3YCo6,Co6Dy3Y1,Co Dy Y,0.6,10,176.0663,Cm,monoclinic,-0.2058,-0.0063,2.62,1.35,
+de938254f9,HoErFe4,Er1Fe4Ho1,Er Fe Ho,0.667,6,93.2553,F-43m,cubic,-0.1093,0.001,3.42,1.32,AFM(5d antiparallel)->ferrimagnet
+2667ef432f,DyErFe4,Dy1Er1Fe4,Dy Er Fe,0.667,6,94.9823,F-43m,cubic,-0.0991,0.0008,3.36,1.3,AFM(5d antiparallel)->ferrimagnet
+4bf3c396aa,Er3(Fe2Co)2,Co4Er6Fe8,Co Er Fe,0.667,18,283.9175,P-1,triclinic,-0.1836,-0.0218,3.17,1.26,
+0776de5619,Er2Fe3Co,Co1Er2Fe3,Co Er Fe,0.667,6,94.3299,R-3m,trigonal,-0.1717,-0.0202,3.2,1.25,AFM(5d antiparallel)->ferrimagnet
+10f80d9ff9,Tb3(Fe2Co)2,Co4Fe8Tb6,Co Fe Tb,0.667,18,289.6983,P-1,triclinic,-0.1224,-0.0159,3.11,1.24,
+350ad400f0,Tb3YCo6,Co6Tb3Y1,Co Tb Y,0.6,10,175.5576,Cm,monoclinic,-0.1925,-0.0094,2.43,1.16,
+5af587c982,Ho3(FeCo3)2,Co12Fe4Ho6,Co Fe Ho,0.727,22,333.5339,Im-3m,cubic,-0.2067,-0.0204,3.06,1.13,
+789c1fb479,Dy3(FeCo3)2,Co12Dy6Fe4,Co Dy Fe,0.727,22,338.5101,Im-3m,cubic,-0.192,-0.0174,3.02,1.12,
+86aef296f8,TmLuCo17,Co17Lu1Tm1,Co Lu Tm,0.895,19,237.8132,R3m,trigonal,-0.111,0.0008,1.68,0.99,
+227f76d1ad,CeHoCo22,Ce1Co22Ho1,Ce Co Ho,0.917,24,300.0671,I-4m2,tetragonal,-0.0803,-0.006,1.76,0.98,
+dbb5772f36,Er3(FeCo3)2,Co12Er6Fe4,Co Er Fe,0.727,22,331.5071,Im-3m,cubic,-0.2228,-0.0225,2.87,0.93,
+c6533f2a3a,Ho6Fe7Co11,Co11Fe7Ho6,Co Fe Ho,0.75,24,351.9562,Cm,monoclinic,-0.1846,-0.0173,3.06,0.92,
+76e5da10c8,TbY5Fe18,Fe18Tb1Y5,Fe Tb Y,0.75,24,369.9728,P3m1,trigonal,-0.0593,0.0006,1.47,0.91,
+86dafb0d41,Tm2FeCo3,Co3Fe1Tm2,Co Fe Tm,0.667,6,90.4487,R-3m,trigonal,-0.2544,-0.0207,2.69,0.91,
+0a03effbaf,Tb3(FeCo3)2,Co12Fe4Tb6,Co Fe Tb,0.727,22,340.2062,Im-3m,cubic,-0.1738,-0.0205,2.8,0.9,
+902db07126,Y3ErFe14,Er1Fe14Y3,Er Fe Y,0.778,18,266.3907,R3m,trigonal,-0.0675,-0.0042,1.68,0.89,
+9d741bdfb5,TbY3Fe14,Fe14Tb1Y3,Fe Tb Y,0.778,18,268.5997,R3m,trigonal,-0.0557,-0.0023,1.67,0.89,
+d4fe78b3e4,Y5HoFe18,Fe18Ho1Y5,Fe Ho Y,0.75,24,365.5327,P3m1,trigonal,-0.0652,-0.0003,1.52,0.89,
+0e9a4b76cc,YErCo17,Co17Er1Y1,Co Er Y,0.895,19,240.6198,R3m,trigonal,-0.1002,0.0002,1.75,0.88,
+0fc5d0bdb9,TbYCo17,Co17Tb1Y1,Co Tb Y,0.895,19,242.3366,R3m,trigonal,-0.0941,-0.0003,1.74,0.88,
+36e5d973ca,DyY5Fe18,Dy1Fe18Y5,Dy Fe Y,0.75,24,367.1435,P3m1,trigonal,-0.0623,0.0001,1.52,0.88,
+7bd52706aa,TmTi2Fe9,Fe9Ti2Tm1,Fe Ti Tm,0.75,12,161.3339,R-3m,trigonal,-0.189,-0.0092,1.87,0.86,AFM(5d antiparallel)->ferrimagnet
+4222895dfc,TmNb2Fe9,Fe9Nb2Tm1,Fe Nb Tm,0.75,12,163.1296,R-3m,trigonal,-0.1191,-0.0136,1.85,0.85,AFM(5d antiparallel)->ferrimagnet
+bde1c1735b,DyY3Fe14,Dy1Fe14Y3,Dy Fe Y,0.778,18,267.3246,R3m,trigonal,-0.0595,-0.0028,1.72,0.85,
+d5e58dc722,TmTa2Fe9,Fe9Ta2Tm1,Fe Ta Tm,0.75,12,162.2796,R-3m,trigonal,-0.1532,-0.0171,1.86,0.85,AFM(5d antiparallel)->ferrimagnet
+5b94ab9d65,Y5TmCo23,Co23Tm1Y5,Co Tm Y,0.793,29,414.8853,I4mm,tetragonal,-0.1528,-0.0127,1.23,0.84,
+1bb0f77260,CeDyCo17,Ce1Co17Dy1,Ce Co Dy,0.895,19,242.3405,R3m,trigonal,-0.0943,-0.0026,1.79,0.83,
+2d2496ffe9,Ho3Fe8Ru,Fe8Ho3Ru1,Fe Ho Ru,0.667,12,184.8968,R-3m,trigonal,-0.1274,-0.0042,2.95,0.83,
+5645e002b6,Er(AlFe5)2,Al2Er1Fe10,Al Er Fe,0.769,13,169.2312,Immm,orthorhombic,-0.159,-0.0061,2.07,0.83,
+643d358fd3,DyYCo17,Co17Dy1Y1,Co Dy Y,0.895,19,242.1063,R3m,trigonal,-0.0963,0.0,1.79,0.83,
+d228e10a7b,YHoCo17,Co17Ho1Y1,Co Ho Y,0.895,19,241.3134,R3m,trigonal,-0.0984,-0.0,1.8,0.83,
+15e68b29be,TmZr2Fe9,Fe9Tm1Zr2,Fe Tm Zr,0.75,12,169.2616,R-3m,trigonal,-0.1973,-0.019,1.78,0.82,AFM(5d antiparallel)->ferrimagnet
+3e6b6a3c85,TmSc2Fe9,Fe9Sc2Tm1,Fe Sc Tm,0.75,12,168.5289,R-3m,trigonal,-0.1777,-0.0026,1.79,0.82,AFM(5d antiparallel)->ferrimagnet
+b15213e3af,Dy3Fe8Os,Dy3Fe8Os1,Dy Fe Os,0.667,12,186.6565,R-3m,trigonal,-0.1104,-0.014,2.92,0.82,
+c186304cbb,ErLu5Co23,Co23Er1Lu5,Co Er Lu,0.793,29,396.9635,I4mm,tetragonal,-0.2034,-0.0128,1.34,0.82,
+18c0f3e496,Dy3YFe8,Dy3Fe8Y1,Dy Fe Y,0.667,12,190.8976,R3m,trigonal,-0.0742,0.0005,2.86,0.81,AFM(5d antiparallel)->ferrimagnet
+ddbfedaafc,TbYFe10,Fe10Tb1Y1,Fe Tb Y,0.833,12,171.6115,Pmmm,orthorhombic,-0.0401,-0.0006,2.04,0.81,AFM(5d antiparallel)->ferrimagnet
+58f3e1cdf2,Tm3(Fe2Co)2,Co4Fe8Tm6,Co Fe Tm,0.667,18,279.3513,P-1,triclinic,-0.205,-0.0216,2.72,0.78,
+e069103869,Tm2Fe3Co,Co1Fe3Tm2,Co Fe Tm,0.667,6,93.517,R-3m,trigonal,-0.193,-0.0197,2.73,0.76,AFM(5d antiparallel)->ferrimagnet
+be1a527992,Gd2Fe3Co,Co1Fe3Gd2,Co Fe Gd,0.667,6,97.3962,R-3m,trigonal,-0.1246,-0.0748,2.62,0.73,
+d1127b401b,ErTi2Fe9,Er1Fe9Ti2,Er Fe Ti,0.75,12,161.1558,R-3m,trigonal,-0.1853,-0.0105,2.02,0.72,AFM(5d antiparallel)->ferrimagnet
+81affb61e7,ErNb2Fe9,Er1Fe9Nb2,Er Fe Nb,0.75,12,163.6165,R-3m,trigonal,-0.1152,-0.0147,1.99,0.71,AFM(5d antiparallel)->ferrimagnet
+8eb1f0ce71,TbTi2Fe9,Fe9Tb1Ti2,Fe Tb Ti,0.75,12,162.3328,R-3m,trigonal,-0.1693,-0.0094,2.0,0.71,AFM(5d antiparallel)->ferrimagnet
+9f38555801,ErTa2Fe9,Er1Fe9Ta2,Er Fe Ta,0.75,12,163.1194,R-3m,trigonal,-0.1492,-0.0181,1.99,0.71,AFM(5d antiparallel)->ferrimagnet
+405fd57c13,TbNb2Fe9,Fe9Nb2Tb1,Fe Nb Tb,0.75,12,164.4452,R-3m,trigonal,-0.0986,-0.013,1.98,0.7,AFM(5d antiparallel)->ferrimagnet
+4aef736b20,Tb6Fe7Co11,Co11Fe7Tb6,Co Fe Tb,0.75,24,359.3628,Cm,monoclinic,-0.1573,-0.0198,2.8,0.7,
+274edb0ab7,DyYCo3,Co6Dy2Y2,Co Dy Y,0.6,10,175.6749,Aem2,orthorhombic,-0.2015,-0.0003,1.96,0.69,
+12b16e6d3a,TbDy5Fe18,Dy5Fe18Tb1,Dy Fe Tb,0.75,24,365.9158,P-6m2,hexagonal,-0.0667,0.0001,3.08,0.68,
+89b9902a14,TbHf2Fe9,Fe9Hf2Tb1,Fe Hf Tb,0.75,12,170.8504,R-3m,trigonal,-0.2115,-0.0205,1.9,0.68,AFM(5d antiparallel)->ferrimagnet
+bf14335cbb,ErHf2Fe9,Er1Fe9Hf2,Er Fe Hf,0.75,12,169.1817,R-3m,trigonal,-0.2252,-0.0192,1.92,0.68,AFM(5d antiparallel)->ferrimagnet
+c2dda2c344,ErSc2Fe9,Er1Fe9Sc2,Er Fe Sc,0.75,12,170.6631,R-3m,trigonal,-0.1729,-0.0028,1.91,0.68,AFM(5d antiparallel)->ferrimagnet
+e619525ab6,ErZr2Fe9,Er1Fe9Zr2,Er Fe Zr,0.75,12,169.8357,R-3m,trigonal,-0.1949,-0.0216,1.91,0.68,AFM(5d antiparallel)->ferrimagnet
+04dbf08f76,Tm2FeCo16,Co16Fe1Tm2,Co Fe Tm,0.895,19,239.9147,R3m,trigonal,-0.1184,-0.0052,2.03,0.67,
+6144502e97,TbSc2Fe9,Fe9Sc2Tb1,Fe Sc Tb,0.75,12,171.6652,R-3m,trigonal,-0.1599,-0.0049,1.89,0.67,AFM(5d antiparallel)->ferrimagnet
+87edf800e9,Er3Fe5Co4,Co4Er3Fe5,Co Er Fe,0.75,12,176.9325,Cm,monoclinic,-0.1765,-0.0207,2.89,0.67,
+b4ba653a2b,TbZr2Fe9,Fe9Tb1Zr2,Fe Tb Zr,0.75,12,171.7814,R-3m,trigonal,-0.1821,-0.0237,1.89,0.67,AFM(5d antiparallel)->ferrimagnet
+12672be7d0,TbLu2Fe9,Fe9Lu2Tb1,Fe Lu Tb,0.75,12,178.3642,R-3m,trigonal,-0.1171,-0.0115,1.82,0.65,
+13308b01a6,TbDy2Fe9,Dy2Fe9Tb1,Dy Fe Tb,0.75,12,180.8437,R-3m,trigonal,-0.0654,-0.0011,3.09,0.65,AFM(5d antiparallel)->ferrimagnet
+2c0fe326f9,Er3Fe8Os,Er3Fe8Os1,Er Fe Os,0.667,12,183.8837,R-3m,trigonal,-0.1407,-0.0145,2.78,0.65,AFM(5d antiparallel)->ferrimagnet
+396c6d1683,Er3Fe8Ru,Er3Fe8Ru1,Er Fe Ru,0.667,12,183.2173,R-3m,trigonal,-0.1402,-0.0066,2.79,0.65,
+7afac0e6cf,TbHo2Fe9,Fe9Ho2Tb1,Fe Ho Tb,0.75,12,181.3991,R-3m,trigonal,-0.0769,-0.0025,3.08,0.65,AFM(5d antiparallel)->ferrimagnet
+16f0bf6c6e,Tb3Fe8Os,Fe8Os1Tb3,Fe Os Tb,0.667,12,186.8854,R-3m,trigonal,-0.0958,-0.0149,2.73,0.64,
+1b91251285,DyTa2Fe9,Dy1Fe9Ta2,Dy Fe Ta,0.75,12,163.219,R-3m,trigonal,-0.1378,-0.0166,2.06,0.64,AFM(5d antiparallel)->ferrimagnet
+32e46e1415,HoTa2Fe9,Fe9Ho1Ta2,Fe Ho Ta,0.75,12,162.766,R-3m,trigonal,-0.1441,-0.018,2.07,0.64,AFM(5d antiparallel)->ferrimagnet
+cdb0b07f30,Dy6FeCo22,Co22Dy6Fe1,Co Dy Fe,0.793,29,411.2245,Fm-3m,cubic,-0.1629,-0.0078,2.76,0.64,
+d34e2ca5d8,HoTi2Fe9,Fe9Ho1Ti2,Fe Ho Ti,0.75,12,161.9057,R-3m,trigonal,-0.1803,-0.0105,2.08,0.64,AFM(5d antiparallel)->ferrimagnet
+db1b6013eb,TmZr3Fe8,Fe8Tm1Zr3,Fe Tm Zr,0.667,12,178.8702,R3m,trigonal,-0.2515,-0.0054,1.55,0.64,AFM(5d antiparallel)->ferrimagnet
+216a2580b7,HoNb2Fe9,Fe9Ho1Nb2,Fe Ho Nb,0.75,12,164.399,R-3m,trigonal,-0.11,-0.0145,2.05,0.63,AFM(5d antiparallel)->ferrimagnet
+5d96ce49ec,TbY2Fe9,Fe9Tb1Y2,Fe Tb Y,0.75,12,183.821,R3m,trigonal,-0.0589,-0.0001,1.77,0.63,AFM(5d antiparallel)->ferrimagnet
+7aadf7d11d,DyNb2Fe9,Dy1Fe9Nb2,Dy Fe Nb,0.75,12,164.3828,R-3m,trigonal,-0.1036,-0.0131,2.05,0.63,AFM(5d antiparallel)->ferrimagnet
+c0daa37fdf,Dy6Fe2Co21,Co21Dy6Fe2,Co Dy Fe,0.793,29,417.9204,Immm,orthorhombic,-0.1647,-0.0079,2.73,0.62,
+c176a0f312,HoHf2Fe9,Fe9Hf2Ho1,Fe Hf Ho,0.75,12,169.1888,R-3m,trigonal,-0.2208,-0.0199,1.99,0.61,AFM(5d antiparallel)->ferrimagnet
+e5558cb591,DyHf2Fe9,Dy1Fe9Hf2,Dy Fe Hf,0.75,12,170.9843,R-3m,trigonal,-0.2148,-0.0188,1.97,0.61,AFM(5d antiparallel)->ferrimagnet
+1d106c2beb,HoSc2Fe9,Fe9Ho1Sc2,Fe Ho Sc,0.75,12,171.4809,R-3m,trigonal,-0.1686,-0.0036,1.96,0.6,AFM(5d antiparallel)->ferrimagnet
+7f66970df2,Ho2Fe4Co3,Co6Fe8Ho4,Co Fe Ho,0.778,18,264.6327,P1,triclinic,-0.1515,-0.0097,2.92,0.6,
+91c5708db8,HoZr2Fe9,Fe9Ho1Zr2,Fe Ho Zr,0.75,12,172.0545,R-3m,trigonal,-0.1921,-0.0238,1.96,0.6,AFM(5d antiparallel)->ferrimagnet
+bff3daef30,Ho6Fe4Co19,Co19Fe4Ho6,Co Fe Ho,0.793,29,411.9474,R-3m,trigonal,-0.183,-0.0149,2.8,0.6,
+325ef7a2ba,Ho6Fe5Co18,Co18Fe5Ho6,Co Fe Ho,0.793,29,410.7306,C2/m,monoclinic,-0.1843,-0.0179,2.82,0.59,
+7bb947f8c0,Dy6Fe4Co19,Co19Dy6Fe4,Co Dy Fe,0.793,29,417.0096,C2/m,monoclinic,-0.1705,-0.0147,2.76,0.59,
+f4eb18762b,Tb6Fe13Co5,Co5Fe13Tb6,Co Fe Tb,0.75,24,370.4595,Cm,monoclinic,-0.1082,-0.0156,2.81,0.59,
+15e684e0e8,Dy6Fe5Co18,Co18Dy6Fe5,Co Dy Fe,0.793,29,415.9088,C2/m,monoclinic,-0.171,-0.0169,2.78,0.58,
+33e5bafcd4,Dy3Er3Co23,Co23Dy3Er3,Co Dy Er,0.793,29,407.0169,R3m,trigonal,-0.1667,-0.0012,2.69,0.58,
+348a40011d,Tb2HoFe9,Fe9Ho1Tb2,Fe Ho Tb,0.75,12,182.7433,R3m,trigonal,-0.0653,-0.0009,2.99,0.58,AFM(5d antiparallel)->ferrimagnet
+51c18edd95,TmHfFe6,Fe18Hf3Tm3,Fe Hf Tm,0.75,24,339.466,R3m,trigonal,-0.194,-0.0073,2.02,0.58,
+6bab743e9f,Tm2BeCo16,Be1Co16Tm2,Be Co Tm,0.842,19,233.8276,C2/m,monoclinic,-0.1415,-0.0033,1.97,0.58,
+a27df9df29,Tm2MnCo16,Co16Mn1Tm2,Co Mn Tm,0.842,19,240.0133,R3m,trigonal,-0.115,-0.0062,1.92,0.56,
+a2ae639f51,TbYCo3,Co6Tb2Y2,Co Tb Y,0.6,10,175.6762,Aem2,orthorhombic,-0.1925,-0.0041,1.83,0.56,
+c08d1df486,Tm2TiCo16,Co16Ti1Tm2,Co Ti Tm,0.842,19,240.0814,R3m,trigonal,-0.1621,-0.0051,1.92,0.56,
+f36345a518,Dy6Fe6Co17,Co17Dy6Fe6,Co Dy Fe,0.793,29,417.7837,Immm,orthorhombic,-0.1712,-0.0187,2.78,0.56,
+11e259efed,Ho6Fe7Co16,Co16Fe7Ho6,Co Fe Ho,0.793,29,415.1718,Fm-3m,cubic,-0.1852,-0.0232,2.82,0.55,
+137ac64171,Ho4Fe13Os,Fe13Ho4Os1,Fe Ho Os,0.722,18,269.0367,R-3m,trigonal,-0.1067,-0.0138,2.92,0.55,
+78dc7c712a,Ho4Fe13Ru,Fe13Ho4Ru1,Fe Ho Ru,0.722,18,269.5782,R-3m,trigonal,-0.1032,-0.0023,2.91,0.55,
+95aa4ea4fb,TbTmCo17,Co17Tb1Tm1,Co Tb Tm,0.895,19,239.1431,R3m,trigonal,-0.1014,0.0004,2.11,0.55,
+989177e27a,Tm2HfCo16,Co32Hf2Tm4,Co Hf Tm,0.842,38,491.4137,P-3m1,trigonal,-0.1845,-0.0211,1.88,0.55,
+c16bc8df99,Dy6Fe7Co16,Co16Dy6Fe7,Co Dy Fe,0.793,29,418.7473,Fm-3m,cubic,-0.1717,-0.0211,2.79,0.55,
+3f07ceb629,Tb3Fe8Co,Co1Fe8Tb3,Co Fe Tb,0.75,12,185.7151,R-3m,trigonal,-0.0847,-0.015,2.85,0.54,AFM(5d antiparallel)->ferrimagnet
+477b1f2674,TbGdCo17,Co17Gd1Tb1,Co Gd Tb,0.895,19,241.4864,R3m,trigonal,-0.0927,-0.023,2.08,0.54,
+735d3dbc01,Ho6Fe8Co15,Co15Fe8Ho6,Co Fe Ho,0.793,29,415.5591,R3m,trigonal,-0.1785,-0.02,2.83,0.54,
+85d2b925f5,Tm3MgCo8,Co8Mg1Tm3,Co Mg Tm,0.667,12,175.9434,R3m,trigonal,-0.2214,-0.0152,2.24,0.54,
+97f566dc24,Er6GaCo22,Co22Er6Ga1,Co Er Ga,0.759,29,408.3745,Fm-3m,cubic,-0.2085,-0.0077,2.55,0.54,
+ac4c0a3f6e,Dy4Fe13Os,Dy4Fe13Os1,Dy Fe Os,0.722,18,273.5355,R-3m,trigonal,-0.0901,-0.0105,2.87,0.54,
+d9747f7f34,YTmFe6,Fe18Tm3Y3,Fe Tm Y,0.75,24,360.6209,P3m1,trigonal,-0.0909,-0.0033,1.9,0.54,
+f32b846d4c,ErTmCo17,Co17Er1Tm1,Co Er Tm,0.895,19,241.0762,R3m,trigonal,-0.1074,0.0009,2.09,0.54,
+46712e725b,Er6NbCo22,Co22Er6Nb1,Co Er Nb,0.759,29,413.3429,Fm-3m,cubic,-0.1969,-0.0033,2.51,0.53,
+4d22330b64,YTm9Fe20,Fe20Tm9Y1,Fe Tm Y,0.667,30,465.0952,I-4,tetragonal,-0.1341,0.0009,2.63,0.53,
+a4e5d8eb66,Ho4Fe11Co3,Co3Fe11Ho4,Co Fe Ho,0.778,18,268.3968,Cm,monoclinic,-0.1224,-0.0122,2.95,0.53,
+caa5a2c7b7,Er6TaCo22,Co22Er6Ta1,Co Er Ta,0.759,29,411.9728,Fm-3m,cubic,-0.2062,-0.0016,2.52,0.53,
+d01fddb3fc,Er6HfCo22,Co22Er6Hf1,Co Er Hf,0.759,29,416.9341,Fm-3m,cubic,-0.2125,-0.0004,2.49,0.53,
+2e82a68368,TbEr2Fe9,Er2Fe9Tb1,Er Fe Tb,0.75,12,180.5424,R-3m,trigonal,-0.0884,-0.004,2.96,0.52,AFM(5d antiparallel)->ferrimagnet
+3820306ccc,Tb2ErFe9,Er1Fe9Tb2,Er Fe Tb,0.75,12,182.4793,R3m,trigonal,-0.0706,-0.0012,2.93,0.52,AFM(5d antiparallel)->ferrimagnet
+5dd35678d1,Dy4Fe11Co3,Co3Dy4Fe11,Co Dy Fe,0.778,18,269.4484,P1,triclinic,-0.108,-0.0124,2.94,0.52,
+4628c3a3d0,Tb2Fe2Co5,Co10Fe4Tb4,Co Fe Tb,0.778,18,263.7359,R-3m,trigonal,-0.161,-0.0196,2.67,0.51,
+9422878278,Tm3(FeCo3)2,Co12Fe4Tm6,Co Fe Tm,0.727,22,330.0541,Im-3m,cubic,-0.2391,-0.0222,2.46,0.51,
+a7b600ba63,Ho2Fe6Co,Co2Fe12Ho4,Co Fe Ho,0.778,18,267.0254,C2/m,monoclinic,-0.1104,-0.012,2.99,0.51,
+22886ff0cf,Er6Co23N,Co23Er6N1,Co Er N,0.767,30,404.0705,Fm-3m,cubic,-0.2805,-0.0037,2.62,0.5,
+576bf05c9a,HoTmCo17,Co17Ho1Tm1,Co Ho Tm,0.895,19,238.8346,R3m,trigonal,-0.106,0.0004,2.16,0.5,
+af9a421c7d,YErFe7,Er2Fe14Y2,Er Fe Y,0.778,18,265.0957,R-3m,trigonal,-0.0776,-0.0058,2.08,0.5,
+e9cc9d8828,Er4Fe5Co9,Co9Er4Fe5,Co Er Fe,0.778,18,259.6327,R-3m,trigonal,-0.1967,-0.0231,2.73,0.5,
+199a31b241,TbYFe7,Fe14Tb2Y2,Fe Tb Y,0.778,18,268.6929,R-3m,trigonal,-0.0535,-0.0016,2.06,0.49,
+43c6534fdc,Ho4Fe13Co,Co1Fe13Ho4,Co Fe Ho,0.778,18,266.492,R-3m,trigonal,-0.0947,-0.008,3.01,0.49,
+63b9d76674,DyTmCo17,Co17Dy1Tm1,Co Dy Tm,0.895,19,240.1544,R3m,trigonal,-0.1039,0.0004,2.14,0.49,
+9d5fcffa6d,Er6FeCo22,Co22Er6Fe1,Co Er Fe,0.793,29,405.1983,Fm-3m,cubic,-0.1881,-0.0094,2.63,0.48,
+e1236cf021,Dy4Fe13Co,Co1Dy4Fe13,Co Dy Fe,0.778,18,267.6482,R-3m,trigonal,-0.0823,-0.0094,3.0,0.48,
+47b526b079,Tb6FeCo22,Co22Fe1Tb6,Co Fe Tb,0.793,29,413.6592,Fm-3m,cubic,-0.1489,-0.007,2.57,0.47,
+723d0082ac,Tb2FeCo16,Co16Fe1Tb2,Co Fe Tb,0.895,19,242.2218,R3m,trigonal,-0.1026,-0.0068,2.2,0.47,
+79a1425566,HoLuCo4,Co4Ho1Lu1,Co Ho Lu,0.667,6,89.5114,F-43m,cubic,-0.2574,-0.0146,2.14,0.47,
+bf68fd5cbd,Er2FeCo16,Co16Er2Fe1,Co Er Fe,0.895,19,239.577,R3m,trigonal,-0.1152,-0.0051,2.22,0.47,
+5e48f9d563,Er6Fe2Co21,Co21Er6Fe2,Co Er Fe,0.793,29,406.2652,Immm,orthorhombic,-0.1913,-0.0103,2.63,0.46,
+732e9abc14,Tm3Lu3Co23,Co23Lu3Tm3,Co Lu Tm,0.793,29,402.2648,R3m,trigonal,-0.1994,-0.0132,1.67,0.46,
+3ae49c2313,Y3Tm3Co23,Co23Tm3Y3,Co Tm Y,0.793,29,409.3189,R3m,trigonal,-0.1681,-0.0101,1.65,0.45,
+74111a33e8,Tb6Fe2Co21,Co21Fe2Tb6,Co Fe Tb,0.793,29,419.0587,Immm,orthorhombic,-0.1512,-0.0077,2.55,0.45,
+9c6e1809f4,TbErCo17,Co17Er1Tb1,Co Er Tb,0.895,19,240.5854,R3m,trigonal,-0.1,0.0,2.19,0.45,
+3e5bdbf9b3,Gd3Y3Co23,Co23Gd3Y3,Co Gd Y,0.793,29,414.1135,R3m,trigonal,-0.1402,-0.0316,1.63,0.44,
+666361f684,HoZr3Fe8,Fe8Ho1Zr3,Fe Ho Zr,0.667,12,179.3369,R3m,trigonal,-0.2354,-0.0002,1.74,0.44,AFM(5d antiparallel)->ferrimagnet
+b995f00987,Tb4(FeCo)7,Co7Fe7Tb4,Co Fe Tb,0.778,18,266.9125,P1,triclinic,-0.1385,-0.0186,2.7,0.44,
+0f8b082a5d,Er6Al5Fe18,Al5Er6Fe18,Al Er Fe,0.621,29,435.1877,R3m,trigonal,-0.2282,-0.0138,2.46,0.43,
+ba351037fb,HoTmFe6,Fe18Ho3Tm3,Fe Ho Tm,0.75,24,357.4165,P3m1,trigonal,-0.1011,-0.0019,2.9,0.43,
+d7fd8651d1,Er6Fe4Co19,Co19Er6Fe4,Co Er Fe,0.793,29,408.7707,R-3m,trigonal,-0.1959,-0.0156,2.65,0.43,
+3863aaa537,Tb6Fe4Co19,Co19Fe4Tb6,Co Fe Tb,0.793,29,417.9435,C2/m,monoclinic,-0.1562,-0.0138,2.59,0.42,
+3b366dbd9a,Er6Fe5Co18,Co18Er6Fe5,Co Er Fe,0.793,29,410.5033,C2/m,monoclinic,-0.1976,-0.0189,2.65,0.42,
+2d43f1f6e5,Tb6Fe5Co18,Co18Fe5Tb6,Co Fe Tb,0.793,29,419.5876,C2/m,monoclinic,-0.1564,-0.0155,2.59,0.41,
+bc6cd6a209,DyY3Fe8,Dy1Fe8Y3,Dy Fe Y,0.667,12,192.1986,R3m,trigonal,-0.066,0.0006,1.63,0.41,AFM(5d antiparallel)->ferrimagnet
+bcec3de363,YHoFe7,Fe14Ho2Y2,Fe Ho Y,0.778,18,266.5912,R-3m,trigonal,-0.07,-0.0048,2.16,0.41,
+d84a32c7cd,Dy3Tm3Co23,Co23Dy3Tm3,Co Dy Tm,0.793,29,407.0847,R3m,trigonal,-0.1727,-0.0063,2.51,0.41,
+21d97b3555,Tm2Ga3Co14,Co14Ga3Tm2,Co Ga Tm,0.737,19,247.0115,R3m,trigonal,-0.2147,-0.0224,1.72,0.4,
+25671b06d1,HoErCo17,Co17Er1Ho1,Co Er Ho,0.895,19,238.2667,R3m,trigonal,-0.1042,0.0003,2.26,0.4,
+49894d7cd7,TbHoCo17,Co17Ho1Tb1,Co Ho Tb,0.895,19,241.8612,R3m,trigonal,-0.098,-0.0001,2.23,0.4,
+78dccd9cbe,DyErCo17,Co17Dy1Er1,Co Dy Er,0.895,19,240.4316,R3m,trigonal,-0.1024,0.0001,2.24,0.4,
+a74edbb4e4,TbDyCo17,Co17Dy1Tb1,Co Dy Tb,0.895,19,240.0796,R3m,trigonal,-0.096,-0.0001,2.24,0.4,
+c26d8a4cc2,Tb6Fe6Co17,Co17Fe6Tb6,Co Fe Tb,0.793,29,418.5208,Immm,orthorhombic,-0.1568,-0.0174,2.61,0.4,
+28643bcc20,Er6Fe7Co16,Co16Er6Fe7,Co Er Fe,0.793,29,412.9823,Fm-3m,cubic,-0.1984,-0.0239,2.66,0.39,
+4c3f8ab113,Dy5YFe18,Dy5Fe18Y1,Dy Fe Y,0.75,24,363.9601,P-6m2,hexagonal,-0.0675,0.0005,2.81,0.39,
+4da0d2525b,Tb5Fe6Co13,Co13Fe6Tb5,Co Fe Tb,0.792,24,349.3092,R-3m,trigonal,-0.1562,-0.02,2.62,0.39,
+5beb0bf182,Tb2TmFe9,Fe9Tb2Tm1,Fe Tb Tm,0.75,12,182.476,R3m,trigonal,-0.0758,-0.0014,2.8,0.39,AFM(5d antiparallel)->ferrimagnet
+607008d425,ErSc2Co9,Co9Er1Sc2,Co Er Sc,0.75,12,163.0473,R-3m,trigonal,-0.2585,-0.0074,1.67,0.39,
+673fb9bf0f,TbSc2Co9,Co9Sc2Tb1,Co Sc Tb,0.75,12,160.1491,R-3m,trigonal,-0.2392,-0.0017,1.7,0.39,
+1579308ccc,Er4Tm2Co23,Co23Er4Tm2,Co Er Tm,0.793,29,406.0486,Imm2,orthorhombic,-0.1832,-0.0055,2.49,0.38,
+8bf563226b,HoErFe7,Er2Fe14Ho2,Er Fe Ho,0.778,18,263.3634,R-3m,trigonal,-0.0881,-0.0065,2.98,0.38,
+9f5ac79920,Tb6Fe7Co16,Co16Fe7Tb6,Co Fe Tb,0.793,29,421.7452,Fm-3m,cubic,-0.157,-0.0203,2.61,0.38,
+c46ce8c70b,TmLu3Co8,Co8Lu3Tm1,Co Lu Tm,0.667,12,177.5638,P3m1,trigonal,-0.2703,-0.0076,1.3,0.38,
+dfbc81dc59,Er4Fe13Os,Er4Fe13Os1,Er Fe Os,0.722,18,266.1313,R-3m,trigonal,-0.1183,-0.0121,2.77,0.38,
+3e14a9c304,Er2MnCo16,Co16Er2Mn1,Co Er Mn,0.842,19,241.0277,R3m,trigonal,-0.1118,-0.0061,2.11,0.37,
+40b8440c5d,Ho2FeCo16,Co16Fe1Ho2,Co Fe Ho,0.895,19,241.1205,R3m,trigonal,-0.1114,-0.0057,2.31,0.37,
+483621f55c,Tb2BeCo16,Be1Co16Tb2,Be Co Tb,0.842,19,236.4367,C2/m,monoclinic,-0.1224,-0.0015,2.15,0.37,
+03130cbffd,Er2TiCo16,Co16Er2Ti1,Co Er Ti,0.842,19,243.1057,R3m,trigonal,-0.1591,-0.0046,2.09,0.36,
+51a72c30c0,Tb2TiCo16,Co16Tb2Ti1,Co Tb Ti,0.842,19,244.806,R3m,trigonal,-0.1466,-0.0076,2.08,0.36,
+c5c3fa2e33,Tb2MnCo16,Co16Mn1Tb2,Co Mn Tb,0.842,19,244.2064,R3m,trigonal,-0.0993,-0.0079,2.08,0.36,
+5eaed61428,DyHoCo17,Co17Dy1Ho1,Co Dy Ho,0.895,19,240.3783,R3m,trigonal,-0.1005,-0.0,2.29,0.35,
+975a584fcd,Tb4Fe11Co3,Co3Fe11Tb4,Co Fe Tb,0.778,18,270.2345,P1,triclinic,-0.0953,-0.0162,2.76,0.35,
+b4d7d01b8d,ErLuCo4,Co4Er1Lu1,Co Er Lu,0.667,6,89.0211,F-43m,cubic,-0.2675,-0.0146,2.02,0.34,
+153ff631b5,TbLuCo4,Co4Lu1Tb1,Co Lu Tb,0.667,6,90.9313,F-43m,cubic,-0.2359,-0.0134,1.97,0.33,
+194e5a0600,Tm2ZrFe9,Fe9Tm2Zr1,Fe Tm Zr,0.75,12,174.3735,R3m,trigonal,-0.1549,-0.0087,2.2,0.33,AFM(5d antiparallel)->ferrimagnet
+26e0bff15f,TbTmFe6,Fe18Tb3Tm3,Fe Tb Tm,0.75,24,359.2334,P3m1,trigonal,-0.0868,-0.0025,2.78,0.33,
+2b77d6bcf3,Tb3DyFe14,Dy1Fe14Tb3,Dy Fe Tb,0.778,18,267.5611,R3m,trigonal,-0.0531,-0.0014,2.89,0.33,
+3bd0ec5418,Er3Tm3Co23,Co23Er3Tm3,Co Er Tm,0.793,29,403.4959,R3m,trigonal,-0.1854,-0.0075,2.45,0.32,
+5c067a0e66,Tb4Fe13Co,Co1Fe13Tb4,Co Fe Tb,0.778,18,268.9024,R-3m,trigonal,-0.0688,-0.0101,2.81,0.31,
+9823d2732a,Er4Fe13Co,Co1Er4Fe13,Co Er Fe,0.778,18,265.9389,R-3m,trigonal,-0.1104,-0.012,2.84,0.31,
+b59cd1790d,DyZr2Co9,Co9Dy1Zr2,Co Dy Zr,0.75,12,164.2417,R-3m,trigonal,-0.2421,-0.0137,1.73,0.31,
+de8776b8c1,Tm3Fe4Co5,Co5Fe4Tm3,Co Fe Tm,0.75,12,176.2892,Cm,monoclinic,-0.2064,-0.0213,2.47,0.3,
+1872eee50c,Y3Er3Co23,Co23Er3Y3,Co Er Y,0.793,29,408.0121,R3m,trigonal,-0.1622,-0.0066,1.82,0.28,
+301372c763,Dy2BeCo16,Be1Co16Dy2,Be Co Dy,0.842,19,236.9153,C2/m,monoclinic,-0.128,-0.0018,2.24,0.28,
+0e6c8cfb41,Dy2MnCo16,Co16Dy2Mn1,Co Dy Mn,0.842,19,243.1105,R3m,trigonal,-0.104,-0.0073,2.19,0.27,
+197528bf3d,Tm3Fe8Os,Fe8Os1Tm3,Fe Os Tm,0.667,12,182.3106,R-3m,trigonal,-0.1539,-0.0129,2.42,0.27,AFM(5d antiparallel)->ferrimagnet
+2c152f71a1,Ho2MnCo16,Co16Ho2Mn1,Co Ho Mn,0.842,19,241.6378,R3m,trigonal,-0.1081,-0.0068,2.2,0.27,
+6f030a31ea,Ho2TiCo16,Co16Ho2Ti1,Co Ho Ti,0.842,19,244.2641,R3m,trigonal,-0.1553,-0.0056,2.18,0.27,
+72e5488a13,Dy2TiCo16,Co16Dy2Ti1,Co Dy Ti,0.842,19,243.203,R3m,trigonal,-0.1513,-0.0066,2.19,0.27,
+47d4df2590,DyYFe6,Dy3Fe18Y3,Dy Fe Y,0.75,24,366.3653,P3m1,trigonal,-0.0659,-0.0007,2.16,0.25,
+7de83c6606,CeEr2Co9,Ce1Co9Er2,Ce Co Er,0.75,12,172.9112,R-3m,trigonal,-0.2324,-0.0291,2.18,0.24,
+e174919268,NdEr2Co9,Co9Er2Nd1,Co Er Nd,0.75,12,174.2249,R-3m,trigonal,-0.1584,-0.0016,2.17,0.24,
+88c116403b,YEr5Fe18,Er5Fe18Y1,Er Fe Y,0.75,24,359.4966,P-6m2,hexagonal,-0.0943,-0.0013,2.68,0.23,
+5a6b93738c,HoFe4Si,Fe4Ho1Si1,Fe Ho Si,0.667,6,84.0564,Cmmm,orthorhombic,-0.3308,-0.0212,2.55,0.22,AFM(5d antiparallel)->ferrimagnet
+eff9589013,DyFe4Si,Dy1Fe4Si1,Dy Fe Si,0.667,6,84.8239,Cmmm,orthorhombic,-0.3241,-0.0171,2.53,0.22,
+5a0a9002d2,HoAlFe4,Al1Fe4Ho1,Al Fe Ho,0.667,6,88.287,Cmmm,orthorhombic,-0.236,-0.0482,2.43,0.21,AFM(5d antiparallel)->ferrimagnet
+ea6fe0e101,DyAlFe4,Al1Dy1Fe4,Al Dy Fe,0.667,6,88.8385,Cmmm,orthorhombic,-0.2295,-0.0511,2.41,0.21,AFM(5d antiparallel)->ferrimagnet
+ebc4ef448a,HoGaFe4,Fe4Ga1Ho1,Fe Ga Ho,0.667,6,88.3363,Cmmm,orthorhombic,-0.2294,-0.0199,2.43,0.21,AFM(5d antiparallel)->ferrimagnet
+f6b6241512,Er2Ga3Co14,Co14Er2Ga3,Co Er Ga,0.737,19,248.2541,R3m,trigonal,-0.2133,-0.0063,1.9,0.21,
+33c5a0779b,TmFe4Si,Fe4Si1Tm1,Fe Si Tm,0.667,6,83.4664,Cmmm,orthorhombic,-0.343,-0.0341,2.15,0.2,AFM(5d antiparallel)->ferrimagnet
+d827f5719b,TmGaFe4,Fe4Ga1Tm1,Fe Ga Tm,0.667,6,87.1014,Cmmm,orthorhombic,-0.2368,-0.0295,2.06,0.19,AFM(5d antiparallel)->ferrimagnet
+b3f45e7b51,GdGaFe4,Fe4Ga1Gd1,Fe Ga Gd,0.667,6,88.287,Cmmm,orthorhombic,-0.2189,-0.0092,2.03,0.18,FM(5d parallel)
+fa11f36d1c,TmLuFe4,Fe4Lu1Tm1,Fe Lu Tm,0.667,6,92.3979,F-43m,cubic,-0.1586,0.0005,1.94,0.18,AFM(5d antiparallel)->ferrimagnet
+ff39b00188,GdAlFe4,Al1Fe4Gd1,Al Fe Gd,0.667,6,90.1028,Cmmm,orthorhombic,-0.1925,-0.0511,1.99,0.18,FM(5d parallel)
+432d7bc6c1,Tm6FeCo22,Co22Fe1Tm6,Co Fe Tm,0.793,29,403.6071,Fm-3m,cubic,-0.2003,-0.0197,2.29,0.14,
+004c16c215,Ho2Ga3Co14,Co14Ga3Ho2,Co Ga Ho,0.737,19,248.313,R3m,trigonal,-0.2115,-0.0062,1.99,0.11,
+0ad66247ee,Tm6Al5Fe18,Al5Fe18Tm6,Al Fe Tm,0.621,29,432.9443,R3m,trigonal,-0.2395,-0.0134,2.15,0.11,
+ba031c1c77,Dy2Ga3Co14,Co14Dy2Ga3,Co Dy Ga,0.737,19,249.3103,R3m,trigonal,-0.2094,-0.0071,1.98,0.11,
+8f56fecccb,YTm5Fe18,Fe18Tm5Y1,Fe Tm Y,0.75,24,356.8536,P-6m2,hexagonal,-0.1074,-0.0021,2.38,0.09,
+d75e285565,Tm6Fe4Co19,Co19Fe4Tm6,Co Fe Tm,0.793,29,406.8957,R-3m,trigonal,-0.2085,-0.0219,2.31,0.09,
+28210daaeb,TbAlFe4,Al1Fe4Tb1,Al Fe Tb,0.667,6,89.039,Cmmm,orthorhombic,-0.2232,-0.0544,2.28,0.08,AFM(5d antiparallel)->ferrimagnet
+6f80e153ab,Tm6Fe16Co7,Co7Fe16Tm6,Co Fe Tm,0.793,29,419.3422,Fm-3m,cubic,-0.1532,-0.0166,2.41,0.08,
+a8c89b0f37,ErLuFe4,Er1Fe4Lu1,Er Fe Lu,0.667,6,92.9554,F-43m,cubic,-0.1472,0.0007,2.18,0.08,AFM(5d antiparallel)->ferrimagnet
+de0662848d,TbFe4Si,Fe4Si1Tb1,Fe Si Tb,0.667,6,85.1957,Cmmm,orthorhombic,-0.3168,-0.013,2.38,0.08,
+e5c25b6afd,Tm6Fe5Co18,Co18Fe5Tm6,Co Fe Tm,0.793,29,407.3482,C2/m,monoclinic,-0.2104,-0.0218,2.33,0.08,
+5040a969b2,Dy2ZrFe9,Dy2Fe9Zr1,Dy Fe Zr,0.75,12,178.1508,R3m,trigonal,-0.1213,-0.0049,2.54,0.07,AFM(5d antiparallel)->ferrimagnet
+22bf868db7,Tb2YFe9,Fe9Tb2Y1,Fe Tb Y,0.75,12,183.916,R-3m,trigonal,-0.0572,-0.0006,2.34,0.06,AFM(5d antiparallel)->ferrimagnet
+7455294ff4,Tm6Fe6Co17,Co17Fe6Tm6,Co Fe Tm,0.793,29,409.8972,Immm,orthorhombic,-0.2111,-0.0216,2.33,0.06,
+f75910465c,Tm6Fe7Co16,Co16Fe7Tm6,Co Fe Tm,0.793,29,404.8108,Fm-3m,cubic,-0.2104,-0.0233,2.37,0.05,
+97e5e40672,Tb(YCo2)3,Co6Tb1Y3,Co Tb Y,0.6,10,177.7802,Cm,monoclinic,-0.1929,-0.0061,1.22,0.04,
+02df4decac,NdTm2Co9,Co9Nd1Tm2,Co Nd Tm,0.75,12,176.6394,R-3m,trigonal,-0.1679,-0.0086,1.87,0.03,
+923c03e89b,Dy3ScFe14,Dy3Fe14Sc1,Dy Fe Sc,0.778,18,260.3273,R3m,trigonal,-0.0934,-0.0015,2.66,0.03,
+b909378f4b,Dy3LuFe14,Dy3Fe14Lu1,Dy Fe Lu,0.778,18,264.9349,R3m,trigonal,-0.0811,-0.0057,2.61,0.03,
+44c86fb935,Y2Er4Co23,Co23Er4Y2,Co Er Y,0.793,29,404.8355,Imm2,orthorhombic,-0.1678,-0.004,2.1,0.02,
+42627c9bc5,Tm6Al3Fe20,Al3Fe20Tm6,Al Fe Tm,0.69,29,425.8271,R3m,trigonal,-0.1854,-0.0104,2.3,0.0,

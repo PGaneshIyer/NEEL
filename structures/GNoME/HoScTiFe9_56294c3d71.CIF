@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoScTiFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.36298375
+_cell_length_b   8.36298253
+_cell_length_c   8.36298431
+_cell_angle_alpha   34.30125913
+_cell_angle_beta   34.30126154
+_cell_angle_gamma   34.30125682
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoScTiFe9
+_chemical_formula_sum   'Ho1 Sc1 Ti1 Fe9'
+_cell_volume   165.66063495
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.000459  0.000459  0.000459  1
+  Sc  Sc1  1  0.856141  0.856141  0.856141  1
+  Ti  Ti2  1  0.143848  0.143848  0.143848  1
+  Fe  Fe3  1  0.499842  0.499842  0.499842  1
+  Fe  Fe4  1  0.332887  0.332887  0.332887  1
+  Fe  Fe5  1  0.667282  0.667282  0.667282  1
+  Fe  Fe6  1  0.082745  0.586382  0.586382  1
+  Fe  Fe7  1  0.586382  0.586382  0.082745  1
+  Fe  Fe8  1  0.586382  0.082745  0.586382  1
+  Fe  Fe9  1  0.413298  0.917435  0.413298  1
+  Fe  Fe10  1  0.917435  0.413298  0.413298  1
+  Fe  Fe11  1  0.413298  0.413298  0.917435  1

@@ -1,0 +1,36 @@
+{
+ "name": "Al2Fe8GdMo2_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-Immm",
+ "hree_group": "Tm",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Al2Fe8GdMo2_from_Al2Fe8Mo2Tm.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Tm",
+  "substituted_from": "Al2Fe8Mo2Tm",
+  "parent_hree": [
+   "Tm"
+  ],
+  "parents": [
+   "Al2Fe8Mo2Tm"
+  ],
+  "parent_db_ids": [
+   "GNoME:a82318adad"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0077",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

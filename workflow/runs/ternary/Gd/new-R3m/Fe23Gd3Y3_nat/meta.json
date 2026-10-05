@@ -1,0 +1,29 @@
+{
+ "name": "Fe23Gd3Y3_nat",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-R3m",
+ "hree_group": "Gd",
+ "kind": "native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/MP/Gd3Y3Fe23_mp-aaacrsjv.CIF",
+ "provenance": {
+  "kind": "native",
+  "hree_group": "Gd",
+  "sources": "MP",
+  "db_ids": "MP:mp-aaacrsjv",
+  "parents": [
+   "Fe23Gd3Y3"
+  ],
+  "e_hull_min": "0.0"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "name": "CeFe18GdLu4P12_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-Pmm2",
+ "hree_group": "Ho",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/CeFe18GdLu4P12_from_CeFe18HoLu4P12.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Ho",
+  "substituted_from": "CeFe18HoLu4P12",
+  "parent_hree": [
+   "Ho"
+  ],
+  "parents": [
+   "CeFe18HoLu4P12"
+  ],
+  "parent_db_ids": [
+   "GNoME:e5266fd061"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0067",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Gd2Fe3Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20827316
+_cell_length_b   5.20827350
+_cell_length_c   8.95905249
+_cell_angle_alpha   72.69053601
+_cell_angle_beta   90.74699219
+_cell_angle_gamma   120.70529044
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Gd2Fe3Os
+_chemical_formula_sum   'Gd4 Fe6 Os2'
+_cell_volume   196.61407448
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.37534600  0.74979000  0.87486400  1.0
+  Gd  Gd1  1  0.99964600  0.00020500  0.00014900  1.0
+  Gd  Gd2  1  0.49956400  0.00030200  0.50013500  1.0
+  Gd  Gd3  1  0.87543800  0.74969700  0.37486500  1.0
+  Fe  Fe4  1  0.43765200  0.87530700  0.18712700  1.0
+  Fe  Fe5  1  0.93730700  0.87455100  0.68788300  1.0
+  Fe  Fe6  1  0.18750300  0.37487300  0.43762300  1.0
+  Fe  Fe7  1  0.68753900  0.37514800  0.93731300  1.0
+  Fe  Fe8  1  0.93756600  0.37522000  0.18712700  1.0
+  Fe  Fe9  1  0.43756600  0.37481000  0.68788300  1.0
+  Os  Os10  1  0.43746900  0.37504000  0.18749100  1.0
+  Os  Os11  1  0.93740400  0.37505400  0.68754200  1.0

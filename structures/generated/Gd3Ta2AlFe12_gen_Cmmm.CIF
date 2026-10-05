@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Gd3Ta2AlFe12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01056600
+_cell_length_b   5.09031238
+_cell_length_c   10.97396700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.48308908
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Gd3Ta2AlFe12
+_chemical_formula_sum   'Gd3 Ta2 Al1 Fe12'
+_cell_volume   243.64872597
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.00000000  0.00000000  0.00000000  1.0
+  Gd  Gd1  1  0.00000000  0.00000000  0.31800400  1.0
+  Gd  Gd2  1  0.00000000  0.00000000  0.68199600  1.0
+  Al  Al3  1  0.50000000  0.00000000  0.50000000  1.0
+  Fe  Fe4  1  0.50000000  0.50000000  0.50000000  1.0
+  Fe  Fe5  1  0.00000000  0.50000000  0.50000000  1.0
+  Fe  Fe6  1  0.32631000  0.65262000  0.31736300  1.0
+  Fe  Fe7  1  0.67369000  0.34738000  0.31736300  1.0
+  Fe  Fe8  1  0.67369000  0.34738000  0.68263700  1.0
+  Fe  Fe9  1  0.32631000  0.65262000  0.68263700  1.0
+  Fe  Fe10  1  0.50000000  0.00000000  0.13612200  1.0
+  Fe  Fe11  1  0.50000000  0.50000000  0.13708300  1.0
+  Fe  Fe12  1  0.00000000  0.50000000  0.13708300  1.0
+  Fe  Fe13  1  0.50000000  0.00000000  0.86387800  1.0
+  Fe  Fe14  1  0.50000000  0.50000000  0.86291700  1.0
+  Fe  Fe15  1  0.00000000  0.50000000  0.86291700  1.0
+  Ta  Ta16  1  0.33373200  0.66746500  0.00000000  1.0
+  Ta  Ta17  1  0.66626800  0.33253500  0.00000000  1.0

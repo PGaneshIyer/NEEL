@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoTmLuFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.56090678
+_cell_length_b   8.56090664
+_cell_length_c   8.56090801
+_cell_angle_alpha   34.45104229
+_cell_angle_beta   34.45104361
+_cell_angle_gamma   34.45104036
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoTmLuFe9
+_chemical_formula_sum   'Ho1 Tm1 Lu1 Fe9'
+_cell_volume   179.11151334
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.999938  0.999938  0.999938  1
+  Tm  Tm1  1  0.142142  0.142142  0.142142  1
+  Lu  Lu2  1  0.857925  0.857925  0.857925  1
+  Fe  Fe3  1  0.500024  0.500024  0.500024  1
+  Fe  Fe4  1  0.332711  0.332711  0.332711  1
+  Fe  Fe5  1  0.667316  0.667316  0.667316  1
+  Fe  Fe6  1  0.082023  0.582702  0.582702  1
+  Fe  Fe7  1  0.582702  0.582702  0.082023  1
+  Fe  Fe8  1  0.582702  0.082023  0.582702  1
+  Fe  Fe9  1  0.417327  0.917862  0.417327  1
+  Fe  Fe10  1  0.917862  0.417327  0.417327  1
+  Fe  Fe11  1  0.417327  0.417327  0.917862  1

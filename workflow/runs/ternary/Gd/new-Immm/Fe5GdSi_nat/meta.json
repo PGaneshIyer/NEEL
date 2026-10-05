@@ -1,0 +1,29 @@
+{
+ "name": "Fe5GdSi_nat",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-Immm",
+ "hree_group": "Gd",
+ "kind": "native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/MP/GdFe5Si_mp-aaacrsmf.CIF",
+ "provenance": {
+  "kind": "native",
+  "hree_group": "Gd",
+  "sources": "MP",
+  "db_ids": "MP:mp-aaacrsmf",
+  "parents": [
+   "Fe5GdSi"
+  ],
+  "e_hull_min": "0.0277"
+ }
+}

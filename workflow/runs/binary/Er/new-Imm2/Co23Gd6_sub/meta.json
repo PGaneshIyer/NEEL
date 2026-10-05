@@ -1,0 +1,37 @@
+{
+ "name": "Co23Gd6_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "new-Imm2",
+ "hree_group": "Er",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Co23Gd6_from_Co23Er4Tm2.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Er",
+  "substituted_from": "Co23Er4Tm2",
+  "parent_hree": [
+   "Er",
+   "Tm"
+  ],
+  "parents": [
+   "Co23Er4Tm2"
+  ],
+  "parent_db_ids": [
+   "GNoME:1579308ccc"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0055",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

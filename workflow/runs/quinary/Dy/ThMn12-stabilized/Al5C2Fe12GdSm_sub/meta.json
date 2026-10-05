@@ -1,0 +1,36 @@
+{
+ "name": "Al5C2Fe12GdSm_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "ThMn12-stabilized",
+ "hree_group": "Dy",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Al5C2Fe12GdSm_from_Al5C2DyFe12Sm.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Dy",
+  "substituted_from": "Al5C2DyFe12Sm",
+  "parent_hree": [
+   "Dy"
+  ],
+  "parents": [
+   "Al5C2DyFe12Sm"
+  ],
+  "parent_db_ids": [
+   "GNoME:9fd3294b3c"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0086",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

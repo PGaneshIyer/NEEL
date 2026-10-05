@@ -1,0 +1,36 @@
+{
+ "name": "Be3C3Fe14GdY_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-R3m",
+ "hree_group": "Tm",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Be3C3Fe14GdY_from_Be3C3Fe14TmY.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Tm",
+  "substituted_from": "Be3C3Fe14TmY",
+  "parent_hree": [
+   "Tm"
+  ],
+  "parents": [
+   "Be3C3Fe14TmY"
+  ],
+  "parent_db_ids": [
+   "GNoME:cdf8cd0c31"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0169",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

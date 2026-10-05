@@ -1,0 +1,29 @@
+{
+ "name": "CFe14Gd2_nat",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "Nd2Fe14B",
+ "hree_group": "Gd",
+ "kind": "native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/MP/Gd2Fe14C_mp-aaacqdhk.CIF",
+ "provenance": {
+  "kind": "native",
+  "hree_group": "Gd",
+  "sources": "MP;OQMD",
+  "db_ids": "MP:mp-aaacqdhk;OQMD:661337",
+  "parents": [
+   "CFe14Gd2"
+  ],
+  "e_hull_min": "2.6321617647658002e-05"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "name": "Co16Gd2Mn_18f_sub",
+ "kppa": 8000,
+ "mode": "relax",
+ "structure": "../structures/Gd_substituted/Co16Gd2Mn_18f_sub.CIF",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "new-R3m",
+ "hree_group": "Tb",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "same Gd 4f Ueff=6 eV used throughout"
+  }
+ },
+ "potcar_symbols": {
+  "Gd": "Gd",
+  "Mn": "Mn_pv",
+  "Co": "Co"
+ },
+ "provenance": {
+  "kind": "mn_site_series",
+  "parent": "Co16Gd2Mn_sub",
+  "mn_sites": [
+   3
+  ],
+  "mn_antiparallel_to_gd": false,
+  "note": "single Mn moved from the 6c dumbbell to the 18f site; Mn initialised parallel to Gd",
+  "lock_targets": {
+   "fm": 41,
+   "ferri": 5
+  }
+ }
+}

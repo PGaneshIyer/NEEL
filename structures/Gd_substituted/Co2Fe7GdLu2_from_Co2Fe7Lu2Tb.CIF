@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GdLu2Fe7Co2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.57625969
+_cell_length_b   8.57625919
+_cell_length_c   8.57626087
+_cell_angle_alpha   34.41188832
+_cell_angle_beta   34.41189095
+_cell_angle_gamma   34.41189584
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdLu2Fe7Co2
+_chemical_formula_sum   'Gd1 Lu2 Fe7 Co2'
+_cell_volume   179.70640067
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.00010400  0.00010400  0.00010400  1.0
+  Lu  Lu1  1  0.14228000  0.14228000  0.14228000  1.0
+  Lu  Lu2  1  0.85753000  0.85753000  0.85753000  1.0
+  Fe  Fe3  1  0.66727300  0.66727300  0.66727300  1.0
+  Fe  Fe4  1  0.08179000  0.58342200  0.58342200  1.0
+  Fe  Fe5  1  0.58342200  0.58342200  0.08179000  1.0
+  Fe  Fe6  1  0.58342200  0.08179000  0.58342200  1.0
+  Fe  Fe7  1  0.41700200  0.91766300  0.41700200  1.0
+  Fe  Fe8  1  0.91766300  0.41700200  0.41700200  1.0
+  Fe  Fe9  1  0.41700200  0.41700200  0.91766300  1.0
+  Co  Co10  1  0.49997200  0.49997200  0.49997200  1.0
+  Co  Co11  1  0.33254000  0.33254000  0.33254000  1.0

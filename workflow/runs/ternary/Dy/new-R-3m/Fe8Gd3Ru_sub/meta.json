@@ -1,0 +1,58 @@
+{
+ "name": "Fe8Gd3Ru_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-R-3m",
+ "hree_group": "Dy",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Fe8Gd3Ru_from_DyFe8RuTm2.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Dy",
+  "substituted_from": "DyFe8RuTm2",
+  "parent_hree": [
+   "Dy",
+   "Er",
+   "Ho",
+   "Tb",
+   "Tm"
+  ],
+  "parents": [
+   "DyFe8RuTm2",
+   "Er2Fe8HoRu",
+   "Er3Fe8Ru",
+   "Fe8RuTbTm2",
+   "ErFe8RuTm2",
+   "DyEr2Fe8Ru",
+   "ErFe8Ho2Ru",
+   "Fe8Ho2RuTm",
+   "Fe8Ho3Ru",
+   "DyFe8Ho2Ru"
+  ],
+  "parent_db_ids": [
+   "GNoME:df3aa54043",
+   "GNoME:204baf5d08",
+   "GNoME:396c6d1683",
+   "GNoME:045a7f5c7f",
+   "GNoME:b8d4e54081",
+   "GNoME:f73111eb6c",
+   "GNoME:cb10f6068f",
+   "GNoME:928ea60abb",
+   "GNoME:2d2496ffe9",
+   "GNoME:25a3ff2c7f"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0083",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

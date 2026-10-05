@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbHfScFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.43913553
+_cell_length_b   8.43913477
+_cell_length_c   8.43913600
+_cell_angle_alpha   34.39811913
+_cell_angle_beta   34.39812617
+_cell_angle_gamma   34.39811630
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbHfScFe9
+_chemical_formula_sum   'Tb1 Hf1 Sc1 Fe9'
+_cell_volume   171.09948857
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000235  0.000235  0.000235  1
+  Hf  Hf1  1  0.856257  0.856257  0.856257  1
+  Sc  Sc2  1  0.142709  0.142709  0.142709  1
+  Fe  Fe3  1  0.500070  0.500070  0.500070  1
+  Fe  Fe4  1  0.332732  0.332732  0.332732  1
+  Fe  Fe5  1  0.667273  0.667273  0.667273  1
+  Fe  Fe6  1  0.082658  0.586003  0.586003  1
+  Fe  Fe7  1  0.586003  0.586003  0.082658  1
+  Fe  Fe8  1  0.586003  0.082658  0.586003  1
+  Fe  Fe9  1  0.414208  0.917643  0.414208  1
+  Fe  Fe10  1  0.917643  0.414208  0.414208  1
+  Fe  Fe11  1  0.414208  0.414208  0.917643  1

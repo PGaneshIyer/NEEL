@@ -1,0 +1,29 @@
+{
+ "name": "C3Fe17Gd2_nat",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "Th2Zn17-interstitial",
+ "hree_group": "Gd",
+ "kind": "native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/MP/Gd2Fe17C3_mp-aaacpuja.CIF",
+ "provenance": {
+  "kind": "native",
+  "hree_group": "Gd",
+  "sources": "MP;OQMD",
+  "db_ids": "MP:mp-aaacpuja;OQMD:28823",
+  "parents": [
+   "C3Fe17Gd2"
+  ],
+  "e_hull_min": "0.003162601241753993"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "name": "Co16Er2Mn_native",
+ "re_element": "Er",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "Th2Zn17-interstitial",
+ "hree_group": "Er",
+ "kind": "native_direct",
+ "ldau": {
+  "Er": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Gd Ueff reused across heavy RE series (Harmon-Antropov) - not independently verified per element"
+  }
+ },
+ "source_structure": "../structures/GNoME/Er2MnCo16_3e14a9c304.CIF",
+ "provenance": {
+  "kind": "native_hree_series",
+  "note": "direct explicit-4f DFT+U on Er itself (GNoME id 3e14a9c304), no Gd surrogate, no de Gennes projection - verifies the Gd-substituted motif-series projection",
+  "source_gnome_id": "3e14a9c304",
+  "parent_hree": [
+   "Er"
+  ]
+ }
+}

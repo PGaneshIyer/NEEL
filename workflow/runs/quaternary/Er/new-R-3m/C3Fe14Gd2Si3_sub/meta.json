@@ -1,0 +1,49 @@
+{
+ "name": "C3Fe14Gd2Si3_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-R-3m",
+ "hree_group": "Er",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/C3Fe14Gd2Si3_from_C3Er2Fe14Si3.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Er",
+  "substituted_from": "C3Er2Fe14Si3",
+  "parent_hree": [
+   "Dy",
+   "Er",
+   "Ho",
+   "Tb"
+  ],
+  "parents": [
+   "C3Er2Fe14Si3",
+   "C3Fe14Ho2Si3",
+   "C3DyFe14HoSi3",
+   "C3Dy2Fe14Si3",
+   "C3DyFe14Si3Tb",
+   "C3Fe14Si3Tb2"
+  ],
+  "parent_db_ids": [
+   "GNoME:7a5f2167a2",
+   "GNoME:52acb1466e",
+   "GNoME:68be8d42ae",
+   "GNoME:f86f91cdf1",
+   "GNoME:b60076c6ff",
+   "GNoME:6475e0d8ce"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0429",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

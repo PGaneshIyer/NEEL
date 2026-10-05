@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoHfScFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.41855399
+_cell_length_b   8.41855394
+_cell_length_c   8.41855419
+_cell_angle_alpha   34.36990986
+_cell_angle_beta   34.36991108
+_cell_angle_gamma   34.36991042
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoHfScFe9
+_chemical_formula_sum   'Ho1 Hf1 Sc1 Fe9'
+_cell_volume   169.59842015
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.000194  0.000194  0.000194  1
+  Hf  Hf1  1  0.856493  0.856493  0.856493  1
+  Sc  Sc2  1  0.142626  0.142626  0.142626  1
+  Fe  Fe3  1  0.499962  0.499962  0.499962  1
+  Fe  Fe4  1  0.332692  0.332692  0.332692  1
+  Fe  Fe5  1  0.667166  0.667166  0.667166  1
+  Fe  Fe6  1  0.082400  0.585908  0.585908  1
+  Fe  Fe7  1  0.585908  0.585908  0.082400  1
+  Fe  Fe8  1  0.585908  0.082400  0.585908  1
+  Fe  Fe9  1  0.414384  0.917885  0.414384  1
+  Fe  Fe10  1  0.917885  0.414384  0.414384  1
+  Fe  Fe11  1  0.414384  0.414384  0.917885  1

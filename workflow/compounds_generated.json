@@ -1,0 +1,5729 @@
+{
+ "defaults": {
+  "encut": 520,
+  "kppa": 8000,
+  "mode": "static",
+  "potcar_symbols": {
+   "Ac": "Ac",
+   "Ag": "Ag",
+   "Al": "Al",
+   "Ar": "Ar",
+   "As": "As",
+   "Au": "Au",
+   "B": "B",
+   "Ba": "Ba_sv",
+   "Be": "Be_sv",
+   "Bi": "Bi",
+   "Br": "Br",
+   "C": "C",
+   "Ca": "Ca_sv",
+   "Cd": "Cd",
+   "Ce": "Ce_3",
+   "Cl": "Cl",
+   "Co": "Co",
+   "Cr": "Cr_pv",
+   "Cs": "Cs_sv",
+   "Cu": "Cu_pv",
+   "Dy": "Dy_3",
+   "Er": "Er_3",
+   "Eu": "Eu_2",
+   "F": "F",
+   "Fe": "Fe_pv",
+   "Ga": "Ga_d",
+   "Gd": "Gd",
+   "Ge": "Ge_d",
+   "H": "H",
+   "He": "He",
+   "Hf": "Hf_pv",
+   "Hg": "Hg",
+   "Ho": "Ho_3",
+   "I": "I",
+   "In": "In_d",
+   "Ir": "Ir",
+   "K": "K_sv",
+   "Kr": "Kr",
+   "La": "La",
+   "Li": "Li_sv",
+   "Lu": "Lu_3",
+   "Mg": "Mg_pv",
+   "Mn": "Mn_pv",
+   "Mo": "Mo_pv",
+   "N": "N",
+   "Na": "Na_pv",
+   "Nb": "Nb_pv",
+   "Nd": "Nd_3",
+   "Ne": "Ne",
+   "Ni": "Ni_pv",
+   "Np": "Np",
+   "O": "O",
+   "Os": "Os_pv",
+   "P": "P",
+   "Pa": "Pa",
+   "Pb": "Pb_d",
+   "Pd": "Pd",
+   "Pm": "Pm_3",
+   "Pr": "Pr_3",
+   "Pt": "Pt",
+   "Pu": "Pu",
+   "Rb": "Rb_sv",
+   "Re": "Re_pv",
+   "Rh": "Rh_pv",
+   "Ru": "Ru_pv",
+   "S": "S",
+   "Sb": "Sb",
+   "Sc": "Sc_sv",
+   "Se": "Se",
+   "Si": "Si",
+   "Sm": "Sm_3",
+   "Sn": "Sn_d",
+   "Sr": "Sr_sv",
+   "Ta": "Ta_pv",
+   "Tb": "Tb_3",
+   "Tc": "Tc_pv",
+   "Te": "Te",
+   "Th": "Th",
+   "Ti": "Ti_pv",
+   "Tl": "Tl_d",
+   "Tm": "Tm_3",
+   "U": "U",
+   "V": "V_pv",
+   "W": "W_sv",
+   "Xe": "Xe",
+   "Y": "Y_sv",
+   "Yb": "Yb_2",
+   "Zn": "Zn",
+   "Zr": "Zr_sv"
+  },
+  "magmom_init": {
+   "Fe": 2.5,
+   "Co": 1.5,
+   "Gd": 7.0,
+   "default": 0.0
+  },
+  "incar_overrides": {}
+ },
+ "compounds": [
+  {
+   "name": "Gd3Fe12SiB2_gen",
+   "structure": "../structures/generated/Gd3Fe12SiB2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Si": "Si",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Si": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Si",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Ga(Fe6B)2_gen",
+   "structure": "../structures/generated/Gd3Ga(Fe6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Ga": "Ga_d",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Ga": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Ga",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Fe12GeB2_gen",
+   "structure": "../structures/generated/Gd3Fe12GeB2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Ge": "Ge_d",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Ge": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Ge",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4B_gen",
+   "structure": "../structures/generated/GdFe4B_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "B": "B",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "B": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->B",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Fe12B2C_gen",
+   "structure": "../structures/generated/Gd3Fe12B2C_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "C": "C",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "C": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->C",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Fe12B2N_gen",
+   "structure": "../structures/generated/Gd3Fe12B2N_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "N": "N",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "N": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->N",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Fe12B2P_gen",
+   "structure": "../structures/generated/Gd3Fe12B2P_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "P": "P",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "P": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->P",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Fe12SnB2_gen",
+   "structure": "../structures/generated/Gd3Fe12SnB2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Sn": "Sn_d",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Sn": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Sn",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Fe12B2Sb_gen",
+   "structure": "../structures/generated/Gd3Fe12B2Sb_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Sb": "Sb",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Sb": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Sb",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Ti(Fe6B)2_gen",
+   "structure": "../structures/generated/Gd3Ti(Fe6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Ti": "Ti_pv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Ti": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Ti",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3V(Fe6B)2_gen",
+   "structure": "../structures/generated/Gd3V(Fe6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "V": "V_pv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "V": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->V",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Cr(Fe6B)2_gen",
+   "structure": "../structures/generated/Gd3Cr(Fe6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Cr": "Cr_pv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Cr": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Cr",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Zr(Fe6B)2_gen",
+   "structure": "../structures/generated/Gd3Zr(Fe6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Zr": "Zr_sv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Zr": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Zr",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Nb(Fe6B)2_gen",
+   "structure": "../structures/generated/Gd3Nb(Fe6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Nb": "Nb_pv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Nb": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Nb",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Fe12B2Mo_gen",
+   "structure": "../structures/generated/Gd3Fe12B2Mo_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Mo": "Mo_pv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Mo": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Mo",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Fe12B2W_gen",
+   "structure": "../structures/generated/Gd3Fe12B2W_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "W": "W_sv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "W": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->W",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Hf(Fe6B)2_gen",
+   "structure": "../structures/generated/Gd3Hf(Fe6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Hf": "Hf_pv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Hf": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Hf",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Ta(Fe6B)2_gen",
+   "structure": "../structures/generated/Gd3Ta(Fe6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Ta": "Ta_pv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Ta": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Ta",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Fe12CuB2_gen",
+   "structure": "../structures/generated/Gd3Fe12CuB2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Cu": "Cu_pv",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Cu": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Cu",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Zn(Fe6B)2_gen",
+   "structure": "../structures/generated/Gd3Zn(Fe6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Zn": "Zn",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Zn": 0.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:Al->Zn",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdAlFe4_gen",
+   "structure": "../structures/generated/GdAlFe4_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Al",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6Si)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6Si)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Si": "Si"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Si": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Si",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(GaFe6)2_gen",
+   "structure": "../structures/generated/Gd3Al(GaFe6)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Ga": "Ga_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Ga": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Ga",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6Ge)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6Ge)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Ge": "Ge_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Ge": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Ge",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6C)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6C)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "C": "C"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "C": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->C",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6N)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6N)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "N": "N"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "N": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->N",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6P)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6P)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "P": "P"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "P": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->P",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6Sn)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6Sn)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Sn": "Sn_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Sn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Sn",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6Sb)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6Sb)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Sb": "Sb"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Sb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Sb",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Ti2AlFe12_gen",
+   "structure": "../structures/generated/Gd3Ti2AlFe12_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Ti": "Ti_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Ti": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Ti",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(VFe6)2_gen",
+   "structure": "../structures/generated/Gd3Al(VFe6)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "V": "V_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "V": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->V",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(CrFe6)2_gen",
+   "structure": "../structures/generated/Gd3Al(CrFe6)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Cr": "Cr_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Cr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Cr",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Zr2AlFe12_gen",
+   "structure": "../structures/generated/Gd3Zr2AlFe12_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Zr": "Zr_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Zr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Zr",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Nb2AlFe12_gen",
+   "structure": "../structures/generated/Gd3Nb2AlFe12_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Nb": "Nb_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Nb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Nb",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6Mo)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6Mo)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Mo": "Mo_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Mo": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Mo",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6W)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6W)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "W": "W_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "W": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->W",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Hf2AlFe12_gen",
+   "structure": "../structures/generated/Gd3Hf2AlFe12_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Hf": "Hf_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Hf": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Hf",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Ta2AlFe12_gen",
+   "structure": "../structures/generated/Gd3Ta2AlFe12_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Ta": "Ta_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Ta": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Ta",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Fe6Cu)2_gen",
+   "structure": "../structures/generated/Gd3Al(Fe6Cu)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Cu": "Cu_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Cu": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Cu",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(ZnFe6)2_gen",
+   "structure": "../structures/generated/Gd3Al(ZnFe6)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Fe": "Fe_pv",
+    "Zn": "Zn"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Fe": 2.5,
+    "Zn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "X:B->Zn",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd3Al(Co6B)2_gen",
+   "structure": "../structures/generated/Gd3Al(Co6B)2_gen_Cmmm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "Cmmm",
+   "arity_override": "quaternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Co": "Co",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Co": 1.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlB2Fe12Gd3_sub",
+    "operation": "TM:Fe->Co",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4Si_gen",
+   "structure": "../structures/generated/GdFe4Si_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Si": "Si",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Si": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Si",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4Ge_gen",
+   "structure": "../structures/generated/GdFe4Ge_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Ge": "Ge_d",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Ge": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Ge",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4B_gen",
+   "structure": "../structures/generated/GdFe4B_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "B": "B",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "B": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->B",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4C_gen",
+   "structure": "../structures/generated/GdFe4C_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "C": "C",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "C": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->C",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4N_gen",
+   "structure": "../structures/generated/GdFe4N_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "N": "N",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "N": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->N",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4P_gen",
+   "structure": "../structures/generated/GdFe4P_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "P": "P",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "P": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->P",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4Sn_gen",
+   "structure": "../structures/generated/GdFe4Sn_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Sn": "Sn_d",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Sn": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Sn",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4Sb_gen",
+   "structure": "../structures/generated/GdFe4Sb_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Sb": "Sb",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Sb": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Sb",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdTiFe4_gen",
+   "structure": "../structures/generated/GdTiFe4_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Ti": "Ti_pv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Ti": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Ti",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdVFe4_gen",
+   "structure": "../structures/generated/GdVFe4_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "V": "V_pv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "V": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->V",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCrFe4_gen",
+   "structure": "../structures/generated/GdCrFe4_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Cr": "Cr_pv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Cr": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Cr",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdZrFe4_gen",
+   "structure": "../structures/generated/GdZrFe4_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Zr": "Zr_sv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Zr": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Zr",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdNbFe4_gen",
+   "structure": "../structures/generated/GdNbFe4_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Nb": "Nb_pv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Nb": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Nb",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4Mo_gen",
+   "structure": "../structures/generated/GdFe4Mo_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Mo": "Mo_pv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Mo": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Mo",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4W_gen",
+   "structure": "../structures/generated/GdFe4W_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "W": "W_sv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "W": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->W",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdHfFe4_gen",
+   "structure": "../structures/generated/GdHfFe4_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Hf": "Hf_pv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Hf": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Hf",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdTaFe4_gen",
+   "structure": "../structures/generated/GdTaFe4_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Ta": "Ta_pv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Ta": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Ta",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe4Cu_gen",
+   "structure": "../structures/generated/GdFe4Cu_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Cu": "Cu_pv",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Cu": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Cu",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdZnFe4_gen",
+   "structure": "../structures/generated/GdZnFe4_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Zn": "Zn",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Zn": 0.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "X:Al->Zn",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdAlCo4_gen",
+   "structure": "../structures/generated/GdAlCo4_gen_F-43m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "CaCu5-RT4X",
+   "spacegroup": "F-43m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Al": "Al",
+    "Co": "Co"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Al": 0.0,
+    "Co": 1.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "AlFe4Gd_nat",
+    "operation": "TM:Fe->Co",
+    "prototype": "CaCu5-RT4X",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdAl4Co9_gen",
+   "structure": "../structures/generated/GdAl4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Al": "Al"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Al": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Al",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdGa4Co9_gen",
+   "structure": "../structures/generated/GdGa4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Ga": "Ga_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Ga": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Ga",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9Ge4_gen",
+   "structure": "../structures/generated/GdCo9Ge4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Ge": "Ge_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Ge": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Ge",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9B4_gen",
+   "structure": "../structures/generated/GdCo9B4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->B",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9C4_gen",
+   "structure": "../structures/generated/GdCo9C4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "C": "C"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "C": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->C",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9N4_gen",
+   "structure": "../structures/generated/GdCo9N4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "N": "N"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "N": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->N",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9P4_gen",
+   "structure": "../structures/generated/GdCo9P4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "P": "P"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "P": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->P",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9Sn4_gen",
+   "structure": "../structures/generated/GdCo9Sn4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Sn": "Sn_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Sn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Sn",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9Sb4_gen",
+   "structure": "../structures/generated/GdCo9Sb4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Sb": "Sb"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Sb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Sb",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdTi4Co9_gen",
+   "structure": "../structures/generated/GdTi4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Ti": "Ti_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Ti": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Ti",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdV4Co9_gen",
+   "structure": "../structures/generated/GdV4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "V": "V_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "V": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->V",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCr4Co9_gen",
+   "structure": "../structures/generated/GdCr4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Cr": "Cr_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Cr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Cr",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdZr4Co9_gen",
+   "structure": "../structures/generated/GdZr4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Zr": "Zr_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Zr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Zr",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdNb4Co9_gen",
+   "structure": "../structures/generated/GdNb4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Nb": "Nb_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Nb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Nb",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9Mo4_gen",
+   "structure": "../structures/generated/GdCo9Mo4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Mo": "Mo_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Mo": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Mo",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9W4_gen",
+   "structure": "../structures/generated/GdCo9W4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "W": "W_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "W": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->W",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdHf4Co9_gen",
+   "structure": "../structures/generated/GdHf4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Hf": "Hf_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Hf": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Hf",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdTa4Co9_gen",
+   "structure": "../structures/generated/GdTa4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Ta": "Ta_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Ta": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Ta",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo9Cu4_gen",
+   "structure": "../structures/generated/GdCo9Cu4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Cu": "Cu_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Cu": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Cu",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdZn4Co9_gen",
+   "structure": "../structures/generated/GdZn4Co9_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "Zn": "Zn"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "Zn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "X:Si->Zn",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe9Si4_gen",
+   "structure": "../structures/generated/GdFe9Si4_gen_I4_mcm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "LaCo9Si4-194",
+   "spacegroup": "I4/mcm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Si": "Si"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Si": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co9GdSi4_nat",
+    "operation": "TM:Co->Fe",
+    "prototype": "LaCo9Si4-194",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2AlFe14_gen",
+   "structure": "../structures/generated/Gd2AlFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Al": "Al"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Al": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Al",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe14Si_gen",
+   "structure": "../structures/generated/Gd2Fe14Si_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Si": "Si"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Si": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Si",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2GaFe14_gen",
+   "structure": "../structures/generated/Gd2GaFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ga": "Ga_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ga": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Ga",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe14Ge_gen",
+   "structure": "../structures/generated/Gd2Fe14Ge_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ge": "Ge_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ge": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Ge",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe14N_gen",
+   "structure": "../structures/generated/Gd2Fe14N_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "N": "N"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "N": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->N",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe14P_gen",
+   "structure": "../structures/generated/Gd2Fe14P_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "P": "P"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "P": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->P",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe14Sn_gen",
+   "structure": "../structures/generated/Gd2Fe14Sn_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Sn": "Sn_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Sn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Sn",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe14Sb_gen",
+   "structure": "../structures/generated/Gd2Fe14Sb_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Sb": "Sb"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Sb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Sb",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2TiFe14_gen",
+   "structure": "../structures/generated/Gd2TiFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ti": "Ti_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ti": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Ti",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2VFe14_gen",
+   "structure": "../structures/generated/Gd2VFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "V": "V_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "V": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->V",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2CrFe14_gen",
+   "structure": "../structures/generated/Gd2CrFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Cr": "Cr_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Cr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Cr",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2ZrFe14_gen",
+   "structure": "../structures/generated/Gd2ZrFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Zr": "Zr_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Zr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Zr",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2NbFe14_gen",
+   "structure": "../structures/generated/Gd2NbFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Nb": "Nb_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Nb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Nb",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe14Mo_gen",
+   "structure": "../structures/generated/Gd2Fe14Mo_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Mo": "Mo_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Mo": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Mo",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe14W_gen",
+   "structure": "../structures/generated/Gd2Fe14W_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "W": "W_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "W": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->W",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2HfFe14_gen",
+   "structure": "../structures/generated/Gd2HfFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Hf": "Hf_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Hf": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Hf",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2TaFe14_gen",
+   "structure": "../structures/generated/Gd2TaFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ta": "Ta_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ta": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Ta",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe14Cu_gen",
+   "structure": "../structures/generated/Gd2Fe14Cu_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Cu": "Cu_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Cu": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Cu",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2ZnFe14_gen",
+   "structure": "../structures/generated/Gd2ZnFe14_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Zn": "Zn"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Zn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "X:B->Zn",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Co14B_gen",
+   "structure": "../structures/generated/Gd2Co14B_gen_P4_2_mnm.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "Nd2Fe14B",
+   "spacegroup": "P4_2/mnm",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "BFe14Gd2_nat",
+    "operation": "TM:Fe->Co",
+    "prototype": "Nd2Fe14B",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo3_gen",
+   "structure": "../structures/generated/GdCo3_gen_P3m1.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "RT3-PuNi3",
+   "spacegroup": "P3m1",
+   "arity_override": "binary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe3Gd_sub",
+    "operation": "TM:Fe->Co",
+    "prototype": "RT3-PuNi3",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17_gen",
+   "structure": "../structures/generated/Gd2Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17",
+   "spacegroup": "R-3m",
+   "arity_override": "binary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Co17Gd2_sub",
+    "operation": "TM:Co->Fe",
+    "prototype": "Th2Zn17",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Al3Fe17_gen",
+   "structure": "../structures/generated/Gd2Al3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Al": "Al"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Al": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Al",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17Si3_gen",
+   "structure": "../structures/generated/Gd2Fe17Si3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Si": "Si"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Si": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Si",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Ga3Fe17_gen",
+   "structure": "../structures/generated/Gd2Ga3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ga": "Ga_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ga": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Ga",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17Ge3_gen",
+   "structure": "../structures/generated/Gd2Fe17Ge3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ge": "Ge_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ge": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Ge",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17B3_gen",
+   "structure": "../structures/generated/Gd2Fe17B3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->B",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17N3_gen",
+   "structure": "../structures/generated/Gd2Fe17N3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "N": "N"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "N": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->N",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17P3_gen",
+   "structure": "../structures/generated/Gd2Fe17P3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "P": "P"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "P": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->P",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17Sn3_gen",
+   "structure": "../structures/generated/Gd2Fe17Sn3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Sn": "Sn_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Sn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Sn",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17Sb3_gen",
+   "structure": "../structures/generated/Gd2Fe17Sb3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Sb": "Sb"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Sb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Sb",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Ti3Fe17_gen",
+   "structure": "../structures/generated/Gd2Ti3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ti": "Ti_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ti": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Ti",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2V3Fe17_gen",
+   "structure": "../structures/generated/Gd2V3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "V": "V_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "V": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->V",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Cr3Fe17_gen",
+   "structure": "../structures/generated/Gd2Cr3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Cr": "Cr_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Cr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Cr",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Zr3Fe17_gen",
+   "structure": "../structures/generated/Gd2Zr3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Zr": "Zr_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Zr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Zr",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Nb3Fe17_gen",
+   "structure": "../structures/generated/Gd2Nb3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Nb": "Nb_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Nb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Nb",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17Mo3_gen",
+   "structure": "../structures/generated/Gd2Fe17Mo3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Mo": "Mo_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Mo": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Mo",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17W3_gen",
+   "structure": "../structures/generated/Gd2Fe17W3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "W": "W_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "W": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->W",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Hf3Fe17_gen",
+   "structure": "../structures/generated/Gd2Hf3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Hf": "Hf_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Hf": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Hf",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Ta3Fe17_gen",
+   "structure": "../structures/generated/Gd2Ta3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ta": "Ta_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ta": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Ta",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Fe17Cu3_gen",
+   "structure": "../structures/generated/Gd2Fe17Cu3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Cu": "Cu_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Cu": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Cu",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Zn3Fe17_gen",
+   "structure": "../structures/generated/Gd2Zn3Fe17_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Zn": "Zn"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Zn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "X:C->Zn",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "Gd2Co17C3_gen",
+   "structure": "../structures/generated/Gd2Co17C3_gen_R-3m.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "Th2Zn17-interstitial",
+   "spacegroup": "R-3m",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "C": "C"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "C": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "C3Fe17Gd2_nat",
+    "operation": "TM:Fe->Co",
+    "prototype": "Th2Zn17-interstitial",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdAlFe11_gen",
+   "structure": "../structures/generated/GdAlFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Al": "Al"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Al": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Al",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11Si_gen",
+   "structure": "../structures/generated/GdFe11Si_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Si": "Si"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Si": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Si",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdGaFe11_gen",
+   "structure": "../structures/generated/GdGaFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ga": "Ga_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ga": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Ga",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11Ge_gen",
+   "structure": "../structures/generated/GdFe11Ge_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ge": "Ge_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ge": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Ge",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11B_gen",
+   "structure": "../structures/generated/GdFe11B_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "B": "B"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "B": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->B",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11C_gen",
+   "structure": "../structures/generated/GdFe11C_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "C": "C"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "C": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->C",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11N_gen",
+   "structure": "../structures/generated/GdFe11N_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "N": "N"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "N": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->N",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11P_gen",
+   "structure": "../structures/generated/GdFe11P_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "P": "P"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "P": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->P",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11Sn_gen",
+   "structure": "../structures/generated/GdFe11Sn_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Sn": "Sn_d"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Sn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Sn",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11Sb_gen",
+   "structure": "../structures/generated/GdFe11Sb_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Sb": "Sb"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Sb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Sb",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdTiFe11_gen",
+   "structure": "../structures/generated/GdTiFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ti": "Ti_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ti": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Ti",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdVFe11_gen",
+   "structure": "../structures/generated/GdVFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "V": "V_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "V": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->V",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCrFe11_gen",
+   "structure": "../structures/generated/GdCrFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Cr": "Cr_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Cr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Cr",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdZrFe11_gen",
+   "structure": "../structures/generated/GdZrFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Zr": "Zr_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Zr": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Zr",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdNbFe11_gen",
+   "structure": "../structures/generated/GdNbFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Nb": "Nb_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Nb": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Nb",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11Mo_gen",
+   "structure": "../structures/generated/GdFe11Mo_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Mo": "Mo_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Mo": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Mo",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdHfFe11_gen",
+   "structure": "../structures/generated/GdHfFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Hf": "Hf_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Hf": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Hf",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdTaFe11_gen",
+   "structure": "../structures/generated/GdTaFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Ta": "Ta_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Ta": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Ta",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdFe11Cu_gen",
+   "structure": "../structures/generated/GdFe11Cu_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Cu": "Cu_pv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Cu": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Cu",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdZnFe11_gen",
+   "structure": "../structures/generated/GdZnFe11_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Fe"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Fe": "Fe_pv",
+    "Zn": "Zn"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Fe": 2.5,
+    "Zn": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "X:W->Zn",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  },
+  {
+   "name": "GdCo11W_gen",
+   "structure": "../structures/generated/GdCo11W_gen_Imm2.CIF",
+   "re_element": "Gd",
+   "tm_elements": [
+    "Co"
+   ],
+   "polytype": "ThMn12-stabilized",
+   "spacegroup": "Imm2",
+   "arity_override": "ternary",
+   "hree_group": "Gd",
+   "kind": "generated",
+   "ldau": {
+    "Gd": {
+     "L": 3,
+     "U": 6.7,
+     "J": 0.7,
+     "ref": "same Gd 4f Ueff=6 eV"
+    }
+   },
+   "potcar_symbols": {
+    "Gd": "Gd",
+    "Co": "Co",
+    "W": "W_sv"
+   },
+   "magmom_init": {
+    "Gd": 7.0,
+    "Co": 1.5,
+    "W": 0.0
+   },
+   "provenance": {
+    "kind": "prototype_decoration",
+    "parent": "Fe11GdW_nat",
+    "operation": "TM:Fe->Co",
+    "prototype": "ThMn12-stabilized",
+    "note": "generated, NOT from a database - hull distance unknown until screened"
+   }
+  }
+ ]
+}

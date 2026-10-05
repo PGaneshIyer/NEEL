@@ -1,0 +1,30 @@
+{
+ "name": "CoFe3Gd2_nat",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co",
+  "Fe"
+ ],
+ "polytype": "Laves-C14",
+ "hree_group": "Gd",
+ "kind": "native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/GNoME/Gd2Fe3Co_be1a527992.CIF",
+ "provenance": {
+  "kind": "native",
+  "hree_group": "Gd",
+  "sources": "GNoME",
+  "db_ids": "GNoME:be1a527992",
+  "parents": [
+   "CoFe3Gd2"
+  ],
+  "e_hull_min": "-0.0748"
+ }
+}

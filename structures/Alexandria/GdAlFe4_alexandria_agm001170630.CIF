@@ -1,0 +1,20 @@
+data_GdAlFe4_alexandria
+_cell_length_a 4.971102
+_cell_length_b 4.971102
+_cell_length_c 4.971102
+_cell_angle_alpha 60.0000
+_cell_angle_beta 60.0000
+_cell_angle_gamma 60.0000
+_symmetry_space_group_name_H-M 'P 1'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Gd Gd1 0.250000 0.250000 0.250000
+Fe Fe1 0.625913 0.625912 0.122262
+Fe Fe2 0.625913 0.122262 0.625912
+Fe Fe3 0.625913 0.625912 0.625912
+Fe Fe4 0.122263 0.625912 0.625912
+Al Al1 0.000000 0.000000 0.000000

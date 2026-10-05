@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_NdDyFe14(SiC)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.46390529
+_cell_length_b   6.46390377
+_cell_length_c   6.46390462
+_cell_angle_alpha   83.88119539
+_cell_angle_beta   83.88118822
+_cell_angle_gamma   83.88118402
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdDyFe14(SiC)3
+_chemical_formula_sum   'Nd1 Dy1 Fe14 Si3 C3'
+_cell_volume   265.76523563
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.650268  0.650268  0.650268  1
+  Dy  Dy1  1  0.346946  0.346946  0.346946  1
+  Fe  Fe2  1  0.714869  0.284310  0.000856  1
+  Fe  Fe3  1  0.000856  0.714869  0.284310  1
+  Fe  Fe4  1  0.284310  0.000856  0.714869  1
+  Fe  Fe5  1  0.000856  0.284310  0.714869  1
+  Fe  Fe6  1  0.714869  0.000856  0.284310  1
+  Fe  Fe7  1  0.284310  0.714869  0.000856  1
+  Fe  Fe8  1  0.338604  0.338604  0.866141  1
+  Fe  Fe9  1  0.866141  0.338604  0.338604  1
+  Fe  Fe10  1  0.338604  0.866141  0.338604  1
+  Fe  Fe11  1  0.660599  0.660599  0.137052  1
+  Fe  Fe12  1  0.137052  0.660599  0.660599  1
+  Fe  Fe13  1  0.660599  0.137052  0.660599  1
+  Fe  Fe14  1  0.903940  0.903940  0.903940  1
+  Fe  Fe15  1  0.097461  0.097461  0.097461  1
+  Si  Si16  1  0.999293  0.999293  0.499799  1
+  Si  Si17  1  0.499799  0.999293  0.999293  1
+  Si  Si18  1  0.999293  0.499799  0.999293  1
+  C  C19  1  0.497565  0.497565  0.006203  1
+  C  C20  1  0.006203  0.497565  0.497565  1
+  C  C21  1  0.497565  0.006203  0.497565  1

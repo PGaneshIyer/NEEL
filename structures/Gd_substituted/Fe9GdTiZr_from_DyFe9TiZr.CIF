@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GdZrTiFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.95912285
+_cell_length_b   4.95912286
+_cell_length_c   8.41740301
+_cell_angle_alpha   72.86789955
+_cell_angle_beta   72.86789831
+_cell_angle_gamma   59.99999469
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdZrTiFe9
+_chemical_formula_sum   'Gd1 Zr1 Ti1 Fe9'
+_cell_volume   168.58476082
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.00135500  0.00135500  0.99593500  1.0
+  Zr  Zr1  1  0.85572600  0.85572600  0.43282200  1.0
+  Ti  Ti2  1  0.14316900  0.14316900  0.57049400  1.0
+  Fe  Fe3  1  0.08321600  0.58616600  0.74445200  1.0
+  Fe  Fe4  1  0.58616600  0.58616600  0.74445200  1.0
+  Fe  Fe5  1  0.58616600  0.08321600  0.74445200  1.0
+  Fe  Fe6  1  0.91782100  0.41327500  0.25563000  1.0
+  Fe  Fe7  1  0.41327500  0.41327500  0.25563000  1.0
+  Fe  Fe8  1  0.41327500  0.91782100  0.25563000  1.0
+  Fe  Fe9  1  0.33293800  0.33293800  0.00118600  1.0
+  Fe  Fe10  1  0.66706700  0.66706700  0.99879600  1.0
+  Fe  Fe11  1  0.49982700  0.49982700  0.50052000  1.0

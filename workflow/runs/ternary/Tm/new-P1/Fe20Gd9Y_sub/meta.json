@@ -1,0 +1,36 @@
+{
+ "name": "Fe20Gd9Y_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-P1",
+ "hree_group": "Tm",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Fe20Gd9Y_from_Fe20Tm9Y.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Tm",
+  "substituted_from": "Fe20Tm9Y",
+  "parent_hree": [
+   "Tm"
+  ],
+  "parents": [
+   "Fe20Tm9Y"
+  ],
+  "parent_db_ids": [
+   "GNoME:4d22330b64"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "0.0009",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

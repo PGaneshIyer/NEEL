@@ -1,0 +1,37 @@
+{
+ "name": "CoFe18Gd2Lu3P12_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co",
+  "Fe"
+ ],
+ "polytype": "new-P-62m",
+ "hree_group": "Ho",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/CoFe18Gd2Lu3P12_from_CoFe18Ho2Lu3P12.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Ho",
+  "substituted_from": "CoFe18Ho2Lu3P12",
+  "parent_hree": [
+   "Ho"
+  ],
+  "parents": [
+   "CoFe18Ho2Lu3P12"
+  ],
+  "parent_db_ids": [
+   "GNoME:ad1e49d32e"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0144",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

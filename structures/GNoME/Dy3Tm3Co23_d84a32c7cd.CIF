@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Dy3Tm3Co23
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.31903629
+_cell_length_b   8.31903595
+_cell_length_c   8.31879100
+_cell_angle_alpha   89.99999791
+_cell_angle_beta   59.99902525
+_cell_angle_gamma   120.00000581
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy3Tm3Co23
+_chemical_formula_sum   'Dy3 Tm3 Co23'
+_cell_volume   407.08471014
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.574178  0.287090  0.712127  1
+  Dy  Dy1  1  0.000785  0.713695  0.712127  1
+  Dy  Dy2  1  0.000785  0.287090  0.712127  1
+  Tm  Tm3  1  0.427490  0.713746  0.285683  1
+  Tm  Tm4  1  0.000573  0.286827  0.285683  1
+  Tm  Tm5  1  0.000573  0.713746  0.285683  1
+  Co  Co6  1  0.645093  0.322547  0.032359  1
+  Co  Co7  1  0.354061  0.322999  0.322939  1
+  Co  Co8  1  0.354061  0.031062  0.322939  1
+  Co  Co9  1  0.645999  0.322999  0.322939  1
+  Co  Co10  1  0.353677  0.676839  0.969484  1
+  Co  Co11  1  0.645665  0.677334  0.677002  1
+  Co  Co12  1  0.645665  0.968331  0.677002  1
+  Co  Co13  1  0.354667  0.677334  0.677002  1
+  Co  Co14  1  0.999807  0.999903  0.000290  1
+  Co  Co15  1  0.246773  0.123387  0.629840  1
+  Co  Co16  1  0.753097  0.122717  0.124186  1
+  Co  Co17  1  0.753097  0.630382  0.124186  1
+  Co  Co18  1  0.245432  0.122717  0.124186  1
+  Co  Co19  1  0.753782  0.876891  0.369326  1
+  Co  Co20  1  0.246125  0.876242  0.877634  1
+  Co  Co21  1  0.246125  0.369882  0.877634  1
+  Co  Co22  1  0.752484  0.876242  0.877634  1
+  Co  Co23  1  0.999810  0.999905  0.498087  1
+  Co  Co24  1  0.502007  0.502102  0.498087  1
+  Co  Co25  1  0.502007  0.999905  0.498087  1
+  Co  Co26  1  0.999803  0.499901  0.001910  1
+  Co  Co27  1  0.498188  0.998287  0.001910  1
+  Co  Co28  1  0.498188  0.499901  0.001910  1

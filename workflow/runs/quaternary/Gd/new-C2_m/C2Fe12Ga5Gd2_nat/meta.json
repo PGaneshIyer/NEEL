@@ -1,0 +1,29 @@
+{
+ "name": "C2Fe12Ga5Gd2_nat",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-C2_m",
+ "hree_group": "Gd",
+ "kind": "native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/GNoME/Gd2Ga5Fe6C2_2c8e7185cb.CIF",
+ "provenance": {
+  "kind": "native",
+  "hree_group": "Gd",
+  "sources": "GNoME",
+  "db_ids": "GNoME:2c8e7185cb",
+  "parents": [
+   "C2Fe12Ga5Gd2"
+  ],
+  "e_hull_min": "-0.0068"
+ }
+}

@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Ho2Fe11NiP7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.97369114
+_cell_length_b   8.95361711
+_cell_length_c   3.64415000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.77283475
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2Fe11NiP7
+_chemical_formula_sum   'Ho2 Fe11 Ni1 P7'
+_cell_volume   254.14764970
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.999846  0.999652  0.000000  1
+  Ho  Ho1  1  0.334575  0.668235  0.500000  1
+  Fe  Fe2  1  0.296354  0.905727  0.000000  1
+  Fe  Fe3  1  0.609266  0.703796  0.000000  1
+  Fe  Fe4  1  0.819255  0.605544  0.000000  1
+  Fe  Fe5  1  0.785257  0.177355  0.000000  1
+  Fe  Fe6  1  0.391567  0.212122  0.000000  1
+  Fe  Fe7  1  0.050964  0.767912  0.500000  1
+  Fe  Fe8  1  0.713653  0.946001  0.500000  1
+  Fe  Fe9  1  0.232565  0.286124  0.500000  1
+  Fe  Fe10  1  0.890139  0.432186  0.500000  1
+  Fe  Fe11  1  0.544514  0.114828  0.500000  1
+  Fe  Fe12  1  0.568860  0.452953  0.500000  1
+  Ni  Ni13  1  0.098326  0.395013  0.000000  1
+  P  P14  1  0.076287  0.637655  0.000000  1
+  P  P15  1  0.554709  0.923993  0.000000  1
+  P  P16  1  0.374361  0.446258  0.000000  1
+  P  P17  1  0.779360  0.733882  0.500000  1
+  P  P18  1  0.950168  0.214078  0.500000  1
+  P  P19  1  0.264478  0.044859  0.500000  1
+  P  P20  1  0.665493  0.331824  0.000000  1

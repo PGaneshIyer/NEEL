@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbScTiFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.38846401
+_cell_length_b   8.38846440
+_cell_length_c   8.38846422
+_cell_angle_alpha   34.35668197
+_cell_angle_beta   34.35667378
+_cell_angle_gamma   34.35668066
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbScTiFe9
+_chemical_formula_sum   'Tb1 Sc1 Ti1 Fe9'
+_cell_volume   167.66933676
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000505  0.000505  0.000505  1
+  Sc  Sc1  1  0.855998  0.855998  0.855998  1
+  Ti  Ti2  1  0.144158  0.144158  0.144158  1
+  Fe  Fe3  1  0.499841  0.499841  0.499841  1
+  Fe  Fe4  1  0.332825  0.332825  0.332825  1
+  Fe  Fe5  1  0.667291  0.667291  0.667291  1
+  Fe  Fe6  1  0.083066  0.586704  0.586704  1
+  Fe  Fe7  1  0.586704  0.586704  0.083066  1
+  Fe  Fe8  1  0.586704  0.083066  0.586704  1
+  Fe  Fe9  1  0.412939  0.917031  0.412939  1
+  Fe  Fe10  1  0.917031  0.412939  0.412939  1
+  Fe  Fe11  1  0.412939  0.412939  0.917031  1

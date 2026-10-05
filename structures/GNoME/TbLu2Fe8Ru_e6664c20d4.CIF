@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbLu2Fe8Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.71168943
+_cell_length_b   8.71168883
+_cell_length_c   8.71168999
+_cell_angle_alpha   33.78551165
+_cell_angle_beta   33.78551627
+_cell_angle_gamma   33.78551617
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbLu2Fe8Ru
+_chemical_formula_sum   'Tb1 Lu2 Fe8 Ru1'
+_cell_volume   182.17833576
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000000  0.000000  0.000000  1
+  Lu  Lu1  1  0.142152  0.142152  0.142152  1
+  Lu  Lu2  1  0.857848  0.857848  0.857848  1
+  Fe  Fe3  1  0.332874  0.332874  0.332874  1
+  Fe  Fe4  1  0.667126  0.667126  0.667126  1
+  Fe  Fe5  1  0.077419  0.583040  0.583040  1
+  Fe  Fe6  1  0.583040  0.583040  0.077419  1
+  Fe  Fe7  1  0.583040  0.077419  0.583040  1
+  Fe  Fe8  1  0.416960  0.922581  0.416960  1
+  Fe  Fe9  1  0.922581  0.416960  0.416960  1
+  Fe  Fe10  1  0.416960  0.416960  0.922581  1
+  Ru  Ru11  1  0.500000  0.500000  0.500000  1

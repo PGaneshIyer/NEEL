@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DyHfScFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97818695
+_cell_length_b   4.97818696
+_cell_length_c   8.42406800
+_cell_angle_alpha   72.81403645
+_cell_angle_beta   72.81403441
+_cell_angle_gamma   59.99999617
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyHfScFe9
+_chemical_formula_sum   'Dy1 Hf1 Sc1 Fe9'
+_cell_volume   169.94998555
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.999800  0.999800  0.000600  1
+  Hf  Hf1  1  0.143518  0.143518  0.569445  1
+  Sc  Sc2  1  0.857541  0.857541  0.427376  1
+  Fe  Fe3  1  0.082651  0.585721  0.745906  1
+  Fe  Fe4  1  0.585721  0.585721  0.745906  1
+  Fe  Fe5  1  0.585721  0.082651  0.745906  1
+  Fe  Fe6  1  0.917444  0.413859  0.254838  1
+  Fe  Fe7  1  0.413859  0.413859  0.254838  1
+  Fe  Fe8  1  0.413859  0.917444  0.254838  1
+  Fe  Fe9  1  0.332765  0.332765  0.001706  1
+  Fe  Fe10  1  0.667134  0.667134  0.998595  1
+  Fe  Fe11  1  0.499985  0.499985  0.500045  1

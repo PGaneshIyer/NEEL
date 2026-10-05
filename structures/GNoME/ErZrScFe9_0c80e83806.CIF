@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ErZrScFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.43658341
+_cell_length_b   8.43658410
+_cell_length_c   8.43658240
+_cell_angle_alpha   34.30829148
+_cell_angle_beta   34.30828555
+_cell_angle_gamma   34.30828688
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErZrScFe9
+_chemical_formula_sum   'Er1 Zr1 Sc1 Fe9'
+_cell_volume   170.13618543
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.000451  0.000451  0.000451  1
+  Zr  Zr1  1  0.856586  0.856586  0.856586  1
+  Sc  Sc2  1  0.142309  0.142309  0.142309  1
+  Fe  Fe3  1  0.414958  0.414958  0.918231  1
+  Fe  Fe4  1  0.918231  0.414958  0.414958  1
+  Fe  Fe5  1  0.584935  0.082846  0.584935  1
+  Fe  Fe6  1  0.584935  0.584935  0.082846  1
+  Fe  Fe7  1  0.414958  0.918231  0.414958  1
+  Fe  Fe8  1  0.082846  0.584935  0.584935  1
+  Fe  Fe9  1  0.332632  0.332632  0.332632  1
+  Fe  Fe10  1  0.667215  0.667215  0.667215  1
+  Fe  Fe11  1  0.499944  0.499944  0.499944  1

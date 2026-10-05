@@ -1,0 +1,53 @@
+{
+ "name": "B2Fe7Gd3_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Fe"
+ ],
+ "polytype": "new-P6_3_mmc",
+ "hree_group": "Tm",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/B2Fe7Gd3_from_B2Fe7Tm3.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Tm",
+  "substituted_from": "B2Fe7Tm3",
+  "parent_hree": [
+   "Dy",
+   "Er",
+   "Tb",
+   "Tm"
+  ],
+  "parents": [
+   "B2Fe7Tm3",
+   "B2Er3Fe7",
+   "B2Dy3Fe7",
+   "B4Dy5Fe14Tb",
+   "B2Dy2Fe7Tb",
+   "B2DyEr2Fe7",
+   "B2Fe7TbTm2",
+   "B2Fe7Tb3"
+  ],
+  "parent_db_ids": [
+   "Alexandria:agm002361428;GNoME:833d70d89e",
+   "Alexandria:agm002361420;GNoME:d4d5873ef6",
+   "Alexandria:agm002361419;GNoME:a3cb1289aa",
+   "GNoME:4d5df43366",
+   "GNoME:5110588020",
+   "GNoME:0b816d1d65",
+   "GNoME:702918c754",
+   "Alexandria:agm002361426;GNoME:9f62347120"
+  ],
+  "sources": "Alexandria;GNoME",
+  "e_hull_min": "-0.0149",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

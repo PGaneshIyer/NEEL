@@ -1,0 +1,29 @@
+{
+ "name": "B4Co11Gd3_nat",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co"
+ ],
+ "polytype": "new-Cmmm",
+ "hree_group": "Gd",
+ "kind": "native",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/MP/Gd3Co11B4_mp-aaabimgc.CIF",
+ "provenance": {
+  "kind": "native",
+  "hree_group": "Gd",
+  "sources": "MP;OQMD",
+  "db_ids": "MP:mp-aaabimgc;OQMD:28277",
+  "parents": [
+   "B4Co11Gd3"
+  ],
+  "e_hull_min": "0.0"
+ }
+}

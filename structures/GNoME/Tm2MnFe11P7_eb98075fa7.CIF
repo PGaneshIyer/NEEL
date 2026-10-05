@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Tm2MnFe11P7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.95536928
+_cell_length_b   8.95542591
+_cell_length_c   3.61909000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.04088896
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm2MnFe11P7
+_chemical_formula_sum   'Tm2 Mn1 Fe11 P7'
+_cell_volume   251.25844724
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.665347  0.332163  0.000000  1
+  Tm  Tm1  1  0.332204  0.666611  0.500000  1
+  Mn  Mn2  1  0.885580  0.785016  0.000000  1
+  Fe  Fe3  1  0.426076  0.057089  0.500000  1
+  Fe  Fe4  1  0.942626  0.367956  0.500000  1
+  Fe  Fe5  1  0.630603  0.573410  0.500000  1
+  Fe  Fe6  1  0.155542  0.275987  0.500000  1
+  Fe  Fe7  1  0.728032  0.881431  0.500000  1
+  Fe  Fe8  1  0.119394  0.846662  0.500000  1
+  Fe  Fe9  1  0.383485  0.434322  0.000000  1
+  Fe  Fe10  1  0.565135  0.949999  0.000000  1
+  Fe  Fe11  1  0.048857  0.613992  0.000000  1
+  Fe  Fe12  1  0.218072  0.099006  0.000000  1
+  Fe  Fe13  1  0.902879  0.116542  0.000000  1
+  P  P14  1  0.112515  0.401483  0.000000  1
+  P  P15  1  0.591851  0.709265  0.000000  1
+  P  P16  1  0.288880  0.887641  0.000000  1
+  P  P17  1  0.003594  0.004846  0.500000  1
+  P  P18  1  0.411973  0.299474  0.500000  1
+  P  P19  1  0.700276  0.111765  0.500000  1
+  P  P20  1  0.887080  0.585340  0.500000  1

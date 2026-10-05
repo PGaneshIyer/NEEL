@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_CeGdFe14(SiC)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.44917229
+_cell_length_b   6.44917237
+_cell_length_c   6.44917270
+_cell_angle_alpha   83.69768305
+_cell_angle_beta   83.69769046
+_cell_angle_gamma   83.69768636
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeGdFe14(SiC)3
+_chemical_formula_sum   'Ce1 Gd1 Fe14 Si3 C3'
+_cell_volume   263.70091445
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.34922700  0.34922700  0.34922700  1.0
+  Gd  Gd1  1  0.65271600  0.65271600  0.65271600  1.0
+  Fe  Fe2  1  0.28492400  0.71638500  0.99776600  1.0
+  Fe  Fe3  1  0.71638500  0.99776600  0.28492400  1.0
+  Fe  Fe4  1  0.99776600  0.28492400  0.71638500  1.0
+  Fe  Fe5  1  0.28492400  0.99776600  0.71638500  1.0
+  Fe  Fe6  1  0.99776600  0.71638500  0.28492400  1.0
+  Fe  Fe7  1  0.71638500  0.28492400  0.99776600  1.0
+  Fe  Fe8  1  0.34109900  0.34109900  0.86184300  1.0
+  Fe  Fe9  1  0.34109900  0.86184300  0.34109900  1.0
+  Fe  Fe10  1  0.86184300  0.34109900  0.34109900  1.0
+  Fe  Fe11  1  0.65963300  0.65963300  0.13600100  1.0
+  Fe  Fe12  1  0.65963300  0.13600100  0.65963300  1.0
+  Fe  Fe13  1  0.13600100  0.65963300  0.65963300  1.0
+  Fe  Fe14  1  0.90333500  0.90333500  0.90333500  1.0
+  Fe  Fe15  1  0.09751900  0.09751900  0.09751900  1.0
+  Si  Si16  1  0.00035900  0.00035900  0.50044900  1.0
+  Si  Si17  1  0.00035900  0.50044900  0.00035900  1.0
+  Si  Si18  1  0.50044900  0.00035900  0.00035900  1.0
+  C  C19  1  0.50297500  0.50297500  0.99262800  1.0
+  C  C20  1  0.50297500  0.99262800  0.50297500  1.0
+  C  C21  1  0.99262800  0.50297500  0.50297500  1.0

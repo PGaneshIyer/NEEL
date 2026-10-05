@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TbTm2Fe8Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.08777418
+_cell_length_b   5.08777408
+_cell_length_c   8.71899668
+_cell_angle_alpha   73.03642251
+_cell_angle_beta   73.03642269
+_cell_angle_gamma   60.00000105
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbTm2Fe8Os
+_chemical_formula_sum   'Tb1 Tm2 Fe8 Os1'
+_cell_volume   184.03135056
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.000000  0.000000  0.000000  1
+  Tm  Tm1  1  0.141809  0.141809  0.574571  1
+  Tm  Tm2  1  0.858191  0.858191  0.425429  1
+  Fe  Fe3  1  0.077274  0.582764  0.757198  1
+  Fe  Fe4  1  0.582764  0.582764  0.757198  1
+  Fe  Fe5  1  0.582764  0.077274  0.757198  1
+  Fe  Fe6  1  0.922726  0.417236  0.242802  1
+  Fe  Fe7  1  0.417236  0.417236  0.242802  1
+  Fe  Fe8  1  0.417236  0.922726  0.242802  1
+  Fe  Fe9  1  0.333074  0.333074  0.000777  1
+  Fe  Fe10  1  0.666926  0.666926  0.999223  1
+  Os  Os11  1  0.500000  0.500000  0.500000  1

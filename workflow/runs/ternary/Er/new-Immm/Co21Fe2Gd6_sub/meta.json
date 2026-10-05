@@ -1,0 +1,43 @@
+{
+ "name": "Co21Fe2Gd6_sub",
+ "re_element": "Gd",
+ "tm_elements": [
+  "Co",
+  "Fe"
+ ],
+ "polytype": "new-Immm",
+ "hree_group": "Er",
+ "kind": "Gd_surrogate",
+ "ldau": {
+  "Gd": {
+   "L": 3,
+   "U": 6.7,
+   "J": 0.7,
+   "ref": "Ueff=6 eV on Gd 4f (Harmon-Antropov; standard for Gd intermetallics)"
+  }
+ },
+ "source_structure": "../structures/Gd_substituted/Co21Fe2Gd6_from_Co21Er6Fe2.CIF",
+ "provenance": {
+  "kind": "Gd_surrogate",
+  "hree_group": "Er",
+  "substituted_from": "Co21Er6Fe2",
+  "parent_hree": [
+   "Dy",
+   "Er",
+   "Tb"
+  ],
+  "parents": [
+   "Co21Er6Fe2",
+   "Co21Dy6Fe2",
+   "Co21Fe2Tb6"
+  ],
+  "parent_db_ids": [
+   "GNoME:5e48f9d563",
+   "GNoME:c0daa37fdf",
+   "GNoME:74111a33e8"
+  ],
+  "sources": "GNoME",
+  "e_hull_min": "-0.0103",
+  "note": "all heavy-RE sites replaced by Gd; transfer coupling to parents by de Gennes scaling (g_J-1)J"
+ }
+}

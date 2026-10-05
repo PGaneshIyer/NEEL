@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tm3MgCo8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.66663126
+_cell_length_b   8.66663226
+_cell_length_c   8.66663178
+_cell_angle_alpha   33.42984391
+_cell_angle_beta   33.42983400
+_cell_angle_gamma   33.42984298
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm3MgCo8
+_chemical_formula_sum   'Tm3 Mg1 Co8'
+_cell_volume   175.94341217
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.624251  0.624251  0.624251  1
+  Tm  Tm1  1  0.003594  0.003594  0.003594  1
+  Tm  Tm2  1  0.496732  0.496732  0.496732  1
+  Mg  Mg3  1  0.126291  0.126291  0.126291  1
+  Co  Co4  1  0.562900  0.064119  0.562900  1
+  Co  Co5  1  0.062117  0.560214  0.062117  1
+  Co  Co6  1  0.064119  0.562900  0.562900  1
+  Co  Co7  1  0.560214  0.062117  0.062117  1
+  Co  Co8  1  0.812334  0.812334  0.812334  1
+  Co  Co9  1  0.312434  0.312434  0.312434  1
+  Co  Co10  1  0.562900  0.562900  0.064119  1
+  Co  Co11  1  0.062117  0.062117  0.560214  1

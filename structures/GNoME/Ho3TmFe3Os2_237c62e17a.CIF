@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ho3Tm(Fe3Os)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.21097412
+_cell_length_b   5.21097419
+_cell_length_c   8.95234376
+_cell_angle_alpha   72.58488304
+_cell_angle_beta   90.86802359
+_cell_angle_gamma   120.78697992
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho3Tm(Fe3Os)2
+_chemical_formula_sum   'Ho3 Tm1 Fe6 Os2'
+_cell_volume   196.41769536
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.374948  0.750101  0.874951  1
+  Ho  Ho1  1  0.000042  0.999786  0.000172  1
+  Ho  Ho2  1  0.500372  0.999942  0.499687  1
+  Tm  Tm3  1  0.874833  0.750049  0.375117  1
+  Fe  Fe4  1  0.437310  0.874442  0.188197  1
+  Fe  Fe5  1  0.937567  0.875375  0.686888  1
+  Fe  Fe6  1  0.187619  0.375052  0.437329  1
+  Fe  Fe7  1  0.687453  0.375019  0.937527  1
+  Fe  Fe8  1  0.937361  0.374493  0.188197  1
+  Fe  Fe9  1  0.437737  0.375545  0.686888  1
+  Os  Os10  1  0.437462  0.374133  0.188405  1
+  Os  Os11  1  0.937294  0.376063  0.686643  1
