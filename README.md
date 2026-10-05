@@ -1,7 +1,9 @@
-# MAGNITO Fe–HREE magnet screening
+# NEEL — NERSC Engine for Exploring magnetic Lattices
 
-Computational search for ferromagnetic Fe/Co–heavy-rare-earth intermetallics
-(MAGNITO program, target μ0Ms > 2 T). Candidates are mined from public DFT
+Adaptive high-throughput search for ferromagnetic Fe/Co–heavy-rare-earth
+intermetallics (MAGNITO program, target μ0Ms > 2 T), named for Louis Néel,
+whose ferrimagnetism is exactly the competing state every candidate here is
+tested against. Candidates are mined from public DFT
 databases, then every one gets the same two-configuration VASP PBE+U test:
 rare-earth moment parallel (fm) vs antiparallel (ferri) to the transition-metal
 sublattice. The energy difference is the answer; the whole pipeline is here.
