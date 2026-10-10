@@ -17,7 +17,7 @@ same-model MP hull, and described with wave_features.py. Output:
 Everything is cached; re-running only processes new candidates.
 
 Needs the MACE venv:  /Users/g5q/Documents/GitHub/siteseer/.venv/bin/python wave_pool.py
-  [--re Nd,Sm] [--sources master,generated,hosts] [--max-atoms 40] [--limit N] [--hull-max 0.03]
+  [--re Nd,Sm] [--sources master,recovered,generated,hosts]   (recovered = only the structures recover_structures.py fetched) [--max-atoms 40] [--limit N] [--hull-max 0.03]
 """
 import argparse
 import csv
@@ -79,9 +79,13 @@ def partial_co(struct, re_el, frac=1 / 8):
 
 def collect(sources, res_light, max_atoms):
     cands = []   # (tag, source, parent, structure)
-    if "master" in sources:
+    if "master" in sources or "recovered" in sources:
         for r in csv.DictReader(open(os.path.join(ROOT, "all_candidates_master.csv"))):
             if not r["cif_path"]:
+                continue
+            # "recovered" = structures fetched from MP/OQMD by recover_structures.py (the
+            # GNoME/Alexandria originals were all staged in the Gd campaign already)
+            if "master" not in sources and not r["cif_path"].startswith(("structures/MP/", "structures/OQMD/")):
                 continue
             p = os.path.join(ROOT, r["cif_path"])
             if not os.path.isfile(p):
@@ -157,7 +161,8 @@ def main():
     ap.add_argument("--sources", default="master,generated,hosts")
     ap.add_argument("--max-atoms", type=int, default=40)
     ap.add_argument("--limit", type=int, default=0, help="process at most N new candidates this call")
-    ap.add_argument("--fmax", type=float, default=0.05)
+    ap.add_argument("--fmax", type=float, default=0.1, help="screening tolerance; VASP re-relaxes anyway")
+    ap.add_argument("--steps", type=int, default=120)
     ap.add_argument("--no-hull", action="store_true", help="skip the MP competitor hull (features + relax only)")
     A = ap.parse_args()
     res_light = A.re.split(","); sources = A.sources.split(",")
@@ -181,7 +186,7 @@ def main():
         from ase.io import write
         a = AseAtomsAdaptor.get_atoms(s)
         try:
-            e, fmax, nst = LH.relax(a, calc, A.fmax, 300)
+            e, fmax, nst = LH.relax(a, calc, A.fmax, A.steps)
         except Exception as ex:
             print(f"  relax failed {tag}: {ex}"); continue
         d = os.path.join(POOL_DIR, cid); os.makedirs(d, exist_ok=True)

@@ -14,14 +14,18 @@ the 5d polarisation)
   stage 2  gap_RE = 1574 * h * (gJ-1)J_RE / 3.5   (deterministic, calibrated r = 0.89)
            T*     = gap_RE / (2 k_B)
   Ms       analytic from the pool row (Fe/Co moments x density + free-ion RE)
-Acquisition per pool row
-  feasibility  P(gap_RE >= gap_min) under the GP posterior  x  1[Ms >= ms_min]  x  1[E_hull <= hull_max]
-  exploration  + kappa * sigma_h / sigma_h.median
-  greedy batch with a kriging-believer penalty (nearby candidates in feature
-  space are down-weighted after each pick) and a per-prototype cap.
+Acquisition (two options)
+  ts  (default)  batch Thompson sampling: one joint posterior draw per pick, the
+                 constraints evaluated under the draw, utility Ms x min(1, gap/gap_min).
+                 Diversity comes from posterior uncertainty, as in Bagchi et al.,
+                 arXiv:2504.05539 (HPC-driven ensemble sampling).
+  ucb            feasibility P(gap_RE >= gap_min) x 1[Ms] x 1[hull] x (1 + kappa sigma),
+                 greedy with a kriging-believer penalty - the deterministic baseline.
+  Both keep a per-prototype cap. The 'score' column is the number of posterior draws
+  a candidate won (ts) or the UCB score (ucb).
 Writes analysis/pool/wave_<k>.csv (the wave) and analysis/pool/gp_report.txt.
 
-Usage:  python3 wave_gp.py --wave 1 --size 40 [--gap-min 150 --ms-min 1.5 --hull-max 30 --kappa 1.0]
+Usage:  python3 wave_gp.py --wave 1 --size 120 [--acq ts|ucb --gap-min 100 --ms-min 1.5 --hull-max 30 --proto-cap 6]
         python3 wave_gp.py --cv            # leave-one-out check of the GP on the training set
 """
 import argparse
@@ -155,7 +159,7 @@ def acquire(pool, mu, sd, A, train_X_s, sc):
         j = int(np.argmax(live))
         if live[j] <= 0:
             break
-        proto = (pool[j]["spacegroup"], pool[j]["formula"][:4])
+        proto = (pool[j]["spacegroup"], round(float(pool[j]["TM_per_RE"]) * 2) / 2)   # family = space group + TM:RE ratio
         if per_proto.get(proto, 0) >= A.proto_cap:
             live[j] = 0; continue
         chosen.append(j); per_proto[proto] = per_proto.get(proto, 0) + 1
@@ -165,11 +169,53 @@ def acquire(pool, mu, sd, A, train_X_s, sc):
     return chosen, score, feas, gap_mu
 
 
+def acquire_ts(pool, model, A, seed=0):
+    """Batch Thompson sampling with constraints (Bagchi et al. 2025 style, BoTorch-free).
+    Each pick: draw ONE joint posterior sample of h over the whole pool, convert it to
+    gap_RE, keep the candidates that satisfy the constraints UNDER THAT SAMPLE, and take
+    the one with the largest sampled utility  U = Ms_proj * min(1, gap_s / gap_min)
+    (Ms is the quantity we want large; the gap is a threshold that must be met, so it
+    enters as a soft saturation rather than a product that would reward over-coupling).
+    Diversity comes from the posterior itself: candidates the GP is unsure about win
+    some draws and lose others. A prototype cap is kept as a guard."""
+    rng = np.random.default_rng(seed)
+    Xs = model.sc.transform(design(pool))
+    mean = model.mean.predict(Xs)
+    n_draw = max(4 * A.size, 64)
+    samples = model.gp.sample_y(Xs, n_samples=n_draw, random_state=int(rng.integers(1e9)))   # (n_pool, n_draw) residuals
+    scale = np.array([K_H * GJ1J[r["re_el"]] / 3.5 for r in pool])
+    ms = np.array([float(r["Ms_proj_T"] or 0) for r in pool])
+    hull_ok = np.array([(r.get("E_hull_meV") not in ("", None)) and float(r["E_hull_meV"]) <= A.hull_max for r in pool])
+    base_ok = hull_ok & (ms >= A.ms_min)
+    chosen, per_proto, wins = [], {}, np.zeros(len(pool))
+    for d in range(n_draw):
+        gap_s = (mean + samples[:, d]) * scale
+        util = np.where(base_ok, ms * np.minimum(1.0, gap_s / A.gap_min), -1.0)
+        util = np.where(gap_s >= A.gap_min, util, -1.0)        # infeasible under this draw -> cannot win it
+        order = np.argsort(-util)
+        for j in order:
+            if util[j] <= 0:
+                break
+            proto = (pool[j]["spacegroup"], round(float(pool[j]["TM_per_RE"]) * 2) / 2)   # family = space group + TM:RE ratio
+            if j in chosen or per_proto.get(proto, 0) >= A.proto_cap:
+                continue
+            chosen.append(int(j)); per_proto[proto] = per_proto.get(proto, 0) + 1; wins[j] += 1
+            break
+        if len(chosen) >= A.size:
+            break
+    mu, sd = model.predict(design(pool))
+    gap_mu = mu * scale
+    from scipy.stats import norm
+    feas = (1 - norm.cdf((A.gap_min - gap_mu) / np.maximum(sd * scale, 1e-6))) * base_ok
+    return chosen, wins, feas, gap_mu
+
+
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--acq", choices=["ts", "ucb"], default="ts", help="ts = batch Thompson sampling (default); ucb = feasibility x (1 + kappa sigma) greedy")
     ap.add_argument("--wave", type=int, default=1)
     ap.add_argument("--size", type=int, default=40)
-    ap.add_argument("--gap-min", type=float, default=150.0, help="meV per RE for the actual RE; 150 ~ T* > 870 K")
+    ap.add_argument("--gap-min", type=float, default=100.0, help="meV per RE for the ACTUAL RE; 100 meV ~ T* 580 K, the Nd2Fe14B level (its Gd gap 304 meV scales to 107 meV for Nd)")
     ap.add_argument("--ms-min", type=float, default=1.5)
     ap.add_argument("--hull-max", type=float, default=30.0)
     ap.add_argument("--kappa", type=float, default=1.0)
@@ -187,6 +233,14 @@ def main():
     if not os.path.isfile(pool_csv):
         sys.exit("no pool.csv - run wave_pool.py first")
     pool = [r for r in csv.DictReader(open(pool_csv)) if r.get("re_el")]
+    # the same (formula, space group) can enter from several sources / pool runs: keep the lowest-hull copy
+    best = {}
+    for r in pool:
+        key = (r["formula"], r["spacegroup"])
+        eh = float(r["E_hull_meV"]) if r.get("E_hull_meV") not in ("", None) else 1e9
+        if key not in best or eh < best[key][0]:
+            best[key] = (eh, r)
+    pool = [v[1] for v in best.values()]
     # exclude anything already run or queued
     done = set()
     for p in (os.path.join(OUT, "labels.csv"), *[os.path.join(OUT, f"wave_{k}.csv") for k in range(1, A.wave)]):
@@ -194,7 +248,10 @@ def main():
             done |= {r["cid"] for r in csv.DictReader(open(p)) if r.get("cid")}
     pool = [r for r in pool if r["cid"] not in done]
     mu, sd = model.predict(design(pool))
-    chosen, score, feas, gap_mu = acquire(pool, mu, sd, A, None, model.sc)
+    if A.acq == "ts":
+        chosen, score, feas, gap_mu = acquire_ts(pool, model, A)
+    else:
+        chosen, score, feas, gap_mu = acquire(pool, mu, sd, A, None, model.sc)
     rows = []
     for j in chosen:
         r = dict(pool[j]); r.update({"h_pred": round(mu[j], 3), "h_sd": round(sd[j], 3), "gap_pred_meV": round(gap_mu[j], 0),
@@ -205,7 +262,7 @@ def main():
     with open(out, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=keys, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
     with open(os.path.join(OUT, "gp_report.txt"), "a") as f:
-        f.write(f"wave {A.wave}: pool {len(pool)}  feasible {int((feas>0).sum())}  chosen {len(rows)}  "
+        f.write(f"wave {A.wave} [{A.acq}]: pool {len(pool)}  feasible {int((feas>0).sum())}  chosen {len(rows)}  "
                 f"kernel {model.gp.kernel_}\n")
     print(f"pool {len(pool)}, feasible {int((feas > 0).sum())}, chosen {len(rows)} -> {out}")
     print(f"{'formula':<16}{'RE':>3}{'Ms':>6}{'Ehull':>7}{'h_pred':>8}{'±':>6}{'gap':>6}{'T*':>6}{'P':>6}{'score':>7}  source")
