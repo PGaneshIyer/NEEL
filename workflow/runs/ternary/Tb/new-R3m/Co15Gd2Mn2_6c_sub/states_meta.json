@@ -1,0 +1,38 @@
+{
+ "purpose": "mechanism-2 test: Mn-Mn AFM on the 6c dumbbell",
+ "states": {
+  "A_GdDn_MnUpUp": {
+   "gd": -1,
+   "mn": [
+    1,
+    1
+   ],
+   "lock": 13
+  },
+  "B_GdDn_MnAFM": {
+   "gd": -1,
+   "mn": [
+    1,
+    -1
+   ],
+   "lock": 6
+  },
+  "C_GdUp_MnDnDn": {
+   "gd": 1,
+   "mn": [
+    -1,
+    -1
+   ],
+   "lock": 30
+  },
+  "D_GdUp_MnAFM": {
+   "gd": 1,
+   "mn": [
+    1,
+    -1
+   ],
+   "lock": 36
+  }
+ },
+ "compare_with": "fm (released -147.43 eV, 42.3 uB)"
+}

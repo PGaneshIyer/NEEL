@@ -301,6 +301,28 @@ def main():
             tf = r["fm"].get("tm_moment_avg")
             tfe = r["ferri"].get("tm_moment_avg")
             problems = []
+            # An unconverged run has no energy worth comparing. This was never
+            # in the validity list - B2Fe7Gd3_sub (ferri NOT_CONVERGED) and
+            # Fe14Gd3Lu_sub (both NOT_CONVERGED) were reported as credible
+            # ferromagnets with dE of 336 and 479 meV/RE (found 2026-10-10).
+            for cfg in ("fm", "ferri"):
+                st = r[cfg].get("status")
+                if st and st != "converged":
+                    problems.append(f"{cfg}:{st}")
+            # Within one configuration every RE site must be in the same state:
+            # same sign, and magnitudes within ~1 mu_B of each other (Gd 4f7 is
+            # 6.7-7.1 everywhere it converged cleanly). A site at +6.7 among
+            # -7.0s, or at 4.1 among 6.9s, is a partially flipped / half-
+            # collapsed cell, not a magnetic configuration - the per-site
+            # tables of the two false positives above, and of the broken
+            # Tier-2 heavy-RE runs, all look like this.
+            for cfg in ("fm", "ferri"):
+                rs = r[cfg].get("re_site_moments") or []
+                if len(rs) >= 2:
+                    if any(m * rs[0] < 0 for m in rs):
+                        problems.append(f"{cfg}:RE_SITES_SPLIT")
+                    elif max(rs) - min(rs) > 1.0:
+                        problems.append(f"{cfg}:RE_SITES_UNEQUAL")
             if tf is not None and tfe is not None:
                 scale = max(abs(tf), abs(tfe), 1e-9)
                 if abs(abs(tf) - abs(tfe)) > 0.25 * scale:
@@ -319,12 +341,18 @@ def main():
             # keep their configuration, and keep the same TM moment.
             if abs(de / (n_re or 1)) > 600:
                 problems.append("EXCHANGE_ENERGY_IMPLAUSIBLE")
-            # A third magnetic element (Mn, Cr, Ni ... appearing as a minority
-            # GNoME substituent) can flip sign between fm/ferri legitimately -
-            # it may simply track the RE rather than the declared TM, which is
-            # real physics, not a fault. What is NOT legitimate is its MAGNITUDE
-            # collapsing or exploding the way Fe/Co did in the TM_SUBLATTICE_
-            # CHANGED cases, so check magnitude only, never sign, here.
+            # A third magnetic element (Mn, Cr, Ni ... a minority GNoME
+            # substituent) must keep BOTH its magnitude and its orientation
+            # relative to the TM sublattice between fm and ferri. Magnitude:
+            # collapsing/exploding like Fe/Co in the TM_SUBLATTICE_CHANGED cases.
+            # Sign relative to TM: if it flips, the two runs differ by more than
+            # the RE reversal and dE is not the RE-TM coupling energy. An earlier
+            # version of this check deliberately ignored sign ("the spectator
+            # may legitimately track the RE") - that let Co16Gd2Mn through as
+            # the campaign's one "credible ferromagnet": Mn kept |m|~3.1-3.4 but
+            # sat with Co in fm and against Co in ferri, i.e. the ferri run was a
+            # metastable basin ~650 meV above the true ferrimagnet (Mn with Co),
+            # found only when the locked relax was released (2026-10-10).
             om_fm = r["fm"].get("other_moments_avg") or {}
             om_fe = r["ferri"].get("other_moments_avg") or {}
             for el in sorted(set(om_fm) | set(om_fe)):
@@ -334,6 +362,9 @@ def main():
                 scale = max(abs(a), abs(b), 1e-9)
                 if abs(abs(a) - abs(b)) > 0.25 * scale:
                     problems.append(f"OTHER_SUBLATTICE_CHANGED:{el}")
+                if tf is not None and tfe is not None and abs(tf) > 0.3 and abs(tfe) > 0.3:
+                    if (a * tf > 0) != (b * tfe > 0):
+                        problems.append(f"SPECTATOR_FLIPPED:{el}")
             if r.pop("_mixed", False):
                 problems.insert(0, "MIXED_CONSTRAINT")
             for cfg in ("fm", "ferri"):
