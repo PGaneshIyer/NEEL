@@ -9,11 +9,36 @@ rare-earth moment parallel (fm) vs antiparallel (ferri) to the transition-metal
 sublattice. The energy difference is the answer; the whole pipeline is here.
 
 Status (Oct 2026): 353 compounds screened with a Gd surrogate for Tb–Tm;
-**one credible ferromagnet survives every validity check — Co16Gd2Mn**
-(Th2Zn17-type, Mn on the 6c dumbbell site; dE = +114.5 meV/Gd, μ0Ms = 1.95 T).
-Direct explicit-4f calculations on the real Tb/Dy/Ho/Er/Tm compounds and a Mn
-site/concentration series are in progress. `MAGNITO_Fe-HREE_screening.pptx`
-tells the full story.
+180 pairs pass every validity rule and **all 180 are ferrimagnets** — the one
+apparent ferromagnet (Co16Gd2Mn) was a metastable Mn‖Gd basin that released to
+a Néel ferrimagnet. The dataset is instead a calibrated measurement of the
+RE–TM exchange: the fm/ferri gap is set by the 5d spin the host induces on the
+rare earth (|ΔE| = 1574·h meV, r = 0.89 on 180 compounds; GdFe2 J_RT 2.97 vs
+2.99 × 10⁻²² J expt). That single-number rule makes each new label **one
+f-in-core relaxation** instead of an fm/ferri pair, which is what the GP wave
+loop below is built on. `MAGNITO_Fe-HREE_screening.pptx` tells the full story.
+
+## GP wave loop (the adaptive part)
+
+![GP wave loop](docs/gp_wave_loop.png)
+
+```bash
+cd workflow
+./wave_loop.sh plan 1 40     # pool (MACE relax + same-model MP hull + descriptors) → GP → VASP inputs → push
+./wave_loop.sh submit 1      # packed Perlmutter job sized from live queue data
+./wave_loop.sh ingest        # mirror → labels.csv → H1 check → GP cross-validation
+./wave_loop.sh plan 2 40     # next wave, now trained on wave 1 as well
+```
+
+| Script | Role |
+|---|---|
+| `recover_structures.py` | fetch the 396 candidate structures the first screen could not download (MP by id with a key; OQMD with MP composition fallback) |
+| `wave_features.py` | geometry-only descriptors, identical for training rows and candidates |
+| `wave_pool.py` | candidate pool: recovered DB structures, generated decorations, strongest Gd hosts × {Nd, Sm, partial Co}; MACE-MP-0 relax, hull vs MP competitors re-evaluated with the same model |
+| `wave_gp.py` | two-stage model: ridge mean + Matern GP on h, deterministic gap/T* from 1574·h; feasibility × exploration acquisition with a prototype cap; `--cv` for the 10-fold check |
+| `wave_inputs.py`, `wave_ingest.py`, `wave_loop.sh` | inputs, label harvesting, orchestration; `DEPLOY_NERSC.md` runs the whole loop on Perlmutter with scrontab |
+| `light_re_hull.py`, `light_re_series.py`, `light_re_results.py` | the first light-RE batch (20 hosts) that seeded the loop |
+| `apply_5d_method.py`, `exchange_trends.py`, `deck_figures*.py` | the analysis the loop is built on |
 
 ## Layout
 

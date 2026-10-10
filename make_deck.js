@@ -70,7 +70,7 @@ s.addText("Target: μ₀Ms > 2 T  ·  Tc > 550 K  ·  uniaxial anisotropy  ·  R
   fontFace: BF, fontSize: 13, italic: true, color: "8FA3C0",
 });
 // footer strip anchors the empty lower third
-s.addText("706 paired DFT calculations staged  ·  352 compounds  ·  5 databases screened", {
+s.addText("706 paired DFT calculations  ·  353 compounds  ·  180 credible RE-TM exchange labels  ·  0 ferromagnets", {
   x: M, y: 6.45, w: 8.6, h: 0.35, isTextBox: true, margin: 0,
   fontFace: BF, fontSize: 11.5, charSpacing: 1, color: "6E819E",
 });
@@ -138,6 +138,9 @@ s.addText([
 s.addText("Consequence: a genuinely ferromagnetic Fe-HREE phase is the exception, not the target to assume. The screen must test it, not presume it.",
   { x: 7.22, y: 5.15, w: 5.05, h: 0.72, isTextBox: true, margin: 0,
     fontFace: BF, fontSize: 12, italic: true, color: GOLD });
+card(s, M, 6.1, W, 0.62, NAVY2);
+s.addText("Outcome of the campaign: tested on 180 credible Fe/Co-Gd compounds - 180 ferrimagnets, 0 ferromagnets. The rule held everywhere; what varied, by 10x, was its strength.",
+  { x: M + 0.25, y: 6.1, w: W - 0.5, h: 0.62, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11, bold: true, color: GOLD, valign: "middle" });
 s.addNotes("Campbell rule: 4f-5d-3d chain fixes the sign. Heavy RE gives ferrimagnetism; light RE gives net-parallel alignment. This is why every database 'FM' label on a Gd-Fe compound deserves suspicion.");
 
 // ================= 3. SEARCH CRITERIA =================
@@ -355,7 +358,7 @@ const nupdownFunnel = [
   ["353", "compounds analysed", "static fm/ferri pair, Gd surrogate", WHITE, INK],
   ["95", "apparent ferromagnets", "naive, unconstrained SCF result - taken at face value, most are not real", "FCEDE8", "8A3B2E"],
   ["4", "survive NUPDOWN hardening", "measured-moment-derived locked rerun, released to a final unconstrained static", "FFF3D6", "8A6A1E"],
-  ["1", "survives every remaining check", "3 of those 4 carried implausible multi-eV exchange energies - an LDA+U multi-minima artefact, not real coupling", NAVY2, WHITE],
+  ["0", "survive the release test", "3 of the 4 carried multi-eV exchange energies (LDA+U multi-minima artefact); the 4th, Co16Gd2Mn, was a metastable Mn-parallel-to-Gd basin that released to a ferrimagnet", NAVY2, WHITE],
 ];
 nupdownFunnel.forEach(([n, label, note, fill, tcolor], i) => {
   const y = 2.22 + i * 0.96;
@@ -369,209 +372,306 @@ nupdownFunnel.forEach(([n, label, note, fill, tcolor], i) => {
 });
 s.addNotes("The 95->4 collapse on first hardening attempt actually went to ZERO credible - that first pass derived NUPDOWN from the same runs it was trying to fix (circular). Fixed by requiring a freely-converged reference or falling back to measured nominal per-element moments, split by high-spin/low-spin branch.");
 
-// ================= 8. RESULTS =================
+// ================= 8. CAMPAIGN RESULTS (negative result, stated plainly) =================
 s = pres.addSlide();
-titleBar(s, "CAMPAIGN RESULTS", "One candidate survives every validity check", false);
+titleBar(s, "CAMPAIGN RESULTS", "No ferromagnet survives the release test; the false positive taught us the most", false);
 
-card(s, M, 1.6, 5.55, 2.3);
-s.addText("353 compounds analysed  ->  1 credible ferromagnet", {
-  x: M + 0.28, y: 1.76, w: 5.0, h: 0.3, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 12.5, bold: true, color: INK });
-const why = [
-  ["Implausible exchange energy", "3-5.5 eV/Gd, 10-15x any real value - LDA+U landing in a different state, not physical coupling"],
-  ["Untracked sublattice collapse", "a spectator element (Os, Y, Lu, Ru, Ce...) shifting between fm/ferri, invisible if only Fe/Co are watched"],
-  ["TM sublattice itself collapsed", "the Fe or Co moment changed between runs - the failure the constrained rerun was built to fix"],
-];
-why.forEach(([h, d], i) => {
-  const y = 2.12 + i * 0.58;
-  numCircle(s, M + 0.28, y, i + 1, FE);
-  s.addText(h, { x: M + 0.85, y: y - 0.03, w: 4.55, h: 0.22, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 10.5, bold: true, color: INK });
-  s.addText(d, { x: M + 0.85, y: y + 0.18, w: 4.6, h: 0.36, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 8.5, color: MUTE });
-});
-
-card(s, 6.45, 1.6, 5.15, 2.3, NAVY2);
-s.addText("Co16Gd2Mn  ·  new-R3m", {
-  x: 6.73, y: 1.76, w: 4.6, h: 0.28, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 13.5, bold: true, color: GOLD });
-s.addText("Co-rich 2-17-like lattice, Mn on one Co site", {
-  x: 6.73, y: 2.04, w: 4.6, h: 0.24, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 9.5, italic: true, color: "AEBBD0" });
-const stats = [["dE (ferri - fm)", "+114.5 meV/Gd"], ["ground state", "ferromagnetic"], ["u0Ms", "1.95 T"]];
-stats.forEach(([k, v], i) => {
-  const y = 2.34 + i * 0.3;
-  s.addText(k, { x: 6.73, y, w: 2.5, h: 0.26, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 10, color: "8FA3C0" });
-  s.addText(v, { x: 9.3, y, w: 2.15, h: 0.26, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11, bold: true, color: WHITE, align: "right" });
-});
-s.addText("Mn couples ferromagnetically to Gd while Co keeps its usual antiparallel preference - flipping the net RE-TM sign for the compound.",
-  { x: 6.73, y: 3.3, w: 4.6, h: 0.55, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 8.5, color: "C6D2E4" });
-
-card(s, M, 4.05, W, 0.48, PANEL);
-s.addText("Validated: stable Co sublattice, stable Mn magnitude, normal exchange-energy scale, clean EDIFF convergence on both configs (47 / 29 SCF steps of 400).",
-  { x: M + 0.25, y: 4.05, w: W - 0.5, h: 0.48, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 10, italic: true, color: RE, valign: "middle" });
-
-s.addText("Projected magnetisation for the real target compositions", {
-  x: M, y: 4.66, w: 7.5, h: 0.26, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 12.5, bold: true, color: INK });
-s.addText("Three of five heavy-RE analogues clear the 2 T program target.",
-  { x: 8.6, y: 4.68, w: 4.0, h: 0.24, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 9.5, italic: true, color: FE, align: "right" });
-const prows2 = [
-  [{ text: "Parent compound", options: { bold: true } }, { text: "Heavy RE", options: { bold: true } },
-   { text: "Projected u0Ms", options: { bold: true } }],
-  ["Co16Dy2Mn", "Dy", "2.26 T"],
-  ["Co16Ho2Mn", "Ho", "2.26 T"],
-  ["Co16MnTb2", "Tb", "2.17 T"],
-  ["Co16Er2Mn", "Er", "2.17 T"],
-  ["Co16MnTm2", "Tm", "1.98 T"],
-];
-s.addTable(prows2, {
-  x: M, y: 5.0, w: W, colW: [W * 0.34, W * 0.33, W * 0.33],
-  fontFace: BF, fontSize: 11, color: INK, border: { type: "solid", color: "D5DDE8", pt: 1 },
-  fill: { color: WHITE }, rowH: 0.27, valign: "middle",
-});
-
-// ================= 8a. RELATIONSHIP TO Sm2Co17 =================
-s = pres.addSlide();
-titleBar(s, "STRUCTURAL LINEAGE", "A one-atom variant of a magnet already on the market", false);
-
-const cardW = 3.75, imgW = cardW - 0.5, imgH = 2.75, cardH = 4.35, cardY = 1.6;
-card(s, M, cardY, cardW, cardH, PANEL);
-s.addImage({ path: "assets/tb2mnco16.png", x: M + 0.25, y: cardY + 0.2, w: imgW, h: imgH, sizing: { type: "contain", w: imgW, h: imgH } });
-s.addText("Tb2MnCo16  -  parent (GNoME)", { x: M + 0.25, y: cardY + 2.97, w: imgW, h: 0.26, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 10.5, bold: true, color: INK, align: "center" });
-s.addText("Th2Zn17 prototype, R-3m (#166) - independently DFT-relaxed by GNoME, Tb in the RE site, one of 17 TM sites occupied by Mn.",
-  { x: M + 0.25, y: cardY + 3.25, w: imgW, h: 1.0, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 9, color: MUTE, align: "center" });
-
-const col2X = M + cardW + 0.3;
-card(s, col2X, cardY, cardW, cardH, NAVY2);
-s.addImage({ path: "assets/co16gd2mn_sub.png", x: col2X + 0.25, y: cardY + 0.2, w: imgW, h: imgH, sizing: { type: "contain", w: imgW, h: imgH } });
-s.addText("Co16Gd2Mn_sub  -  FM candidate", { x: col2X + 0.25, y: cardY + 2.97, w: imgW, h: 0.26, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 10.5, bold: true, color: GOLD, align: "center" });
-s.addText("Identical lattice - Gd stands in for Tb (explicit 4f, S-state surrogate). Same Mn-for-Co site. Only the RE identity changes.",
-  { x: col2X + 0.25, y: cardY + 3.25, w: imgW, h: 1.0, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 9, color: "C6D2E4", align: "center" });
-
-const col3X = col2X + cardW + 0.3, col3W = W - (col3X - M);
-card(s, col3X, cardY, col3W, cardH, "FCEDE8");
-s.addText("The real magnet this descends from", { x: col3X + 0.28, y: cardY + 0.2, w: col3W - 0.56, h: 0.5, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 13.5, bold: true, color: FE });
-const lineage = [
-  ["Sm2Co17", "commercial 2:17 SmCo permanent magnet - one of only two SmCo classes ever commercialised (with SmCo5, the 1:5 type)"],
-  ["RE2Co17", "the general Th2Zn17-type family - Y, Ce, Pr, Nd, Sm, Gd, Tb... all form this same rhombohedral structure"],
-  ["RE2MnCo16", "one of the 17 transition-metal sites replaced by Mn - the single change this campaign is built around"],
-];
-lineage.forEach(([h, d], i) => {
-  const y = cardY + 0.85 + i * 0.98;
-  numCircle(s, col3X + 0.28, y, i + 1, i === 2 ? FE : RE);
-  s.addText(h, { x: col3X + 0.86, y: y - 0.03, w: col3W - 1.2, h: 0.26, isTextBox: true, margin: 0,
-    fontFace: HF, fontSize: 13, bold: true, color: "8A3B2E" });
-  s.addText(d, { x: col3X + 0.86, y: y + 0.24, w: col3W - 1.2, h: 0.62, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 9.3, color: "7A4034" });
-});
-
-card(s, M, cardY + cardH + 0.2, W, 7.1 - (cardY + cardH + 0.2), NAVY2);
-s.addText("Every candidate in this campaign is a controlled chemical edit of an already-magnetic parent - swap the light RE for a heavy one, then perturb one transition-metal site. Co16Gd2Mn_sub is the one edit, out of 353, where that perturbation flips the whole compound's magnetic order rather than just its Curie temperature or anisotropy.",
-  { x: M + 0.3, y: cardY + cardH + 0.2, w: W - 0.6, h: 7.1 - (cardY + cardH + 0.2), isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11, italic: true, color: "C6D2E4", valign: "middle" });
-
-// ================= 8b. WHY MN, AND TIER-2 VERIFICATION =================
-s = pres.addSlide();
-titleBar(s, "WHY MN, AND WHAT'S BEING VERIFIED", "A one-atom coupling lever, now being checked without the Gd stand-in", false);
-
-card(s, M, 1.6, 5.9, 3.55, NAVY2);
-s.addText("Why a magnetic Mn site flips the sign", {
-  x: M + 0.3, y: 1.82, w: 5.3, h: 0.3, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 14, bold: true, color: GOLD });
-const mnLogic = [
-  "Heavy-RE-TM magnets are ferrimagnetic by default: the 4f moment polarises the RE's own 5d shell parallel (intra-atomic), and that 5d hybridises antiparallel with neighbouring Fe/Co 3d (Campbell's rule). Net result: RE and TM sublattices oppose.",
-  "Mn is the known exception to that rule. Its 3d filling differs enough from Fe/Co that RE-Mn coupling is frequently parallel (ferromagnetic) rather than antiparallel, in contrast to the near-universal RE-Co antiparallel preference.",
-  "Every DFT run in this campaign confirms it directly: in Co16Gd2Mn_sub and every native-RE compound checked so far, the Mn site's own moment aligns WITH the RE 4f moment, while all 16 Co sites align against it - a completely consistent sign pattern, not a coincidence.",
-  "One Mn atom against sixteen Co atoms cannot flip the lattice by weight of numbers - but it only has to tip the net energy balance, not the head count. That single competing bond is apparently enough: fm sits 114.5 meV/Gd below ferri for this compound.",
-];
-mnLogic.forEach((t, i) => {
-  const y = 2.2 + i * 0.72;
-  numCircle(s, M + 0.3, y, i + 1, i === 2 ? FE : RE);
-  s.addText(t, { x: M + 0.88, y: y - 0.04, w: 4.85, h: 0.68, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 9.8, color: "C6D2E4" });
-});
-
-card(s, 6.5, 1.6, W - 5.8, 3.55, PANEL);
-s.addText("Tier-2: checking the mechanism without the Gd stand-in", {
-  x: 6.8, y: 1.82, w: W - 6.4, h: 0.3, isTextBox: true, margin: 0,
+card(s, M, 1.6, 5.3, 4.95, PANEL);
+s.addText("The funnel, after every validity rule", {
+  x: M + 0.28, y: 1.76, w: 4.8, h: 0.3, isTextBox: true, margin: 0,
   fontFace: BF, fontSize: 13, bold: true, color: INK });
-s.addText("Everything above used Gd as a computational surrogate for Tb/Dy/Ho/Er/Tm (explicit 4f, S-state, tractable). potpaw_PBE.64 ships an explicit-4f potential for all five real heavy REs too, so the natural next check is direct: relax each real RE on its own native lattice, no surrogate, no de Gennes projection.",
-  { x: 6.8, y: 2.14, w: W - 6.4, h: 0.62, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 9.5, color: MUTE });
-const t2rows = [
-  [{ text: "Compound", options: { bold: true } }, { text: "fm", options: { bold: true } },
-   { text: "ferri", options: { bold: true } }, { text: "Status", options: { bold: true } }],
-  ["Co16Tb2Mn", "not converged", "clean", "in progress"],
-  ["Co16Dy2Mn", "clean", "symmetry-broken", "in progress"],
-  ["Co16Ho2Mn", "killed (walltime)", "symmetry-broken", "in progress"],
-  ["Co16Er2Mn", "collapsed to ferri-like", "inhomogeneous", "in progress"],
-  ["Co16Tm2Mn", "killed (walltime)", "killed (walltime)", "in progress"],
+const resFunnel = [
+  ["353", "fm / ferri pairs staged", "Gd stand-in for Tb-Tm, PBE+U, NUPDOWN-locked then released", WHITE, INK],
+  ["180", "credible exchange labels", "both configs converged, TM and spectator sublattices stable, RE sites equal, exchange energy on a physical scale", "FFF3D6", "8A6A1E"],
+  ["180", "ferrimagnetic", "every credible pair: Gd antiparallel to Fe/Co, 28-371 meV per Gd", "E3F0F6", "1F5F7A"],
+  ["0", "ferromagnetic", "the Campbell 4f-5d-3d chain holds in all 180 - no host, decoration or Mn trick broke it", NAVY2, WHITE],
 ];
-s.addTable(t2rows, {
-  x: 6.8, y: 2.86, w: W - 6.4, colW: [(W - 6.4) * 0.28, (W - 6.4) * 0.24, (W - 6.4) * 0.28, (W - 6.4) * 0.2],
-  fontFace: BF, fontSize: 8.3, color: INK, border: { type: "solid", color: "D5DDE8", pt: 1 },
-  fill: { color: WHITE }, rowH: 0.25, valign: "middle",
+resFunnel.forEach(([n, label, note, fill, tcolor], i) => {
+  const y = 2.14 + i * 1.06;
+  card(s, M + 0.28, y, 4.78, 0.94, fill);
+  s.addText(n, { x: M + 0.45, y: y + 0.1, w: 1.0, h: 0.74, isTextBox: true, margin: 0,
+    fontFace: HF, fontSize: 28, bold: true, color: tcolor, valign: "middle" });
+  s.addText(label, { x: M + 1.5, y: y + 0.1, w: 3.5, h: 0.26, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 11.5, bold: true, color: tcolor });
+  s.addText(note, { x: M + 1.5, y: y + 0.37, w: 3.5, h: 0.54, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 8.4, color: tcolor });
 });
-s.addText("No compound yet has both configs converged to a coherent, symmetric state - no fm-vs-ferri energy is trustworthy yet. Unconstrained relaxation let the two equivalent RE sites break symmetry, and Mn's moment collapsed when they did. Next: rerun with the total moment locked, then release to an unconstrained static.",
-  { x: 6.8, y: 4.44, w: W - 6.4, h: 0.68, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 8.3, italic: true, color: FE });
 
-card(s, M, 5.35, W, 0.5, NAVY2);
-s.addText("The only validated, promising result to date remains Co16Gd2Mn_sub (Gd surrogate, Tb's native lattice): dE = +114.5 meV/Gd, ferromagnetic ground state, u0Ms = 1.95 T. Tier-2 exists to confirm this holds for the real heavy REs - it has not yet confirmed or refuted it.",
-  { x: M + 0.28, y: 5.35, w: W - 0.56, h: 0.5, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 10.5, italic: true, color: GOLD, valign: "middle" });
+card(s, 6.35, 1.6, 6.25, 3.3, NAVY2);
+s.addText("Co16Gd2Mn: the false positive, and why it was false", {
+  x: 6.63, y: 1.76, w: 5.7, h: 0.3, isTextBox: true, margin: 0,
+  fontFace: BF, fontSize: 13, bold: true, color: GOLD });
+const fp = [
+  ["Locked relaxation", "fm lower by 114.5 meV/Gd", "the ferri reference had Mn parallel to Gd - a metastable spectator basin, held in place by the NUPDOWN lock and -42 kbar of residual pressure"],
+  ["Released statics", "ferri (Mn ∥ Co) lower by 208 meV/Gd", "E(ferri) = -146.088 eV vs E(fm) = -145.671 eV: a textbook Néel ferrimagnet once Mn is allowed to sit where it wants"],
+  ["Four Mn₂ spin states", "queued (job 59632311)", "Mn-Mn AFM, Mn ∥ Gd and Mn ∥ Co each relaxed and released - closes the mechanism-2 question on the record"],
+];
+fp.forEach(([h, v, d], i) => {
+  const y = 2.14 + i * 0.86;
+  numCircle(s, 6.63, y + 0.04, i + 1, i === 1 ? FE : RE);
+  s.addText(h, { x: 7.2, y, w: 2.4, h: 0.24, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 10.5, bold: true, color: WHITE });
+  s.addText(v, { x: 9.55, y, w: 2.9, h: 0.24, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 10.5, bold: true, color: GOLD, align: "right" });
+  s.addText(d, { x: 7.2, y: y + 0.26, w: 5.25, h: 0.56, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 8.4, color: "C6D2E4" });
+});
 
-// ================= 8c. PER-ATOM MOMENTS =================
+card(s, 6.35, 5.05, 6.25, 1.5, "FCEDE8");
+s.addText("What was learnt", { x: 6.63, y: 5.18, w: 5.7, h: 0.26, isTextBox: true, margin: 0,
+  fontFace: BF, fontSize: 12, bold: true, color: FE });
+s.addText("A constrained calculation proves a state exists, not that nature picks it. Three validity rules were added to the analysis - spectator-flip detection, per-config convergence, RE-site equality - and only energies that survive an unconstrained release are compared. Under those rules the 180 credible pairs are a clean, systematic measurement of RE-TM exchange, which is worth more than one unverified ferromagnet.",
+  { x: 6.63, y: 5.45, w: 5.75, h: 1.05, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 9.6, color: "7A4034" });
+s.addNotes("Be explicit that the earlier deck claimed Co16Gd2Mn as FM. The release-stage comparison overturned it. The three validity rules now in analyze.py are the methodological product of that episode.");
+
+// ================= 8a-i. NOT A NEIGHBOUR COUNT =================
 s = pres.addSlide();
-titleBar(s, "PER-ATOM MOMENTS, DIRECTLY MEASURED", "Mn always sides with Gd - never with Co - in both configurations", false);
+titleBar(s, "WHAT THE 180 LABELS SAY  ·  1 / 2", "The gap is not a neighbour count: the per-neighbour coupling itself varies 10-fold", false);
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/trends_neighbours.png", x: M, y: 1.55, w: 7.4, h: 5.18 });
+card(s, 8.35, 1.55, 4.25, 5.18, PANEL);
+s.addText("How to read it", { x: 8.6, y: 1.7, w: 3.8, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: INK });
+s.addText("Each point is one compound: the fm/ferri energy gap per Gd against the summed moment of the Fe/Co atoms touching that Gd. If the RE-TM coupling were a universal constant, the points would sit on one dotted line.",
+  { x: 8.6, y: 2.0, w: 3.8, h: 1.1, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: MUTE });
+s.addText("What it shows", { x: 8.6, y: 3.2, w: 3.8, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: INK });
+const nnPts = [
+  "They span J_eff = 0.05 to 1.4 meV/μB²: at a fixed neighbour moment of ~25 μB the gap ranges from 110 to 370 meV.",
+  "The strongest coupling sits at LOW neighbour moment (Fe/Y and Fe+Co hosts, upper left), the weakest at high neighbour moment (2-17 hydride, lower right).",
+  "So neither coordination number nor TM moment predicts the gap. Something about the host, not the count, sets it.",
+];
+nnPts.forEach((t, i) => s.addText(t, { x: 8.6, y: 3.5 + i * 0.78, w: 3.85, h: 0.76, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.2, color: MUTE, bullet: true }));
+s.addText("Conclusion: a fixed J_RT times a neighbour count - the usual mean-field shortcut - would be wrong by up to 10x across this chemistry.",
+  { x: 8.6, y: 5.95, w: 3.85, h: 0.7, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, bold: true, color: FE });
 
-const siteCard = (x, w, label, gd, mn, coRange, coAvg, total, dark) => {
-  card(s, x, 1.66, w, 4.55, dark ? NAVY2 : PANEL);
-  const tc = dark ? WHITE : INK, mc = dark ? "AEBBD0" : MUTE, ac = dark ? GOLD : RE;
-  s.addText(label, { x: x + 0.32, y: 1.86, w: w - 0.64, h: 0.34, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 15, bold: true, color: ac });
-  const rows = [
-    ["Gd  (sites 1, 2)", gd, FE],
-    ["Mn  (site 3)", mn, GOLD],
-    [`Co  (16 sites, ${coRange})`, coAvg, dark ? "8FA3C0" : MUTE],
-  ];
-  rows.forEach(([k, v, vc], i) => {
-    const y = 2.4 + i * 0.86;
-    card(s, x + 0.32, y, w - 0.64, 0.7, dark ? "24345C" : WHITE);
-    s.addText(k, { x: x + 0.55, y: y + 0.1, w: w - 1.1, h: 0.26, isTextBox: true, margin: 0,
-      fontFace: BF, fontSize: 11, color: mc });
-    s.addText(v, { x: x + 0.55, y: y + 0.36, w: w - 1.1, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: HF, fontSize: 15, bold: true, color: vc });
-  });
-  s.addText("total moment", { x: x + 0.32, y: 4.98, w: w * 0.5, h: 0.22, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 9.5, charSpacing: 1, color: mc });
-  s.addText(total, { x: x + 0.32, y: 5.2, w: w - 0.64, h: 0.34, isTextBox: true, margin: 0,
-    fontFace: HF, fontSize: 18, bold: true, color: tc });
-};
+// ================= 8a-ii. GEOMETRY AND CLASS =================
+s = pres.addSlide();
+titleBar(s, "WHAT THE 180 LABELS SAY  ·  2 / 2", "Distance and chemistry set the coupling: short RE-TM bonds and mixed Fe+Co hosts couple hardest", false);
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/trends_geometry.png", x: M, y: 1.55, w: W, h: 4.3 });
+card(s, M, 5.95, 5.8, 1.15, PANEL);
+s.addText("Left: coupling falls as the Gd-TM distance grows (r = −0.61). Below 3.0 Å with 12 TM neighbours the Fe/Y hosts reach J_eff ≈ 1; above 3.15 Å - hydride, metalloid-shell and open cages - it drops to 0.05-0.4.",
+  { x: M + 0.22, y: 6.02, w: 5.4, h: 1.0, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: INK });
+card(s, 6.8, 5.95, 5.8, 1.15, PANEL);
+s.addText("Right: mixed Fe+Co hosts have median J_eff 0.75 against 0.51 for pure Fe - Brooks' 5d-3d hybridisation argument seen on 27 compounds. The d-band centre and DOS at E_F add nothing once distance and the 5d moment are known (next slide).",
+  { x: 7.02, y: 6.02, w: 5.4, h: 1.0, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: INK });
+s.addNotes("Full OLS on log|dE|: 5d moment +0.34/SD, neighbour-sum +0.19, dilution +0.10, distance -0.04, d-band centre ~0; R2 0.63.");
 
-siteCard(M, 5.9, "FM  -  all three sublattices aligned",
-  "+6.74, +6.75 uB", "+3.13 uB", "+1.49 to +1.59 uB", "avg +1.53 uB", "41.1 uB", true);
-siteCard(M + 6.15, W - 6.15, "FERRI  -  Gd and Mn flip together, Co doesn't",
-  "-7.06, -7.04 uB", "-3.38 uB", "+1.37 to +1.53 uB", "avg +1.47 uB", "6.15 uB", false);
+// ================= 8b. ONE NUMBER PREDICTS THE GAP =================
+s = pres.addSlide();
+titleBar(s, "THE 5d METHOD", "Calibrated on 180 Gd pairs, the gap is read off a single calculation", false);
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/gap_vs_h.png",
+  x: M, y: 1.55, w: 7.35, h: 5.1 });
+card(s, 8.3, 1.55, 4.3, 2.55, NAVY2);
+s.addText("Liebs & Fähnle (1993), used forward", { x: 8.55, y: 1.7, w: 3.9, h: 0.26, isTextBox: true, margin: 0,
+  fontFace: BF, fontSize: 12, bold: true, color: GOLD });
+s.addText("ΔE  =  2 · I₄f₋₅d · S₄f · S₅d", { x: 8.55, y: 2.02, w: 3.9, h: 0.4, isTextBox: true, margin: 0,
+  fontFace: HF, fontSize: 18, bold: true, color: WHITE });
+s.addText("h  =  −½ [ m₅d(ferri) + m₅d(fm) ]", { x: 8.55, y: 2.46, w: 3.9, h: 0.32, isTextBox: true, margin: 0,
+  fontFace: HF, fontSize: 14, bold: true, color: "C6D2E4" });
+s.addText("h is the part of the RE 5d moment tied to the TM neighbours; the part induced by the ion's own 4f flips with it and cancels. h is exactly what a 4f-free host (Y, or f-in-core Nd/Sm) reports as its RE moment.",
+  { x: 8.55, y: 2.84, w: 3.9, h: 0.9, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9, color: "C6D2E4" });
+s.addText("|ΔE| = 1574 · h meV    r = 0.89    I₄f₋₅d ≈ 225 meV", { x: 8.55, y: 3.72, w: 3.9, h: 0.3, isTextBox: true, margin: 0,
+  fontFace: BF, fontSize: 10.5, bold: true, color: GOLD });
+card(s, 8.3, 4.25, 4.3, 2.45, PANEL);
+s.addText("Why it matters", { x: 8.55, y: 4.38, w: 3.9, h: 0.26, isTextBox: true, margin: 0,
+  fontFace: BF, fontSize: 12, bold: true, color: INK });
+const whyPts = [
+  "Circles mark the compounds with a measured exchange constant; stars are the gap their experimental J_RT implies. GdFe₂: J_RT 2.97 (ours) vs 2.99 × 10⁻²² J (expt). Validation slide follows.",
+  "Beats the raw ground-state 5d moment as a predictor (r 0.80 → 0.89) because it removes the 4f-induced part.",
+  "Turns an fm/ferri pair with 4f in the valence into ONE f-in-core run: J_RT, the RE molecular field B_RT = ΔE/2μ and T* = ΔE_RE/2k_B all follow.",
+  "Applied to Tao et al. 2026 (diamonds): Sm hosts predicted at 190-220 meV per Sm, T* 1100-1260 K - the Sm anisotropy stays locked to Fe up to Tc, consistent with their ferrimagnetic ground states.",
+];
+whyPts.forEach((t, i) => {
+  s.addText(t, { x: 8.55, y: 4.64 + i * 0.5, w: 3.95, h: 0.5, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 8, color: MUTE, bullet: true });
+});
+s.addNotes("Two outliers are circled: Gd2Fe17H3 far below the line (artifact suspect, in the suspects batch), and one Fe host far above (CFe17Gd2 - fm side suspect). Both are being re-run locked->released.");
 
-card(s, M, 6.35, W, 0.55, "FCEDE8");
-s.addText("Mn's moment matches Gd's sign in every configuration checked - fm or ferri, this compound or any native-RE compound in the Tier-2 batch. Co never once follows it. That is the direct measurement behind the Campbell's-rule exception this campaign is built on.",
-  { x: M + 0.28, y: 6.35, w: W - 0.56, h: 0.55, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 10.5, italic: true, color: "8A3B2E", valign: "middle" });
-s.addNotes("Source: OUTCAR_04 for Co16Gd2Mn_sub (runs/ternary/Tb/new-R3m/Co16Gd2Mn_sub), the validated release-stage static - the same result behind dE=114.5 meV/Gd. Per-site magnetization(x) table, LORBIT=11 atomic-sphere projection.");
+// ================= 8c. VALIDATION AGAINST PRIOR WORK =================
+s = pres.addSlide();
+titleBar(s, "VALIDATION AGAINST PRIOR WORK", "Where literature gives a number, the campaign reproduces it", false);
+const valRows = [
+  [{ text: "Quantity / rule", options: { bold: true } }, { text: "Literature", options: { bold: true } },
+   { text: "This campaign", options: { bold: true } }, { text: "Status", options: { bold: true } }],
+  ["GdFe₂ RE-TM exchange J_RT", "2.99 × 10⁻²² J (Liebs, Hummler, Fähnle 1992; expt. molecular field)", "2.97 × 10⁻²² J from the fm/ferri gap (352 meV/Gd)", "reproduced"],
+  ["ΔE ∝ S₅d (Liebs & Fähnle 1993)", "shown on 3 compounds, ab initio", "holds on 180 compounds, r = 0.89; I₄f₋₅d ≈ 225 meV", "confirmed at scale"],
+  ["Campbell 4f-5d-3d sign rule", "heavy RE always antiparallel to Fe/Co", "180 / 180 credible pairs antiparallel; 0 exceptions", "confirmed"],
+  ["Duc's early-TM rule", "V/Ti in GdFe₁₂₋ₓVₓ doubles A_GdFe (x = 0 → 4)", "early-TM hosts J_eff ×0.97 of the Fe baseline (CI 0.88-1.07); GdFe₁₀V₂ J_RT 1.52 vs 1.30 expt", "not resolved - needs a concentration series"],
+  ["Brooks: Co strengthens 5d-3d coupling", "Co-based > Fe-based molecular fields", "Fe+Co hosts J_eff 0.75 vs Fe 0.51, Co 0.57", "confirmed"],
+  ["Tao et al. 2026: Mn/Cr as weak-coupling mediators", "Sm(Fe,Mn,Cr) hosts; RE moments −0.24 … −0.33 μB (f-frozen)", "same h on our line → Gd-equivalent gaps 380-520 meV; hosts are strongly coupled, not weakly", "reinterpreted"],
+  ["Mn-mediated RE-TM ferromagnetism (our own claim)", "Co16Gd2Mn, +114.5 meV/Gd (locked)", "Mn ∥ Co ferrimagnet by 208 meV/Gd after release", "rejected"],
+];
+s.addTable(valRows, {
+  x: M, y: 1.6, w: W, colW: [3.0, 3.2, 4.0, 1.7],
+  fontFace: BF, fontSize: 9.5, color: INK, border: { type: "solid", color: "D5DDE8", pt: 0.75 },
+  fill: { color: WHITE }, rowH: 0.5, valign: "middle",
+});
+card(s, M, 5.85, W, 0.85, PANEL);
+s.addText("Learnt: the campaign is a quantitative instrument, not a yes/no screen. It reproduces the one measured RE-TM exchange constant it can be checked against, generalises the two-sublattice theory from three compounds to 180, and corrects its own headline when the release test disagrees.",
+  { x: M + 0.25, y: 5.85, w: W - 0.5, h: 0.85, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 11, italic: true, color: INK, valign: "middle" });
+s.addNotes("Liebs-Hummler-Fahnle PRB 46, 11201 (1992); Liebs-Fahnle JMMM 128, L8 (1993); Duc 1998 review; Brooks-Johansson 5d-3d hybridisation; Tao et al. arXiv 2608.25270.");
 
-// ================= 9. CAMPBELL -> OTHER HREE =================
+// ================= 8c-ii. VALIDATION PLOT =================
+s = pres.addSlide();
+titleBar(s, "VALIDATION AGAINST PRIOR WORK  ·  THE NUMBERS", "Four exchange constants with experimental values: three within 25 %, the control exact", false);
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/validation_jrt.png", x: M, y: 1.55, w: 6.6, h: 5.05 });
+card(s, 7.6, 1.55, 5.0, 5.05, PANEL);
+s.addText("What is compared", { x: 7.85, y: 1.7, w: 4.5, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: INK });
+s.addText("J_RT in the Liebs-Fähnle two-sublattice convention, ΔE = 4 J_RT S_R S_T Z_RT, computed from our fm/ferri gap with the compound's own TM moment and neighbour count - no fitted parameter.",
+  { x: 7.85, y: 2.0, w: 4.55, h: 0.95, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: MUTE });
+const vPts = [
+  ["GdFe₂", "2.97 vs 2.99 - the protocol control, reproduced to 1 %."],
+  ["Gd₂Fe₁₄B", "1.84 vs 1.46 from inelastic neutron scattering - 26 % high; LHF's own LMTO value is 1.46, so the gap is in our Z_RT bookkeeping for the two inequivalent Gd sites."],
+  ["GdFe₁₀V₂", "1.52 vs Duc's A_GdFe 1.30 at x = 2 - 17 % high, and inside the spread of Duc's own series (1.13-2.25)."],
+  ["Gd₂Fe₁₇N₂ ↔ Ho₂Fe₁₇", "1.21 vs 1.2-1.4 (Ho₂Fe₁₇, INS). Open marker: a nitride compared to a binary, because no Gd₂Fe₁₇ pair survived the validity rules."],
+];
+vPts.forEach(([h, d], i) => {
+  const y = 3.0 + i * 0.78;
+  s.addText(h, { x: 7.85, y, w: 4.5, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, bold: true, color: RE });
+  s.addText(d, { x: 7.85, y: y + 0.21, w: 4.55, h: 0.56, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, color: MUTE });
+});
+s.addText("Learnt: the campaign's exchange energies are on the experimental scale, biased ≤ 25 % high where the RE sites are inequivalent. Good enough to rank hosts; not yet good enough to resolve Duc's 15-20 % early-TM effect, which needs a concentration series on one lattice.",
+  { x: M, y: 6.7, w: W, h: 0.5, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, italic: true, color: INK });
+s.addNotes("Sources: Liebs-Hummler-Fahnle PRB 46 11201 (1992) Table III (Loewenhaupt INS); Liebs-Fahnle JMMM 128 L8 (1993); Duc et al. JMMM 177-181 1107 (1998) Table 1. Ho2Fe17 used as the 2-17 reference since J_RT in this convention is nearly RE-independent.");
+
+// ================= 8d. DESIGN-PRINCIPLE AUDIT =================
+s = pres.addSlide();
+titleBar(s, "DESIGN PRINCIPLES, AUDITED", "Every rule used to build permanent magnets, checked against the same 180 labels", false);
+const dpRows = [
+  [{ text: "Principle", options: { bold: true } }, { text: "What it predicts", options: { bold: true } },
+   { text: "What the dataset shows", options: { bold: true } }, { text: "Verdict", options: { bold: true } }],
+  ["Heavy RE couples antiparallel (Campbell)", "no FM Fe/Co-heavy-RE compound", "180/180 ferrimagnetic", "confirmed"],
+  ["Gap scales with RE 5d spin (Liebs-Fähnle)", "ΔE ∝ S₅d, host-independent I₄f₋₅d", "r = 0.89 on h; d-band centre adds nothing", "confirmed"],
+  ["de Gennes scaling across the RE series", "ΔE_RE = ΔE_Gd · (g−1)J / 3.5", "assumed to project Tb-Tm and Nd/Sm; explicit-4f Tb-Tm runs under way", "in test"],
+  ["Fe-rich, dense lattices for Ms", "Ms ceiling set by Fe density", "best Gd hosts 0.9-1.06 T; light-RE projection ceiling ≈ 1.75 T (0 K, no SOC)", "confirmed"],
+  ["Light RE (J = L − S) adds to Ms", "Nd/Sm moment parallel to Fe", "projected +0.6-0.9 T over Gd; 20 f-in-core runs queued", "in test"],
+  ["Interstitial N / C raise Ms and Tc", "lattice expansion, stronger Fe-Fe", "Gd₂Fe₁₇N₂ is the top Ms host; C analogues close behind", "confirmed"],
+  ["Interstitial H is harmless", "mild expansion only", "Gd₂Fe₁₇H₃ gap 28 meV (×0.10): H in the RE shell nearly switches off RE-TM coupling - one compound, re-running", "rejected if it survives release"],
+  ["Early-TM stabilisers (Ti, V, Zr, Nb) help", "stabilise 1:12-type cells, stronger coupling (Duc)", "coupling ×0.97 of baseline, no effect resolved; hull: Fe₅GdV on hull, Ti variants 12-19 meV above", "stability yes, coupling unresolved"],
+  ["Partial Co for Tc and coupling", "Co raises Tc and RE-TM field", "Fe+Co hosts strongest J_eff (0.75); Ms cost small at low Co", "confirmed"],
+  ["Mn as a sign-flipping mediator", "Mn ∥ RE breaks the antiparallel rule", "Mn ∥ Co in every released state", "rejected"],
+  ["Metalloid-rich cages (B, Si, Ga, Al in RE shell)", "stabilise structures cheaply", "systematically lower gaps - anisotropy decouples first", "use with care"],
+];
+s.addTable(dpRows, {
+  x: M, y: 1.55, w: W, colW: [3.1, 2.9, 4.4, 1.5],
+  fontFace: BF, fontSize: 8.8, color: INK, border: { type: "solid", color: "D5DDE8", pt: 0.75 },
+  fill: { color: WHITE }, rowH: 0.4, valign: "middle",
+});
+s.addText("Learnt: most principles hold in direction but their magnitudes differ by an order of magnitude, one (early TM) is not resolved by cross-host data, and only the 5d-spin rule is quantitative enough to rank candidates.",
+  { x: M, y: 6.62, w: W, h: 0.5, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, italic: true, color: INK });
+
+// ================= 8d-ii. EFFECT SIZES =================
+s = pres.addSlide();
+titleBar(s, "DESIGN PRINCIPLES, AUDITED  ·  EFFECT SIZES", "The same rules as numbers: how far each lever moves the RE-TM coupling from the Fe baseline", false);
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/principles_effects.png", x: M, y: 1.55, w: 7.5, h: 4.6 });
+card(s, 8.45, 1.55, 4.15, 4.6, PANEL);
+s.addText("Reading the chart", { x: 8.7, y: 1.7, w: 3.7, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: INK });
+s.addText("Median J_eff of the compounds carrying a lever, divided by the median of all 123 Fe-only hosts; bars are bootstrap 95 % intervals. Blue = strengthens coupling, red = weakens, grey = not resolved.",
+  { x: 8.7, y: 2.0, w: 3.7, h: 0.95, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.3, color: MUTE });
+const ePts = [
+  ["×1.48  partial Co", "the only lever with a large, resolved positive effect"],
+  ["×1.12  all-Co", "modest; Co also lowers Ms, so partial Co is the useful form"],
+  ["×0.97  early TM", "Duc's effect is not visible across different hosts; it needs a series on one lattice"],
+  ["×0.86  distance > 3.15 Å", "open cages weaken coupling, consistent with the 5d picture"],
+  ["×0.10  H interstitial", "one compound, under re-check; if real, the strongest lever of all - in the wrong direction"],
+];
+ePts.forEach(([h, d], i) => {
+  const y = 3.05 + i * 0.6;
+  s.addText(h, { x: 8.7, y, w: 3.7, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.8, bold: true, color: i < 2 ? RE : (i === 2 ? MUTE : FE) });
+  s.addText(d, { x: 8.7, y: y + 0.21, w: 3.75, h: 0.4, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.4, color: MUTE });
+});
+s.addText("Learnt: of the levers the field uses, only partial Co and short RE-TM bonds measurably raise the RE-TM coupling in this dataset. Metalloids are neutral on average; their harm is specific to sitting in the RE shell. The early-TM rule is a stability lever until a concentration series says otherwise.",
+  { x: M, y: 6.3, w: W, h: 0.75, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, italic: true, color: INK });
+
+// ================= 8e. FROM DATA TO NEW COMPOSITIONS =================
+s = pres.addSlide();
+titleBar(s, "HYPOTHESIS: THE LEVERS COMPOSE", "If the measured levers add, the dataset's strongest hosts become new light-RE magnets", false);
+const leverFunnel = [
+  ["180", "credible Gd hosts", "the labelled dataset", WHITE, INK],
+  ["96", "project ≥ 1.4 T with Nd", "Fe sublattice moment + free-ion Nd, same cell", "FFF3D6", "8A6A1E"],
+  ["70", "not a known prototype", "drop Nd₂Fe₁₄B, 2-17(N,C,H), Laves, Th₂Zn₁₇, the Mn family", "FFF3D6", "8A6A1E"],
+  ["29", "strongest coupling, Fe-rich", "J_eff ≥ 0.5 or gap ≥ 300 meV; 1:9 family by 3 representatives", "E3F0F6", "1F5F7A"],
+  ["20", "survive the hull, Nd + Sm", "MACE-MP-0 vs 394 MP competitors, same model; Nd within 12 meV/atom", NAVY2, WHITE],
+];
+leverFunnel.forEach(([n, label, note, fill, tcolor], i) => {
+  const y = 1.6 + i * 0.98;
+  card(s, M, y, 5.3, 0.86, fill);
+  s.addText(n, { x: M + 0.18, y: y + 0.08, w: 1.0, h: 0.7, isTextBox: true, margin: 0,
+    fontFace: HF, fontSize: 26, bold: true, color: tcolor, valign: "middle" });
+  s.addText(label, { x: M + 1.25, y: y + 0.1, w: 3.95, h: 0.26, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 11.5, bold: true, color: tcolor });
+  s.addText(note, { x: M + 1.25, y: y + 0.37, w: 3.95, h: 0.46, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 8.6, color: tcolor });
+});
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/light_re_hull.png",
+  x: 6.3, y: 1.55, w: 6.3, h: 4.4 });
+card(s, 6.3, 6.0, 6.3, 0.62, NAVY2);
+s.addText("Generation rule: host with gap ≥ 250 meV or J_eff ≥ 0.5  ×  Gd → {Nd, Sm}  ×  keep Co/early-TM variants  ×  no H, no metalloid in the RE shell  →  MACE/MP hull  →  one f-in-core VASP run. 29 hosts → 58 structures → 20 survivors; the rule extends to Pr, partial Co and N interstitials once this batch confirms it.",
+  { x: 6.5, y: 6.0, w: 5.95, h: 0.62, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.3, color: "C6D2E4", valign: "middle" });
+s.addText("First test of the hypothesis: the Nd cost is systematic (20-35 meV/atom for the larger ion), so only the densest Fe hosts stay on the hull; Sm is nearly free. Whether coupling and Ms carry over is what the 20 queued runs decide.",
+  { x: M, y: 6.62, w: W, h: 0.45, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, italic: true, color: INK });
+
+// ================= 8f. THE Nd/Sm BATCH =================
+s = pres.addSlide();
+titleBar(s, "THE Nd / Sm BATCH - 20 RUNS QUEUED", "Each host carries a reason from the data, a stability check, and a prediction to be tested", false);
+const ndRows = [
+  [{ text: "Host (Gd parent)", options: { bold: true } }, { text: "Prototype", options: { bold: true } },
+   { text: "J_eff", options: { bold: true } }, { text: "Ms → Nd / Sm (T)", options: { bold: true } },
+   { text: "E_hull Nd / Sm (meV/at)", options: { bold: true } }, { text: "T* Sm (K)", options: { bold: true } },
+   { text: "Why it is in the batch", options: { bold: true } }],
+  ["Fe₅GdSi", "Immm (new)", "0.50", "1.74 / 1.56", "+1 / −6", "700", "highest Ms of any stable new host; Si outside the RE shell"],
+  ["Al₂Fe₁₀Gd", "Immm (new)", "0.54", "1.68 / 1.51", "+3 / −3", "745", "same Fe framework, Al variant; tests the metalloid-shell rule"],
+  ["Fe₅GdV", "Immm (new)", "0.48", "1.62 / 1.44", "+7 / +2", "715", "early-TM lever built in (Duc); 1:12-like chemistry"],
+  ["Fe₁₀GdY", "Pmmm (new)", "0.52", "1.64 / 1.47", "+11 / +3", "825", "dense Fe, Y dilutes RE cost"],
+  ["CoFe₆GdY", "Cm (new)", "0.97", "1.59 / 1.37", "+10 / −5", "955", "strongest coupling at Ms > 1.5 T; partial Co"],
+  ["Co₂Fe₁₂GdY₃", "Cm (new)", "1.04", "1.44 / 1.33", "+1 / −8", "1005", "anisotropy-locking host; on the hull"],
+  ["CoFe₁₃GdY₃", "R3m (new)", "1.03", "1.42 / 1.31", "+7 / −3", "1030", "Fe/Y family, 12-fold RE coordination at 2.97 Å"],
+  ["Fe₁₄GdY₃", "R3m (new)", "1.06", "1.40 / 1.29", "+11 / −1", "1070", "Co-free control for the two above"],
+  ["Fe₉GdLuZr", "R3m (new)", "0.51", "1.48 / 1.27", "+9 / −3", "810", "1:9 family representative with Zr stabiliser"],
+  ["Co₉Fe₅Gd₄", "R-3m (new)", "0.69", "1.69 / 1.23", "+3 / −16", "725", "RE-rich control: high Nd moment count, lowest Tc expected"],
+];
+s.addTable(ndRows, {
+  x: M, y: 1.55, w: W, colW: [1.55, 1.3, 0.7, 1.55, 1.75, 0.95, 4.1],
+  fontFace: BF, fontSize: 8.8, color: INK, border: { type: "solid", color: "D5DDE8", pt: 0.75 },
+  fill: { color: WHITE }, rowH: 0.36, valign: "middle",
+});
+card(s, M, 5.75, 5.8, 1.1, NAVY2);
+s.addText("What each run returns", { x: M + 0.25, y: 5.85, w: 5.3, h: 0.25, isTextBox: true, margin: 0,
+  fontFace: BF, fontSize: 11.5, bold: true, color: GOLD });
+s.addText("One ISIF=3 relaxation per compound with f-in-core Nd_3 / Sm_3 (no 4f to flip, no +U): relaxed volume, Fe/Co moments → Ms, and h → predicted gap, T*, B_RT. Prediction on record before the run: h from each Gd parent's pair.",
+  { x: M + 0.25, y: 6.1, w: 5.3, h: 0.72, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.8, color: "C6D2E4" });
+card(s, 6.8, 5.75, 5.8, 1.1, "FCEDE8");
+s.addText("Honest ceiling", { x: 7.05, y: 5.85, w: 5.3, h: 0.25, isTextBox: true, margin: 0,
+  fontFace: BF, fontSize: 11.5, bold: true, color: FE });
+s.addText("Projections are 0 K PBE without SOC and run ≈ 0.3 T high against experiment (Nd₂Fe₁₇Nₓ: 2.04 projected vs ~1.5 T). None of the 20 beats NdFe₁₂N (1.66 T, Tc 823 K) or Sm(Fe,Co)₁₂ (1.78 T). Their value is as new, hull-stable Fe-rich hosts with coupling strong enough to carry RE anisotropy - the ingredient the 2 T target has lacked.",
+  { x: 7.05, y: 6.1, w: 5.3, h: 0.72, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, color: "7A4034" });
+s.addNotes("Job 59642825, 20 nodes, 3 h, regular QOS, submitted 2026-10-10 11:58. Reader: light_re_results.py. Tc is NOT in this batch - it needs an Fe-Fe Heisenberg mapping, planned as the next step for survivors.");
+
+// ================= 8g. NEW HYPOTHESES =================
+s = pres.addSlide();
+titleBar(s, "NEW HYPOTHESES", "What prior studies plus 180 labels let us state - each falsifiable with runs already queued or cheap to add", false);
+const hyp = [
+  ["H1", "The RE-TM gap of any host is predictable from a 4f-free calculation", "h measured in the f-in-core Nd/Sm run equals h extracted from the Gd pair of the same host, and 1574·h reproduces the Gd gap within 20 %. Falsified if the 20 queued runs scatter off the line.", RE],
+  ["H2", "Usable anisotropy needs T* above Tc, and T* is a host property", "Hosts with gap < ~150 meV per Gd (H-loaded, metalloid-shell, open cages) lose RE anisotropy below Tc regardless of RE choice. Testable on the suspects batch and by SOC runs on two low-gap vs two high-gap hosts.", FE],
+  ["H3", "Partial Co in Fe/Y hosts buys coupling at almost no Ms cost", "Fe+Co hosts have 50 % higher J_eff; at ≤ 15 % Co the Fe moment barely drops. Prediction: CoFe₆NdY and Co₂Fe₁₂NdY₃ show higher h than Fe₁₄NdY₃ at similar Ms. Direct comparison inside the batch.", "7B4FA3"],
+  ["H4", "The compound lever is light RE + early TM + N interstitial on a dense new host", "Light RE, partial Co and N are each supported by the data; early TM is a stability lever whose coupling effect is unresolved. None has been combined on a hull-stable new prototype. Fe₅(Nd,Sm)(Si,V) Immm with N on the largest void is the first test - MACE hull, then one run.", GOLD],
+  ["H5", "Interstitial choice is a coupling decision, not just a volume decision", "N and C expand the lattice and keep the gap; H in the RE shell collapses it. Hypothesis: the interstitial's site relative to the RE, not its size, decides. Test: H vs N on the same 2-17 cell, same site.", "3E7FA6"],
+];
+hyp.forEach(([tag, h, d, c], i) => {
+  const y = 1.55 + i * 1.03;
+  card(s, M, y, W, 0.92, PANEL);
+  s.addShape(pres.ShapeType.roundRect, { x: M + 0.15, y: y + 0.16, w: 0.7, h: 0.6, rectRadius: 0.08, fill: { color: c } });
+  s.addText(tag, { x: M + 0.15, y: y + 0.16, w: 0.7, h: 0.6, isTextBox: true, margin: 0,
+    fontFace: HF, fontSize: 16, bold: true, color: WHITE, align: "center", valign: "middle" });
+  s.addText(h, { x: M + 1.05, y: y + 0.1, w: W - 1.3, h: 0.28, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 11.5, bold: true, color: INK });
+  s.addText(d, { x: M + 1.05, y: y + 0.4, w: W - 1.3, h: 0.5, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 9, color: MUTE });
+});
+s.addText("Each hypothesis names its own disproof. H1 and H3 are decided by the batch now in the queue.",
+  { x: M, y: 6.72, w: W, h: 0.35, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, italic: true, color: INK });
+
+
 s = pres.addSlide();
 titleBar(s, "EXTENDING THE GD DATASET", "Using Campbell's rule to predict the rest of the series", false);
 
@@ -621,6 +721,29 @@ strat.forEach(([h, d], i) => {
 });
 s.addNotes("Key reframing: the Gd campaign is not just a yes/no on ferromagnetism. It is a measurement of the RE-TM exchange that propagates to the whole heavy series analytically.");
 
+
+// ================= 9b. CAMPBELL APPLIED =================
+s = pres.addSlide();
+titleBar(s, "CAMPBELL'S RULE, APPLIED", "Which results reach the target with which rare earth, against magnets on the market", false);
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/campbell_ms.png", x: M, y: 1.5, w: 8.3, h: 5.2 });
+card(s, 9.25, 1.5, 3.35, 5.2, PANEL);
+s.addText("How to read it", { x: 9.47, y: 1.65, w: 3.0, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12, bold: true, color: INK });
+s.addText("One row per host, ranked by its Nd projection. The Fe/Co sublattice moment is the computed one; each marker swaps the RE: Gd as computed (ferri), heavy Tb/Dy antiparallel, light Nd/Sm parallel. Dotted lines: measured Ms of commercial and benchmark magnets.",
+  { x: 9.47, y: 1.95, w: 3.05, h: 1.45, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9, color: MUTE });
+const cPts = [
+  ["Heavy RE never works", "Tb/Dy pull every host below 1 T; most go negative (RE-dominated)."],
+  ["Light RE recovers 1.4-2.0 T", "the known 2-14-1 and 2-17-N hosts top out at 2.0 T projected ≈ 1.6-1.7 T real; Nd₂Fe₁₄B and NdFe₁₂N are exactly that."],
+  ["New hosts land at 1.7-1.9 T", "CoFe₁₃NdY₃, Co₇Fe₁₆Nd₆, Fe₅NdSi, Fe₁₁NdW - the first two are RE-rich, the last two are the queued batch."],
+  ["Sm costs 0.2-0.4 T", "but carries the strongest anisotropy and sits on the hull more often."],
+];
+cPts.forEach(([h, d], i) => {
+  const y = 3.5 + i * 0.72;
+  s.addText(h, { x: 9.47, y, w: 3.0, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.8, bold: true, color: i === 0 ? FE : RE });
+  s.addText(d, { x: 9.47, y: y + 0.21, w: 3.05, h: 0.5, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.3, color: MUTE });
+});
+s.addText("Learnt: within this chemistry the rare earth sets Ms far more than the host does; the host's job is coupling strength and stability, which is why the batch was chosen on those two and not on Ms alone.",
+  { x: M, y: 6.78, w: W, h: 0.45, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, italic: true, color: INK });
+s.addNotes("All projections are 0 K PBE without SOC and ~0.3 T above experiment (Nd2Fe17Nx 2.04 projected vs ~1.5 measured). Literature: Nd2Fe14B 1.61 T/585 K; Sm2Fe17N3 1.54/749; NdFe12N 1.66/823 (Hirayama 2015); Sm(Fe0.8Co0.2)12 1.78/859 (Hirayama 2017); Sm2Co17 1.25/1190.");
 
 // ================= 10b. ANISOTROPY STEP =================
 s = pres.addSlide();
@@ -718,54 +841,69 @@ s.addText("Database candidates arrive with a hull distance; generated ones do no
     fontFace: BF, fontSize: 11.5, color: "C6D2E4" });
 
 // ================= 10. ACTIVE LEARNING WORKFLOW =================
+// ================= CLOSING: GP + CAUSAL + GENERATIVE =================
 s = pres.addSlide();
 s.background = { color: NAVY };
-titleBar(s, "CLOSING THE LOOP", "Steering the next DFT batch with active learning", true);
+titleBar(s, "CLOSING THE LOOP", "Gaussian process for where to look, causal model for which lever, generative model for what to propose", true);
 
 const nodes = [
-  ["706 labelled\nfm / ferri pairs", "ΔE, site moments,\nhull distance", RE],
-  ["Surrogate model", "GNN or GP on structure\n→ ΔE, Mₙₑₜ, Eₕᵤₗₗ", "3E7FA6"],
-  ["Acquisition\n+ batch select", "q-EI / UCB on Mₙₑₜ,\ndiversity-penalised", GOLD],
-  ["Generative proposal", "diffusion model conditioned\non high Mₙₑₜ, low Eₕᵤₗₗ", FE],
-  ["Next DFT batch", "~60 packed nodes,\none job, ~6 h", "C6472A"],
+  ["Labelled data", "180 Gd pairs → gap, h, moments, geometry\n+ 20 light-RE runs\n+ MACE hull for every cell", RE],
+  ["Gaussian process", "on physics descriptors (h, Fe density,\nd_RE-TM, Z_RT, Co fraction, interstitial)\n→ gap, Ms, E_hull with uncertainty", "3E7FA6"],
+  ["Causal layer", "structural causal model\nhost → S₅d → gap; interventions,\nnot correlations, rank the levers", GOLD],
+  ["Generative proposal", "diffusion / MatterGen conditioned on\ndense Fe, short RE-TM, early TM;\nMACE hull as the first filter", FE],
+  ["One run per cell", "f-in-core relaxation gives\nMs, h → gap, T*; results\nre-train every layer", "C6472A"],
 ];
 nodes.forEach(([h, d, c], i) => {
   const x = M + i * 2.48;
-  s.addShape(pres.ShapeType.roundRect, { x, y: 2.0, w: 2.22, h: 1.72, rectRadius: 0.08, fill: { color: c } });
-  s.addText(h, { x: x + 0.14, y: 2.16, w: 1.94, h: 0.66, isTextBox: true, margin: 0,
+  s.addShape(pres.ShapeType.roundRect, { x, y: 1.75, w: 2.22, h: 1.95, rectRadius: 0.08, fill: { color: c } });
+  s.addText(h, { x: x + 0.12, y: 1.86, w: 1.98, h: 0.36, isTextBox: true, margin: 0,
     fontFace: BF, fontSize: 12.5, bold: true, color: WHITE, align: "center" });
-  s.addText(d, { x: x + 0.14, y: 2.86, w: 1.94, h: 0.72, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 9.5, color: "F0F4FA", align: "center" });
-  if (i < 4) s.addText("→", { x: x + 2.2, y: 2.62, w: 0.3, h: 0.4, isTextBox: true, margin: 0,
+  s.addText(d, { x: x + 0.12, y: 2.26, w: 1.98, h: 1.38, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 8.6, color: "F0F4FA", align: "center" });
+  if (i < 4) s.addText("→", { x: x + 2.2, y: 2.5, w: 0.3, h: 0.4, isTextBox: true, margin: 0,
     fontFace: "Arial", fontSize: 18, bold: true, color: "8FA3C0", align: "center" });
 });
-// return loop: drops out of the LAST node, runs right-to-left, arrows up into the FIRST
 const loopR = M + 4 * 2.48 + 1.11, loopL = M + 1.11;
-s.addShape(pres.ShapeType.line, { x: loopR, y: 3.72, w: 0, h: 0.66, line: { color: "8FA3C0", width: 1.5 } });
-s.addShape(pres.ShapeType.line, { x: loopL, y: 4.38, w: loopR - loopL, h: 0, line: { color: "8FA3C0", width: 1.5 } });
-s.addShape(pres.ShapeType.line, { x: loopL, y: 3.72, w: 0, h: 0.66, line: { color: "8FA3C0", width: 1.5, beginArrowType: "triangle" } });
-s.addText("results re-train the surrogate each round", {
-  x: M + 3.6, y: 4.42, w: 5.0, h: 0.3, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 10.5, italic: true, color: "8FA3C0", align: "center" });
+s.addShape(pres.ShapeType.line, { x: loopR, y: 3.7, w: 0, h: 0.5, line: { color: "8FA3C0", width: 1.5 } });
+s.addShape(pres.ShapeType.line, { x: loopL, y: 4.2, w: loopR - loopL, h: 0, line: { color: "8FA3C0", width: 1.5 } });
+s.addShape(pres.ShapeType.line, { x: loopL, y: 3.7, w: 0, h: 0.5, line: { color: "8FA3C0", width: 1.5, beginArrowType: "triangle" } });
+s.addText("every batch is a designed experiment: it must move the GP posterior or test a causal edge, not just add points",
+  { x: M + 2.0, y: 4.24, w: 8.0, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 10, italic: true, color: "8FA3C0", align: "center" });
 
+// ---- bottom row: causal DAG (left) + two short rationale cards (right)
+s.addShape(pres.ShapeType.roundRect, { x: M, y: 4.7, w: 6.1, h: 2.1, rectRadius: 0.06, fill: { color: NAVY2 } });
+s.addText("The causal model the data support", { x: M + 0.2, y: 4.8, w: 5.7, h: 0.28, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11.5, bold: true, color: GOLD });
+const dagN = {
+  geom: [M + 0.25, 5.25, "RE-TM distance\ncoordination", RE],
+  chem: [M + 0.25, 5.95, "Fe / Co mix\ninterstitial site", RE],
+  s5d: [M + 2.35, 5.6, "S₅d on the RE\n(h)", GOLD],
+  gap: [M + 4.3, 5.25, "RE-TM gap\nT*, anisotropy lock", FE],
+  ms: [M + 4.3, 5.95, "Ms\n(Fe density + RE)", FE],
+};
+Object.values(dagN).forEach(([x, y, t, c]) => {
+  s.addShape(pres.ShapeType.roundRect, { x, y, w: 1.55, h: 0.58, rectRadius: 0.08, fill: { color: c } });
+  s.addText(t, { x, y, w: 1.55, h: 0.58, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8, bold: true, color: WHITE, align: "center", valign: "middle" });
+});
+const arrow = (x1, y1, x2, y2) => s.addShape(pres.ShapeType.line, { x: x1, y: y1, w: x2 - x1, h: y2 - y1, line: { color: "C6D2E4", width: 1.4, endArrowType: "triangle" } });
+arrow(M + 1.8, 5.54, M + 2.35, 5.78); arrow(M + 1.8, 6.24, M + 2.35, 6.0); arrow(M + 3.9, 5.78, M + 4.3, 5.56);
+s.addShape(pres.ShapeType.line, { x: M + 1.8, y: 6.3, w: 2.5, h: 0, line: { color: "C6D2E4", width: 1.4, dashType: "dash", endArrowType: "triangle" } });
+s.addText("mediator: every host lever acts through S₅d (r = 0.89); Ms is set separately by Fe density and the RE. Interventions on the left are what a generative model may propose; the dashed edge is the Co trade-off.",
+  { x: M + 0.2, y: 6.6, w: 5.7, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 7.6, italic: true, color: "AEBBD0" });
 const lanes = [
-  ["Bayesian optimisation", "Cheapest to stand up. Fits the problem: a scalar objective (net moment, or ΔE > 0) over a fixed 1,152-compound pool, batched to match one packed Perlmutter job."],
-  ["Reinforcement learning", "Treats substitution as sequential decisions — which site, which element. Useful once the pool is exhausted and the search must generate rather than select."],
-  ["Diffusion / generative", "MatterGen-style, conditioned on high uncompensated moment. Proposes new decorations of the 2-17 and 1-12 frameworks instead of re-ranking known ones."],
-  ["MLIP pre-filter", "Fine-tune MACE on this campaign's spin-polarised data, then relax and pre-rank thousands of proposals before any DFT is spent."],
+  ["Gaussian process", "180 points, smooth physics descriptors, batch size fixed by one packed job. Mean function = 1574·h so the GP learns residuals; q-EI with a diversity penalty picks each batch. Each label is now ONE f-in-core run, so a round is 150-200 compounds per 25-node job."],
+  ["Generative + causal", "The pool is exhausted above ≈ 1.75 T. A diffusion model conditioned on the causal parents - dense Fe, RE-TM < 3.0 Å, 12-fold coordination, partial Co, no H in the RE shell - proposes frameworks; MACE hull filters; the causal graph tells it which knobs are real and which are confounded."],
 ];
 lanes.forEach(([h, d], i) => {
-  const x = M + i * 3.11;
-  s.addShape(pres.ShapeType.roundRect, { x, y: 4.95, w: 2.85, h: 1.65, rectRadius: 0.06, fill: { color: NAVY2 } });
-  s.addText(h, { x: x + 0.2, y: 5.1, w: 2.5, h: 0.3, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 12, bold: true, color: GOLD });
-  s.addText(d, { x: x + 0.2, y: 5.42, w: 2.5, h: 1.1, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 9.5, color: "C6D2E4" });
+  const x = 7.0 + i * 2.85;
+  s.addShape(pres.ShapeType.roundRect, { x, y: 4.7, w: 2.75, h: 2.1, rectRadius: 0.06, fill: { color: NAVY2 } });
+  s.addText(h, { x: x + 0.18, y: 4.8, w: 2.4, h: 0.3, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11.5, bold: true, color: GOLD });
+  s.addText(d, { x: x + 0.18, y: 5.12, w: 2.42, h: 1.62, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.4, color: "C6D2E4" });
 });
-s.addText("The 706 runs are the seed dataset: the first systematically computed RE-TM exchange labels for this chemistry.",
-  { x: M, y: 6.75, w: W, h: 0.35, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11.5, italic: true, color: "8FA3C0" });
-s.addNotes("The point of the loop: each DFT batch is expensive and queue-bound, so batch composition matters more than per-run speed. BO with a diversity penalty matches the packed-job batch size.");
+s.addText("The campaign's product is not a compound; it is a calibrated instrument for RE-TM exchange and the first dataset a learning loop can be trained on.",
+  { x: M, y: 6.92, w: W, h: 0.35, isTextBox: true, margin: 0,
+    fontFace: BF, fontSize: 11, italic: true, color: "8FA3C0" });
+s.addNotes("GP: use h-based linear mean, Matern kernel on standardised descriptors; batch acquisition with diversity penalty sized to the packed job. Causal: DAG host-geometry -> S5d -> gap; Fe density -> Ms; interstitial site -> S5d. Generative: MatterGen-style conditioned on composition and target Fe density.");
 
 pres.writeFile({ fileName: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/MAGNITO_Fe-HREE_screening.pptx" })
   .then(f => console.log("wrote", f));

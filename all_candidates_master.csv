@@ -1,28 +1,28 @@
 formula,elements,nelements,tm_frac,n_sources,sources,db_ids,e_hull_min_eV_atom,gnome_e_decomp,mag_uB_atom,ms_fm_T,ms_ferri_T,coupling_hints,spacegroup,cif_path
-BErFe4,B Er Fe,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:0a4011685b0b2856;MP:mp-aaaaaend;OQMD:8337,0.0,,1.85085,,,moment present (FM-init calc) | unknown -> potentially FM,191,
-C3Er2Fe17,C Er Fe,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:2b37184082febc08;MP:mp-aaacraik;OQMD:28816,0.001,,2.34597,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
-Er2Fe14Si3,Er Fe Si,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:3ceb913cd7125f49;MP:mp-aaacqnvp;OQMD:665610,0.001059677776716783,,2.16767,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,194,
-C3Fe17Ho2,C Fe Ho,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:e6bd5242bad8b336;MP:mp-aaacqzqa;OQMD:28826,0.0011,,2.35146,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
-C3Dy2Fe17,C Dy Fe,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:76769efe025e6488;MP:mp-aaacrarg;OQMD:28807,0.0016,,2.35485,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
-C3Fe17Tb2,C Fe Tb,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:281749237df7c34c;MP:mp-aaacpuql;OQMD:28838,0.0022,,2.35734,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
-B4Co11Dy3,B Co Dy,3,0.611,3,AFLOW;MP;OQMD,AFLOW:aflow:3c7ff7a577d5fa13;MP:mp-aaaabtst;OQMD:28270,0.0024566596430357635,,0.911071,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
-Co9Si4Tb,Co Si Tb,3,0.643,3,AFLOW;MP;OQMD,AFLOW:aflow:1d669b1c54361629;MP:mp-aaaaahad;OQMD:12892,0.0065,,1.12904,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,140,
-BCo4Ho,B Co Ho,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:f5e940d1a1812afd;MP:mp-aaackuqe;OQMD:1785061,0.007174882611339417,,1.02583,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
-BCo4Tb,B Co Tb,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:675d30fc230eda6e;MP:mp-aaacksov;OQMD:1785034,0.0093,,1.08027,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
-BCo4Dy,B Co Dy,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:5f904933989818dc;MP:mp-aaackunx;OQMD:2018665,0.009505630019319644,,1.03765,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
-Co12Fe5Ho2,Co Fe Ho,3,0.895,3,AFLOW;MP;OQMD,AFLOW:aflow:fca1f3be90d868fa;MP:mp-aaacqdcb;OQMD:663201,0.0122,,1.99114,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
-BCo4Er,B Co Er,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:0a440e0a5974d06d;MP:mp-aaacktun;OQMD:1785100,0.01406664081887199,,1.02389,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,
-Al2Dy2Fe15,Al Dy Fe,3,0.789,3,AFLOW;MP;OQMD,AFLOW:aflow:7f40e61ccc7a2a97;MP:mp-aaacqbia;OQMD:690577,0.025673072350719972,,2.39878,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
-Co14Ho2Mn3,Co Ho Mn,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:c518e89c26d84e9b;MP:mp-aaacqjkl;OQMD:663534,0.02737564644399583,,2.07341,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
-Al3Dy2Fe14,Al Dy Fe,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:89c771eb93fb3ca4;MP:mp-aaackyem;OQMD:658310,0.02789312735314947,,2.23178,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,20,
-Co15Cr2Ho2,Co Cr Ho,3,0.789,3,AFLOW;MP;OQMD,AFLOW:aflow:5357b6d278ebedc6;MP:mp-aaacqbcu;OQMD:663019,0.0286,,1.88975,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
-Al3Er2Fe14,Al Er Fe,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:728c7d3b82c1b2b9;MP:mp-aaacqgmp;OQMD:672279,0.03181478194535631,,2.21663,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
-Co9Si2Tb,Co Si Tb,3,0.75,3,AFLOW;MP;OQMD,AFLOW:aflow:df06d4f766080f9a;MP:mp-aaacpuju;OQMD:29481,0.0429,,1.46027,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,141,
-Co9ErSi2,Co Er Si,3,0.75,3,AFLOW;MP;OQMD,AFLOW:aflow:63bdd48a96a204c2;MP:mp-aaacpvgo;OQMD:29244,0.0554,,1.3597,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,141,
-Al3Co14Ho2,Al Co Ho,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:6257a4af60bcf039;MP:mp-aaacqouz;OQMD:658105,0.0678,,1.31088,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,194,
-Co12Ho2Ni5,Co Ho Ni,3,0.632,3,AFLOW;MP;OQMD,AFLOW:aflow:c1041603f10b7579;MP:mp-aaacqole;OQMD:663537,0.0739,,1.33569,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,
-Fe17N3Tb2,Fe N Tb,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:74aad1893f2adfda;MP:mp-aaacpvgb;OQMD:2052407,0.08410588783968648,,2.30444,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
-Dy2Fe17N3,Dy Fe N,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:9f64e1f056be8a02;MP:mp-aaacqhnc;OQMD:29843,0.09003565898088273,,2.30252,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,
+BErFe4,B Er Fe,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:0a4011685b0b2856;MP:mp-aaaaaend;OQMD:8337,0.0,,1.85085,,,moment present (FM-init calc) | unknown -> potentially FM,191,structures/MP/BErFe4_mp-aaaaaend.CIF
+C3Er2Fe17,C Er Fe,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:2b37184082febc08;MP:mp-aaacraik;OQMD:28816,0.001,,2.34597,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,structures/MP/C3Er2Fe17_mp-aaacraik.CIF
+Er2Fe14Si3,Er Fe Si,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:3ceb913cd7125f49;MP:mp-aaacqnvp;OQMD:665610,0.001059677776716783,,2.16767,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,194,structures/MP/Er2Fe14Si3_mp-aaacqnvp.CIF
+C3Fe17Ho2,C Fe Ho,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:e6bd5242bad8b336;MP:mp-aaacqzqa;OQMD:28826,0.0011,,2.35146,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,structures/MP/C3Fe17Ho2_mp-aaacqzqa.CIF
+C3Dy2Fe17,C Dy Fe,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:76769efe025e6488;MP:mp-aaacrarg;OQMD:28807,0.0016,,2.35485,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,structures/MP/C3Dy2Fe17_mp-aaacrarg.CIF
+C3Fe17Tb2,C Fe Tb,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:281749237df7c34c;MP:mp-aaacpuql;OQMD:28838,0.0022,,2.35734,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,structures/MP/C3Fe17Tb2_mp-aaacpuql.CIF
+B4Co11Dy3,B Co Dy,3,0.611,3,AFLOW;MP;OQMD,AFLOW:aflow:3c7ff7a577d5fa13;MP:mp-aaaabtst;OQMD:28270,0.0024566596430357635,,0.911071,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,structures/MP/B4Co11Dy3_mp-aaaabtst.CIF
+Co9Si4Tb,Co Si Tb,3,0.643,3,AFLOW;MP;OQMD,AFLOW:aflow:1d669b1c54361629;MP:mp-aaaaahad;OQMD:12892,0.0065,,1.12904,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,140,structures/MP/Co9Si4Tb_mp-aaaaahad.CIF
+BCo4Ho,B Co Ho,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:f5e940d1a1812afd;MP:mp-aaackuqe;OQMD:1785061,0.007174882611339417,,1.02583,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,structures/MP/BCo4Ho_mp-aaackuqe.CIF
+BCo4Tb,B Co Tb,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:675d30fc230eda6e;MP:mp-aaacksov;OQMD:1785034,0.0093,,1.08027,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,structures/MP/BCo4Tb_mp-aaacksov.CIF
+BCo4Dy,B Co Dy,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:5f904933989818dc;MP:mp-aaackunx;OQMD:2018665,0.009505630019319644,,1.03765,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,structures/MP/BCo4Dy_mp-aaackunx.CIF
+Co12Fe5Ho2,Co Fe Ho,3,0.895,3,AFLOW;MP;OQMD,AFLOW:aflow:fca1f3be90d868fa;MP:mp-aaacqdcb;OQMD:663201,0.0122,,1.99114,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,structures/MP/Co12Fe5Ho2_mp-aaacqdcb.CIF
+BCo4Er,B Co Er,3,0.667,3,AFLOW;MP;OQMD,AFLOW:aflow:0a440e0a5974d06d;MP:mp-aaacktun;OQMD:1785100,0.01406664081887199,,1.02389,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,191,structures/MP/BCo4Er_mp-aaacktun.CIF
+Al2Dy2Fe15,Al Dy Fe,3,0.789,3,AFLOW;MP;OQMD,AFLOW:aflow:7f40e61ccc7a2a97;MP:mp-aaacqbia;OQMD:690577,0.025673072350719972,,2.39878,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,structures/MP/Al2Dy2Fe15_mp-aaacqbia.CIF
+Co14Ho2Mn3,Co Ho Mn,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:c518e89c26d84e9b;MP:mp-aaacqjkl;OQMD:663534,0.02737564644399583,,2.07341,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,structures/MP/Co14Ho2Mn3_mp-aaacqjkl.CIF
+Al3Dy2Fe14,Al Dy Fe,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:89c771eb93fb3ca4;MP:mp-aaackyem;OQMD:658310,0.02789312735314947,,2.23178,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,20,structures/MP/Al3Dy2Fe14_mp-aaackyem.CIF
+Co15Cr2Ho2,Co Cr Ho,3,0.789,3,AFLOW;MP;OQMD,AFLOW:aflow:5357b6d278ebedc6;MP:mp-aaacqbcu;OQMD:663019,0.0286,,1.88975,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,structures/MP/Co15Cr2Ho2_mp-aaacqbcu.CIF
+Al3Er2Fe14,Al Er Fe,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:728c7d3b82c1b2b9;MP:mp-aaacqgmp;OQMD:672279,0.03181478194535631,,2.21663,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,structures/MP/Al3Er2Fe14_mp-aaacqgmp.CIF
+Co9Si2Tb,Co Si Tb,3,0.75,3,AFLOW;MP;OQMD,AFLOW:aflow:df06d4f766080f9a;MP:mp-aaacpuju;OQMD:29481,0.0429,,1.46027,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,141,structures/MP/Co9Si2Tb_mp-aaacpuju.CIF
+Co9ErSi2,Co Er Si,3,0.75,3,AFLOW;MP;OQMD,AFLOW:aflow:63bdd48a96a204c2;MP:mp-aaacpvgo;OQMD:29244,0.0554,,1.3597,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,141,structures/MP/Co9ErSi2_mp-aaacpvgo.CIF
+Al3Co14Ho2,Al Co Ho,3,0.737,3,AFLOW;MP;OQMD,AFLOW:aflow:6257a4af60bcf039;MP:mp-aaacqouz;OQMD:658105,0.0678,,1.31088,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,194,structures/MP/Al3Co14Ho2_mp-aaacqouz.CIF
+Co12Ho2Ni5,Co Ho Ni,3,0.632,3,AFLOW;MP;OQMD,AFLOW:aflow:c1041603f10b7579;MP:mp-aaacqole;OQMD:663537,0.0739,,1.33569,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,63,structures/MP/Co12Ho2Ni5_mp-aaacqole.CIF
+Fe17N3Tb2,Fe N Tb,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:74aad1893f2adfda;MP:mp-aaacpvgb;OQMD:2052407,0.08410588783968648,,2.30444,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,structures/MP/Fe17N3Tb2_mp-aaacpvgb.CIF
+Dy2Fe17N3,Dy Fe N,3,0.773,3,AFLOW;MP;OQMD,AFLOW:aflow:9f64e1f056be8a02;MP:mp-aaacqhnc;OQMD:29843,0.09003565898088273,,2.30252,,,ferrimagnetic (MP label) | moment present (FM-init calc) | unknown -> potentially FM,166,structures/MP/Dy2Fe17N3_mp-aaacqhnc.CIF
 AlFe4Tb,Al Fe Tb,3,0.667,2,Alexandria;GNoME,Alexandria:agm088888227;GNoME:28210daaeb,-0.0544,-0.0544,1.234,2.28,0.08,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",Cmmm,structures/GNoME/TbAlFe4_28210daaeb.CIF
 AlDyFe4,Al Dy Fe,3,0.667,2,Alexandria;GNoME,Alexandria:agm077625729;GNoME:ea6fe0e101,-0.0511,-0.0511,1.232,2.41,0.21,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",Cmmm,structures/GNoME/DyAlFe4_ea6fe0e101.CIF
 AlFe4Gd,Al Fe Gd,3,0.667,2,Alexandria;GNoME,Alexandria:agm001170630;GNoME:ff39b00188,-0.0511,-0.0511,2.423,1.99,0.18,FM-aligned RE | FM-aligned RE (Alexandria),Cmmm,structures/GNoME/GdAlFe4_ff39b00188.CIF
@@ -90,51 +90,51 @@ Fe8HoZr3,Fe Ho Zr,3,0.667,2,Alexandria;GNoME,Alexandria:agm005993765;GNoME:66636
 Dy3Fe8Ho,Dy Fe Ho,3,0.667,2,Alexandria;GNoME,Alexandria:agm005995096;GNoME:f717449428,-0.0001,-0.0001,1.136,3.45,1.41,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/Dy3HoFe8_f717449428.CIF
 Fe9TbY2,Fe Tb Y,3,0.75,2,Alexandria;GNoME,Alexandria:agm055249248;GNoME:5d96ce49ec,-0.0001,-0.0001,1.46,1.77,0.63,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/TbY2Fe9_5d96ce49ec.CIF
 Fe4LuTm,Fe Lu Tm,3,0.667,2,Alexandria;GNoME,Alexandria:agm001175195;GNoME:fa11f36d1c,0.0,0.0005,1.04,1.94,0.18,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/TmLuFe4_fa11f36d1c.CIF
-B4Co11Gd3,B Co Gd,3,0.611,2,MP;OQMD,MP:mp-aaabimgc;OQMD:28277,0.0,,0.611,,,unknown -> potentially FM,P6/mmm,
-B6Co12Er,B Co Er,3,0.632,2,AFLOW;OQMD,AFLOW:aflow:6e5e137f8e066ee4;OQMD:1786110,0.0,,0.985606,,,moment present (FM-init calc) | unknown -> potentially FM,166,
-BCo14Tb2,B Co Tb,3,0.824,2,MP;OQMD,MP:mp-aaacqbjo;OQMD:655724,0.0,,1.073,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-BCo4Gd,B Co Gd,3,0.667,2,MP;OQMD,MP:mp-aaaaatqi;OQMD:26462,0.0,,0.049,,,unknown -> potentially FM,P6/mmm,
-BDy2Fe14,B Dy Fe,3,0.824,2,MP;OQMD,MP:mp-aaaaafyt;OQMD:56226,0.0,,1.828,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-BEr2Fe14,B Er Fe,3,0.824,2,MP;OQMD,MP:mp-aaaaaflo;OQMD:660179,0.0,,1.821,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-BFe14Gd2,B Fe Gd,3,0.824,2,MP;OQMD,MP:mp-aaacqern;OQMD:660253,0.0,,0.998,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-BFe14Ho2,B Fe Ho,3,0.824,2,MP;OQMD,MP:mp-aaaaavti;OQMD:655741,0.0,,1.825,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-BFe14Tb2,B Fe Tb,3,0.824,2,MP;OQMD,MP:mp-aaaaainn;OQMD:660383,0.0,,1.831,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-BFe14Tm2,B Fe Tm,3,0.824,2,MP;OQMD,MP:mp-aaaaairl;OQMD:660391,0.0,,1.817,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-BFe4Tm,B Fe Tm,3,0.667,2,MP;OQMD,MP:mp-aaacksmn;OQMD:2025477,0.0,,1.273,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
-C3Fe17Tm2,C Fe Tm,3,0.773,2,MP;OQMD,MP:mp-aaacqtcu;OQMD:28839,0.0,,1.592,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
-CDy2Fe14,C Dy Fe,3,0.824,2,MP;OQMD,MP:mp-aaabgmxx;OQMD:661289,0.0,,1.767,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-CEr2Fe14,C Er Fe,3,0.824,2,MP;OQMD,MP:mp-aaabghrr;OQMD:661312,0.0,,1.763,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-CFe14Ho2,C Fe Ho,3,0.824,2,MP;OQMD,MP:mp-aaabgnaz;OQMD:661345,0.0,,1.764,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-CFe14Tb2,C Fe Tb,3,0.824,2,MP;OQMD,MP:mp-aaacqddb;OQMD:661387,0.0,,1.777,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-CFe14Tm2,C Fe Tm,3,0.824,2,MP;OQMD,MP:mp-aaabglva;OQMD:661391,0.0,,1.761,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,
-Co4MgTb,Co Mg Tb,3,0.667,2,MP;OQMD,MP:mp-aaaciycb;OQMD:2017261,0.0,,0.904,,,unknown -> potentially FM,F-43m,
-CoErFe,Co Er Fe,3,0.667,2,MP;OQMD,MP:mp-aaaekusf;OQMD:1530065,0.0,,1.047,,,unknown -> potentially FM,Imma,
-CoFeHo,Co Fe Ho,3,0.667,2,MP;OQMD,MP:mp-aaacrqqc;OQMD:1529453,0.0,,1.041,,,ferrimagnetic (MP label) | unknown -> potentially FM,Imma,
-B6Co12Tb,B Co Tb,3,0.632,2,AFLOW;OQMD,AFLOW:aflow:a6925b6045973ef8;OQMD:2025868,1.2726315789357567e-05,,1.00766,,,moment present (FM-init calc) | unknown -> potentially FM,166,
+B4Co11Gd3,B Co Gd,3,0.611,2,MP;OQMD,MP:mp-aaabimgc;OQMD:28277,0.0,,0.611,,,unknown -> potentially FM,P6/mmm,structures/MP/B4Co11Gd3_mp-aaabimgc.CIF
+B6Co12Er,B Co Er,3,0.632,2,AFLOW;OQMD,AFLOW:aflow:6e5e137f8e066ee4;OQMD:1786110,0.0,,0.985606,,,moment present (FM-init calc) | unknown -> potentially FM,166,structures/MP/B6Co12Er_mp-aaacpqgz.CIF
+BCo14Tb2,B Co Tb,3,0.824,2,MP;OQMD,MP:mp-aaacqbjo;OQMD:655724,0.0,,1.073,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/BCo14Tb2_mp-aaacqbjo.CIF
+BCo4Gd,B Co Gd,3,0.667,2,MP;OQMD,MP:mp-aaaaatqi;OQMD:26462,0.0,,0.049,,,unknown -> potentially FM,P6/mmm,structures/MP/BCo4Gd_mp-aaaaatqi.CIF
+BDy2Fe14,B Dy Fe,3,0.824,2,MP;OQMD,MP:mp-aaaaafyt;OQMD:56226,0.0,,1.828,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/BDy2Fe14_mp-aaaaafyt.CIF
+BEr2Fe14,B Er Fe,3,0.824,2,MP;OQMD,MP:mp-aaaaaflo;OQMD:660179,0.0,,1.821,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/BEr2Fe14_mp-aaaaaflo.CIF
+BFe14Gd2,B Fe Gd,3,0.824,2,MP;OQMD,MP:mp-aaacqern;OQMD:660253,0.0,,0.998,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/BFe14Gd2_mp-aaacqern.CIF
+BFe14Ho2,B Fe Ho,3,0.824,2,MP;OQMD,MP:mp-aaaaavti;OQMD:655741,0.0,,1.825,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/BFe14Ho2_mp-aaaaavti.CIF
+BFe14Tb2,B Fe Tb,3,0.824,2,MP;OQMD,MP:mp-aaaaainn;OQMD:660383,0.0,,1.831,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/BFe14Tb2_mp-aaaaainn.CIF
+BFe14Tm2,B Fe Tm,3,0.824,2,MP;OQMD,MP:mp-aaaaairl;OQMD:660391,0.0,,1.817,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/BFe14Tm2_mp-aaaaairl.CIF
+BFe4Tm,B Fe Tm,3,0.667,2,MP;OQMD,MP:mp-aaacksmn;OQMD:2025477,0.0,,1.273,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,structures/MP/BFe4Tm_mp-aaacksmn.CIF
+C3Fe17Tm2,C Fe Tm,3,0.773,2,MP;OQMD,MP:mp-aaacqtcu;OQMD:28839,0.0,,1.592,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,structures/MP/C3Fe17Tm2_mp-aaacqtcu.CIF
+CDy2Fe14,C Dy Fe,3,0.824,2,MP;OQMD,MP:mp-aaabgmxx;OQMD:661289,0.0,,1.767,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/CDy2Fe14_mp-aaabgmxx.CIF
+CEr2Fe14,C Er Fe,3,0.824,2,MP;OQMD,MP:mp-aaabghrr;OQMD:661312,0.0,,1.763,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/CEr2Fe14_mp-aaabghrr.CIF
+CFe14Ho2,C Fe Ho,3,0.824,2,MP;OQMD,MP:mp-aaabgnaz;OQMD:661345,0.0,,1.764,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/CFe14Ho2_mp-aaabgnaz.CIF
+CFe14Tb2,C Fe Tb,3,0.824,2,MP;OQMD,MP:mp-aaacqddb;OQMD:661387,0.0,,1.777,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/CFe14Tb2_mp-aaacqddb.CIF
+CFe14Tm2,C Fe Tm,3,0.824,2,MP;OQMD,MP:mp-aaabglva;OQMD:661391,0.0,,1.761,,,ferrimagnetic (MP label) | unknown -> potentially FM,P4_2/mnm,structures/MP/CFe14Tm2_mp-aaabglva.CIF
+Co4MgTb,Co Mg Tb,3,0.667,2,MP;OQMD,MP:mp-aaaciycb;OQMD:2017261,0.0,,0.904,,,unknown -> potentially FM,F-43m,structures/MP/Co4MgTb_mp-aaaciycb.CIF
+CoErFe,Co Er Fe,3,0.667,2,MP;OQMD,MP:mp-aaaekusf;OQMD:1530065,0.0,,1.047,,,unknown -> potentially FM,Imma,structures/MP/CoErFe_mp-aaaekusf.CIF
+CoFeHo,Co Fe Ho,3,0.667,2,MP;OQMD,MP:mp-aaacrqqc;OQMD:1529453,0.0,,1.041,,,ferrimagnetic (MP label) | unknown -> potentially FM,Imma,structures/MP/CoFeHo_mp-aaacrqqc.CIF
+B6Co12Tb,B Co Tb,3,0.632,2,AFLOW;OQMD,AFLOW:aflow:a6925b6045973ef8;OQMD:2025868,1.2726315789357567e-05,,1.00766,,,moment present (FM-init calc) | unknown -> potentially FM,166,structures/MP/B6Co12Tb_mp-aaacpqqs.CIF
 CFe14Gd2,C Fe Gd,3,0.824,2,MP;OQMD,MP:mp-aaacqdhk;OQMD:661337,2.6321617647658002e-05,,2.527,,,"FM (MP label, FM-init) | unknown -> potentially FM",P4_2/mnm,structures/MP/Gd2Fe14C_mp-aaacqdhk.CIF
 DyFe4Ho,Dy Fe Ho,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174764;GNoME:cfc9116b1c,6.4111664e-05,0.0002,1.151,3.49,1.43,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/DyHoFe4_cfc9116b1c.CIF
-B6Co12Dy,B Co Dy,3,0.632,2,AFLOW;OQMD,AFLOW:aflow:2fb2b392878c1f86;OQMD:2025829,6.620473684237904e-05,,1.005,,,moment present (FM-init calc) | unknown -> potentially FM,166,
-BFe4Gd,B Fe Gd,3,0.667,2,MP;OQMD,MP:mp-aaackssb;OQMD:2016038,6.811583333407589e-05,,1.393,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
+B6Co12Dy,B Co Dy,3,0.632,2,AFLOW;OQMD,AFLOW:aflow:2fb2b392878c1f86;OQMD:2025829,6.620473684237904e-05,,1.005,,,moment present (FM-init calc) | unknown -> potentially FM,166,structures/MP/B6Co12Dy_mp-aaackyer.CIF
+BFe4Gd,B Fe Gd,3,0.667,2,MP;OQMD,MP:mp-aaackssb;OQMD:2016038,6.811583333407589e-05,,1.393,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,structures/MP/BFe4Gd_mp-aaackssb.CIF
 ErFe4Ho,Er Fe Ho,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174879;GNoME:de938254f9,0.0001,0.001,1.116,3.42,1.32,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/HoErFe4_de938254f9.CIF
 DyErFe4,Dy Er Fe,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174762;GNoME:2667ef432f,0.00029635668,0.0008,1.139,3.36,1.3,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/DyErFe4_2667ef432f.CIF
 ErFe4Lu,Er Fe Lu,3,0.667,2,Alexandria;GNoME,Alexandria:agm001174781;GNoME:a8c89b0f37,0.0004,0.0007,1.061,2.18,0.08,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",F-43m,structures/GNoME/ErLuFe4_a8c89b0f37.CIF
 DyFe8Y3,Dy Fe Y,3,0.667,2,Alexandria;GNoME,Alexandria:agm005982441;GNoME:bc6cd6a209,0.00048763,0.0006,1.098,1.63,0.41,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/DyY3Fe8_bc6cd6a209.CIF
 Dy3Fe8Y,Dy Fe Y,3,0.667,2,Alexandria;GNoME,Alexandria:agm005982434;GNoME:18c0f3e496,0.0005,0.0005,1.129,2.86,0.81,"ferri (RE 5d antiparallel, Alexandria) | ferri (RE antiparallel)",R3m,structures/GNoME/Dy3YFe8_18c0f3e496.CIF
-B4Co11Ho3,B Co Ho,3,0.611,2,MP;OQMD,MP:mp-aaacprdm;OQMD:28285,0.0013186523159429142,,0.363,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
+B4Co11Ho3,B Co Ho,3,0.611,2,MP;OQMD,MP:mp-aaacprdm;OQMD:28285,0.0013186523159429142,,0.363,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,structures/MP/B4Co11Ho3_mp-aaacprdm.CIF
 Co9GdSi4,Co Gd Si,3,0.643,2,MP;OQMD,MP:mp-aaacpxri;OQMD:2053342,0.002280783039809553,,0.819,,,"FM (MP label, FM-init) | unknown -> potentially FM",I4/mcm,structures/MP/Co9GdSi4_mp-aaacpxri.CIF
 C3Fe17Gd2,C Fe Gd,3,0.773,2,MP;OQMD,MP:mp-aaacpuja;OQMD:28823,0.003162601241753993,,2.207,,,"FM (MP label, FM-init) | unknown -> potentially FM",R-3m,structures/MP/Gd2Fe17C3_mp-aaacpuja.CIF
-B4Co11Tb3,B Co Tb,3,0.611,2,MP;OQMD,MP:mp-aaacpqph;OQMD:28310,0.0039,,0.358,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
-B4Co11Er3,B Co Er,3,0.611,2,MP;OQMD,MP:mp-aaacpfru;OQMD:28275,0.006315246559307319,,0.359,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
-B4Co11Tm3,B Co Tm,3,0.611,2,MP;OQMD,MP:mp-aaacpqpf;OQMD:28313,0.008561131541528266,,0.358,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
-BCo4Tm,B Co Tm,3,0.667,2,MP;OQMD,MP:mp-aaacktho;OQMD:1785111,0.0157,,0.612,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,
-Co8HoTb3,Co Ho Tb,3,0.667,2,MP;OQMD,MP:mp-aaacrhgb;OQMD:1981254,0.019,,0.276,,,ferrimagnetic (MP label) | unknown -> potentially FM,R3m,
-Al5Dy2Fe12,Al Dy Fe,3,0.632,2,MP;OQMD,MP:mp-aaacrstp;OQMD:657340,0.0233,,1.139,,,ferrimagnetic (MP label) | unknown -> potentially FM,R3m,
-Al2Fe15Tm2,Al Fe Tm,3,0.789,2,MP;OQMD,MP:mp-aaacqeiu;OQMD:658463,0.02864191239716185,,1.501,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
-Fe8TbV4,Fe Tb V,3,0.615,2,AFLOW;OQMD,AFLOW:aflow:88d463e46faf8b91;OQMD:30259,0.05995606585529209,,0.885759,,,moment present (FM-init calc) | unknown -> potentially FM,139,
-Dy2Fe14Ga3,Dy Fe Ga,3,0.737,2,MP;OQMD,MP:mp-aaacqmck;OQMD:672166,0.06153973503231637,,1.523,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
-Fe15Ga2Tm2,Fe Ga Tm,3,0.789,2,MP;OQMD,MP:mp-aaacqmte;OQMD:665977,0.0626,,1.954,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
-Co12Er2Ni5,Co Er Ni,3,0.632,2,MP;OQMD,MP:mp-aaacqmot;OQMD:663164,0.06363576078181088,,1.052,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
-Fe15Si2Tm2,Fe Si Tm,3,0.789,2,MP;OQMD,MP:mp-aaacqhtx;OQMD:666495,0.1022,,1.568,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,
+B4Co11Tb3,B Co Tb,3,0.611,2,MP;OQMD,MP:mp-aaacpqph;OQMD:28310,0.0039,,0.358,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,structures/MP/B4Co11Tb3_mp-aaacpqph.CIF
+B4Co11Er3,B Co Er,3,0.611,2,MP;OQMD,MP:mp-aaacpfru;OQMD:28275,0.006315246559307319,,0.359,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,structures/MP/B4Co11Er3_mp-aaacpfru.CIF
+B4Co11Tm3,B Co Tm,3,0.611,2,MP;OQMD,MP:mp-aaacpqpf;OQMD:28313,0.008561131541528266,,0.358,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,structures/MP/B4Co11Tm3_mp-aaacpqpf.CIF
+BCo4Tm,B Co Tm,3,0.667,2,MP;OQMD,MP:mp-aaacktho;OQMD:1785111,0.0157,,0.612,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6/mmm,structures/MP/BCo4Tm_mp-aaacktho.CIF
+Co8HoTb3,Co Ho Tb,3,0.667,2,MP;OQMD,MP:mp-aaacrhgb;OQMD:1981254,0.019,,0.276,,,ferrimagnetic (MP label) | unknown -> potentially FM,R3m,structures/MP/Co8HoTb3_mp-aaacrhgb.CIF
+Al5Dy2Fe12,Al Dy Fe,3,0.632,2,MP;OQMD,MP:mp-aaacrstp;OQMD:657340,0.0233,,1.139,,,ferrimagnetic (MP label) | unknown -> potentially FM,R3m,structures/MP/Al5Dy2Fe12_mp-aaacrstp.CIF
+Al2Fe15Tm2,Al Fe Tm,3,0.789,2,MP;OQMD,MP:mp-aaacqeiu;OQMD:658463,0.02864191239716185,,1.501,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,structures/MP/Al2Fe15Tm2_mp-aaacqeiu.CIF
+Fe8TbV4,Fe Tb V,3,0.615,2,AFLOW;OQMD,AFLOW:aflow:88d463e46faf8b91;OQMD:30259,0.05995606585529209,,0.885759,,,moment present (FM-init calc) | unknown -> potentially FM,139,structures/MP/Fe8TbV4_mp-aaackvlx.CIF
+Dy2Fe14Ga3,Dy Fe Ga,3,0.737,2,MP;OQMD,MP:mp-aaacqmck;OQMD:672166,0.06153973503231637,,1.523,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,structures/MP/Dy2Fe14Ga3_mp-aaacqmck.CIF
+Fe15Ga2Tm2,Fe Ga Tm,3,0.789,2,MP;OQMD,MP:mp-aaacqmte;OQMD:665977,0.0626,,1.954,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,structures/MP/Fe15Ga2Tm2_mp-aaacqmte.CIF
+Co12Er2Ni5,Co Er Ni,3,0.632,2,MP;OQMD,MP:mp-aaacqmot;OQMD:663164,0.06363576078181088,,1.052,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,structures/MP/Co12Er2Ni5_mp-aaacqmot.CIF
+Fe15Si2Tm2,Fe Si Tm,3,0.789,2,MP;OQMD,MP:mp-aaacqhtx;OQMD:666495,0.1022,,1.568,,,ferrimagnetic (MP label) | unknown -> potentially FM,P6_3/mmc,structures/MP/Fe15Si2Tm2_mp-aaacqhtx.CIF
 Ce2Fe29Si5Tb2,Ce Fe Si Tb,4,0.763,1,GNoME,GNoME:8f6575d5bc,-1.0582,-1.0582,,1.84,1.0,,Cm,structures/GNoME/Tb2Ce2Fe29Si5_8f6575d5bc.CIF
 CoFe3Gd2,Co Fe Gd,3,0.667,1,GNoME,GNoME:be1a527992,-0.0748,-0.0748,,2.43,0.92,,R-3m,structures/GNoME/Gd2Fe3Co_be1a527992.CIF
 CoFe18P12Sc4Tm,Co Fe P Sc Tm,5,0.528,1,GNoME,GNoME:e92b0278be,-0.058,-0.058,,1.19,0.82,,Amm2,structures/GNoME/TmSc4Fe18CoP12_e92b0278be.CIF
@@ -793,29 +793,29 @@ Co17DyY,Co Dy Y,3,0.895,1,GNoME,GNoME:643d358fd3,0.0,0.0,,1.79,0.83,,R3m,structu
 Co17HoY,Co Ho Y,3,0.895,1,GNoME,GNoME:d228e10a7b,-0.0,-0.0,,1.8,0.83,,R3m,structures/GNoME/YHoCo17_d228e10a7b.CIF
 Co17ErTb,Co Er Tb,3,0.895,1,GNoME,GNoME:9c6e1809f4,0.0,0.0,,2.19,0.45,,R3m,structures/GNoME/TbErCo17_9c6e1809f4.CIF
 Co17DyHo,Co Dy Ho,3,0.895,1,GNoME,GNoME:5eaed61428,-0.0,-0.0,,2.29,0.35,,R3m,structures/GNoME/DyHoCo17_5eaed61428.CIF
-B6Co12Gd,B Co Gd,3,0.632,1,OQMD,OQMD:26461,0.0,,,,,unknown -> potentially FM,R-3m,
+B6Co12Gd,B Co Gd,3,0.632,1,OQMD,OQMD:26461,0.0,,,,,unknown -> potentially FM,R-3m,structures/MP/B6Co12Gd_mp-aaabksos.CIF
 BDyFe4,B Dy Fe,3,0.667,1,OQMD,OQMD:1368881,0.0,,,,,unknown -> potentially FM,P6/mmm,
 BFe4Ho,B Fe Ho,3,0.667,1,OQMD,OQMD:1372281,0.0,,,,,unknown -> potentially FM,P6/mmm,
 Co15Dy2Fe2,Co Dy Fe,3,0.895,1,OQMD,OQMD:1990454,0.0,,,,,unknown -> potentially FM,R-3m,
 Co15Fe2Tb2,Co Fe Tb,3,0.895,1,OQMD,OQMD:1991848,0.0,,,,,unknown -> potentially FM,R-3m,
 Co15Fe2Tm2,Co Fe Tm,3,0.895,1,OQMD,OQMD:1986274,0.0,,,,,unknown -> potentially FM,R-3m,
-Co17GdSm,Co Gd Sm,3,0.895,1,MP,MP:mp-aaacrjrz,0.0,,1.107,,,ferrimagnetic (MP label),R3m,
+Co17GdSm,Co Gd Sm,3,0.895,1,MP,MP:mp-aaacrjrz,0.0,,1.107,,,ferrimagnetic (MP label),R3m,structures/MP/Co17GdSm_mp-aaacrjrz.CIF
 Co2DyFe,Co Dy Fe,3,0.75,1,OQMD,OQMD:1491873,0.0,,,,,unknown -> potentially FM,R-3m,
 Co2ErFe,Co Er Fe,3,0.75,1,OQMD,OQMD:1504236,0.0,,,,,unknown -> potentially FM,R-3m,
 Co2FeGd2,Co Fe Gd,3,0.6,1,OQMD,OQMD:1370380,0.0,,,,,unknown -> potentially FM,Immm,
 Co2FeHo,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504162,0.0,,,,,unknown -> potentially FM,R-3m,
 Co2FeHo2,Co Fe Ho,3,0.6,1,OQMD,OQMD:1372088,0.0,,,,,unknown -> potentially FM,Immm,
 Co2FeTm,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505208,0.0,,,,,unknown -> potentially FM,R-3m,
-Co3Dy2Fe,Co Dy Fe,3,0.667,1,MP,MP:mp-aaacrsrm,0.0,,0.838,,,unknown -> potentially FM,R-3m,
-Co3FeTb2,Co Fe Tb,3,0.667,1,MP,MP:mp-aaacrhja,0.0,,0.83,,,unknown -> potentially FM,R-3m,
+Co3Dy2Fe,Co Dy Fe,3,0.667,1,MP,MP:mp-aaacrsrm,0.0,,0.838,,,unknown -> potentially FM,R-3m,structures/MP/Co3Dy2Fe_mp-aaacrsrm.CIF
+Co3FeTb2,Co Fe Tb,3,0.667,1,MP,MP:mp-aaacrhja,0.0,,0.83,,,unknown -> potentially FM,R-3m,structures/MP/Co3FeTb2_mp-aaacrhja.CIF
 Co4DyMg,Co Dy Mg,3,0.667,1,OQMD,OQMD:1373102,0.0,,,,,unknown -> potentially FM,F-43m,
 Co4DyY,Co Dy Y,3,0.667,1,OQMD,OQMD:1974831,0.0,,,,,unknown -> potentially FM,F-43m,
-Co4ErGd,Co Er Gd,3,0.667,1,MP,MP:mp-aaacrrrl,0.0,,0.498,,,ferrimagnetic (MP label),F-43m,
+Co4ErGd,Co Er Gd,3,0.667,1,MP,MP:mp-aaacrrrl,0.0,,0.498,,,ferrimagnetic (MP label),F-43m,structures/MP/Co4ErGd_mp-aaacrrrl.CIF
 Co4ErMg,Co Er Mg,3,0.667,1,OQMD,OQMD:1373103,0.0,,,,,unknown -> potentially FM,F-43m,
-Co4GaTb,Co Ga Tb,3,0.667,1,MP,MP:mp-aaacqtne,0.0,,0.995,,,ferrimagnetic (MP label),P6/mmm,
+Co4GaTb,Co Ga Tb,3,0.667,1,MP,MP:mp-aaacqtne,0.0,,0.995,,,ferrimagnetic (MP label),P6/mmm,structures/MP/Co4GaTb_mp-aaacqtne.CIF
 Co4GdMg,Co Gd Mg,3,0.667,1,OQMD,OQMD:1987384,0.0,,,,,unknown -> potentially FM,F-43m,
 Co4GdPm,Co Gd Pm,3,0.667,1,OQMD,OQMD:1981800,0.0,,,,,unknown -> potentially FM,F-43m,
-Co4GdY,Co Gd Y,3,0.667,1,MP,MP:mp-aaacrsaz,0.0,,0.514,,,unknown -> potentially FM,F-43m,
+Co4GdY,Co Gd Y,3,0.667,1,MP,MP:mp-aaacrsaz,0.0,,0.514,,,unknown -> potentially FM,F-43m,structures/MP/Co4GdY_mp-aaacrsaz.CIF
 Co4HoMg,Co Ho Mg,3,0.667,1,OQMD,OQMD:1374761,0.0,,,,,unknown -> potentially FM,F-43m,
 Co4MgTm,Co Mg Tm,3,0.667,1,OQMD,OQMD:1366307,0.0,,,,,unknown -> potentially FM,F-43m,
 Co7Dy3Fe2,Co Dy Fe,3,0.75,1,OQMD,OQMD:1504602,0.0,,,,,unknown -> potentially FM,R-3m,
@@ -847,7 +847,7 @@ CoFe8Tm3,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505207,0.0,,,,,unknown -> potentially FM,R
 CoFeTm,Co Fe Tm,3,0.667,1,OQMD,OQMD:1992464,0.0,,,,,unknown -> potentially FM,Imma,
 Dy2Fe9Y,Dy Fe Y,3,0.75,1,OQMD,OQMD:1491871,0.0,,,,,unknown -> potentially FM,R-3m,
 DyEr2Fe9,Dy Er Fe,3,0.75,1,OQMD,OQMD:1504231,0.0,,,,,unknown -> potentially FM,R-3m,
-DyFe6Th,Dy Fe Th,3,0.75,1,MP,MP:mp-aaacrtgw,0.0,,1.592,,,ferrimagnetic (MP label),R3m,
+DyFe6Th,Dy Fe Th,3,0.75,1,MP,MP:mp-aaacrtgw,0.0,,1.592,,,ferrimagnetic (MP label),R3m,structures/MP/DyFe6Th_mp-aaacrtgw.CIF
 DyFe9Ho2,Dy Fe Ho,3,0.75,1,OQMD,OQMD:1504184,0.0,,,,,unknown -> potentially FM,R-3m,
 DyFe9Lu2,Dy Fe Lu,3,0.75,1,OQMD,OQMD:1504595,0.0,,,,,unknown -> potentially FM,R-3m,
 Er2Fe9Gd,Er Fe Gd,3,0.75,1,OQMD,OQMD:1504232,0.0,,,,,unknown -> potentially FM,R-3m,
@@ -855,7 +855,7 @@ Er2Fe9Ho,Er Fe Ho,3,0.75,1,OQMD,OQMD:1504156,0.0,,,,,unknown -> potentially FM,R
 Er2Fe9Y,Er Fe Y,3,0.75,1,OQMD,OQMD:1504233,0.0,,,,,unknown -> potentially FM,R-3m,
 ErFe4Zr,Er Fe Zr,3,0.667,1,OQMD,OQMD:1983199,0.0,,,,,unknown -> potentially FM,F-43m,
 ErFe9Lu2,Er Fe Lu,3,0.75,1,OQMD,OQMD:1504287,0.0,,,,,unknown -> potentially FM,R-3m,
-Fe23Gd3Y3,Fe Gd Y,3,0.793,1,MP,MP:mp-aaacrsjv,0.0,,1.003,,,ferrimagnetic (MP label),R3m,
+Fe23Gd3Y3,Fe Gd Y,3,0.793,1,MP,MP:mp-aaacrsjv,0.0,,1.003,,,ferrimagnetic (MP label),R3m,structures/MP/Fe23Gd3Y3_mp-aaacrsjv.CIF
 Fe4TmZr,Fe Tm Zr,3,0.667,1,OQMD,OQMD:1988772,0.0,,,,,unknown -> potentially FM,F-43m,
 Fe9GdHo2,Fe Gd Ho,3,0.75,1,OQMD,OQMD:1504188,0.0,,,,,unknown -> potentially FM,R-3m,
 Fe9GdLu2,Fe Gd Lu,3,0.75,1,OQMD,OQMD:1505238,0.0,,,,,unknown -> potentially FM,R-3m,
@@ -865,12 +865,12 @@ Fe9Ho2Y,Fe Ho Y,3,0.75,1,OQMD,OQMD:1504189,0.0,,,,,unknown -> potentially FM,R-3
 Fe9HoLu2,Fe Ho Lu,3,0.75,1,OQMD,OQMD:1504161,0.0,,,,,unknown -> potentially FM,R-3m,
 Fe9Lu2Tm,Fe Lu Tm,3,0.75,1,OQMD,OQMD:1505215,0.0,,,,,unknown -> potentially FM,R-3m,
 BCo14Gd2,B Co Gd,3,0.824,1,OQMD,OQMD:655748,7.863823529075109e-06,,,,,unknown -> potentially FM,P42/mnm,
-B6Co12Ho,B Co Ho,3,0.632,1,OQMD,OQMD:2016907,2.0925263157778318e-05,,,,,unknown -> potentially FM,R-3m,
-B6Co12Tm,B Co Tm,3,0.632,1,OQMD,OQMD:1786124,5.7437894736889206e-05,,,,,unknown -> potentially FM,R-3m,
+B6Co12Ho,B Co Ho,3,0.632,1,OQMD,OQMD:2016907,2.0925263157778318e-05,,,,,unknown -> potentially FM,R-3m,structures/MP/B6Co12Ho_mp-aaackwuy.CIF
+B6Co12Tm,B Co Tm,3,0.632,1,OQMD,OQMD:1786124,5.7437894736889206e-05,,,,,unknown -> potentially FM,R-3m,structures/MP/B6Co12Tm_mp-aaacqozs.CIF
 DyFe18Y5,Dy Fe Y,3,0.75,1,GNoME,GNoME:36e5d973ca,0.0001,0.0001,,1.52,0.88,,P3m1,structures/GNoME/DyY5Fe18_36e5d973ca.CIF
 Dy5Fe18Tb,Dy Fe Tb,3,0.75,1,GNoME,GNoME:12b16e6d3a,0.0001,0.0001,,3.08,0.68,,P-6m2,structures/GNoME/TbDy5Fe18_12b16e6d3a.CIF
 Co17DyEr,Co Dy Er,3,0.895,1,GNoME,GNoME:78dccd9cbe,0.0001,0.0001,,2.24,0.4,,R3m,structures/GNoME/DyErCo17_78dccd9cbe.CIF
-Dy3Fe8Tb,Dy Fe Tb,3,0.667,1,MP,MP:mp-aaacrhef,0.0001,,1.195,,,ferrimagnetic (MP label),R3m,
+Dy3Fe8Tb,Dy Fe Tb,3,0.667,1,MP,MP:mp-aaacrhef,0.0001,,1.195,,,ferrimagnetic (MP label),R3m,structures/MP/Dy3Fe8Tb_mp-aaacrhef.CIF
 Co8Dy3Er,Co Dy Er,3,0.667,1,OQMD,OQMD:1977072,0.00012022958333338107,,,,,unknown -> potentially FM,Cm,
 Co7Fe2Tm3,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505205,0.00013209665732596965,,,,,unknown -> potentially FM,R-3m,
 Co9ErTm2,Co Er Tm,3,0.75,1,OQMD,OQMD:1504514,0.00016748916666742275,,,,,unknown -> potentially FM,R-3m,
@@ -903,15 +903,15 @@ Co9HoTm2,Co Ho Tm,3,0.75,1,OQMD,OQMD:1505213,0.0008862458333330492,,,,,unknown -
 Fe20Tm9Y,Fe Tm Y,3,0.667,1,GNoME,GNoME:4d22330b64,0.0009,0.0009,,2.63,0.53,,I-4,structures/GNoME/YTm9Fe20_4d22330b64.CIF
 Co17ErTm,Co Er Tm,3,0.895,1,GNoME,GNoME:f32b846d4c,0.0009,0.0009,,2.09,0.54,,R3m,structures/GNoME/ErTmCo17_f32b846d4c.CIF
 Co4ErY,Co Er Y,3,0.667,1,OQMD,OQMD:1976225,0.0009337066666675053,,,,,unknown -> potentially FM,F-43m,
-Fe8Ho3Tb,Fe Ho Tb,3,0.667,1,MP,MP:mp-aaacrhba,0.001,,1.098,,,ferrimagnetic (MP label),R3m,
+Fe8Ho3Tb,Fe Ho Tb,3,0.667,1,MP,MP:mp-aaacrhba,0.001,,1.098,,,ferrimagnetic (MP label),R3m,structures/MP/Fe8Ho3Tb_mp-aaacrhba.CIF
 Fe9GdY2,Fe Gd Y,3,0.75,1,OQMD,OQMD:1505035,0.001039563977143436,,,,,unknown -> potentially FM,R-3m,
 Co4GdHo,Co Gd Ho,3,0.667,1,OQMD,OQMD:1973436,0.0010419108333329652,,,,,unknown -> potentially FM,F-43m,
 Dy2Fe9Gd,Dy Fe Gd,3,0.75,1,OQMD,OQMD:1504548,0.00107927038910733,,,,,unknown -> potentially FM,R-3m,
 ErFe4Tm,Er Fe Tm,3,0.667,1,OQMD,OQMD:1983198,0.0012192358333323328,,,,,unknown -> potentially FM,F-43m,
 Fe7NiSi4Tm2,Fe Ni Si Tm,4,0.5,1,GNoME,GNoME:48922e838f,0.0015,0.0015,,1.8,0.04,,Pm,structures/GNoME/Tm2Fe7Si4Ni_48922e838f.CIF
 Co4GdTm,Co Gd Tm,3,0.667,1,OQMD,OQMD:1976224,0.0015243416666668452,,,,,unknown -> potentially FM,F-43m,
-Co17ErPr,Co Er Pr,3,0.895,1,MP,MP:mp-aaacrkuc,0.0016,,1.327,,,ferrimagnetic (MP label),R3m,
-Fe4HoTb,Fe Ho Tb,3,0.667,1,MP,MP:mp-aaacrgzx,0.0017,,1.266,,,unknown -> potentially FM,F-43m,
+Co17ErPr,Co Er Pr,3,0.895,1,MP,MP:mp-aaacrkuc,0.0016,,1.327,,,ferrimagnetic (MP label),R3m,structures/MP/Co17ErPr_mp-aaacrkuc.CIF
+Fe4HoTb,Fe Ho Tb,3,0.667,1,MP,MP:mp-aaacrgzx,0.0017,,1.266,,,unknown -> potentially FM,F-43m,structures/MP/Fe4HoTb_mp-aaacrgzx.CIF
 Co4ErTm,Co Er Tm,3,0.667,1,OQMD,OQMD:1991554,0.0017550049999983663,,,,,unknown -> potentially FM,F-43m,
 Fe9Gd2Y,Fe Gd Y,3,0.75,1,OQMD,OQMD:1491926,0.00188276852285673,,,,,unknown -> potentially FM,R-3m,
 Co8Er3Fe,Co Er Fe,3,0.75,1,OQMD,OQMD:1504248,0.0024512500000010984,,,,,unknown -> potentially FM,R-3m,
@@ -931,7 +931,7 @@ DyFe9Gd2,Dy Fe Gd,3,0.75,1,OQMD,OQMD:1504580,0.0036772312775597837,,,,,unknown -
 Co8FeHo3,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504174,0.003935795833333727,,,,,unknown -> potentially FM,R-3m,
 B2Fe13Gd3,B Fe Gd,3,0.722,1,OQMD,OQMD:1785614,0.004086113089316251,,,,,unknown -> potentially FM,Cmmm,
 Co2Dy2Fe,Co Dy Fe,3,0.6,1,OQMD,OQMD:1377433,0.004297433000000073,,,,,unknown -> potentially FM,Immm,
-Co4HoTb,Co Ho Tb,3,0.667,1,MP,MP:mp-aaacrhag,0.0043,,0.679,,,unknown -> potentially FM,F-43m,
+Co4HoTb,Co Ho Tb,3,0.667,1,MP,MP:mp-aaacrhag,0.0043,,0.679,,,unknown -> potentially FM,F-43m,structures/MP/Co4HoTb_mp-aaacrhag.CIF
 B2Dy3Fe13,B Dy Fe,3,0.722,1,OQMD,OQMD:1785669,0.004519516026442211,,,,,unknown -> potentially FM,Cmmm,
 Co2FeTm2,Co Fe Tm,3,0.6,1,OQMD,OQMD:1368628,0.004611077000000352,,,,,unknown -> potentially FM,Immm,
 ErFe4Gd,Er Fe Gd,3,0.667,1,OQMD,OQMD:1984592,0.0046300567499985845,,,,,unknown -> potentially FM,F-43m,
@@ -941,7 +941,7 @@ B2Fe13Ho3,B Fe Ho,3,0.722,1,OQMD,OQMD:1785623,0.0050516359156226875,,,,,unknown 
 B2Er3Fe13,B Er Fe,3,0.722,1,OQMD,OQMD:1785605,0.005338277034847877,,,,,unknown -> potentially FM,Cmm2,
 Fe9HoY2,Fe Ho Y,3,0.75,1,OQMD,OQMD:1504159,0.005421273333333573,,,,,unknown -> potentially FM,R-3m,
 Dy2ErFe9,Dy Er Fe,3,0.75,1,OQMD,OQMD:1504263,0.005441919166667447,,,,,unknown -> potentially FM,R-3m,
-Co14Ga3Tb2,Co Ga Tb,3,0.737,1,MP,MP:mp-aaacrhjx,0.0056,,1.172,,,ferrimagnetic (MP label),R3m,
+Co14Ga3Tb2,Co Ga Tb,3,0.737,1,MP,MP:mp-aaacrhjx,0.0056,,1.172,,,ferrimagnetic (MP label),R3m,structures/MP/Co14Ga3Tb2_mp-aaacrhjx.CIF
 Co9Dy2Er,Co Dy Er,3,0.75,1,OQMD,OQMD:1504512,0.005661065000001048,,,,,unknown -> potentially FM,R-3m,
 Co8Er3Ni,Co Er Ni,3,0.667,1,OQMD,OQMD:1504525,0.005933711106062445,,,,,unknown -> potentially FM,R-3m,
 Fe9LuTm2,Fe Lu Tm,3,0.75,1,OQMD,OQMD:1505217,0.005962014583332842,,,,,unknown -> potentially FM,R-3m,
@@ -961,183 +961,183 @@ ErFe9Y2,Er Fe Y,3,0.75,1,OQMD,OQMD:1504275,0.0075526237500008475,,,,,unknown -> 
 Co9Er2Lu,Co Er Lu,3,0.75,1,OQMD,OQMD:1504509,0.007921725000000296,,,,,unknown -> potentially FM,R-3m,
 B4Dy3Fe11,B Dy Fe,3,0.611,1,OQMD,OQMD:1785888,0.007997891378666633,,,,,unknown -> potentially FM,Cmmm,
 Dy2Fe9Tm,Dy Fe Tm,3,0.75,1,OQMD,OQMD:1491872,0.00828778625000065,,,,,unknown -> potentially FM,R-3m,
-Fe11MoTb,Fe Mo Tb,3,0.846,1,MP,MP:mp-aaacrhcr,0.0083,,1.636,,,ferrimagnetic (MP label),Imm2,
-Fe11TbW,Fe Tb W,3,0.846,1,MP,MP:mp-aaacrhdj,0.009,,1.629,,,ferrimagnetic (MP label),Imm2,
+Fe11MoTb,Fe Mo Tb,3,0.846,1,MP,MP:mp-aaacrhcr,0.0083,,1.636,,,ferrimagnetic (MP label),Imm2,structures/MP/Fe11MoTb_mp-aaacrhcr.CIF
+Fe11TbW,Fe Tb W,3,0.846,1,MP,MP:mp-aaacrhdj,0.009,,1.629,,,ferrimagnetic (MP label),Imm2,structures/MP/Fe11TbW_mp-aaacrhdj.CIF
 Co9Dy2Tm,Co Dy Tm,3,0.75,1,OQMD,OQMD:1505210,0.00902372083333397,,,,,unknown -> potentially FM,R-3m,
 Er2Fe9Lu,Er Fe Lu,3,0.75,1,OQMD,OQMD:1504235,0.009050364583331874,,,,,unknown -> potentially FM,R-3m,
 ErFe9Gd2,Er Fe Gd,3,0.75,1,OQMD,OQMD:1504271,0.009643115000000556,,,,,unknown -> potentially FM,R-3m,
 Fe5HoSi,Fe Ho Si,3,0.714,1,MP,MP:mp-aaacrqvy,0.0098,,1.578,,,ferrimagnetic (MP label),Immm,
 Fe9TmY2,Fe Tm Y,3,0.75,1,OQMD,OQMD:1505036,0.010037400833332683,,,,,unknown -> potentially FM,R-3m,
 Co9TmY2,Co Tm Y,3,0.75,1,OQMD,OQMD:1505161,0.010083848333332701,,,,,unknown -> potentially FM,R-3m,
-C2Fe17Tb2,C Fe Tb,3,0.81,1,MP,MP:mp-aaacrhjp,0.0101,,1.716,,,ferrimagnetic (MP label),C2/m,
-Er4Fe23Y2,Er Fe Y,3,0.793,1,MP,MP:mp-aaacrfds,0.0102,,1.773,,,ferrimagnetic (MP label),Imm2,
+C2Fe17Tb2,C Fe Tb,3,0.81,1,MP,MP:mp-aaacrhjp,0.0101,,1.716,,,ferrimagnetic (MP label),C2/m,structures/MP/C2Fe17Tb2_mp-aaacrhjp.CIF
+Er4Fe23Y2,Er Fe Y,3,0.793,1,MP,MP:mp-aaacrfds,0.0102,,1.773,,,ferrimagnetic (MP label),Imm2,structures/MP/Er4Fe23Y2_mp-aaacrfds.CIF
 Fe8Tb3V,Fe Tb V,3,0.667,1,MP,MP:mp-aaacrhml,0.0104,,1.484,,,ferrimagnetic (MP label),Cm,
-Fe11HoTi,Fe Ho Ti,3,0.846,1,MP,MP:mp-aaacrquy,0.0106,,1.625,,,ferrimagnetic (MP label),Imm2,
+Fe11HoTi,Fe Ho Ti,3,0.846,1,MP,MP:mp-aaacrquy,0.0106,,1.625,,,ferrimagnetic (MP label),Imm2,structures/MP/Fe11HoTi_mp-aaacrquy.CIF
 Fe3MoTb,Fe Mo Tb,3,0.6,1,MP,MP:mp-aaacrhpc,0.0107,,1.143,,,ferrimagnetic (MP label),Imm2,
 Co9PmTb2,Co Pm Tb,3,0.75,1,OQMD,OQMD:1982541,0.01079574437188107,,,,,unknown -> potentially FM,R-3m,
 B2Co13Gd3,B Co Gd,3,0.722,1,OQMD,OQMD:1785613,0.010993191385953588,,,,,unknown -> potentially FM,Amm2,
-C2Er2Fe17,C Er Fe,3,0.81,1,MP,MP:mp-aaacrthf,0.0111,,1.709,,,ferrimagnetic (MP label),C2/m,
-Fe11TbTi,Fe Tb Ti,3,0.846,1,MP,MP:mp-aaacrhbe,0.0112,,1.623,,,ferrimagnetic (MP label),Imm2,
+C2Er2Fe17,C Er Fe,3,0.81,1,MP,MP:mp-aaacrthf,0.0111,,1.709,,,ferrimagnetic (MP label),C2/m,structures/MP/C2Er2Fe17_mp-aaacrthf.CIF
+Fe11TbTi,Fe Tb Ti,3,0.846,1,MP,MP:mp-aaacrhbe,0.0112,,1.623,,,ferrimagnetic (MP label),Imm2,structures/MP/Fe11TbTi_mp-aaacrhbe.CIF
 CErFe4,C Er Fe,3,0.667,1,OQMD,OQMD:1785101,0.011648689298766418,,,,,unknown -> potentially FM,P6/mmm,
 Fe9Ho2Lu,Fe Ho Lu,3,0.75,1,OQMD,OQMD:1504196,0.011681685416666782,,,,,unknown -> potentially FM,R-3m,
-DyFe11Ti,Dy Fe Ti,3,0.846,1,MP,MP:mp-aaacrtfj,0.0118,,1.644,,,ferrimagnetic (MP label),Imm2,
+DyFe11Ti,Dy Fe Ti,3,0.846,1,MP,MP:mp-aaacrtfj,0.0118,,1.644,,,ferrimagnetic (MP label),Imm2,structures/MP/DyFe11Ti_mp-aaacrtfj.CIF
 DyFe5Si,Dy Fe Si,3,0.714,1,MP,MP:mp-aaacrsrv,0.0118,,1.564,,,ferrimagnetic (MP label),Immm,
 Co9Ho2Lu,Co Ho Lu,3,0.75,1,OQMD,OQMD:1505183,0.011862830833332921,,,,,unknown -> potentially FM,R-3m,
-Co11ErTi,Co Er Ti,3,0.846,1,MP,MP:mp-aaacrsul,0.0119,,1.142,,,ferrimagnetic (MP label),Imm2,
-Co11HoTi,Co Ho Ti,3,0.846,1,MP,MP:mp-aaacrqpi,0.012,,1.143,,,ferrimagnetic (MP label),Imm2,
-Co11DyTi,Co Dy Ti,3,0.846,1,MP,MP:mp-aaacrtdf,0.0122,,1.142,,,ferrimagnetic (MP label),Imm2,
+Co11ErTi,Co Er Ti,3,0.846,1,MP,MP:mp-aaacrsul,0.0119,,1.142,,,ferrimagnetic (MP label),Imm2,structures/MP/Co11ErTi_mp-aaacrsul.CIF
+Co11HoTi,Co Ho Ti,3,0.846,1,MP,MP:mp-aaacrqpi,0.012,,1.143,,,ferrimagnetic (MP label),Imm2,structures/MP/Co11HoTi_mp-aaacrqpi.CIF
+Co11DyTi,Co Dy Ti,3,0.846,1,MP,MP:mp-aaacrtdf,0.0122,,1.142,,,ferrimagnetic (MP label),Imm2,structures/MP/Co11DyTi_mp-aaacrtdf.CIF
 Fe5ReTb,Fe Re Tb,3,0.714,1,MP,MP:mp-aaacrhov,0.0122,,1.443,,,ferrimagnetic (MP label),Immm,
 Fe9Gd2Tm,Fe Gd Tm,3,0.75,1,OQMD,OQMD:1505214,0.012488361666666975,,,,,unknown -> potentially FM,R-3m,
 Dy2Fe9Lu,Dy Fe Lu,3,0.75,1,OQMD,OQMD:1504549,0.012918196249999625,,,,,unknown -> potentially FM,R-3m,
 CoFe2Tm,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505206,0.013610760166666347,,,,,unknown -> potentially FM,R-3m,
 Er3Fe8Ni,Er Fe Ni,3,0.667,1,OQMD,OQMD:1504319,0.013771847257887493,,,,,unknown -> potentially FM,R-3m,
 Co9Dy2Lu,Co Dy Lu,3,0.75,1,OQMD,OQMD:1505182,0.014024546250000158,,,,,unknown -> potentially FM,R-3m,
-ErFe11Ti,Er Fe Ti,3,0.846,1,MP,MP:mp-aaacrszg,0.0141,,1.648,,,ferrimagnetic (MP label),Imm2,
+ErFe11Ti,Er Fe Ti,3,0.846,1,MP,MP:mp-aaacrszg,0.0141,,1.648,,,ferrimagnetic (MP label),Imm2,structures/MP/ErFe11Ti_mp-aaacrszg.CIF
 Fe5MoTb,Fe Mo Tb,3,0.714,1,MP,MP:mp-aaacrhpa,0.0142,,1.451,,,ferrimagnetic (MP label),Immm,
 CoErFe2,Co Er Fe,3,0.75,1,OQMD,OQMD:1504301,0.014263915166665947,,,,,unknown -> potentially FM,R-3m,
 DyFe5Re,Dy Fe Re,3,0.714,1,MP,MP:mp-aaacrsty,0.0146,,1.452,,,ferrimagnetic (MP label),Immm,
 CoFe2Ho,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504212,0.014641966166666964,,,,,unknown -> potentially FM,R-3m,
 Fe5SiTb,Fe Si Tb,3,0.714,1,MP,MP:mp-aaacrhod,0.0148,,1.573,,,ferrimagnetic (MP label),Immm,
 DyFe5Mo,Dy Fe Mo,3,0.714,1,MP,MP:mp-aaacrsuo,0.015,,1.452,,,ferrimagnetic (MP label),Immm,
-CeDyFe4,Ce Dy Fe,3,0.667,1,MP,MP:mp-aaacruol,0.0151,,1.174,,,unknown -> potentially FM,F-43m,
+CeDyFe4,Ce Dy Fe,3,0.667,1,MP,MP:mp-aaacruol,0.0151,,1.174,,,unknown -> potentially FM,F-43m,structures/MP/CeDyFe4_mp-aaacruol.CIF
 B2Co13Dy3,B Co Dy,3,0.722,1,OQMD,OQMD:1785668,0.01518695703598133,,,,,unknown -> potentially FM,Cmmm,
-Fe11TiTm,Fe Ti Tm,3,0.846,1,MP,MP:mp-aaacrgev,0.0152,,1.612,,,ferrimagnetic (MP label),Imm2,
+Fe11TiTm,Fe Ti Tm,3,0.846,1,MP,MP:mp-aaacrgev,0.0152,,1.612,,,ferrimagnetic (MP label),Imm2,structures/MP/Fe11TiTm_mp-aaacrgev.CIF
 CoDyFe2,Co Dy Fe,3,0.75,1,OQMD,OQMD:1490546,0.015272114333333073,,,,,unknown -> potentially FM,R-3m,
 Dy3Fe8Ni,Dy Fe Ni,3,0.667,1,OQMD,OQMD:1504623,0.015353009774393439,,,,,unknown -> potentially FM,R-3m,
 Fe5HoRe,Fe Ho Re,3,0.714,1,MP,MP:mp-aaacrqxo,0.0161,,1.444,,,ferrimagnetic (MP label),Immm,
-Fe11ReTb,Fe Re Tb,3,0.846,1,MP,MP:mp-aaacrhcu,0.0162,,1.699,,,ferrimagnetic (MP label),Imm2,
+Fe11ReTb,Fe Re Tb,3,0.846,1,MP,MP:mp-aaacrhcu,0.0162,,1.699,,,ferrimagnetic (MP label),Imm2,structures/MP/Fe11ReTb_mp-aaacrhcu.CIF
 Co4GdSc,Co Gd Sc,3,0.667,1,OQMD,OQMD:1990184,0.01628074999999876,,,,,unknown -> potentially FM,F-43m,
 Fe5HoMo,Fe Ho Mo,3,0.714,1,MP,MP:mp-aaacrqwh,0.0163,,1.449,,,ferrimagnetic (MP label),Immm,
-Fe11GdW,Fe Gd W,3,0.846,1,MP,MP:mp-aaacrsku,0.0165,,2.171,,,ferrimagnetic (MP label),Imm2,
+Fe11GdW,Fe Gd W,3,0.846,1,MP,MP:mp-aaacrsku,0.0165,,2.171,,,ferrimagnetic (MP label),Imm2,structures/MP/Fe11GdW_mp-aaacrsku.CIF
 Fe8Ho3Ni,Fe Ho Ni,3,0.667,1,OQMD,OQMD:1504040,0.01662804570000699,,,,,unknown -> potentially FM,R-3m,
-C3Fe34Gd4,C Fe Gd,3,0.829,1,MP,MP:mp-aaacrtkv,0.0168,,1.81,,,ferrimagnetic (MP label),P-1,
-C3Fe34Tb4,C Fe Tb,3,0.829,1,MP,MP:mp-aaacrhhe,0.017,,1.806,,,ferrimagnetic (MP label),P-1,
-C3Fe34Tm4,C Fe Tm,3,0.829,1,MP,MP:mp-aaacrgjr,0.0184,,1.79,,,ferrimagnetic (MP label),P-1,
+C3Fe34Gd4,C Fe Gd,3,0.829,1,MP,MP:mp-aaacrtkv,0.0168,,1.81,,,ferrimagnetic (MP label),P-1,structures/MP/C3Fe34Gd4_mp-aaacrtkv.CIF
+C3Fe34Tb4,C Fe Tb,3,0.829,1,MP,MP:mp-aaacrhhe,0.017,,1.806,,,ferrimagnetic (MP label),P-1,structures/MP/C3Fe34Tb4_mp-aaacrhhe.CIF
+C3Fe34Tm4,C Fe Tm,3,0.829,1,MP,MP:mp-aaacrgjr,0.0184,,1.79,,,ferrimagnetic (MP label),P-1,structures/MP/C3Fe34Tm4_mp-aaacrgjr.CIF
 ErFe5Mo,Er Fe Mo,3,0.714,1,MP,MP:mp-aaacrslu,0.0184,,1.447,,,ferrimagnetic (MP label),Immm,
 ErFe5Re,Er Fe Re,3,0.714,1,MP,MP:mp-aaacrskm,0.0185,,1.449,,,ferrimagnetic (MP label),Immm,
-C3Er4Fe34,C Er Fe,3,0.829,1,MP,MP:mp-aaacrtkt,0.0186,,1.807,,,ferrimagnetic (MP label),P-1,
-C3Fe68Ho8,C Fe Ho,3,0.861,1,MP,MP:mp-aaacrsje,0.0188,,1.915,,,ferrimagnetic (MP label),Pm,
-Fe11HoRe,Fe Ho Re,3,0.846,1,MP,MP:mp-aaacrqtp,0.0188,,1.693,,,ferrimagnetic (MP label),Imm2,
+C3Er4Fe34,C Er Fe,3,0.829,1,MP,MP:mp-aaacrtkt,0.0186,,1.807,,,ferrimagnetic (MP label),P-1,structures/MP/C3Er4Fe34_mp-aaacrtkt.CIF
+C3Fe68Ho8,C Fe Ho,3,0.861,1,MP,MP:mp-aaacrsje,0.0188,,1.915,,,ferrimagnetic (MP label),Pm,structures/MP/C3Fe68Ho8_mp-aaacrsje.CIF
+Fe11HoRe,Fe Ho Re,3,0.846,1,MP,MP:mp-aaacrqtp,0.0188,,1.693,,,ferrimagnetic (MP label),Imm2,structures/MP/Fe11HoRe_mp-aaacrqtp.CIF
 Fe9Gd2Lu,Fe Gd Lu,3,0.75,1,OQMD,OQMD:1505237,0.019094832916666846,,,,,unknown -> potentially FM,R-3m,
 Co2Fe7Tm3,Co Fe Tm,3,0.75,1,OQMD,OQMD:1505209,0.01978762716666746,,,,,unknown -> potentially FM,R-3m,
 Co2Er3Fe7,Co Er Fe,3,0.75,1,OQMD,OQMD:1504243,0.019872633000000445,,,,,unknown -> potentially FM,R-3m,
 Fe5ReTm,Fe Re Tm,3,0.714,1,MP,MP:mp-aaacrfys,0.0199,,1.446,,,ferrimagnetic (MP label),Immm,
 Fe5MoTm,Fe Mo Tm,3,0.714,1,MP,MP:mp-aaacrgff,0.0204,,1.444,,,ferrimagnetic (MP label),Immm,
 Co2Fe7Ho3,Co Fe Ho,3,0.75,1,OQMD,OQMD:1504168,0.020409013500001558,,,,,unknown -> potentially FM,R-3m,
-Fe34SmTb3,Fe Sm Tb,3,0.895,1,MP,MP:mp-aaacrhhv,0.0209,,2.077,,,ferrimagnetic (MP label),Cm,
+Fe34SmTb3,Fe Sm Tb,3,0.895,1,MP,MP:mp-aaacrhhv,0.0209,,2.077,,,ferrimagnetic (MP label),Cm,structures/MP/Fe34SmTb3_mp-aaacrhhv.CIF
 Co2Dy3Fe7,Co Dy Fe,3,0.75,1,OQMD,OQMD:1504557,0.02116141050000024,,,,,unknown -> potentially FM,R-3m,
-DyFe4Sm,Dy Fe Sm,3,0.667,1,MP,MP:mp-aaacrjkd,0.0213,,1.315,,,unknown -> potentially FM,F-43m,
-Fe29Si5Tb4,Fe Si Tb,3,0.763,1,MP,MP:mp-aaacrhhl,0.0213,,1.505,,,ferrimagnetic (MP label),C2/m,
-CFe17Gd2,C Fe Gd,3,0.85,1,MP,MP:mp-aaacrtap,0.0217,,1.044,,,ferrimagnetic (MP label),C2/m,
+DyFe4Sm,Dy Fe Sm,3,0.667,1,MP,MP:mp-aaacrjkd,0.0213,,1.315,,,unknown -> potentially FM,F-43m,structures/MP/DyFe4Sm_mp-aaacrjkd.CIF
+Fe29Si5Tb4,Fe Si Tb,3,0.763,1,MP,MP:mp-aaacrhhl,0.0213,,1.505,,,ferrimagnetic (MP label),C2/m,structures/MP/Fe29Si5Tb4_mp-aaacrhhl.CIF
+CFe17Gd2,C Fe Gd,3,0.85,1,MP,MP:mp-aaacrtap,0.0217,,1.044,,,ferrimagnetic (MP label),C2/m,structures/MP/CFe17Gd2_mp-aaacrtap.CIF
 Fe8Gd3Ni,Fe Gd Ni,3,0.667,1,OQMD,OQMD:1504970,0.021997359213371287,,,,,unknown -> potentially FM,R-3m,
 B2Co13Tm3,B Co Tm,3,0.722,1,OQMD,OQMD:1785574,0.022321999950464688,,,,,unknown -> potentially FM,Cmmm,
-Er3Fe34Y,Er Fe Y,3,0.895,1,MP,MP:mp-aaacrfdf,0.0225,,2.052,,,ferrimagnetic (MP label),P-6m2,
-ErFe4Sm,Er Fe Sm,3,0.667,1,MP,MP:mp-aaacrjjk,0.0225,,1.267,,,ferrimagnetic (MP label),F-43m,
-CFe17Ho2,C Fe Ho,3,0.85,1,MP,MP:mp-aaacrrqg,0.0226,,1.873,,,ferrimagnetic (MP label),Amm2,
-DyFe17Sm,Dy Fe Sm,3,0.895,1,MP,MP:mp-aaacrjjv,0.0229,,2.068,,,ferrimagnetic (MP label),R3m,
-CFe17Tb2,C Fe Tb,3,0.85,1,MP,MP:mp-aaacrhju,0.0233,,1.877,,,ferrimagnetic (MP label),C2/m,
-Co4InTm,Co In Tm,3,0.667,1,MP,MP:mp-aaacqruv,0.0234,,0.752,,,ferrimagnetic (MP label),F-43m,
+Er3Fe34Y,Er Fe Y,3,0.895,1,MP,MP:mp-aaacrfdf,0.0225,,2.052,,,ferrimagnetic (MP label),P-6m2,structures/MP/Er3Fe34Y_mp-aaacrfdf.CIF
+ErFe4Sm,Er Fe Sm,3,0.667,1,MP,MP:mp-aaacrjjk,0.0225,,1.267,,,ferrimagnetic (MP label),F-43m,structures/MP/ErFe4Sm_mp-aaacrjjk.CIF
+CFe17Ho2,C Fe Ho,3,0.85,1,MP,MP:mp-aaacrrqg,0.0226,,1.873,,,ferrimagnetic (MP label),Amm2,structures/MP/CFe17Ho2_mp-aaacrrqg.CIF
+DyFe17Sm,Dy Fe Sm,3,0.895,1,MP,MP:mp-aaacrjjv,0.0229,,2.068,,,ferrimagnetic (MP label),R3m,structures/MP/DyFe17Sm_mp-aaacrjjv.CIF
+CFe17Tb2,C Fe Tb,3,0.85,1,MP,MP:mp-aaacrhju,0.0233,,1.877,,,ferrimagnetic (MP label),C2/m,structures/MP/CFe17Tb2_mp-aaacrhju.CIF
+Co4InTm,Co In Tm,3,0.667,1,MP,MP:mp-aaacqruv,0.0234,,0.752,,,ferrimagnetic (MP label),F-43m,structures/MP/Co4InTm_mp-aaacqruv.CIF
 Fe4GdSc,Fe Gd Sc,3,0.667,1,OQMD,OQMD:1974854,0.023867903583570937,,,,,unknown -> potentially FM,F-43m,
-CDy2Fe17,C Dy Fe,3,0.85,1,MP,MP:mp-aaacrsth,0.0241,,1.868,,,ferrimagnetic (MP label),C2/m,
+CDy2Fe17,C Dy Fe,3,0.85,1,MP,MP:mp-aaacrsth,0.0241,,1.868,,,ferrimagnetic (MP label),C2/m,structures/MP/CDy2Fe17_mp-aaacrsth.CIF
 Fe4GdZr,Fe Gd Zr,3,0.667,1,OQMD,OQMD:1984593,0.024581847750237473,,,,,unknown -> potentially FM,F-43m,
-Co4DyGa,Co Dy Ga,3,0.667,1,MP,MP:mp-aaacrtdu,0.0246,,0.679,,,ferrimagnetic (MP label),Cmmm,
+Co4DyGa,Co Dy Ga,3,0.667,1,MP,MP:mp-aaacrtdu,0.0246,,0.679,,,ferrimagnetic (MP label),Cmmm,structures/MP/Co4DyGa_mp-aaacrtdu.CIF
 CrFe5Tb,Cr Fe Tb,3,0.714,1,MP,MP:mp-aaacrhoe,0.0247,,1.311,,,ferrimagnetic (MP label),Immm,
-ErFe17Sm,Er Fe Sm,3,0.895,1,MP,MP:mp-aaacrjkm,0.025,,2.074,,,ferrimagnetic (MP label),R3m,
+ErFe17Sm,Er Fe Sm,3,0.895,1,MP,MP:mp-aaacrjkm,0.025,,2.074,,,ferrimagnetic (MP label),R3m,structures/MP/ErFe17Sm_mp-aaacrjkm.CIF
 Co8Dy3Rh,Co Dy Rh,3,0.667,1,OQMD,OQMD:1504997,0.025073727796254608,,,,,unknown -> potentially FM,R-3m,
-CEr2Fe17,C Er Fe,3,0.85,1,MP,MP:mp-aaacrsmo,0.0252,,1.864,,,ferrimagnetic (MP label),C2/m,
-Co4HoY,Co Ho Y,3,0.667,1,MP,MP:mp-aaacrers,0.0252,,0.675,,,unknown -> potentially FM,F-43m,
+CEr2Fe17,C Er Fe,3,0.85,1,MP,MP:mp-aaacrsmo,0.0252,,1.864,,,ferrimagnetic (MP label),C2/m,structures/MP/CEr2Fe17_mp-aaacrsmo.CIF
+Co4HoY,Co Ho Y,3,0.667,1,MP,MP:mp-aaacrers,0.0252,,0.675,,,unknown -> potentially FM,F-43m,structures/MP/Co4HoY_mp-aaacrers.CIF
 CrDyFe5,Cr Dy Fe,3,0.714,1,MP,MP:mp-aaacrtdr,0.0252,,1.317,,,ferrimagnetic (MP label),Immm,
-Er3Fe34Sm,Er Fe Sm,3,0.895,1,MP,MP:mp-aaacrjlz,0.0254,,1.986,,,ferrimagnetic (MP label),P-6m2,
+Er3Fe34Sm,Er Fe Sm,3,0.895,1,MP,MP:mp-aaacrjlz,0.0254,,1.986,,,ferrimagnetic (MP label),P-6m2,structures/MP/Er3Fe34Sm_mp-aaacrjlz.CIF
 Dy3Fe8Rh,Dy Fe Rh,3,0.667,1,OQMD,OQMD:1504645,0.025460170909967272,,,,,unknown -> potentially FM,R-3m,
 CrFe5Ho,Cr Fe Ho,3,0.714,1,MP,MP:mp-aaacrquj,0.0258,,1.31,,,ferrimagnetic (MP label),Immm,
-Co9ErSi4,Co Er Si,3,0.643,1,MP,MP:mp-aaacrapo,0.0261,,0.391,,,ferrimagnetic (MP label),I4/mcm,
-Fe34NdTb3,Fe Nd Tb,3,0.895,1,MP,MP:mp-aaacrhhi,0.0264,,2.081,,,ferrimagnetic (MP label),Cm,
+Co9ErSi4,Co Er Si,3,0.643,1,MP,MP:mp-aaacrapo,0.0261,,0.391,,,ferrimagnetic (MP label),I4/mcm,structures/MP/Co9ErSi4_mp-aaacrapo.CIF
+Fe34NdTb3,Fe Nd Tb,3,0.895,1,MP,MP:mp-aaacrhhi,0.0264,,2.081,,,ferrimagnetic (MP label),Cm,structures/MP/Fe34NdTb3_mp-aaacrhhi.CIF
 CrErFe5,Cr Er Fe,3,0.714,1,MP,MP:mp-aaacrsgt,0.0272,,1.31,,,ferrimagnetic (MP label),Immm,
 Fe5GdSi,Fe Gd Si,3,0.714,1,MP,MP:mp-aaacrsmf,0.0277,,2.101,,,"FM (MP label, FM-init)",Immm,structures/MP/GdFe5Si_mp-aaacrsmf.CIF
 Fe5TbV,Fe Tb V,3,0.714,1,MP,MP:mp-aaacrhoo,0.0288,,1.301,,,ferrimagnetic (MP label),Immm,
-Co8Dy3Tb,Co Dy Tb,3,0.667,1,MP,MP:mp-aaacrhem,0.029,,0.067,,,ferrimagnetic (MP label),R3m,
+Co8Dy3Tb,Co Dy Tb,3,0.667,1,MP,MP:mp-aaacrhem,0.029,,0.067,,,ferrimagnetic (MP label),R3m,structures/MP/Co8Dy3Tb_mp-aaacrhem.CIF
 CrFe5Tm,Cr Fe Tm,3,0.714,1,MP,MP:mp-aaacrfti,0.029,,1.322,,,ferrimagnetic (MP label),Immm,
 DyFe5V,Dy Fe V,3,0.714,1,MP,MP:mp-aaacrsrc,0.0291,,1.301,,,ferrimagnetic (MP label),Immm,
-Co4HoZr,Co Ho Zr,3,0.667,1,MP,MP:mp-aaacrqkb,0.0295,,0.581,,,unknown -> potentially FM,F-43m,
+Co4HoZr,Co Ho Zr,3,0.667,1,MP,MP:mp-aaacrqkb,0.0295,,0.581,,,unknown -> potentially FM,F-43m,structures/MP/Co4HoZr_mp-aaacrqkb.CIF
 Fe5HoV,Fe Ho V,3,0.714,1,MP,MP:mp-aaacrqwu,0.0299,,1.307,,,ferrimagnetic (MP label),Immm,
 ErFe4Si,Er Fe Si,3,0.667,1,OQMD,OQMD:1785104,0.03018022583333263,,,,,unknown -> potentially FM,P6/mmm,
 Al2Fe15Ho2,Al Fe Ho,3,0.789,1,OQMD,OQMD:671864,0.030523237685729246,,,,,unknown -> potentially FM,P63/mmc,
-Co4ErIn,Co Er In,3,0.667,1,MP,MP:mp-aaacgijq,0.0307,,0.75,,,ferrimagnetic (MP label),F-43m,
-Er3Fe34Nd,Er Fe Nd,3,0.895,1,MP,MP:mp-aaacrlfb,0.0307,,2.078,,,ferrimagnetic (MP label),P-6m2,
+Co4ErIn,Co Er In,3,0.667,1,MP,MP:mp-aaacgijq,0.0307,,0.75,,,ferrimagnetic (MP label),F-43m,structures/MP/Co4ErIn_mp-aaacgijq.CIF
+Er3Fe34Nd,Er Fe Nd,3,0.895,1,MP,MP:mp-aaacrlfb,0.0307,,2.078,,,ferrimagnetic (MP label),P-6m2,structures/MP/Er3Fe34Nd_mp-aaacrlfb.CIF
 ErFe5V,Er Fe V,3,0.714,1,MP,MP:mp-aaacrsgx,0.0314,,1.304,,,ferrimagnetic (MP label),Immm,
 Fe9TbTm2,Fe Tb Tm,3,0.75,1,OQMD,OQMD:1975572,0.031420184993045656,,,,,unknown -> potentially FM,R-3m,
 Co9GdSi2,Co Gd Si,3,0.75,1,OQMD,OQMD:29314,0.03243749958333331,,,,,unknown -> potentially FM,I41/amd,
 Fe5GdV,Fe Gd V,3,0.714,1,MP,MP:mp-aaacrtmk,0.0328,,1.838,,,ferrimagnetic (MP label),Immm,
 B6Fe12Gd,B Fe Gd,3,0.632,1,OQMD,OQMD:1786104,0.03305502096796181,,,,,unknown -> potentially FM,R-3m,
 Fe5TmV,Fe Tm V,3,0.714,1,MP,MP:mp-aaacrghg,0.0343,,1.298,,,ferrimagnetic (MP label),Immm,
-ErFe17Nd,Er Fe Nd,3,0.895,1,MP,MP:mp-aaacrlbh,0.0363,,2.076,,,ferrimagnetic (MP label),R3m,
-Co4CuHo,Co Cu Ho,3,0.667,1,MP,MP:mp-aaacrqlm,0.0364,,0.872,,,ferrimagnetic (MP label),P-6m2,
-Co4HoIn,Co Ho In,3,0.667,1,MP,MP:mp-aaacgifq,0.0366,,0.74,,,ferrimagnetic (MP label),F-43m,
+ErFe17Nd,Er Fe Nd,3,0.895,1,MP,MP:mp-aaacrlbh,0.0363,,2.076,,,ferrimagnetic (MP label),R3m,structures/MP/ErFe17Nd_mp-aaacrlbh.CIF
+Co4CuHo,Co Cu Ho,3,0.667,1,MP,MP:mp-aaacrqlm,0.0364,,0.872,,,ferrimagnetic (MP label),P-6m2,structures/MP/Co4CuHo_mp-aaacrqlm.CIF
+Co4HoIn,Co Ho In,3,0.667,1,MP,MP:mp-aaacgifq,0.0366,,0.74,,,ferrimagnetic (MP label),F-43m,structures/MP/Co4HoIn_mp-aaacgifq.CIF
 Co5GdMo,Co Gd Mo,3,0.714,1,MP,MP:mp-aaacrtev,0.0372,,0.437,,,ferrimagnetic (MP label),Immm,
-Fe34Nd3Tb,Fe Nd Tb,3,0.895,1,MP,MP:mp-aaacrhcp,0.038,,2.094,,,ferrimagnetic (MP label),Cm,
+Fe34Nd3Tb,Fe Nd Tb,3,0.895,1,MP,MP:mp-aaacrhcp,0.038,,2.094,,,ferrimagnetic (MP label),Cm,structures/MP/Fe34Nd3Tb_mp-aaacrhcp.CIF
 BFe4Tb,B Fe Tb,3,0.667,1,OQMD,OQMD:1377474,0.039103183388889004,,,,,unknown -> potentially FM,P6/mmm,
 Co11Ho3Si4,Co Ho Si,3,0.611,1,OQMD,OQMD:1785903,0.03993300410532513,,,,,unknown -> potentially FM,P6/mmm,
 Co4TbTm,Co Tb Tm,3,0.667,1,OQMD,OQMD:1990161,0.0410220846214011,,,,,unknown -> potentially FM,F-43m,
 Co11Dy3Si4,Co Dy Si,3,0.611,1,OQMD,OQMD:1785894,0.04168794478648441,,,,,unknown -> potentially FM,Cmmm,
 Co4DyTb,Co Dy Tb,3,0.667,1,OQMD,OQMD:1984588,0.04363366577242374,,,,,unknown -> potentially FM,F-43m,
 Co4ErTb,Co Er Tb,3,0.667,1,OQMD,OQMD:1985981,0.04375585275545084,,,,,unknown -> potentially FM,F-43m,
-Co4HoNi,Co Ho Ni,3,0.667,1,MP,MP:mp-aaacrqma,0.0448,,1.017,,,ferrimagnetic (MP label),P-6m2,
+Co4HoNi,Co Ho Ni,3,0.667,1,MP,MP:mp-aaacrqma,0.0448,,1.017,,,ferrimagnetic (MP label),P-6m2,structures/MP/Co4HoNi_mp-aaacrqma.CIF
 Co4GdSi,Co Gd Si,3,0.667,1,MP,MP:mp-aaacrtlh,0.0463,,1.753,,,"FM (MP label, FM-init)",P-6m2,structures/MP/GdCo4Si_mp-aaacrtlh.CIF
 Co4TbY,Co Tb Y,3,0.667,1,OQMD,OQMD:1979013,0.04654481296778626,,,,,unknown -> potentially FM,F-43m,
-Co4DyIn,Co Dy In,3,0.667,1,MP,MP:mp-aaacgieu,0.0466,,0.742,,,ferrimagnetic (MP label),F-43m,
-ErFe34Nd3,Er Fe Nd,3,0.895,1,MP,MP:mp-aaacrmdt,0.0469,,2.026,,,ferrimagnetic (MP label),Cm,
-Fe17NdTb,Fe Nd Tb,3,0.895,1,MP,MP:mp-aaacrhbx,0.0477,,1.937,,,ferrimagnetic (MP label),R3m,
-Fe14Ga3Tm2,Fe Ga Tm,3,0.737,1,MP,MP:mp-aaacqdue,0.048,,1.501,,,ferrimagnetic (MP label),P6_3/mmc,
-DyFe34Pr3,Dy Fe Pr,3,0.895,1,MP,MP:mp-aaacrkpk,0.05,,2.086,,,ferrimagnetic (MP label),Cm,
+Co4DyIn,Co Dy In,3,0.667,1,MP,MP:mp-aaacgieu,0.0466,,0.742,,,ferrimagnetic (MP label),F-43m,structures/MP/Co4DyIn_mp-aaacgieu.CIF
+ErFe34Nd3,Er Fe Nd,3,0.895,1,MP,MP:mp-aaacrmdt,0.0469,,2.026,,,ferrimagnetic (MP label),Cm,structures/MP/ErFe34Nd3_mp-aaacrmdt.CIF
+Fe17NdTb,Fe Nd Tb,3,0.895,1,MP,MP:mp-aaacrhbx,0.0477,,1.937,,,ferrimagnetic (MP label),R3m,structures/MP/Fe17NdTb_mp-aaacrhbx.CIF
+Fe14Ga3Tm2,Fe Ga Tm,3,0.737,1,MP,MP:mp-aaacqdue,0.048,,1.501,,,ferrimagnetic (MP label),P6_3/mmc,structures/MP/Fe14Ga3Tm2_mp-aaacqdue.CIF
+DyFe34Pr3,Dy Fe Pr,3,0.895,1,MP,MP:mp-aaacrkpk,0.05,,2.086,,,ferrimagnetic (MP label),Cm,structures/MP/DyFe34Pr3_mp-aaacrkpk.CIF
 Fe9GdMg2,Fe Gd Mg,3,0.75,1,OQMD,OQMD:1796577,0.051258325725115544,,,,,unknown -> potentially FM,R-3m,
 B2Fe13Tb3,B Fe Tb,3,0.722,1,OQMD,OQMD:1785658,0.05127269873658898,,,,,unknown -> potentially FM,P2/m,
 C4Co11Ho3,C Co Ho,3,0.611,1,OQMD,OQMD:1785897,0.05303827556935378,,,,,unknown -> potentially FM,Cm,
 Co9Pu2Tb,Co Pu Tb,3,0.75,1,OQMD,OQMD:1986722,0.05422431620590368,,,,,unknown -> potentially FM,R-3m,
-Dy2Fe15Nb2,Dy Fe Nb,3,0.789,1,MP,MP:mp-aaacqdrv,0.0549,,1.562,,,ferrimagnetic (MP label),P6_3/mmc,
+Dy2Fe15Nb2,Dy Fe Nb,3,0.789,1,MP,MP:mp-aaacqdrv,0.0549,,1.562,,,ferrimagnetic (MP label),P6_3/mmc,structures/MP/Dy2Fe15Nb2_mp-aaacqdrv.CIF
 Co12Gd2Mn5,Co Gd Mn,3,0.632,1,OQMD,OQMD:1287659,0.05593113103810865,,,,,unknown -> potentially FM,P63/mmc,
 Co5DyMo,Co Dy Mo,3,0.714,1,MP,MP:mp-aaacrtgx,0.0561,,0.962,,,ferrimagnetic (MP label),Immm,
 Fe4HoNi,Fe Ho Ni,3,0.667,1,OQMD,OQMD:1494909,0.056134450489855756,,,,,unknown -> potentially FM,Cmmm,
-Co4NdTb,Co Nd Tb,3,0.667,1,MP,MP:mp-aaacrhaq,0.057,,0.669,,,unknown -> potentially FM,F-43m,
+Co4NdTb,Co Nd Tb,3,0.667,1,MP,MP:mp-aaacrhaq,0.057,,0.669,,,unknown -> potentially FM,F-43m,structures/MP/Co4NdTb_mp-aaacrhaq.CIF
 Co5ErMo,Co Er Mo,3,0.714,1,MP,MP:mp-aaacrskg,0.0579,,0.958,,,ferrimagnetic (MP label),Immm,
 ErFe8Mn4,Er Fe Mn,3,0.615,1,OQMD,OQMD:1783507,0.06274300726972933,,,,,unknown -> potentially FM,I4/mmm,
 C4Co11Dy3,C Co Dy,3,0.611,1,OQMD,OQMD:1785887,0.06561058368338546,,,,,unknown -> potentially FM,P6/mmm,
 Co5DyV,Co Dy V,3,0.714,1,MP,MP:mp-aaacrsrp,0.067,,0.905,,,ferrimagnetic (MP label),Immm,
-AlCo4Tb,Al Co Tb,3,0.667,1,MP,MP:mp-aaacrhdl,0.0671,,0.675,,,ferrimagnetic (MP label),Cmmm,
-AlCo4Dy,Al Co Dy,3,0.667,1,MP,MP:mp-aaacrspg,0.0681,,0.724,,,ferrimagnetic (MP label),P-6m2,
+AlCo4Tb,Al Co Tb,3,0.667,1,MP,MP:mp-aaacrhdl,0.0671,,0.675,,,ferrimagnetic (MP label),Cmmm,structures/MP/AlCo4Tb_mp-aaacrhdl.CIF
+AlCo4Dy,Al Co Dy,3,0.667,1,MP,MP:mp-aaacrspg,0.0681,,0.724,,,ferrimagnetic (MP label),P-6m2,structures/MP/AlCo4Dy_mp-aaacrspg.CIF
 Co8DyTb3,Co Dy Tb,3,0.667,1,OQMD,OQMD:1979860,0.07032369466942576,,,,,unknown -> potentially FM,R3m,
 Co8GdMn4,Co Gd Mn,3,0.615,1,OQMD,OQMD:29310,0.07099368847757372,,,,,unknown -> potentially FM,I4/mmm,
-AlCo4Tm,Al Co Tm,3,0.667,1,MP,MP:mp-aaacrfsm,0.0761,,0.738,,,ferrimagnetic (MP label),P-6m2,
+AlCo4Tm,Al Co Tm,3,0.667,1,MP,MP:mp-aaacrfsm,0.0761,,0.738,,,ferrimagnetic (MP label),P-6m2,structures/MP/AlCo4Tm_mp-aaacrfsm.CIF
 Fe17Gd2N3,Fe Gd N,3,0.773,1,OQMD,OQMD:30185,0.07855387187443558,,,,,unknown -> potentially FM,R-3m,
 Fe8Mn4Tm,Fe Mn Tm,3,0.615,1,OQMD,OQMD:1783638,0.07952285063576875,,,,,unknown -> potentially FM,I4/mmm,
 DyFe8Mn4,Dy Fe Mn,3,0.615,1,OQMD,OQMD:1783500,0.08012078875798201,,,,,unknown -> potentially FM,I4/mmm,
 Fe8HoMn4,Fe Ho Mn,3,0.615,1,OQMD,OQMD:1783611,0.0802903372367708,,,,,unknown -> potentially FM,I4/mmm,
-Fe17H3Tm2,Fe H Tm,3,0.773,1,MP,MP:mp-aaacqtda,0.0827,,1.705,,,ferrimagnetic (MP label),P6_3/mmc,
-Er2Fe17H3,Er Fe H,3,0.773,1,MP,MP:mp-aaacrakd,0.0841,,1.694,,,ferrimagnetic (MP label),P6_3/mmc,
+Fe17H3Tm2,Fe H Tm,3,0.773,1,MP,MP:mp-aaacqtda,0.0827,,1.705,,,ferrimagnetic (MP label),P6_3/mmc,structures/MP/Fe17H3Tm2_mp-aaacqtda.CIF
+Er2Fe17H3,Er Fe H,3,0.773,1,MP,MP:mp-aaacrakd,0.0841,,1.694,,,ferrimagnetic (MP label),P6_3/mmc,structures/MP/Er2Fe17H3_mp-aaacrakd.CIF
 Fe8GdMn4,Fe Gd Mn,3,0.615,1,OQMD,OQMD:1783604,0.08475264032595732,,,,,unknown -> potentially FM,I4/mmm,
-Fe17H3Ho2,Fe H Ho,3,0.773,1,MP,MP:mp-aaacqznq,0.0851,,1.7,,,ferrimagnetic (MP label),P6_3/mmc,
-Dy2Fe17H3,Dy Fe H,3,0.773,1,MP,MP:mp-aaacratk,0.0858,,1.717,,,ferrimagnetic (MP label),P6_3/mmc,
-Fe17H3Tb2,Fe H Tb,3,0.773,1,MP,MP:mp-aaacqtvu,0.0869,,1.706,,,ferrimagnetic (MP label),P6_3/mmc,
+Fe17H3Ho2,Fe H Ho,3,0.773,1,MP,MP:mp-aaacqznq,0.0851,,1.7,,,ferrimagnetic (MP label),P6_3/mmc,structures/MP/Fe17H3Ho2_mp-aaacqznq.CIF
+Dy2Fe17H3,Dy Fe H,3,0.773,1,MP,MP:mp-aaacratk,0.0858,,1.717,,,ferrimagnetic (MP label),P6_3/mmc,structures/MP/Dy2Fe17H3_mp-aaacratk.CIF
+Fe17H3Tb2,Fe H Tb,3,0.773,1,MP,MP:mp-aaacqtvu,0.0869,,1.706,,,ferrimagnetic (MP label),P6_3/mmc,structures/MP/Fe17H3Tb2_mp-aaacqtvu.CIF
 ErFe4Tb,Er Fe Tb,3,0.667,1,OQMD,OQMD:1976229,0.09050220233468877,,,,,unknown -> potentially FM,F-43m,
 Fe4TbTm,Fe Tb Tm,3,0.667,1,OQMD,OQMD:1979017,0.09057078793748977,,,,,unknown -> potentially FM,F-43m,
 DyFe4Tb,Dy Fe Tb,3,0.667,1,OQMD,OQMD:1974835,0.09105265620829336,,,,,unknown -> potentially FM,F-43m,
 Fe4GdTb,Fe Gd Tb,3,0.667,1,OQMD,OQMD:1987378,0.09255645826406703,,,,,unknown -> potentially FM,F-43m,
 Ce2Co9Ho,Ce Co Ho,3,0.75,1,OQMD,OQMD:1974177,0.09345312575026525,,,,,unknown -> potentially FM,R-3m,
 Fe4TbY,Fe Tb Y,3,0.667,1,OQMD,OQMD:1981805,0.09680914595358933,,,,,unknown -> potentially FM,F-43m,
-Fe17Ho2N3,Fe Ho N,3,0.773,1,MP,MP:mp-aaacqzmx,0.0977,,1.793,,,ferrimagnetic (MP label),P6_3/mmc,
+Fe17Ho2N3,Fe Ho N,3,0.773,1,MP,MP:mp-aaacqzmx,0.0977,,1.793,,,ferrimagnetic (MP label),P6_3/mmc,structures/MP/Fe17Ho2N3_mp-aaacqzmx.CIF
 Fe17Gd2H3,Fe Gd H,3,0.773,1,MP,MP:mp-aaacptzh,0.102,,2.279,,,"FM (MP label, FM-init)",R-3m,structures/MP/Gd2Fe17H3_mp-aaacptzh.CIF
 Co8DyP2,Co Dy P,3,0.727,1,OQMD,OQMD:1958175,0.1057003068775963,,,,,unknown -> potentially FM,C2/m,
 Co14Gd2Mn3,Co Gd Mn,3,0.737,1,OQMD,OQMD:29311,0.10923126949478433,,,,,unknown -> potentially FM,R-3m,
-Er4Fe29Si5,Er Fe Si,3,0.763,1,MP,MP:mp-aaacruag,0.1112,,1.437,,,ferrimagnetic (MP label),P-1,
+Er4Fe29Si5,Er Fe Si,3,0.763,1,MP,MP:mp-aaacruag,0.1112,,1.437,,,ferrimagnetic (MP label),P-1,structures/MP/Er4Fe29Si5_mp-aaacruag.CIF
 Fe8Mn4Tb,Fe Mn Tb,3,0.615,1,OQMD,OQMD:1783631,0.1160077830893016,,,,,unknown -> potentially FM,I4/mmm,
-Fe29Ho4Si5,Fe Ho Si,3,0.763,1,MP,MP:mp-aaacrryi,0.1183,,1.443,,,ferrimagnetic (MP label),P-1,
+Fe29Ho4Si5,Fe Ho Si,3,0.763,1,MP,MP:mp-aaacrryi,0.1183,,1.443,,,ferrimagnetic (MP label),P-1,structures/MP/Fe29Ho4Si5_mp-aaacrryi.CIF
 DyFe8P2,Dy Fe P,3,0.727,1,OQMD,OQMD:1958182,0.11961422494369467,,,,,unknown -> potentially FM,C2/m,
-Dy4Fe29Si5,Dy Fe Si,3,0.763,1,MP,MP:mp-aaacrtqy,0.121,,1.483,,,ferrimagnetic (MP label),P-1,
+Dy4Fe29Si5,Dy Fe Si,3,0.763,1,MP,MP:mp-aaacrtqy,0.121,,1.483,,,ferrimagnetic (MP label),P-1,structures/MP/Dy4Fe29Si5_mp-aaacrtqy.CIF
 Co17Gd2N3,Co Gd N,3,0.773,1,OQMD,OQMD:2053324,0.12282101984831842,,,,,unknown -> potentially FM,R-3m,
 C6Co12Gd,C Co Gd,3,0.632,1,OQMD,OQMD:1786103,0.12290347143690342,,,,,unknown -> potentially FM,R-3m,
 BFe8Ho3,B Fe Ho,3,0.667,1,OQMD,OQMD:1521760,0.1273909004166663,,,,,unknown -> potentially FM,R-3m,
 Co2FeTb2,Co Fe Tb,3,0.6,1,OQMD,OQMD:1365281,0.1366222270118412,,,,,unknown -> potentially FM,Immm,
 Co12GdSi6,Co Gd Si,3,0.632,1,OQMD,OQMD:1786113,0.13943073655060056,,,,,unknown -> potentially FM,R-3m,
-Fe17N2Tb2,Fe N Tb,3,0.81,1,MP,MP:mp-aaacrhjn,0.154,,1.835,,,ferrimagnetic (MP label),C2/m,
+Fe17N2Tb2,Fe N Tb,3,0.81,1,MP,MP:mp-aaacrhjn,0.154,,1.835,,,ferrimagnetic (MP label),C2/m,structures/MP/Fe17N2Tb2_mp-aaacrhjn.CIF
 Co9DyPu2,Co Dy Pu,3,0.75,1,OQMD,OQMD:1983935,0.16615688662438347,,,,,unknown -> potentially FM,R-3m,
 Fe17Gd2N2,Fe Gd N,3,0.81,1,MP,MP:mp-aaacrskv,0.1689,,2.461,,,"FM (MP label, FM-init)",C2/m,structures/MP/Gd2Fe17N2_mp-aaacrskv.CIF
 Cu4Fe8Tm,Cu Fe Tm,3,0.615,1,OQMD,OQMD:1783488,0.17419899637186076,,,,,unknown -> potentially FM,I4/mmm,
@@ -1149,5 +1149,5 @@ Cu4Fe8Tb,Cu Fe Tb,3,0.615,1,OQMD,OQMD:1783482,0.1804482067594562,,,,,unknown -> 
 Co9Pu2Tm,Co Pu Tm,3,0.75,1,OQMD,OQMD:1986721,0.18046158308220486,,,,,unknown -> potentially FM,R-3m,
 Cu4Fe8Gd,Cu Fe Gd,3,0.615,1,OQMD,OQMD:1783447,0.1807770349401827,,,,,unknown -> potentially FM,I4/mmm,
 Co9ErPu2,Co Er Pu,3,0.75,1,OQMD,OQMD:1976965,0.18433080477882383,,,,,unknown -> potentially FM,R-3m,
-DyFe4Y,Dy Fe Y,3,0.667,1,MP,MP:mp-aaacrsfb,0.1979,,1.25,,,unknown -> potentially FM,F-43m,
+DyFe4Y,Dy Fe Y,3,0.667,1,MP,MP:mp-aaacrsfb,0.1979,,1.25,,,unknown -> potentially FM,F-43m,structures/MP/DyFe4Y_mp-aaacrsfb.CIF
 Dy6Fe16O,Dy Fe O,3,0.696,1,AFLOW,AFLOW:aflow:a515711c32482f2c,,,1.89765,,,moment present (FM-init calc),229,

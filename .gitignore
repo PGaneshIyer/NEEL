@@ -48,3 +48,7 @@ __pycache__/
 
 # personal whole-tree push script - superseded by push_new_runs.sh (explicit paths)
 myscript.sh
+.mp_api_key
+workflow/runs-light/
+workflow/runs-pool/
+all_candidates_master.csv.bak_before_recovery
