@@ -812,6 +812,55 @@ const LC = "FCEDE8", LCt = "8A3B2E";   // coral: DFT / NERSC
 const LG = "EEF2F7", LGt = INK;        // grey: step
 
 
+
+// ================= 10n-i. CONCEPTS BEHIND THE DESCRIPTORS =================
+s = pres.addSlide();
+titleBar(s, "THE PHYSICS BEHIND THE DESCRIPTORS", "Each descriptor and threshold in the workflow stands for a known principle; here is which, and what we measured", false);
+const conc = [
+  [{ text: "Principle (source)", options: { bold: true } }, { text: "What it says", options: { bold: true } }, { text: "Descriptor / rule in the workflow", options: { bold: true } }, { text: "Our evidence", options: { bold: true } }],
+  ["Campbell 4f–5d–3d chain (Campbell 1972)", "RE 4f polarises its own 5d; 5d–3d coupling is antiparallel → heavy RE ferri, light RE parallel", "RE one-hot; light RE (Nd, Sm, Pr) only in the waves; sign never fitted", "180/180 Gd pairs ferrimagnetic"],
+  ["Two-sublattice exchange, ΔE = 2 I₄f₋₅d S₄f S₅d (Liebs, Hummler, Fähnle 1992; Liebs & Fähnle 1993)", "the RE–TM gap is set by the 5d spin the host induces on the RE", "label h = TM-tied 5d polarisation; gap = 1574·h (the GP target)", "r = 0.89 on 180 compounds; GdFe₂ J_RT 2.97 vs 2.99 × 10⁻²² J"],
+  ["5d–3d hybridisation (Brooks & Johansson)", "shorter RE–TM bonds and more 3d states at the RE raise the 5d polarisation; Co > Fe", "d_RE-TM mean/min, N_TM_nn, f_Co, 3d count", "distance r = −0.61; Fe+Co J_eff ×1.48"],
+  ["de Gennes scaling (de Gennes 1962)", "RE–TM coupling ∝ (gJ−1)J; Tc contribution ∝ (gJ−1)²J(J+1)", "gap_RE = gap_Gd·(gJ−1)J/3.5 → T* threshold per RE", "Tb–Tm projected from Gd; explicit-4f check running"],
+  ["Early-TM enhancement (Duc 1998)", "Ti, V on the TM site raise the RE–TM exchange and stabilise 1:12", "f_early; early-TM substitution on the far Fe site", "stability yes; coupling ×0.97, needs a series"],
+  ["Slater–Pauling / magnetic valence (Williams, Malozemoff, Moruzzi 1983)", "Ms is set by Fe density and the 3d count; Co, early TM and p-elements lower the moment", "tm_density, f_Fe, d_count, x_dil → analytic Ms; Ms ≥ 1.5 T filter", "Ms ceiling 1.75 T projected; kagome capped at 1.0 T"],
+  ["Interstitial modification (Coey & Sun 1990)", "N, C in the RE-adjacent void expand the lattice, raise Ms and Tc, keep the RE coupling; H does not", "n_N/C/H in the RE shell; interstitial generator on the 2b / 9e voids", "H: gap ×0.10; C passes the hull, N does not"],
+  ["Metastability scale (Sun, Ceder et al. 2016)", "synthesisable phases sit within tens of meV/atom of the hull; MLIP error ≈ 30 meV", "same-model MACE/MP hull; E_hull ≤ 30 meV filter", "Nd costs 20–35 meV vs Gd; Sm ≈ free"],
+  ["RE anisotropy needs a locked RE sublattice (Kuz'min; Coey)", "the 4f crystal-field anisotropy only works below the RE–TM decoupling temperature", "T* = gap_RE/2k_B ≥ Tc target → gap_RE ≥ 100 meV (Nd₂Fe₁₄B level)", "Tao hosts: T* 1100–1260 K for Sm"],
+];
+s.addTable(conc, { x: M, y: 1.55, w: W, colW: [2.9, 3.6, 3.2, 2.2], fontFace: BF, fontSize: 8.6, color: INK,
+  border: { type: "solid", color: "D5DDE8", pt: 0.75 }, fill: { color: WHITE }, rowH: 0.5, valign: "middle" });
+s.addText("None of these is new; what is new is that one dataset tests all of them at once and turns them into numbers a surrogate can use.",
+  { x: M, y: 6.75, w: W, h: 0.4, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, italic: true, color: INK });
+s.addNotes("Refs: Campbell J. Phys. F 2, L47 (1972); Liebs, Hummler, Fahnle PRB 46, 11201 (1992); Liebs & Fahnle JMMM 128, L8 (1993); Brooks & Johansson, Handbook of Magnetic Materials 7 (1993); de Gennes J. Phys. Radium 23, 510 (1962); Duc et al. JMMM 177-181, 1107 (1998); Williams, Malozemoff, Moruzzi JAP 54, 3129 (1983); Coey & Sun JMMM 87, L251 (1990); Sun et al. Sci. Adv. 2, e1600225 (2016); Kuz'min & Tishin, Handbook of Magnetic Materials 17 (2008). Benchmarks: Hirayama et al. Scripta Mater. 95, 70 (2015) NdFe12N; Hirayama et al. Scripta Mater. 138, 62 (2017) Sm(Fe,Co)12; Korner, Krugel, Elsasser Sci. Rep. 6, 24686 (2016) HT 1:12 screening.");
+
+// ================= 10n-ii. HOW THE WORKFLOW USES THEM =================
+s = pres.addSlide();
+titleBar(s, "THE PRINCIPLES AT WORK", "Five compounds from the pool, and which principle decided their fate", false);
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/trends_geometry.png", x: M, y: 1.55, w: 6.0, h: 2.88 });
+s.addText("Brooks–Johansson in the data: coupling vs RE–TM distance and vs host class, 180 labels", { x: M, y: 4.45, w: 6.0, h: 0.3, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9, italic: true, color: MUTE });
+const ex = [
+  ["Fe₅NdSi · Immm", "short RE–TM bonds (2.97 Å, 12 TM) → GP predicts h 0.15, gap 82 meV; Fe density → 1.74 T; on the hull", "Brooks–Johansson · Slater–Pauling · hull", "in wave 1", RE],
+  ["Gd₂Fe₁₇H₃", "H in the RE first shell → measured gap 28 meV; descriptor n_H_shell flags it; no H variants are generated", "Coey interstitial rule, inverted", "excluded by design", FE],
+  ["Co₁₉Fe₄Gd₆", "mixed Fe+Co host → strongest coupling in the set, J_eff 1.41; on the Pareto front", "Brooks: Co strengthens 5d–3d", "Co variants generated for every host", RE],
+  ["Nd(FeGe)₆ kagome", "stable (−7 meV) but TM density 3.2 per 100 Å³ → Ms 1.0 T; RE in a 3.3 Å channel → weak coupling", "Slater–Pauling density · Brooks distance", "fails Ms floor; 6 kept as labels", FE],
+  ["(Pr,Nd)Fe₁₀.₅V₁.₅N", "1:12 with V stabiliser, mixed RE, N in the 2b void - the real magnet composition; N variant above the hull cut", "Duc · de Gennes · Coey · Sun metastability", "V cells in wave 1; nitride needs an exception", GOLD],
+];
+ex.forEach(([h, d, p, verdict, c], i) => {
+  const y = 1.55 + i * 1.05;
+  card(s, 7.0, y, 5.6, 0.95, PANEL);
+  s.addShape(pres.ShapeType.roundRect, { x: 7.12, y: y + 0.12, w: 0.12, h: 0.7, rectRadius: 0.03, fill: { color: c } });
+  s.addText(h, { x: 7.35, y: y + 0.08, w: 3.4, h: 0.24, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11, bold: true, color: INK });
+  s.addText(verdict, { x: 10.75, y: y + 0.08, w: 1.75, h: 0.24, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9, bold: true, color: c === GOLD ? "8A6A1E" : c, align: "right" });
+  s.addText(d, { x: 7.35, y: y + 0.33, w: 5.15, h: 0.4, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.8, color: MUTE });
+  s.addText(p, { x: 7.35, y: y + 0.72, w: 5.15, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.4, italic: true, color: INK });
+});
+card(s, M, 4.95, 6.0, 1.9, NAVY2);
+s.addText("What the principles cannot do, and the loop does", { x: M + 0.25, y: 5.08, w: 5.5, h: 0.28, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12, bold: true, color: GOLD });
+s.addText("Each rule gives a direction, not a magnitude, and they conflict: Co raises coupling but lowers Ms; early TM stabilises 1:12 but dilutes Fe; N raises Ms but leaves the hull. The GP learns the magnitudes from the 180 labels, Thompson sampling resolves the conflicts under the thresholds, and every wave returns the measurements that correct the rules themselves.",
+  { x: M + 0.25, y: 5.4, w: 5.5, h: 1.4, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, color: "C6D2E4" });
+s.addNotes("Fe5NdSi numbers from wave_1.csv; Gd2Fe17H3 from results.json (suspects batch re-running it); Co19Fe4Gd6 from exchange_features.csv; kagome from pool.csv; mixed 1:12 from generate_mixed_1_12.py / pool.csv.");
+
 // ================= 10o. OVERVIEW FLOWCHART (standard notation) =================
 s = pres.addSlide();
 titleBar(s, "THE WHOLE LOOP ON ONE PAGE", "Standard flowchart: data in cylinders and parallelograms, decisions in diamonds, the HPC step in red", false);
