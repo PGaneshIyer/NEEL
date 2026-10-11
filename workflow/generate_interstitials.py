@@ -66,7 +66,9 @@ def equivalents(s, frac, symprec=0.1):
     pts = []
     for op in ops:
         p = op.operate(frac) % 1.0
-        if all(s.lattice.get_distance_and_image(p, q)[0] > 0.5 for q in pts):
+        # keep only sites that are >= 1.6 A from every already-kept site and >= 1.75 A from every atom
+        if all(s.lattice.get_distance_and_image(p, q)[0] > 1.6 for q in pts) and \
+           s.lattice.get_all_distances([p], s.frac_coords).min() >= 1.75:
             pts.append(p)
     return pts
 

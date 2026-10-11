@@ -234,6 +234,11 @@ def main():
     if not os.path.isfile(pool_csv):
         sys.exit("no pool.csv - run wave_pool.py first")
     pool = [r for r in csv.DictReader(open(pool_csv)) if r.get("re_el")]
+    # a same-model hull cannot be more than a few tens of meV BELOW the MP hull; anything wilder is a
+    # bookkeeping failure (composition/energy mismatch) and must not pass as 'stable'
+    for r in pool:
+        if r.get("E_hull_meV") not in ("", None) and not (-80.0 <= float(r["E_hull_meV"]) <= 2000.0):
+            r["E_hull_meV"] = ""
     # the same (formula, space group) can enter from several sources / pool runs: keep the lowest-hull copy
     best = {}
     for r in pool:

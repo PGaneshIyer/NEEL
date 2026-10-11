@@ -243,6 +243,8 @@ def main():
             e, fmax, nst = LH.relax(a, calc, A.fmax, A.steps)
         except Exception as ex:
             print(f"  relax failed {tag}: {ex}"); continue
+        if not (-12.0 < e / len(a) < 0.0) or not np.isfinite(fmax):
+            print(f"  relax diverged {tag}: E/atom={e/len(a):.1f} eV - skipped (overlapping atoms?)"); continue
         d = os.path.join(POOL_DIR, cid); os.makedirs(d, exist_ok=True)
         write(os.path.join(d, "POSCAR_mace"), a, format="vasp")
         sr = AseAtomsAdaptor.get_structure(a)

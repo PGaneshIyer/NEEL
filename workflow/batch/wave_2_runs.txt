@@ -1,6 +1,0 @@
-runs/wave2/Nd/ae3dca6c92_NdGaFe6/relax
-runs/wave2/Sm/fd2c9b5a0e_SmFeGe6/relax
-runs/wave2/Sm/94bbec414f_SmGaFe6/relax
-runs/wave2/Sm/c280bebde7_SmAlFe6/relax
-runs/wave2/Sm/d903464d94_SmAl6Fe5Co/relax
-runs/wave2/Sm/44ca256232_SmFe5CoGe6/relax
