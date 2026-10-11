@@ -404,7 +404,7 @@ s.addText("Co16Gd2Mn: the false positive, and why it was false", {
 const fp = [
   ["Locked relaxation", "fm lower by 114.5 meV/Gd", "the ferri reference had Mn parallel to Gd - a metastable spectator basin, held in place by the NUPDOWN lock and -42 kbar of residual pressure"],
   ["Released statics", "ferri (Mn ∥ Co) lower by 208 meV/Gd", "E(ferri) = -146.088 eV vs E(fm) = -145.671 eV: a textbook Néel ferrimagnet once Mn is allowed to sit where it wants"],
-  ["Four Mn₂ spin states", "queued (job 59632311)", "Mn-Mn AFM, Mn ∥ Gd and Mn ∥ Co each relaxed and released - closes the mechanism-2 question on the record"],
+  ["Two Mn, four spin states", "same ferrimagnet, 208 meV/Gd", "Gd↓ Mn↑↑Co lowest; Mn forced against Co costs 1.25 eV per cell; Mn–Mn exchange ferromagnetic (B − A = 180 meV). Mechanism 2 closed at every site (18f, 18h, 9d, 6c)"],
 ];
 fp.forEach(([h, v, d], i) => {
   const y = 2.14 + i * 0.86;
@@ -424,6 +424,36 @@ s.addText("A constrained calculation proves a state exists, not that nature pick
   { x: 6.63, y: 5.45, w: 5.75, h: 1.05, isTextBox: true, margin: 0,
     fontFace: BF, fontSize: 9.6, color: "7A4034" });
 s.addNotes("Be explicit that the earlier deck claimed Co16Gd2Mn as FM. The release-stage comparison overturned it. The three validity rules now in analyze.py are the methodological product of that episode.");
+
+
+// ================= 8-mn. WHY MN COULD NOT WORK =================
+s = pres.addSlide();
+titleBar(s, "THE Mn ARGUMENT, AND WHY IT FAILS", "The logic was sound as a syllogism; its premise was wrong, and even the corrected version cancels the magnet it tries to make", false);
+card(s, M, 1.55, 5.6, 2.55, PANEL);
+s.addText("The original logic", { x: M + 0.25, y: 1.68, w: 5.1, h: 0.28, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: INK });
+const mnlog = [
+  ["Gd is antiparallel to Co because its 5d sees parallel 3d neighbours (Campbell).", RE],
+  ["Mn couples antiparallel to Co, so a Mn on the dumbbell next to Gd gives the 5d an antiparallel neighbour.", RE],
+  ["The 5d–3d rule then flips Gd to the Co side: ferromagnet, 1.95 T projected.", RE],
+];
+mnlog.forEach(([t, c], i) => {
+  numCircle(s, M + 0.25, 2.02 + i * 0.62, i + 1, c);
+  s.addText(t, { x: M + 0.82, y: 2.0 + i * 0.62, w: 4.55, h: 0.56, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, color: MUTE });
+});
+card(s, M, 4.25, 5.6, 2.5, "FCEDE8");
+s.addText("What the calculations said", { x: M + 0.25, y: 4.38, w: 5.1, h: 0.28, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: FE });
+const mnfail = [
+  "Premise 2 is false here: Mn aligns WITH Co at 6c, 18f, 18h and 9d; opposing Co costs ~0.6 eV per Mn (state C, +1.25 eV for two).",
+  "The +114.5 meV compared fm against the Mn-against-Co basin, held by the NUPDOWN lock and −42 kbar. Released: ferri lower by 208 meV/Gd, same as without Mn.",
+  "One or two Mn cannot change what sixteen Co set: h, the summed shell polarisation, moved by < 10 %; the gap by 0 at two Mn.",
+];
+mnfail.forEach((t, i) => s.addText(t, { x: M + 0.25, y: 4.7 + i * 0.62, w: 5.15, h: 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.6, color: "7A4034", bullet: true }));
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/mn_compensation.png", x: 6.3, y: 1.55, w: 6.3, h: 3.55 });
+card(s, 6.3, 5.2, 6.3, 1.55, NAVY2);
+s.addText("The compensation argument: more Mn does not help either", { x: 6.55, y: 5.32, w: 5.9, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12, bold: true, color: GOLD });
+s.addText("Suppose Mn did oppose Fe/Co (true in Fe-rich hosts, R₂Fe₁₇₋ₓMnₓ). The Gd 5d follows the NET 3d spin of its shell: adding opposed Mn shrinks h and the gap, and Gd stays antiparallel to the net. At the crossover h → 0, but the net TM moment → 0 with it; past it Gd flips to oppose the Mn-dominated net. Gd is never parallel to the majority 3d moment, and the only point with no coupling is the point with no magnetisation. A Mn series measures a compensation curve, not a magnet.",
+  { x: 6.55, y: 5.6, w: 5.95, h: 1.12, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.3, color: "C6D2E4" });
+s.addNotes("Energies: Co16Gd2Mn released ferri (Mn||Co) -146.088 vs fm -145.671 eV; Mn-site twins released: 18f ferri_mnanti -145.886 vs fm -145.449; Co15Gd2Mn2 locked A -147.829, B -147.649, D -147.213, C -146.577 vs locked fm -147.414. Fe17Gd2H3 is the counter-example where the gap falls WITHOUT cancelling spin (H pushes the shell apart) - Ms survives but anisotropy is lost.");
 
 // ================= 8a-i. NOT A NEIGHBOUR COUNT =================
 s = pres.addSlide();
