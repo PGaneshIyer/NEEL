@@ -843,7 +843,7 @@ const ex = [
   ["Fe₅NdSi · Immm", "short RE–TM bonds (2.97 Å, 12 TM) → GP predicts h 0.15, gap 82 meV; Fe density → 1.74 T; on the hull", "Brooks–Johansson · Slater–Pauling · hull", "in wave 1", RE],
   ["Gd₂Fe₁₇H₃", "H in the RE first shell → measured gap 28 meV; descriptor n_H_shell flags it; no H variants are generated", "Coey interstitial rule, inverted", "excluded by design", FE],
   ["Co₁₉Fe₄Gd₆", "mixed Fe+Co host → strongest coupling in the set, J_eff 1.41; on the Pareto front", "Brooks: Co strengthens 5d–3d", "Co variants generated for every host", RE],
-  ["Nd(FeGe)₆ kagome", "stable (−7 meV) but TM density 3.2 per 100 Å³ → Ms 1.0 T; RE in a 3.3 Å channel → weak coupling", "Slater–Pauling density · Brooks distance", "fails Ms floor; 6 kept as labels", FE],
+  ["Nd(FeGe)₆ kagome", "stable (−7 meV) but TM density 3.2 per 100 Å³ → Ms 1.0 T; RE in a 3.3 Å channel → weak coupling", "Slater–Pauling density · Brooks distance", "fails Ms floor; none drawn", FE],
   ["(Pr,Nd)Fe₁₀.₅V₁.₅N", "1:12 with V stabiliser, mixed RE, N in the 2b void - the real magnet composition; N variant above the hull cut", "Duc · de Gennes · Coey · Sun metastability", "V cells in wave 1; nitride needs an exception", GOLD],
 ];
 ex.forEach(([h, d, p, verdict, c], i) => {
