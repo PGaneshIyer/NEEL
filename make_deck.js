@@ -868,6 +868,50 @@ s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/lig
 s.addText("behind the hull decision: MACE vs MP competitors, Ms vs stability for the light-RE hosts", { x: 9.95, y: 6.9, w: 2.65, h: 0.4, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8, color: MUTE });
 s.addNotes("Standard symbols: terminator = start/end, rectangle = process, diamond = decision, parallelogram = data, cylinder = stored data. Red process = the only HPC step. Solid loop = retraining; dashed loop = neighbourhood expansion of the winners feeding the structure store.");
 
+
+// ================= 10p. POLYTYPES AND SUBSTITUTIONS =================
+s = pres.addSlide();
+titleBar(s, "GENERATING CANDIDATES", "Polytypes we decorate, and the substitutions we apply to them", false);
+card(s, M, 1.6, 5.6, 5.1);
+s.addText("Polytypes  (prototype → generated cells)", { x: M + 0.3, y: 1.75, w: 5.1, h: 0.3, isTextBox: true, margin: 0, fontFace: BF, fontSize: 14, bold: true, color: RE });
+const poly = [
+  ["CaCu₅ · RT₄X  (SmCo₅ family)", 61, "X site decorated; compensates near 0 T, kept for coupling"],
+  ["ThMn₁₂ · RFe₁₁X, RFe₁₀X₂  (1:12)", 21, "stabiliser X = Ti V Cr Zr Nb Mo W Hf Ta Re"],
+  ["Th₂Zn₁₇ / Th₂Ni₁₇  (2:17) + interstitials", 21, "the Sm₂Fe₁₇N₃ framework"],
+  ["Nd₂Fe₁₄B / Nd₂Fe₁₄C  (2:14:1)", 20, "the reference magnet lattice"],
+  ["LaCo₉Si₄  (1:9)", 21, "dense 1:9 R3m family"],
+  ["Kagome RT₆X₆ · HfFe₆Ge₆-type", 30, "Fe₆, Co₆, Fe₅Co × Sn Ge Si Ga Al; + vacancy"],
+  ["Nitrides / carbides of the passers", 224, "N, C in the RE-adjacent void: 2b, 9e, GNoME channels"],
+  ["Mixed-RE fractional 1:12  (Nd,Pr,Sm)₂Fe₂₁V₃N₀₋₂", 9, "the real NdFe₁₂-based composition class"],
+  ["GNoME frameworks  (new-R3m, R-3m, Cm, Immm …)", 369, "campaign hosts, light-RE substituted"],
+];
+poly.forEach(([n, k, note], i) => {
+  const y = 2.15 + i * 0.48;
+  s.addText(n, { x: M + 0.3, y, w: 3.9, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, bold: true, color: INK });
+  s.addText(note, { x: M + 0.3, y: y + 0.21, w: 3.9, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, color: MUTE });
+  s.addShape(pres.ShapeType.roundRect, { x: M + 4.25, y: y + 0.05, w: Math.max(0.05, Math.min(k, 240) / 240 * 0.9), h: 0.16, rectRadius: 0.03, fill: { color: i >= 5 ? GOLD : RE } });
+  s.addText(String(k), { x: M + 5.0, y: y - 0.01, w: 0.5, h: 0.24, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, bold: true, color: i >= 5 ? "8A6A1E" : RE, align: "right" });
+});
+s.addText("gold = added this week from the data-backed levers", { x: M + 0.3, y: 6.42, w: 5.1, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
+
+card(s, 6.6, 1.6, 6.0, 5.1, PANEL);
+s.addText("Substitutions  (site → palette → why)", { x: 6.9, y: 1.75, w: 5.5, h: 0.3, isTextBox: true, margin: 0, fontFace: BF, fontSize: 14, bold: true, color: INK });
+const subs = [
+  [{ text: "Site", options: { bold: true } }, { text: "Palette", options: { bold: true } }, { text: "Reason from the data", options: { bold: true } }],
+  ["RE site", "Gd → Nd, Sm; Pr in expansion; Nd/Pr/Sm pairs", "light RE adds to Ms (J = L − S); Sm couples harder (×1.46 gap)"],
+  ["TM site, nearest the RE", "Fe → Co at ⅛ and ¼", "partial Co: coupling ×1.48, the only large resolved lever"],
+  ["TM site, farthest from RE", "Ti V Cr Zr Nb Mo W Hf Ta Re (one atom)", "1:12 stabiliser pattern; coupling effect unresolved (×0.97)"],
+  ["Prototype X site", "Al Si Ga Ge B C N P Sn Sb Zn Cu", "the classic decoration palette; metalloids neutral on average"],
+  ["RE-adjacent void", "N, C - dilute and fully occupied", "Ms and Tc lever of Sm₂Fe₁₇N₃ / NdFe₁₂N; keeps the gap (unlike H)"],
+  ["Channel X (kagome)", "one X removed", "the defective 1:6:6 variant seen experimentally"],
+  ["Not applied", "H interstitial · Mn · Dy · U", "H kills coupling (×0.10); Mn ∥ Co, no gain; Dy via de Gennes only; U out of scope"],
+];
+s.addTable(subs, { x: 6.9, y: 2.15, w: 5.45, colW: [1.35, 1.9, 2.2], fontFace: BF, fontSize: 8.8, color: INK,
+  border: { type: "solid", color: "D5DDE8", pt: 0.75 }, fill: { color: WHITE }, rowH: 0.46, valign: "middle" });
+s.addText("Every variant → MACE relax → same-model hull → descriptors → pool. Generation is cheap (30 s per cell); the thresholds and the GP do the selecting.",
+  { x: 6.9, y: 6.05, w: 5.45, h: 0.55, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, italic: true, color: INK });
+s.addNotes("Counts: 146 original decorations (first six rows of the old slide 24, by prototype), 30 kagome, 224 interstitial cells on 60 Fe-rich passers, 9 mixed 1:12 supercells, 369 campaign host structures (180 credible + 189 unlabelled).");
+
 // ================= 10a. CANDIDATE GENERATION =================
 s = pres.addSlide();
 titleBar(s, "CANDIDATE GENERATION", "Seven sources feed one pool; every structure gets the same relaxation, hull and descriptors", false);
