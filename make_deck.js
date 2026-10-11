@@ -841,16 +841,16 @@ const r2 = 3.55;
 farrow(s, M + 8.35, r1 + hb + 0.25, M + 8.35, r2); flabel(s, M + 8.4, r1 + hb + 0.35, "yes");
 // row 2 - pool, GP, sampling, HPC
 fshape(s, FC.data, M + 7.35, r2, 2.0, hb, "pool row\n15 geometry descriptors\n+ RE one-hot", LB, LBt, 10);
-fshape(s, FC.proc, M + 5.1, r2, 1.95, hb, "GP on h\nridge mean +\nMatern residual", LP, LPt, 10);
+fshape(s, FC.proc, M + 5.1, r2, 1.95, hb, "GP predicts h\n(5d polarisation):\nlinear trend + GP correction", LP, LPt, 10);
 fshape(s, FC.proc, M + 2.85, r2, 1.95, hb, "Thompson sampling\n→ wave of 120\n(constraints + cap)", LP, LPt, 10);
 fshape(s, FC.proc, M, r2, 2.55, hb, "VASP on Perlmutter\n120 f-in-core relaxations\none packed 4 h job", "F5C4B3", "712B13", 9.5, "D85A30");
 farrow(s, M + 7.35, r2 + hb / 2, M + 7.05, r2 + hb / 2); farrow(s, M + 5.1, r2 + hb / 2, M + 4.8, r2 + hb / 2); farrow(s, M + 2.85, r2 + hb / 2, M + 2.55, r2 + hb / 2);
 // row 3 - results, ingest, decision, end
 const r3 = 5.35;
 farrow(s, M + 1.27, r2 + hb, M + 1.27, r3);
-fshape(s, FC.data, M, r3, 2.55, hb, "per run: h, Fe/Co moments,\nvolume → gap_RE, T*, Ms", LB, LBt, 10);
-fshape(s, FC.proc, M + 2.85, r3, 1.95, hb, "ingest\nlabels.csv · H1 check\nGP re-fit", LP, LPt, 10);
-fshape(s, FC.dec, M + 5.1, r3 - 0.25, 2.0, hb + 0.5, "front moved?\nfeasible left?", LC, LCt, 10);
+fshape(s, FC.data, M, r3, 2.55, hb, "per run: h, Fe/Co moments, V\n→ gap_RE = 1574·h·(gJ−1)J/3.5\nT* = gap_RE/2k_B, Ms = Σm/V", LB, LBt, 10);
+fshape(s, FC.proc, M + 2.85, r3, 1.95, hb, "ingest: parse OUTCARs →\nlabels.csv; compare measured h\nto predicted (H1); re-fit GP", LP, LPt, 10);
+fshape(s, FC.dec, M + 5.1, r3 - 0.25, 2.0, hb + 0.5, "Pareto front\nmoved? feasible\ncandidates left?", LC, LCt, 10);
 fshape(s, FC.term, M + 7.35, r3, 2.0, hb, "END → candidate list\nSOC anisotropy → Tc\n→ synthesis", LG, LGt, 10);
 farrow(s, M + 2.55, r3 + hb / 2, M + 2.85, r3 + hb / 2); farrow(s, M + 4.8, r3 + hb / 2, M + 5.1, r3 + hb / 2);
 farrow(s, M + 7.1, r3 + hb / 2, M + 7.35, r3 + hb / 2); flabel(s, M + 7.0, r3 + 0.05, "no");
@@ -960,6 +960,30 @@ s.addText("Cadence: plan (minutes) → push → submit → queue 1-2 d → run 3
 card(s, M, 6.3, W, 0.75, NAVY2);
 s.addText("Each wave answers a question, not just adds points: wave 1 - do the Gd-derived rules transfer to Nd/Sm (H1)? wave 2 - do the levers compose on the winners (H4)? later waves - where does the Pareto front of coupling, Ms and stability stop moving?",
   { x: M + 0.25, y: 6.3, w: W - 0.5, h: 0.75, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11, color: "C6D2E4", valign: "middle" });
+
+
+// ================= 10e. THE PARETO FRONT TODAY =================
+s = pres.addSlide();
+titleBar(s, "THE PARETO FRONT, DRAWN", "What 'front moved?' means: the set of hosts no other host beats on both coupling and magnetisation", false);
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/pareto_front.png", x: M, y: 1.55, w: 7.3, h: 5.07 });
+card(s, 8.3, 1.55, 4.3, 5.07, PANEL);
+s.addText("How to read it", { x: 8.55, y: 1.7, w: 3.9, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: INK });
+s.addText("Every credible host plotted at the coupling it would give Nd (measured Gd gap scaled by (gJ−1)J) against the Ms it would give with Nd. The red line joins the hosts that are not dominated: no other host has both a larger gap and a larger Ms. Colour, where present, is the MACE hull energy of the Nd cell.",
+  { x: 8.55, y: 2.0, w: 3.95, h: 1.35, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, color: MUTE });
+s.addText("The front today", { x: 8.55, y: 3.45, w: 3.9, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: INK });
+const pf = [["Fe₁₇Gd₂N₂ → Nd", "2.04 T · 82 meV", "highest Ms, below the coupling floor"], ["BFe₁₄Gd₂ → Nd", "2.03 T · 107 meV", "the Nd₂Fe₁₄B reference point"],
+            ["Co₂Fe₇Gd₃ → Nd", "1.85 T · 110 meV", "RE-rich, hull +20 meV"], ["GdFe₂ → Nd", "1.81 T · 123 meV", "Laves, RE-rich"],
+            ["Co₁₉Fe₄Gd₆ → Nd", "1.59 T · 130 meV", "strongest coupling at >1.5 T"], ["CFe₁₇Gd₂ → Nd", "1.35 T · 133 meV", "fm side suspect, re-running"]];
+pf.forEach(([a, b, c], i) => {
+  const y = 3.75 + i * 0.4;
+  s.addText(a, { x: 8.55, y, w: 1.7, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, bold: true, color: RE });
+  s.addText(b, { x: 10.25, y, w: 1.2, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: INK });
+  s.addText(c, { x: 8.55, y: y + 0.19, w: 3.9, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.3, color: MUTE });
+});
+s.addText("Stop rule: a wave that adds no point to this line, after its labels are measured, has not moved the front. Two such waves in a row and the pool is exhausted for the current thresholds.",
+  { x: 8.55, y: 6.15, w: 3.95, h: 0.45, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9, italic: true, color: INK });
+s.addText("Learnt: the front is the known magnets plus RE-rich cells; every point on it is either a reference compound or fails the hull or the coupling floor. The target region, upper right of both dashed lines, is empty - that is the space the waves are drawn to fill.",
+  { x: M, y: 6.72, w: W, h: 0.5, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, italic: true, color: INK });
 
 // ================= CLOSING: GP + CAUSAL + GENERATIVE =================
 s = pres.addSlide();
