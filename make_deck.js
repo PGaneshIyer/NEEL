@@ -428,7 +428,7 @@ s.addNotes("Be explicit that the earlier deck claimed Co16Gd2Mn as FM. The relea
 
 // ================= 8-mn. WHY MN COULD NOT WORK =================
 s = pres.addSlide();
-titleBar(s, "THE Mn ARGUMENT, AND WHY IT FAILS", "The logic was sound as a syllogism; its premise was wrong, and even the corrected version cancels the magnet it tries to make", false);
+titleBar(s, "THE Mn ARGUMENT, AND WHY IT FAILS", "Right syllogism, wrong premise - and the corrected version cancels the magnet it tries to make", false);
 card(s, M, 1.55, 5.6, 2.55, PANEL);
 s.addText("The original logic", { x: M + 0.25, y: 1.68, w: 5.1, h: 0.28, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: INK });
 const mnlog = [
