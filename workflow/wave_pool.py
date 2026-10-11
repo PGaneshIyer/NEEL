@@ -100,8 +100,11 @@ def collect(sources, res_light, max_atoms):
                 s = substitute_light(s0, re_)
                 if s is not None:
                     cands.append((f"master:{r['formula']}:{re_}", "master", r["formula"], s))
-    if "generated" in sources:
-        for p in sorted(glob.glob(os.path.join(ROOT, "structures", "generated", "*.CIF"))):
+    if "generated" in sources or "kagome" in sources:
+        pats = []
+        if "generated" in sources: pats.append(os.path.join(ROOT, "structures", "generated", "*.CIF"))
+        if "kagome" in sources: pats.append(os.path.join(ROOT, "structures", "generated_kagome", "*.CIF"))
+        for p in sorted(q for pat in pats for q in glob.glob(pat)):
             try:
                 s0 = Structure.from_file(p)
             except Exception:
@@ -111,7 +114,8 @@ def collect(sources, res_light, max_atoms):
             for re_ in res_light:
                 s = substitute_light(s0, re_)
                 if s is not None:
-                    cands.append((f"gen:{os.path.basename(p)}:{re_}", "generated", os.path.basename(p), s))
+                    src = "kagome" if "generated_kagome" in p else "generated"
+                    cands.append((f"gen:{os.path.basename(p)}:{re_}", src, os.path.basename(p), s))
     if "hosts" in sources:
         feats = {r["compound"]: r for r in csv.DictReader(open(os.path.join(HERE, "analysis", "exchange_features.csv")))}
         res = json.load(open(os.path.join(HERE, "results.json")))
@@ -158,7 +162,7 @@ def collect(sources, res_light, max_atoms):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--re", default="Nd,Sm")
-    ap.add_argument("--sources", default="master,generated,hosts")
+    ap.add_argument("--sources", default="recovered,generated,kagome,hosts")
     ap.add_argument("--max-atoms", type=int, default=40)
     ap.add_argument("--limit", type=int, default=0, help="process at most N new candidates this call")
     ap.add_argument("--fmax", type=float, default=0.1, help="screening tolerance; VASP re-relaxes anyway")

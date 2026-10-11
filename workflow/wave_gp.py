@@ -221,6 +221,7 @@ def main():
     ap.add_argument("--kappa", type=float, default=1.0)
     ap.add_argument("--proto-cap", type=int, default=6)
     ap.add_argument("--cv", action="store_true")
+    ap.add_argument("--only-source", default="", help="restrict the pool to these sources (comma list), e.g. kagome")
     A = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
     train = gd_training_rows() + wave_training_rows()
@@ -241,6 +242,8 @@ def main():
         if key not in best or eh < best[key][0]:
             best[key] = (eh, r)
     pool = [v[1] for v in best.values()]
+    if A.only_source:
+        pool = [r for r in pool if r["source"] in A.only_source.split(",")]
     # exclude anything already run or queued
     done = set()
     for p in (os.path.join(OUT, "labels.csv"), *[os.path.join(OUT, f"wave_{k}.csv") for k in range(1, A.wave)]):
