@@ -799,8 +799,8 @@ s.addNotes("A20 sign convention must be calibrated against a known compound firs
 function fbox(slide, x, y, w, h, title, sub, fill, tc, sc, fs) {
   if (typeof sc === "number") { fs = sc; sc = undefined; }
   slide.addShape(pres.ShapeType.roundRect, { x, y, w, h, rectRadius: 0.06, fill: { color: fill }, line: { color: fill, width: 0.5 } });
-  slide.addText(title, { x: x + 0.08, y: y + 0.06, w: w - 0.16, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, bold: true, color: tc, align: "center" });
-  if (sub) slide.addText(sub, { x: x + 0.08, y: y + 0.32, w: w - 0.16, h: h - 0.36, isTextBox: true, margin: 0, fontFace: BF, fontSize: fs || 8, color: sc || tc, align: "center", valign: "top" });
+  slide.addText(title, { x: x + 0.08, y: y + 0.06, w: w - 0.16, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12, bold: true, color: tc, align: "center" });
+  if (sub) slide.addText(sub, { x: x + 0.08, y: y + 0.36, w: w - 0.16, h: h - 0.4, isTextBox: true, margin: 0, fontFace: BF, fontSize: fs || 8, color: sc || tc, align: "center", valign: "top" });
 }
 function farrow(slide, x1, y1, x2, y2, color) {
   slide.addShape(pres.ShapeType.line, { x: Math.min(x1, x2), y: Math.min(y1, y2), w: Math.abs(x2 - x1), h: Math.abs(y2 - y1),
@@ -810,6 +810,63 @@ const LB = "E3F0F6", LBt = "1F5F7A";   // light blue: data
 const LP = "EEEDFE", LPt = "3C3489";   // purple: model
 const LC = "FCEDE8", LCt = "8A3B2E";   // coral: DFT / NERSC
 const LG = "EEF2F7", LGt = INK;        // grey: step
+
+
+// ================= 10o. OVERVIEW FLOWCHART (standard notation) =================
+s = pres.addSlide();
+titleBar(s, "THE WHOLE LOOP ON ONE PAGE", "Standard flowchart: data in cylinders and parallelograms, decisions in diamonds, the HPC step in red", false);
+const FC = {
+  term: pres.ShapeType.flowChartTerminator, proc: pres.ShapeType.flowChartProcess, dec: pres.ShapeType.flowChartDecision,
+  data: pres.ShapeType.flowChartInputOutput, db: pres.ShapeType.flowChartMagneticDisk, doc: pres.ShapeType.flowChartDocument,
+};
+function fshape(slide, type, x, y, w, h, text, fill, tc, fs, lc) {
+  slide.addShape(type, { x, y, w, h, fill: { color: fill }, line: { color: lc || tc, width: 0.75 } });
+  slide.addText(text, { x: x + 0.1, y, w: w - 0.2, h, isTextBox: true, margin: 0, fontFace: BF, fontSize: fs || 10, bold: false, color: tc, align: "center", valign: "middle" });
+}
+function flabel(slide, x, y, t) {
+  slide.addText(t, { x, y, w: 0.5, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9, bold: true, color: MUTE, align: "center" });
+}
+// row 1 - generation and surrogate screening
+const r1 = 1.75, hb = 0.95;
+fshape(s, FC.term, M, r1, 1.5, hb, "START\nprototypes +\ndatabases", LG, LGt, 10);
+fshape(s, FC.db, M + 1.75, r1 - 0.05, 1.55, hb + 0.1, "structure store\nGNoME · MP · OQMD\n+ generated cells", LB, LBt, 9.5);
+fshape(s, FC.proc, M + 3.55, r1, 1.75, hb, "substitute\nNd/Sm · Co · early TM\nN/C interstitials", LG, LGt, 10);
+fshape(s, FC.proc, M + 5.55, r1, 1.55, hb, "MACE-MP-0\nrelax cell\n(30 s)", LP, LPt, 10);
+fshape(s, FC.dec, M + 7.35, r1 - 0.25, 2.0, hb + 0.5, "E_hull ≤ 30 meV\nand Ms ≥ 1.5 T ?", LC, LCt, 10);
+fshape(s, FC.term, M + 9.75, r1, 1.5, hb, "archive\n(training only)", LG, MUTE, 9.5, "B4B2A9");
+[[M + 1.5, M + 1.75], [M + 3.3, M + 3.55], [M + 5.3, M + 5.55], [M + 7.1, M + 7.35]].forEach(([a, b]) => farrow(s, a, r1 + hb / 2, b, r1 + hb / 2));
+farrow(s, M + 9.35, r1 + hb / 2, M + 9.75, r1 + hb / 2); flabel(s, M + 9.3, r1 + 0.05, "no");
+// down from decision to row 2
+const r2 = 3.55;
+farrow(s, M + 8.35, r1 + hb + 0.25, M + 8.35, r2); flabel(s, M + 8.4, r1 + hb + 0.35, "yes");
+// row 2 - pool, GP, sampling, HPC
+fshape(s, FC.data, M + 7.35, r2, 2.0, hb, "pool row\n15 geometry descriptors\n+ RE one-hot", LB, LBt, 10);
+fshape(s, FC.proc, M + 5.1, r2, 1.95, hb, "GP on h\nridge mean +\nMatern residual", LP, LPt, 10);
+fshape(s, FC.proc, M + 2.85, r2, 1.95, hb, "Thompson sampling\n→ wave of 120\n(constraints + cap)", LP, LPt, 10);
+fshape(s, FC.proc, M, r2, 2.55, hb, "VASP on Perlmutter\n120 f-in-core relaxations\none packed 4 h job", "F5C4B3", "712B13", 9.5, "D85A30");
+farrow(s, M + 7.35, r2 + hb / 2, M + 7.05, r2 + hb / 2); farrow(s, M + 5.1, r2 + hb / 2, M + 4.8, r2 + hb / 2); farrow(s, M + 2.85, r2 + hb / 2, M + 2.55, r2 + hb / 2);
+// row 3 - results, ingest, decision, end
+const r3 = 5.35;
+farrow(s, M + 1.27, r2 + hb, M + 1.27, r3);
+fshape(s, FC.data, M, r3, 2.55, hb, "per run: h, Fe/Co moments,\nvolume → gap_RE, T*, Ms", LB, LBt, 10);
+fshape(s, FC.proc, M + 2.85, r3, 1.95, hb, "ingest\nlabels.csv · H1 check\nGP re-fit", LP, LPt, 10);
+fshape(s, FC.dec, M + 5.1, r3 - 0.25, 2.0, hb + 0.5, "front moved?\nfeasible left?", LC, LCt, 10);
+fshape(s, FC.term, M + 7.35, r3, 2.0, hb, "END → candidate list\nSOC anisotropy → Tc\n→ synthesis", LG, LGt, 10);
+farrow(s, M + 2.55, r3 + hb / 2, M + 2.85, r3 + hb / 2); farrow(s, M + 4.8, r3 + hb / 2, M + 5.1, r3 + hb / 2);
+farrow(s, M + 7.1, r3 + hb / 2, M + 7.35, r3 + hb / 2); flabel(s, M + 7.0, r3 + 0.05, "no");
+// yes-loop: from decision top up to the GP box (retrain) and to the store (expand neighbourhood)
+s.addShape(pres.ShapeType.line, { x: M + 6.1, y: r2 + hb, w: 0, h: r3 - 0.25 - (r2 + hb), line: { color: "7A8DA8", width: 1.4, endArrowType: "triangle", beginArrowType: "none" }, flipV: true });
+flabel(s, M + 6.15, r2 + hb + 0.08, "yes");
+s.addText("retrain on new labels", { x: M + 6.2, y: r2 + hb + 0.32, w: 1.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.5, italic: true, color: MUTE });
+// dashed expansion edge: ingest -> store (neighbourhood of winners)
+s.addShape(pres.ShapeType.line, { x: M + 2.5, y: r1 + hb + 0.1, w: 0, h: r3 - (r1 + hb + 0.1), line: { color: "3C3489", width: 1.2, dashType: "dash", endArrowType: "triangle" }, flipV: true });
+s.addText("expand: winners × levers\n→ new cells into the store", { x: M + 2.6, y: 2.95, w: 1.75, h: 0.4, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.5, italic: true, color: "3C3489" });
+// right column: two evidence images
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/gap_vs_h.png", x: 9.95, y: 2.85, w: 2.65, h: 1.84 });
+s.addText("behind the GP label: gap = 1574·h on 180 Gd pairs, r = 0.89 - one f-in-core run per label", { x: 9.95, y: 4.7, w: 2.65, h: 0.4, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8, color: MUTE });
+s.addImage({ path: "/Users/g5q/Documents/GitHub/gnome-fe-hree-magnets/assets/light_re_hull.png", x: 9.95, y: 5.15, w: 2.65, h: 1.75 });
+s.addText("behind the hull decision: MACE vs MP competitors, Ms vs stability for the light-RE hosts", { x: 9.95, y: 6.9, w: 2.65, h: 0.4, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8, color: MUTE });
+s.addNotes("Standard symbols: terminator = start/end, rectangle = process, diamond = decision, parallelogram = data, cylinder = stored data. Red process = the only HPC step. Solid loop = retraining; dashed loop = neighbourhood expansion of the winners feeding the structure store.");
 
 // ================= 10a. CANDIDATE GENERATION =================
 s = pres.addSlide();
@@ -826,7 +883,7 @@ const srcs = [
 srcs.forEach(([h, d, n, fill, tc], i) => {
   const col = i % 4, row = Math.floor(i / 4);
   const x = M + col * 3.0, y = 1.6 + row * 1.85;
-  fbox(s, x, y, 2.8, 1.65, h, d, fill, tc, tc, 9.5);
+  fbox(s, x, y, 2.8, 1.65, h, d, fill, tc, tc, 11.5);
   s.addText(n, { x: x + 0.1, y: y + 1.32, w: 2.6, h: 0.28, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, bold: true, color: tc, align: "center" });
 });
 fbox(s, M + 9.0, 3.45, 2.8, 1.65, "The pool today", "1,220 unique structures relaxed\nall with a same-model hull energy\n94 pass hull ≤ 30 meV and Ms ≥ 1.5 T\n→ Thompson sampling draws the wave", NAVY2, GOLD, "C6D2E4");
@@ -840,44 +897,44 @@ s.addNotes("Counts from analysis/pool/pool.csv at the time of the wave-1 redraw.
 // ================= 10b. SUBSTITUTION AND SCREENING =================
 s = pres.addSlide();
 titleBar(s, "FROM PROTOTYPE TO POOL ROW", "Substitution rules, then two surrogate screens, then descriptors - no DFT until the wave", false);
-const y0 = 1.75;
-fbox(s, M, y0, 2.2, 1.5, "Source cell", "heavy-RE placeholder (Gd)\nor light-RE cell from a\ngenerator", LB, LBt);
-fbox(s, M + 2.55, y0, 2.6, 1.5, "Substitution rules", "Gd → Nd, Sm (Pr in expansion)\nFe → Co, ⅛ nearest the RE\nearly TM on the far Fe site\nN / C into RE-adjacent voids", LG, LGt);
-fbox(s, M + 5.5, y0, 2.0, 1.5, "Dedupe", "(reduced formula,\nspace group)\nlowest hull kept", LG, LGt);
-fbox(s, M + 7.85, y0, 2.0, 1.5, "MACE-MP-0 relax", "cell + positions\nfmax 0.1 eV/Å, ≤120 steps\n~30 s per cell on CPU", LP, LPt);
-fbox(s, M + 10.2, y0, 1.7, 1.5, "Same-model hull", "MP competitors ≤100 meV\nre-relaxed with MACE\n→ E_hull", LP, LPt);
-farrow(s, M + 2.2, y0 + 0.75, M + 2.55, y0 + 0.75); farrow(s, M + 5.15, y0 + 0.75, M + 5.5, y0 + 0.75);
-farrow(s, M + 7.5, y0 + 0.75, M + 7.85, y0 + 0.75); farrow(s, M + 9.85, y0 + 0.75, M + 10.2, y0 + 0.75);
-const y1 = 3.75;
-fbox(s, M + 10.2, y1, 1.7, 1.5, "Descriptors", "15 geometry numbers\n+ RE one-hot\n(wave_features.py)", LP, LPt);
-fbox(s, M + 7.85, y1, 2.0, 1.5, "Analytic Ms", "Σ TM moments (campaign\nmedians) + free-ion RE\n÷ relaxed volume", LG, LGt);
-fbox(s, M + 5.5, y1, 2.0, 1.5, "pool.csv row", "cid · formula · source\nE_hull · Ms · descriptors\n→ POSCAR_mace", LB, LBt);
-fbox(s, M + 2.55, y1, 2.6, 1.5, "Hard filters", "E_hull ≤ 30 meV/atom\n(MACE noise ≈ 30)\nMs_proj ≥ 1.5 T", LC, LCt);
-fbox(s, M, y1, 2.2, 1.5, "→ GP + sampling", "feasible set\n(94 of 1,220 today)\nnext slide", LP, LPt);
-farrow(s, M + 11.05, y0 + 1.5, M + 11.05, y1);
-farrow(s, M + 10.2, y1 + 0.75, M + 9.85, y1 + 0.75); farrow(s, M + 7.85, y1 + 0.75, M + 7.5, y1 + 0.75);
-farrow(s, M + 5.5, y1 + 0.75, M + 5.15, y1 + 0.75); farrow(s, M + 2.55, y1 + 0.75, M + 2.2, y1 + 0.75);
+const y0 = 1.7;
+fbox(s, M, y0, 2.2, 1.45, "Source cell", "heavy-RE placeholder (Gd)\nor light-RE cell from a\ngenerator", LB, LBt, undefined, 10.5);
+fbox(s, M + 2.55, y0, 2.6, 1.45, "Substitution rules", "Gd → Nd, Sm (Pr in expansion)\nFe → Co, ⅛ nearest the RE\nearly TM on the far Fe site\nN / C into RE-adjacent voids", LG, LGt, 10.5);
+fbox(s, M + 5.5, y0, 2.0, 1.45, "Dedupe", "(reduced formula,\nspace group)\nlowest hull kept", LG, LGt, 10.5);
+fbox(s, M + 7.85, y0, 2.0, 1.45, "MACE-MP-0 relax", "cell + positions\nfmax 0.1 eV/Å, ≤120 steps\n~30 s per cell on CPU", LP, LPt, 10.5);
+fbox(s, M + 10.2, y0, 1.7, 1.45, "Same-model hull", "MP competitors ≤100 meV\nre-relaxed with MACE\n→ E_hull", LP, LPt, undefined, 10.5);
+farrow(s, M + 2.2, y0 + 0.72, M + 2.55, y0 + 0.72); farrow(s, M + 5.15, y0 + 0.72, M + 5.5, y0 + 0.72);
+farrow(s, M + 7.5, y0 + 0.72, M + 7.85, y0 + 0.72); farrow(s, M + 9.85, y0 + 0.72, M + 10.2, y0 + 0.72);
+const y1 = 3.6;
+fbox(s, M + 10.2, y1, 1.7, 1.45, "Descriptors", "15 geometry numbers\n+ RE one-hot\n(wave_features.py)", LP, LPt, undefined, 10.5);
+fbox(s, M + 7.85, y1, 2.0, 1.45, "Analytic Ms", "Σ TM moments (campaign\nmedians) + free-ion RE\n÷ relaxed volume", LG, LGt, undefined, 10.5);
+fbox(s, M + 5.5, y1, 2.0, 1.45, "pool.csv row", "cid · formula · source\nE_hull · Ms · descriptors\n→ POSCAR_mace", LB, LBt, undefined, 10.5);
+fbox(s, M + 2.55, y1, 2.6, 1.45, "Hard filters", "E_hull ≤ 30 meV/atom\n(MACE noise ≈ 30)\nMs_proj ≥ 1.5 T", LC, LCt, undefined, 10.5);
+fbox(s, M, y1, 2.2, 1.45, "→ GP + sampling", "feasible set\n(94 of 1,220 today)\nnext slide", LP, LPt, 10.5);
+farrow(s, M + 11.05, y0 + 1.45, M + 11.05, y1);
+farrow(s, M + 10.2, y1 + 0.72, M + 9.85, y1 + 0.72); farrow(s, M + 7.85, y1 + 0.72, M + 7.5, y1 + 0.72);
+farrow(s, M + 5.5, y1 + 0.72, M + 5.15, y1 + 0.72); farrow(s, M + 2.55, y1 + 0.72, M + 2.2, y1 + 0.72);
 const desc = ["N_TM_nn, d_RE-TM (mean, min)", "f_Fe, f_Co, 3d count, TM per RE, dilution", "TM density, volume per atom", "early-TM fraction", "metalloid / H / N / C atoms in the RE shell"];
 s.addText("The 15 descriptors (all pre-DFT):  " + desc.join("  ·  "),
-  { x: M, y: 5.5, w: W, h: 0.45, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: MUTE });
+  { x: M, y: 5.3, w: W, h: 0.45, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: MUTE });
 s.addText("Why two surrogates: MACE answers 'does this cell exist' (stability, geometry) at 30 s per structure; the GP answers 'is it worth a VASP run' (coupling) from the geometry MACE produced. Neither replaces the DFT label - they decide which 120 of the 1,220 get one.",
-  { x: M, y: 6.0, w: W, h: 0.7, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, italic: true, color: INK });
+  { x: M, y: 5.85, w: W, h: 0.7, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11, italic: true, color: INK });
 
 // ================= 10c. THE GP AND ITS LOSS =================
 s = pres.addSlide();
 titleBar(s, "THE GP, WHAT IT FITS, HOW IT PICKS", "Two-stage model on the 5d polarisation h; batch Thompson sampling under the magnet constraints", false);
-fbox(s, M, 1.6, 3.7, 1.85, "1 · Training rows", "179 credible Gd pairs: label h = −½[m₅d(ferri) + m₅d(fm)]\n+ every ingested f-in-core wave run: h read directly\nfeatures = 15 descriptors + RE one-hot, standardised", LB, LBt, 10);
-fbox(s, M + 4.1, 1.6, 3.7, 1.85, "2 · Mean function (ridge)", "w = argmin ‖h − Xw‖² + α‖w‖²,  α = 1\nthe physics the 180 labels already fixed:\ndistance, coordination, Co fraction, dilution", LP, LPt, 10);
-fbox(s, M + 8.2, 1.6, 3.7, 1.85, "3 · GP on the residual r = h − Xw", "k = σ²·Matern₅⁄₂(ℓ₁…ℓ₁₉) + σₙ²\nhyperparameters maximise the log marginal likelihood\nlog p(r|X) = −½ rᵀK⁻¹r − ½ log|K| − (n/2) log 2π\n→ posterior mean μ(x), std σ(x)", LP, LPt, 10);
-farrow(s, M + 3.7, 2.52, M + 4.1, 2.52); farrow(s, M + 7.8, 2.52, M + 8.2, 2.52);
-fbox(s, M, 3.85, 3.7, 1.95, "4 · Stage two (deterministic)", "gap_RE = 1574 · h · (gJ−1)J_RE / 3.5\nT* = gap_RE / 2k_B\nMs from the pool row (analytic)\nno fitted parameter beyond 1574", LG, LGt, 10);
-fbox(s, M + 4.1, 3.85, 3.7, 1.95, "5 · Validation before use", "10-fold CV on the 179 Gd labels:\nr = 0.88, RMSE 0.018 μB (label sd 0.038)\n91 % of held-out labels inside ±2σ\nH1 check on every wave: measured h vs predicted", LC, LCt, 10);
-fbox(s, M + 8.2, 3.85, 3.7, 1.95, "6 · Batch Thompson sampling", "per pick: one joint posterior draw h̃ over the pool\nfeasible if gap̃_RE ≥ 100 meV, Ms ≥ 1.5 T, E_hull ≤ 30\nutility U = Ms · min(1, gap̃ / 100, 9.5); take argmax\nrepeat until the wave is full; family cap by (SG, TM:RE)", GOLD, "5A3E00");
-farrow(s, M + 10.05, 3.45, M + 10.05, 3.85); farrow(s, M + 1.85, 3.45, M + 1.85, 3.85); farrow(s, M + 5.95, 3.45, M + 5.95, 3.85);
+fbox(s, M, 1.6, 3.7, 1.55, "1 · Training rows", "179 credible Gd pairs: label h = −½[m₅d(ferri) + m₅d(fm)]\n+ every ingested f-in-core wave run: h read directly\nfeatures = 15 descriptors + RE one-hot, standardised", LB, LBt, 12);
+fbox(s, M + 4.1, 1.6, 3.7, 1.55, "2 · Mean function (ridge)", "w = argmin ‖h − Xw‖² + α‖w‖²,  α = 1\nthe physics the 180 labels already fixed:\ndistance, coordination, Co fraction, dilution", LP, LPt, 12);
+fbox(s, M + 8.2, 1.6, 3.7, 1.55, "3 · GP on the residual r = h − Xw", "k = σ²·Matern₅⁄₂(ℓ₁…ℓ₁₉) + σₙ²\nhyperparameters maximise the log marginal likelihood\nlog p(r|X) = −½ rᵀK⁻¹r − ½ log|K| − (n/2) log 2π\n→ posterior mean μ(x), std σ(x)", LP, LPt, 12);
+farrow(s, M + 3.7, 2.37, M + 4.1, 2.37); farrow(s, M + 7.8, 2.37, M + 8.2, 2.37);
+fbox(s, M, 3.5, 3.7, 1.6, "4 · Stage two (deterministic)", "gap_RE = 1574 · h · (gJ−1)J_RE / 3.5\nT* = gap_RE / 2k_B\nMs from the pool row (analytic)\nno fitted parameter beyond 1574", LG, LGt, 12);
+fbox(s, M + 4.1, 3.5, 3.7, 1.6, "5 · Validation before use", "10-fold CV on the 179 Gd labels:\nr = 0.88, RMSE 0.018 μB (label sd 0.038)\n91 % of held-out labels inside ±2σ\nH1 check on every wave: measured h vs predicted", LC, LCt, 12);
+fbox(s, M + 8.2, 3.5, 3.7, 1.6, "6 · Batch Thompson sampling", "per pick: one joint posterior draw h̃ over the pool\nfeasible if gap̃_RE ≥ 100 meV, Ms ≥ 1.5 T, E_hull ≤ 30\nutility U = Ms · min(1, gap̃ / 100, 11.5); take argmax\nrepeat until the wave is full; family cap by (SG, TM:RE)", GOLD, "5A3E00");
+farrow(s, M + 10.05, 3.15, M + 10.05, 3.5); farrow(s, M + 1.85, 3.15, M + 1.85, 3.5); farrow(s, M + 5.95, 3.15, M + 5.95, 3.5);
 s.addText("Loss, precisely: the ridge minimises squared error on h; the GP hyperparameters maximise the marginal likelihood of the residuals (not a point loss, so σ is calibrated); nothing is fitted to the acquisition. Posterior uncertainty is what makes the batch diverse - no κ to tune.",
-  { x: M, y: 6.0, w: W, h: 0.55, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, italic: true, color: INK });
+  { x: M, y: 5.35, w: W, h: 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11, italic: true, color: INK });
 s.addText("Honest limits: the GP has 179 points in 19 dimensions, so it extrapolates with wide σ outside the campaign chemistry - which is exactly where Thompson sampling then spends runs. The 1574·h calibration is Gd-derived; H1 tests whether it transfers to f-in-core Nd/Sm, and the RE one-hot lets the model learn a bias if it does not.",
-  { x: M, y: 6.55, w: W, h: 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: MUTE });
+  { x: M, y: 6.05, w: W, h: 0.7, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, color: MUTE });
 
 // ================= 10d. WAVES AND GENERATIONS =================
 s = pres.addSlide();
@@ -892,17 +949,17 @@ const gens = [
 ];
 gens.forEach(([h, d, fill, tc], i) => {
   const x = M + i * 2.0;
-  fbox(s, x, 1.7, 1.85, 1.75, h, d, fill, tc, tc, 9);
-  if (i < 5) farrow(s, x + 1.85, 2.57, x + 2.0, 2.57);
+  fbox(s, x, 1.7, 1.85, 1.8, h, d, fill, tc, tc, 10.5);
+  if (i < 5) farrow(s, x + 1.85, 2.6, x + 2.0, 2.6);
 });
 // generation detail
-fbox(s, M, 3.75, 5.7, 1.9, "What 'expand' generates from a winner", "RE swap  Nd ↔ Sm ↔ Pr on the same cell\nCo  ⅛ and ¼ of Fe, the sites nearest the RE first\nearly TM  one Ti / V / Zr / Nb on the Fe site farthest from the RE\nN  into the largest RE-adjacent void (dilute and full)\neach variant → MACE relax → same-model hull → descriptors → pool", LG, LGt, 10.5);
-fbox(s, M + 6.2, 3.75, 5.7, 1.9, "What a wave returns, per cell", "relaxed volume and pressure (did N / Nd fit?)\nFe / Co sublattice moments → Ms with the free-ion RE added\nh = RE s+p+d polarisation → gap_RE, T*, B_RT via 1574·h\nconvergence flags; everything appended as a training row\nno fm/ferri pair, no +U: one run is one label", LC, LCt, 10.5);
+fbox(s, M, 3.75, 5.7, 1.6, "What 'expand' generates from a winner", "RE swap  Nd ↔ Sm ↔ Pr on the same cell\nCo  ⅛ and ¼ of Fe, the sites nearest the RE first\nearly TM  one Ti / V / Zr / Nb on the Fe site farthest from the RE\nN  into the largest RE-adjacent void (dilute and full)\neach variant → MACE relax → same-model hull → descriptors → pool", LG, LGt, 12);
+fbox(s, M + 6.2, 3.75, 5.7, 1.6, "What a wave returns, per cell", "relaxed volume and pressure (did N / Nd fit?)\nFe / Co sublattice moments → Ms with the free-ion RE added\nh = RE s+p+d polarisation → gap_RE, T*, B_RT via 1574·h\nconvergence flags; everything appended as a training row\nno fm/ferri pair, no +U: one run is one label", LC, LCt, 12);
 s.addText("Cadence: plan (minutes) → push → submit → queue 1-2 d → run 3 h → ingest (minutes). Scripts: wave_pool.py · wave_gp.py · wave_inputs.py · submit_batch.sh · sync_results.sh · wave_ingest.py, driven by wave_loop.sh; DEPLOY_NERSC.md puts the whole loop on a Perlmutter login node with scrontab.",
-  { x: M, y: 5.85, w: W, h: 0.5, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: MUTE });
-card(s, M, 6.45, W, 0.6, NAVY2);
+  { x: M, y: 5.55, w: W, h: 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, color: MUTE });
+card(s, M, 6.3, W, 0.75, NAVY2);
 s.addText("Each wave answers a question, not just adds points: wave 1 - do the Gd-derived rules transfer to Nd/Sm (H1)? wave 2 - do the levers compose on the winners (H4)? later waves - where does the Pareto front of coupling, Ms and stability stop moving?",
-  { x: M + 0.25, y: 6.45, w: W - 0.5, h: 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.8, color: "C6D2E4", valign: "middle" });
+  { x: M + 0.25, y: 6.3, w: W - 0.5, h: 0.75, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11, color: "C6D2E4", valign: "middle" });
 
 // ================= CLOSING: GP + CAUSAL + GENERATIVE =================
 s = pres.addSlide();
