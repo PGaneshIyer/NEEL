@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NdTiFe11N2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.51073868
+_cell_length_b   6.51073857
+_cell_length_c   6.51073864
+_cell_angle_alpha   137.06499668
+_cell_angle_beta   97.78266007
+_cell_angle_gamma   97.61161813
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdTiFe11N2
+_chemical_formula_sum   'Nd1 Ti1 Fe11 N2'
+_cell_volume   174.95220211
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.00581826  -0.00000003  0.00581836  1
+  Ti  Ti1  1  0.62989397  0.00000001  0.62989409  1
+  Fe  Fe2  1  0.50032511  0.49879976  0.50015979  1
+  Fe  Fe3  1  0.50032510  1.00016542  0.00152545  1
+  Fe  Fe4  1  0.00135991  -0.00016539  0.50015978  1
+  Fe  Fe5  1  0.00135991  0.50120025  0.00152542  1
+  Fe  Fe6  1  0.23561912  0.49999999  0.73561922  1
+  Fe  Fe7  1  0.77129143  0.50000002  0.27129154  1
+  Fe  Fe8  1  0.77576013  0.27660398  0.49915617  1
+  Fe  Fe9  1  0.22255207  0.72339601  0.49915624  1
+  Fe  Fe10  1  0.35708826  -0.00000001  0.35708833  1
+  Fe  Fe11  1  0.35842666  0.35912312  0.99930335  1
+  Fe  Fe12  1  0.64018007  0.64087687  0.99930325  1
+  N  N13  1  0.00000000  0.42307692  0.42307692  1
+  N  N14  1  0.00000000  0.57692308  0.57692308  1

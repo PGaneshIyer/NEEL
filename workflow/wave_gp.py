@@ -261,7 +261,7 @@ def main():
                                      "T_star_pred_K": round(gap_mu[j] / (2 * KB), 0), "p_feasible": round(feas[j], 3), "score": round(score[j], 3), "wave": A.wave})
         rows.append(r)
     out = os.path.join(OUT, f"wave_{A.wave}.csv")
-    keys = ["cid", "wave", "tag", "source", "parent", "formula", "spacegroup", "re_el", "Ms_proj_T", "E_hull_meV", "h_pred", "h_sd", "gap_pred_meV", "T_star_pred_K", "p_feasible", "score", "poscar"]
+    keys = ["cid", "wave", "tag", "source", "parent", "formula", "spacegroup", "re_el", "Ms_proj_T", "E_hull_meV", "h_pred", "h_sd", "gap_pred_meV", "T_star_pred_K", "p_feasible", "score", "TM_per_RE", "tm_density", "f_Fe", "poscar"]
     with open(out, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=keys, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
     with open(os.path.join(OUT, "gp_report.txt"), "a") as f:

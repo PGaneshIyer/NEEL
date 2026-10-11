@@ -58,7 +58,8 @@ def substitute_light(struct, re_el):
     s = struct.copy()
     heavy = [sp.symbol for sp in s.species if sp.symbol in HEAVY]
     if not heavy:
-        return None
+        # already a light-RE cell (interstitial generator output): keep only the matching RE
+        return s if any(sp.symbol == re_el for sp in s.species) else None
     s.replace_species({h: re_el for h in set(heavy)})
     return s
 
@@ -100,10 +101,12 @@ def collect(sources, res_light, max_atoms):
                 s = substitute_light(s0, re_)
                 if s is not None:
                     cands.append((f"master:{r['formula']}:{re_}", "master", r["formula"], s))
-    if "generated" in sources or "kagome" in sources:
+    if sources & {"generated", "kagome", "interstitial", "mixed"} if isinstance(sources, set) else any(x in sources for x in ("generated", "kagome", "interstitial", "mixed")):
         pats = []
         if "generated" in sources: pats.append(os.path.join(ROOT, "structures", "generated", "*.CIF"))
         if "kagome" in sources: pats.append(os.path.join(ROOT, "structures", "generated_kagome", "*.CIF"))
+        if "interstitial" in sources: pats.append(os.path.join(ROOT, "structures", "generated_interstitial", "*.CIF"))
+        if "mixed" in sources: pats.append(os.path.join(ROOT, "structures", "generated_mixed", "*.CIF"))
         for p in sorted(q for pat in pats for q in glob.glob(pat)):
             try:
                 s0 = Structure.from_file(p)
@@ -114,22 +117,26 @@ def collect(sources, res_light, max_atoms):
             for re_ in res_light:
                 s = substitute_light(s0, re_)
                 if s is not None:
-                    src = "kagome" if "generated_kagome" in p else "generated"
+                    src = "kagome" if "generated_kagome" in p else ("interstitial" if "generated_interstitial" in p else ("mixed" if "generated_mixed" in p else "generated"))
                     cands.append((f"gen:{os.path.basename(p)}:{re_}", src, os.path.basename(p), s))
-    if "hosts" in sources:
+    if "hosts" in sources or "credible" in sources or "campaign" in sources:
+        # hosts     strongest-coupling credible Gd hosts (J_eff >= 0.5 or gap >= 250 meV)
+        # credible  every credible Gd host, weak couplers included (the GP decides)
+        # campaign  campaign compounds WITHOUT a credible fm/ferri label: their structures are
+        #           database-relaxed and fine as hosts; the f-in-core run has no +U and tends
+        #           to converge where the Gd pair did not
         feats = {r["compound"]: r for r in csv.DictReader(open(os.path.join(HERE, "analysis", "exchange_features.csv")))}
         res = json.load(open(os.path.join(HERE, "results.json")))
         for rel, rec in res.items():
-            if not rec.get("credible"):
-                continue
             name = rel.split("/")[-1]
             f = feats.get(name)
-            if not f:
-                continue
-            if float(f["J_eff"]) < 0.5 and abs(float(f["dE_per_RE_meV"])) < 250:
+            cred = bool(rec.get("credible"))
+            strong = cred and f and (float(f["J_eff"]) >= 0.5 or abs(float(f["dE_per_RE_meV"])) >= 250)
+            take = ("hosts" in sources and strong) or ("credible" in sources and cred) or ("campaign" in sources and not cred)
+            if not take:
                 continue
             p = os.path.join(HERE, "runs", rel, "ferri", "CONTCAR")
-            if not os.path.isfile(p):
+            if not os.path.isfile(p) or os.path.getsize(p) == 0:
                 p = os.path.join(HERE, "runs", rel, "ferri", "POSCAR")
             try:
                 s0 = Structure.from_file(p)
@@ -137,14 +144,57 @@ def collect(sources, res_light, max_atoms):
                 continue
             if len(s0) > max_atoms:
                 continue
+            src = "hosts" if strong else ("credible" if cred else "campaign")
             for re_ in res_light:
                 s = substitute_light(s0, re_)
                 if s is None:
                     continue
-                cands.append((f"host:{name}:{re_}", "hosts", name, s))
-                sc = partial_co(s, re_)
-                if sc is not None:
-                    cands.append((f"host:{name}:{re_}:Co", "hosts+Co", name, sc))
+                cands.append((f"host:{name}:{re_}", src, name, s))
+                if strong or "expand" in sources:
+                    sc = partial_co(s, re_)
+                    if sc is not None:
+                        cands.append((f"host:{name}:{re_}:Co", src + "+Co", name, sc))
+    if "expand" in sources:
+        # neighbourhood of the best labelled / best predicted candidates so far: the levers the
+        # data support, applied locally.  Reads labels.csv (measured h) if present, else the
+        # latest wave_<k>.csv (predicted), takes the top EXPAND_TOP by Ms x min(1, gap/100).
+        import glob as _g
+        rows = []
+        lab = os.path.join(OUT, "labels.csv")
+        if os.path.isfile(lab):
+            for r in csv.DictReader(open(lab)):
+                if r.get("h") and r.get("cid"):
+                    gap = 1574 * float(r["h"]) * {"Nd": 1.227, "Sm": 1.786, "Pr": 0.8}.get(r["re_el"], 1) / 3.5
+                    rows.append((float(r["mu0Ms_T"]) * min(1, gap / 100), r["cid"]))
+        else:
+            waves = sorted(_g.glob(os.path.join(OUT, "wave_*.csv")))
+            if waves:
+                for r in csv.DictReader(open(waves[-1])):
+                    rows.append((float(r["Ms_proj_T"]) * min(1, float(r["gap_pred_meV"]) / 100), r["cid"]))
+        rows.sort(reverse=True)
+        pool_rows = {r["cid"]: r for r in csv.DictReader(open(os.path.join(OUT, "pool.csv")))} if os.path.isfile(os.path.join(OUT, "pool.csv")) else {}
+        for _, cid in rows[:int(os.environ.get("EXPAND_TOP", 25))]:
+            pr = pool_rows.get(cid)
+            if not pr or not os.path.isfile(os.path.join(HERE, pr["poscar"])):
+                continue
+            s0 = Structure.from_file(os.path.join(HERE, pr["poscar"]))
+            re0 = pr["re_el"]
+            for re_ in ("Nd", "Sm", "Pr"):                       # RE swap
+                s = s0.copy(); s.replace_species({re0: re_})
+                if re_ != re0:
+                    cands.append((f"expand:{cid}:{re_}", "expand", pr["formula"], s))
+                for frac in (1 / 8, 2 / 8):                      # partial Co, two levels
+                    sc = partial_co(s, re_, frac)
+                    if sc is not None:
+                        cands.append((f"expand:{cid}:{re_}:Co{int(frac*8)}", "expand", pr["formula"], sc))
+                for et in ("Ti", "V", "Zr", "Nb"):               # one early-TM on the Fe site farthest from the RE
+                    se = s.copy()
+                    fe = [i for i, sp in enumerate(se.species) if sp.symbol == "Fe"]
+                    rei = [i for i, sp in enumerate(se.species) if sp.symbol == re_]
+                    if fe and rei:
+                        far = max(fe, key=lambda i: min(se.get_distance(i, j) for j in rei))
+                        se.replace(far, et)
+                        cands.append((f"expand:{cid}:{re_}:{et}", "expand", pr["formula"], se))
     # dedupe on reduced formula + space group
     seen, out = set(), []
     for tag, src, parent, s in cands:
@@ -162,7 +212,7 @@ def collect(sources, res_light, max_atoms):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--re", default="Nd,Sm")
-    ap.add_argument("--sources", default="recovered,generated,kagome,hosts")
+    ap.add_argument("--sources", default="recovered,generated,kagome,interstitial,mixed,hosts,credible,campaign", help="also: expand (neighbourhood of the best labelled/predicted candidates; EXPAND_TOP env)")
     ap.add_argument("--max-atoms", type=int, default=40)
     ap.add_argument("--limit", type=int, default=0, help="process at most N new candidates this call")
     ap.add_argument("--fmax", type=float, default=0.1, help="screening tolerance; VASP re-relaxes anyway")

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NdCrFe11C2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.72173583
+_cell_length_b   6.46416162
+_cell_length_c   6.46416162
+_cell_angle_alpha   98.08904543
+_cell_angle_beta   111.42137790
+_cell_angle_gamma   68.57862210
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdCrFe11C2
+_chemical_formula_sum   'Nd1 Cr1 Fe11 C2'
+_cell_volume   170.97591964
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.00171752  0.99828242  0.00171758  1
+  Cr  Cr1  1  0.63167148  0.36832848  0.63167152  1
+  Fe  Fe2  1  0.73308149  0.76691844  0.23308156  1
+  Fe  Fe3  1  0.26703753  0.23296241  0.76703759  1
+  Fe  Fe4  1  0.50022355  0.76777112  0.76821837  1
+  Fe  Fe5  1  0.50022355  0.23178163  0.23222888  1
+  Fe  Fe6  1  0.50154501  1.00112116  0.50342894  1
+  Fe  Fe7  1  0.00076265  1.00112115  0.50342907  1
+  Fe  Fe8  1  0.50154501  0.49657106  -0.00112116  1
+  Fe  Fe9  1  0.00076265  0.49657093  -0.00112115  1
+  Fe  Fe10  1  0.36428608  0.63571381  0.36428619  1
+  Fe  Fe11  1  0.99857224  0.36090555  0.35805016  1
+  Fe  Fe12  1  0.99857224  0.64194984  0.63909445  1
+  C  C13  1  0.42105263  0.00000000  0.00000000  1
+  C  C14  1  0.57894737  0.00000000  0.00000000  1

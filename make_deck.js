@@ -794,53 +794,116 @@ s.addText("Two traps the solver enforces: only ONE Stevens sign family is easy-a
 s.addNotes("A20 sign convention must be calibrated against a known compound first. Novamag is the natural calibration source.");
 
 // ================= 10c. EXPANDING THE POOL =================
+
+// ---------- flowchart helpers ----------
+function fbox(slide, x, y, w, h, title, sub, fill, tc, sc, fs) {
+  if (typeof sc === "number") { fs = sc; sc = undefined; }
+  slide.addShape(pres.ShapeType.roundRect, { x, y, w, h, rectRadius: 0.06, fill: { color: fill }, line: { color: fill, width: 0.5 } });
+  slide.addText(title, { x: x + 0.08, y: y + 0.06, w: w - 0.16, h: 0.26, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, bold: true, color: tc, align: "center" });
+  if (sub) slide.addText(sub, { x: x + 0.08, y: y + 0.32, w: w - 0.16, h: h - 0.36, isTextBox: true, margin: 0, fontFace: BF, fontSize: fs || 8, color: sc || tc, align: "center", valign: "top" });
+}
+function farrow(slide, x1, y1, x2, y2, color) {
+  slide.addShape(pres.ShapeType.line, { x: Math.min(x1, x2), y: Math.min(y1, y2), w: Math.abs(x2 - x1), h: Math.abs(y2 - y1),
+    flipH: x2 < x1, flipV: y2 < y1, line: { color: color || "7A8DA8", width: 1.4, endArrowType: "triangle" } });
+}
+const LB = "E3F0F6", LBt = "1F5F7A";   // light blue: data
+const LP = "EEEDFE", LPt = "3C3489";   // purple: model
+const LC = "FCEDE8", LCt = "8A3B2E";   // coral: DFT / NERSC
+const LG = "EEF2F7", LGt = INK;        // grey: step
+
+// ================= 10a. CANDIDATE GENERATION =================
 s = pres.addSlide();
-titleBar(s, "BEYOND WHAT THE DATABASES HOLD", "Generating candidates: decoration, then symmetry", false);
-
-card(s, M, 1.66, 6.0, 3.35);
-s.addText("Prototype decoration  —  run this", {
-  x: M + 0.32, y: 1.86, w: 5.4, h: 0.32, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 15, bold: true, color: RE });
-s.addText("Substitute the X site of each named magnet prototype through a magnet-relevant palette (Al, Si, Ga, Ge, B, C, N, P, Sn, Sb, Ti, V, Cr, Zr, Nb, Mo, W, Hf, Ta), plus an Fe↔Co swap. Chemically conservative, and historically how most real magnets were found.",
-  { x: M + 0.32, y: 2.24, w: 5.4, h: 1.0, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11.5, color: MUTE });
-const gen = [["CaCu₅-RT₄X", 61], ["ThMn₁₂-stabilized", 21], ["Th₂Zn₁₇-interstitial", 21],
-             ["LaCo₉Si₄", 21], ["Nd₂Fe₁₄B", 20], ["RT₃ / Th₂Zn₁₇", 2]];
-gen.forEach(([n, k], i) => {
-  const y = 3.20 + i * 0.24;
-  s.addText(n, { x: M + 0.32, y, w: 3.4, h: 0.22, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11, color: INK });
-  s.addShape(pres.ShapeType.roundRect, { x: M + 3.75, y: y + 0.04, w: k / 61 * 1.5, h: 0.16,
-    rectRadius: 0.03, fill: { color: RE } });
-  s.addText(String(k), { x: M + 5.35, y, w: 0.5, h: 0.24, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11, bold: true, color: RE });
+titleBar(s, "CANDIDATE GENERATION", "Seven sources feed one pool; every structure gets the same relaxation, hull and descriptors", false);
+const srcs = [
+  ["Database structures", "GNoME · MP · Alexandria · OQMD\n903 formulas with a CIF\n+147 recovered this week (MP by id)", "134 in pool", LB, LBt],
+  ["Campaign hosts", "180 credible Gd hosts (all, not only strong)\n+189 compounds without a credible label\n(f-in-core has no +U: they converge)", "656 in pool", LB, LBt],
+  ["Prototype decoration", "CaCu₅-RT₄X, ThMn₁₂, Th₂Zn₁₇, Nd₂Fe₁₄B,\nLaCo₉Si₄ × 19-element X palette\n146 Gd cells → Nd and Sm", "252 in pool", LG, LGt],
+  ["Kagome RT₆X₆", "HfFe₆Ge₆-type P6/mmm; Fe₆, Co₆, Fe₅Co\n× Sn, Ge, Si, Ga, Al; + channel vacancy\n(none passes Ms ≥ 1.5 T: Fe density 3.2)", "60 in pool", LG, LGt],
+  ["Interstitial N / C", "largest RE-adjacent void of every Fe-rich\npasser (2b in 1:12, 9e in 2:17, GNoME\nchannels); dilute + full occupation", "224 cells", GOLD, "5A3E00"],
+  ["Mixed-RE fractional 1:12", "2-f.u. supercells: (Nd,Pr,Sm)₂Fe₂₁V₃N₀₋₂\n= RFe₁₀.₅V₁.₅N₀₋₁, the real magnet\ncomposition class", "9 cells", GOLD, "5A3E00"],
+  ["Neighbourhood expansion", "after each wave: top-25 labelled winners\n× RE swap, Co ⅛ and ¼, early TM on the\nfar Fe site, N - the data-backed levers", "wave ≥ 2", LP, LPt],
+];
+srcs.forEach(([h, d, n, fill, tc], i) => {
+  const col = i % 4, row = Math.floor(i / 4);
+  const x = M + col * 3.0, y = 1.6 + row * 1.85;
+  fbox(s, x, y, 2.8, 1.65, h, d, fill, tc, tc, 9.5);
+  s.addText(n, { x: x + 0.1, y: y + 1.32, w: 2.6, h: 0.28, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, bold: true, color: tc, align: "center" });
 });
-s.addText("146 new candidates — including GdFe₁₁Si / GdAlFe₁₁ / GdFe₁₁N, the real 1-12 magnet chemistry",
-  { x: M + 0.32, y: 4.58, w: 5.4, h: 0.4, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11, bold: true, color: RE });
+fbox(s, M + 9.0, 3.45, 2.8, 1.65, "The pool today", "1,220 unique structures relaxed\nall with a same-model hull energy\n94 pass hull ≤ 30 meV and Ms ≥ 1.5 T\n→ Thompson sampling draws the wave", NAVY2, GOLD, "C6D2E4");
+s.addText("Generated ≠ stable: database candidates arrive with a hull distance, generated ones do not - which is why every source goes through the MACE hull before the GP ever sees it (next slide).",
+  { x: M, y: 5.45, w: W, h: 0.5, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, italic: true, color: INK });
+card(s, M, 6.05, W, 0.7, NAVY2);
+s.addText("Learnt from building the pool: the generators that add feasible candidates are the Fe-dense ones (2:17, 1:12, 3:29 frameworks, their nitrides and Co variants); kagome and metalloid-rich cages are stable but cannot reach 1.5 T. Generation is cheap, so breadth costs nothing - the thresholds do the selecting.",
+  { x: M + 0.25, y: 6.05, w: W - 0.5, h: 0.7, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.8, color: "C6D2E4", valign: "middle" });
+s.addNotes("Counts from analysis/pool/pool.csv at the time of the wave-1 redraw. Dedupe is on (reduced formula, space group); the same host can appear from several sources, the lowest-hull copy is kept.");
 
-card(s, 7.0, 1.66, 5.6, 3.35, PANEL);
-s.addText("Wyckoff generation  —  second priority", {
-  x: 7.32, y: 1.86, w: 5.0, h: 0.32, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 15, bold: true, color: MUTE });
-s.addText("Place the stoichiometry on the symmetry orbits of a target space group. Reaches genuinely new frameworks rather than re-decorating known ones — but the structures come out unrelaxed, the hit rate is low, and the volume (10⁴–10⁵) only makes sense behind a machine-learned potential.",
-  { x: 7.32, y: 2.24, w: 5.0, h: 1.15, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11.5, color: MUTE });
-s.addText("Neither generator produces a hull distance — which is the whole point of the ≤ 0.2 eV/atom criterion.",
-  { x: 7.32, y: 3.5, w: 5.0, h: 0.55, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11.5, bold: true, color: INK });
-s.addText("MLIP-relax (MACE / CHGNet) → E_hull against MP + Alexandria → keep ≤ 0.2 eV/atom → only then DFT.",
-  { x: 7.32, y: 4.05, w: 5.0, h: 0.6, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11.5, color: FE });
+// ================= 10b. SUBSTITUTION AND SCREENING =================
+s = pres.addSlide();
+titleBar(s, "FROM PROTOTYPE TO POOL ROW", "Substitution rules, then two surrogate screens, then descriptors - no DFT until the wave", false);
+const y0 = 1.75;
+fbox(s, M, y0, 2.2, 1.5, "Source cell", "heavy-RE placeholder (Gd)\nor light-RE cell from a\ngenerator", LB, LBt);
+fbox(s, M + 2.55, y0, 2.6, 1.5, "Substitution rules", "Gd → Nd, Sm (Pr in expansion)\nFe → Co, ⅛ nearest the RE\nearly TM on the far Fe site\nN / C into RE-adjacent voids", LG, LGt);
+fbox(s, M + 5.5, y0, 2.0, 1.5, "Dedupe", "(reduced formula,\nspace group)\nlowest hull kept", LG, LGt);
+fbox(s, M + 7.85, y0, 2.0, 1.5, "MACE-MP-0 relax", "cell + positions\nfmax 0.1 eV/Å, ≤120 steps\n~30 s per cell on CPU", LP, LPt);
+fbox(s, M + 10.2, y0, 1.7, 1.5, "Same-model hull", "MP competitors ≤100 meV\nre-relaxed with MACE\n→ E_hull", LP, LPt);
+farrow(s, M + 2.2, y0 + 0.75, M + 2.55, y0 + 0.75); farrow(s, M + 5.15, y0 + 0.75, M + 5.5, y0 + 0.75);
+farrow(s, M + 7.5, y0 + 0.75, M + 7.85, y0 + 0.75); farrow(s, M + 9.85, y0 + 0.75, M + 10.2, y0 + 0.75);
+const y1 = 3.75;
+fbox(s, M + 10.2, y1, 1.7, 1.5, "Descriptors", "15 geometry numbers\n+ RE one-hot\n(wave_features.py)", LP, LPt);
+fbox(s, M + 7.85, y1, 2.0, 1.5, "Analytic Ms", "Σ TM moments (campaign\nmedians) + free-ion RE\n÷ relaxed volume", LG, LGt);
+fbox(s, M + 5.5, y1, 2.0, 1.5, "pool.csv row", "cid · formula · source\nE_hull · Ms · descriptors\n→ POSCAR_mace", LB, LBt);
+fbox(s, M + 2.55, y1, 2.6, 1.5, "Hard filters", "E_hull ≤ 30 meV/atom\n(MACE noise ≈ 30)\nMs_proj ≥ 1.5 T", LC, LCt);
+fbox(s, M, y1, 2.2, 1.5, "→ GP + sampling", "feasible set\n(94 of 1,220 today)\nnext slide", LP, LPt);
+farrow(s, M + 11.05, y0 + 1.5, M + 11.05, y1);
+farrow(s, M + 10.2, y1 + 0.75, M + 9.85, y1 + 0.75); farrow(s, M + 7.85, y1 + 0.75, M + 7.5, y1 + 0.75);
+farrow(s, M + 5.5, y1 + 0.75, M + 5.15, y1 + 0.75); farrow(s, M + 2.55, y1 + 0.75, M + 2.2, y1 + 0.75);
+const desc = ["N_TM_nn, d_RE-TM (mean, min)", "f_Fe, f_Co, 3d count, TM per RE, dilution", "TM density, volume per atom", "early-TM fraction", "metalloid / H / N / C atoms in the RE shell"];
+s.addText("The 15 descriptors (all pre-DFT):  " + desc.join("  ·  "),
+  { x: M, y: 5.5, w: W, h: 0.45, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: MUTE });
+s.addText("Why two surrogates: MACE answers 'does this cell exist' (stability, geometry) at 30 s per structure; the GP answers 'is it worth a VASP run' (coupling) from the geometry MACE produced. Neither replaces the DFT label - they decide which 120 of the 1,220 get one.",
+  { x: M, y: 6.0, w: W, h: 0.7, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, italic: true, color: INK });
 
-card(s, M, 5.2, W, 1.1, NAVY2);
-s.addText("Generated ≠ stable", { x: M + 0.32, y: 5.35, w: 3, h: 0.3, isTextBox: true, margin: 0,
-  fontFace: BF, fontSize: 13.5, bold: true, color: GOLD });
-s.addText("Database candidates arrive with a hull distance; generated ones do not. For 146 decorations the MLIP filter costs minutes — for a Wyckoff sweep it is the only thing that makes DFT affordable at all.",
-  { x: M + 0.32, y: 5.68, w: W - 0.7, h: 0.5, isTextBox: true, margin: 0,
-    fontFace: BF, fontSize: 11.5, color: "C6D2E4" });
+// ================= 10c. THE GP AND ITS LOSS =================
+s = pres.addSlide();
+titleBar(s, "THE GP, WHAT IT FITS, HOW IT PICKS", "Two-stage model on the 5d polarisation h; batch Thompson sampling under the magnet constraints", false);
+fbox(s, M, 1.6, 3.7, 1.85, "1 · Training rows", "179 credible Gd pairs: label h = −½[m₅d(ferri) + m₅d(fm)]\n+ every ingested f-in-core wave run: h read directly\nfeatures = 15 descriptors + RE one-hot, standardised", LB, LBt, 10);
+fbox(s, M + 4.1, 1.6, 3.7, 1.85, "2 · Mean function (ridge)", "w = argmin ‖h − Xw‖² + α‖w‖²,  α = 1\nthe physics the 180 labels already fixed:\ndistance, coordination, Co fraction, dilution", LP, LPt, 10);
+fbox(s, M + 8.2, 1.6, 3.7, 1.85, "3 · GP on the residual r = h − Xw", "k = σ²·Matern₅⁄₂(ℓ₁…ℓ₁₉) + σₙ²\nhyperparameters maximise the log marginal likelihood\nlog p(r|X) = −½ rᵀK⁻¹r − ½ log|K| − (n/2) log 2π\n→ posterior mean μ(x), std σ(x)", LP, LPt, 10);
+farrow(s, M + 3.7, 2.52, M + 4.1, 2.52); farrow(s, M + 7.8, 2.52, M + 8.2, 2.52);
+fbox(s, M, 3.85, 3.7, 1.95, "4 · Stage two (deterministic)", "gap_RE = 1574 · h · (gJ−1)J_RE / 3.5\nT* = gap_RE / 2k_B\nMs from the pool row (analytic)\nno fitted parameter beyond 1574", LG, LGt, 10);
+fbox(s, M + 4.1, 3.85, 3.7, 1.95, "5 · Validation before use", "10-fold CV on the 179 Gd labels:\nr = 0.88, RMSE 0.018 μB (label sd 0.038)\n91 % of held-out labels inside ±2σ\nH1 check on every wave: measured h vs predicted", LC, LCt, 10);
+fbox(s, M + 8.2, 3.85, 3.7, 1.95, "6 · Batch Thompson sampling", "per pick: one joint posterior draw h̃ over the pool\nfeasible if gap̃_RE ≥ 100 meV, Ms ≥ 1.5 T, E_hull ≤ 30\nutility U = Ms · min(1, gap̃ / 100, 9.5); take argmax\nrepeat until the wave is full; family cap by (SG, TM:RE)", GOLD, "5A3E00");
+farrow(s, M + 10.05, 3.45, M + 10.05, 3.85); farrow(s, M + 1.85, 3.45, M + 1.85, 3.85); farrow(s, M + 5.95, 3.45, M + 5.95, 3.85);
+s.addText("Loss, precisely: the ridge minimises squared error on h; the GP hyperparameters maximise the marginal likelihood of the residuals (not a point loss, so σ is calibrated); nothing is fitted to the acquisition. Posterior uncertainty is what makes the batch diverse - no κ to tune.",
+  { x: M, y: 6.0, w: W, h: 0.55, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, italic: true, color: INK });
+s.addText("Honest limits: the GP has 179 points in 19 dimensions, so it extrapolates with wide σ outside the campaign chemistry - which is exactly where Thompson sampling then spends runs. The 1574·h calibration is Gd-derived; H1 tests whether it transfers to f-in-core Nd/Sm, and the RE one-hot lets the model learn a bias if it does not.",
+  { x: M, y: 6.55, w: W, h: 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: MUTE });
 
-// ================= 10. ACTIVE LEARNING WORKFLOW =================
+// ================= 10d. WAVES AND GENERATIONS =================
+s = pres.addSlide();
+titleBar(s, "WAVES AND GENERATIONS", "One packed Perlmutter job per 48 h; each wave is drawn from the pool the previous one taught", false);
+const gens = [
+  ["Wave 1 · global", "pool = 7 sources (1,220)\nTS draws 120 under the thresholds\n→ 120 f-in-core relaxations\n60 nodes · 4 h · ~29 h queue", LB, LBt],
+  ["Ingest", "mirror → h, Ms, V per run\nlabels.csv (+120 rows)\nH1: measured vs predicted h\nGP re-fit, 10-fold CV", LP, LPt],
+  ["Wave 2 · local + global", "pool = remainder\n+ expand(top-25 winners)\n+ new prototypes added by hand\nTS draws 120 again", LB, LBt],
+  ["Ingest", "labels.csv (+120)\nPareto front of (gap_RE, Ms, E_hull)\nhas it moved?", LP, LPt],
+  ["Wave k", "same loop; pool grows by\nneighbourhoods of each\nwave's winners", LB, LBt],
+  ["Stop", "feasible count → 0, or\nfront unchanged 2 waves, or\nH1 fails (r < 0.5): retrain on\nf-in-core rows only", LC, LCt],
+];
+gens.forEach(([h, d, fill, tc], i) => {
+  const x = M + i * 2.0;
+  fbox(s, x, 1.7, 1.85, 1.75, h, d, fill, tc, tc, 9);
+  if (i < 5) farrow(s, x + 1.85, 2.57, x + 2.0, 2.57);
+});
+// generation detail
+fbox(s, M, 3.75, 5.7, 1.9, "What 'expand' generates from a winner", "RE swap  Nd ↔ Sm ↔ Pr on the same cell\nCo  ⅛ and ¼ of Fe, the sites nearest the RE first\nearly TM  one Ti / V / Zr / Nb on the Fe site farthest from the RE\nN  into the largest RE-adjacent void (dilute and full)\neach variant → MACE relax → same-model hull → descriptors → pool", LG, LGt, 10.5);
+fbox(s, M + 6.2, 3.75, 5.7, 1.9, "What a wave returns, per cell", "relaxed volume and pressure (did N / Nd fit?)\nFe / Co sublattice moments → Ms with the free-ion RE added\nh = RE s+p+d polarisation → gap_RE, T*, B_RT via 1574·h\nconvergence flags; everything appended as a training row\nno fm/ferri pair, no +U: one run is one label", LC, LCt, 10.5);
+s.addText("Cadence: plan (minutes) → push → submit → queue 1-2 d → run 3 h → ingest (minutes). Scripts: wave_pool.py · wave_gp.py · wave_inputs.py · submit_batch.sh · sync_results.sh · wave_ingest.py, driven by wave_loop.sh; DEPLOY_NERSC.md puts the whole loop on a Perlmutter login node with scrontab.",
+  { x: M, y: 5.85, w: W, h: 0.5, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: MUTE });
+card(s, M, 6.45, W, 0.6, NAVY2);
+s.addText("Each wave answers a question, not just adds points: wave 1 - do the Gd-derived rules transfer to Nd/Sm (H1)? wave 2 - do the levers compose on the winners (H4)? later waves - where does the Pareto front of coupling, Ms and stability stop moving?",
+  { x: M + 0.25, y: 6.45, w: W - 0.5, h: 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.8, color: "C6D2E4", valign: "middle" });
+
 // ================= CLOSING: GP + CAUSAL + GENERATIVE =================
 s = pres.addSlide();
 s.background = { color: NAVY };

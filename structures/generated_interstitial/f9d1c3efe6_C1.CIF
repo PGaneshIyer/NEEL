@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NdAl2Fe10C
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.82525591
+_cell_length_b   6.52985844
+_cell_length_c   6.52985842
+_cell_angle_alpha   96.95177426
+_cell_angle_beta   111.68331755
+_cell_angle_gamma   68.31667791
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdAl2Fe10C
+_chemical_formula_sum   'Nd1 Al2 Fe10 C1'
+_cell_volume   177.62907257
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.00000000  -0.00000000  0.00000000  1
+  Al  Al1  1  0.72681346  0.77318652  0.22681349  1
+  Al  Al2  1  0.27318654  0.22681348  0.77318651  1
+  Fe  Fe3  1  0.63914846  0.36085158  0.63914842  1
+  Fe  Fe4  1  0.36085154  0.63914842  0.36085158  1
+  Fe  Fe5  1  -0.00000002  0.35816442  0.35816442  1
+  Fe  Fe6  1  0.00000002  0.64183558  0.64183558  1
+  Fe  Fe7  1  0.50000001  0.76092536  0.76092536  1
+  Fe  Fe8  1  0.49999999  0.23907464  0.23907464  1
+  Fe  Fe9  1  0.50000000  -0.00000000  0.50000000  1
+  Fe  Fe10  1  0.00000000  -0.00000000  0.50000000  1
+  Fe  Fe11  1  0.50000000  0.50000000  0.00000000  1
+  Fe  Fe12  1  0.00000000  0.50000000  0.00000000  1
+  C  C13  1  0.57894737  0.00000000  0.00000000  1
