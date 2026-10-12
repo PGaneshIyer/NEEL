@@ -1035,6 +1035,57 @@ s.addText("Loop 2 so far: 'the gap is set by h' became the GP mean and the one-r
   { x: M + 0.25, y: 6.55, w: W - 0.5, h: 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: INK, valign: "middle" });
 s.addNotes("Adapted from the two-loop picture (operational loop + causal/interpretable loop). Differences in NEEL: the MLIP filter sits BEFORE the GP (constraints first, surrogate on survivors); generation precedes acquisition (one cannot score what does not exist), with the generator conditioned by loop 2's levers; the interpretable pipeline is effect sizes -> hand-specified structural causal model validated on the data -> symbolic rule, rather than a long tool chain (RF/SOM/EBM/SymReg/LogReg/ENCO), because 180-300 labels in 15-19 dimensions do not support data-driven causal discovery; 'disambiguation targets' are implemented as contrast experiments (same host, one lever changed) that the acquisition reserves slots for.");
 
+
+// ================= 10r. TWO LOOPS, EXTENDED =================
+s = pres.addSlide();
+titleBar(s, "TWO LOOPS, EXTENDED", "Same loops, two additions: a conditional diffusion generator, and a fuller interpretable pipeline feeding it", false);
+{
+const yT = 1.6, hT = 1.35, wT = 2.2, gap = 0.22;
+const xs = [M, M + (wT + gap), M + 2 * (wT + gap), M + 3 * (wT + gap), M + 4 * (wT + gap)];
+const NEWC = "8A6A1E";
+lbox(s, xs[0], yT, wT, hT, "Generators", "rule-based (now)\n+ conditional diffusion model\n(MatterGen / DOSMatGen class)", GOLD, "3D2E00", "5A3E00");
+s.addText("NEW", { x: xs[0] + wT - 0.55, y: yT + 0.05, w: 0.5, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8, bold: true, color: FE, align: "right" });
+lbox(s, xs[1], yT, wT, hT, "MLIP filter", "MACE relax · same-model hull\nE_hull ≤ 30 meV · Ms ≥ 1.5 T", NAVY2, WHITE, "C6D2E4");
+lbox(s, xs[2], yT, wT, hT, "GP surrogate", "mean = extracted rules\n+ Matern residual on h", NAVY2, WHITE, "C6D2E4");
+lbox(s, xs[3], yT, wT, hT, "Acquisition", "Thompson batches\n+ disambiguation slots\n+ 'novelty' slots for generated cells", NAVY2, WHITE, "C6D2E4");
+lbox(s, xs[4], yT, wT, hT, "DFT, then experiment", "one f-in-core run per cell\n→ h, Ms, V  (ground truth)", "C6472A", WHITE, "FBE3DC");
+for (let i = 0; i < 4; i++) farrow(s, xs[i] + wT, yT + hT / 2, xs[i + 1], yT + hT / 2, INK);
+// loop-2 box with the interpretable chain
+const yL = 3.75, hL = 2.1, xL = xs[0] + 0.3, wL = xs[4] + wT - xs[0] - 0.6;
+s.addShape(pres.ShapeType.rect, { x: xL - 0.15, y: yL - 0.3, w: wL + 0.3, h: hL + 0.6, fill: { color: WHITE, transparency: 100 }, line: { color: FE, width: 2, dashType: "dash" } });
+s.addShape(pres.ShapeType.rect, { x: xL, y: yL, w: wL, h: hL, fill: { color: TEAL }, line: { color: TEAL, width: 0.5 } });
+s.addText("Understanding loop: interpretable pipeline  RF → SOM → EBM → SymReg → LogReg → ENCO", { x: xL + 0.2, y: yL + 0.1, w: wL - 0.4, h: 0.3, isTextBox: true, margin: 0, fontFace: BF, fontSize: 12.5, bold: true, color: WHITE, align: "center" });
+const chain = [
+  ["RF", "random forest on the labels: which descriptors carry the signal (done: 5d polarisation, distance, Co)"],
+  ["SOM", "self-organising map: cluster hosts into families; shows which families the waves have not sampled"],
+  ["EBM", "explainable boosting: additive per-descriptor curves - the shape of each lever, not only its sign"],
+  ["SymReg", "symbolic regression: closed forms (done by hand: ΔE = 1574·h; next: h = f(distance, Z, Co))"],
+  ["LogReg", "feasibility classifier: P(hull ∧ Ms ∧ gap) from geometry - a cheap pre-filter before MACE"],
+  ["ENCO", "causal discovery using the waves as interventions: tests the hand-built graph (host → S₅d → gap) and finds edges we missed"],
+];
+chain.forEach(([h, d], i) => {
+  const cx = xL + 0.2 + (i % 3) * ((wL - 0.4) / 3), cy = yL + 0.5 + Math.floor(i / 3) * 0.78;
+  s.addText(h, { x: cx, y: cy, w: 0.85, h: 0.24, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, bold: true, color: "FFF3D6" });
+  s.addText(d, { x: cx + 0.85, y: cy, w: (wL - 0.4) / 3 - 1.0, h: 0.72, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.3, color: "F0F7F8" });
+});
+// edges
+const dash2 = (x1, y1, x2, y2, color) => s.addShape(pres.ShapeType.line, { x: Math.min(x1, x2), y: Math.min(y1, y2), w: Math.abs(x2 - x1), h: Math.abs(y2 - y1), flipH: x2 < x1, flipV: y2 < y1, line: { color: color || "7A8DA8", width: 1.4, dashType: "dash", endArrowType: "triangle" } });
+dash2(xs[4] + wT / 2, yT + hT, xs[4] + wT / 2, yL);                 // results -> loop 2
+dash2(xs[2] + 0.5, yL, xs[2] + 0.5, yT + hT);                       // rules -> GP mean
+dash2(xs[3] + 1.1, yL, xs[3] + 1.1, yT + hT);                       // targets -> acquisition
+dash2(xs[0] + 0.5, yL, xs[0] + 0.5, yT + hT, FE);                   // conditioning -> diffusion
+dash2(xs[2] + 1.6, yT + hT, xs[0] + wT, yT + hT + 0.9, FE);         // GP posterior -> diffusion (inverse design)
+s.addText("DFT results", { x: xs[4] + wT / 2 + 0.08, y: yT + hT + 0.08, w: 1.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
+s.addText("rules → mean", { x: xs[2] + 0.58, y: yT + hT + 0.08, w: 1.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
+s.addText("disambiguation targets", { x: xs[3] + 1.18, y: yT + hT + 0.3, w: 1.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
+s.addText("causal parents = conditioning variables", { x: xs[0] + 0.58, y: yT + hT + 0.08, w: 2.4, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: FE });
+s.addText("GP posterior → inverse design toward the empty Pareto corner", { x: xs[0] + wT + 0.1, y: yT + hT + 0.55, w: 3.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: FE });
+card(s, M, 6.3, W, 0.85, PANEL);
+s.addText("Minor modifications, in order: (1) add the diffusion model as one more generator - its proposals enter the same MLIP filter and the same GP; (2) condition it on the variables the causal graph names as parents of coupling and Ms, so it proposes short-bonded, Fe-dense, Co-tuned, H-free frameworks; (3) reserve acquisition slots for generated cells so novelty is sampled, not just exploited; (4) once waves give interventional data, run ENCO to audit the hand-built graph. Nothing downstream of the generator changes.",
+  { x: M + 0.25, y: 6.3, w: W - 0.5, h: 0.85, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.3, color: INK, valign: "middle" });
+}
+s.addNotes("Pipeline names follow the two-loop slide shared by the user: RF = random forest, SOM = self-organising map, EBM = explainable boosting machine, SymReg = symbolic regression, LogReg = logistic regression, ENCO = Efficient Neural Causal Discovery (Lippe et al. 2022), which uses interventional data - here each wave's substitutions are the interventions. Caveat: with a few hundred labels the data-driven causal discovery should be read as an audit of the hand-specified SCM, not a replacement for it.");
+
 // ================= 10a. CANDIDATE GENERATION =================
 s = pres.addSlide();
 titleBar(s, "CANDIDATE GENERATION", "Seven sources feed one pool; every structure gets the same relaxation, hull and descriptors", false);
