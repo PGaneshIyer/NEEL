@@ -47,23 +47,28 @@ for c in ("Fe", "Co", "Fe+Co"):
 xx = np.linspace(0, 0.32, 10)
 ax.plot(xx, k * xx, color=INK, lw=1.4, ls="--", label=f"|ΔE| = {k:.0f}·h meV   (r = {r:.2f}, through origin)")
 # validation / reference points
-marks = {"GdFe2_validation": "GdFe₂", "Co17Gd2_sub": "Gd₂Co₁₇", "BFe14Gd2_nat": "Gd₂Fe₁₄B",
-         "Fe5GdV_nat": "GdFe₁₀V₂", "Fe17Gd2H3_nat": "Gd₂Fe₁₇H₃ (suspect)"}
+marks = {"GdFe2_validation": "GdFe₂", "Co17Gd2_sub": "Gd₂Co₁₇ (no expt. J_RT)", "BFe14Gd2_nat": "Gd₂Fe₁₄B",
+         "Fe5GdV_nat": "GdFe₁₀V₂", "Fe17Gd2N2_nat": "Gd₂Fe₁₇N₂", "Fe17Gd2H3_nat": "Gd₂Fe₁₇H₃ (suspect)"}
 # experiment-implied gap: J_RT(expt) x 4 S_R S_T Z_RT, placed at the compound's own h
 import csv as _csv
 feat = {r["compound"]: r for r in _csv.DictReader(open(os.path.join(HERE, "analysis/exchange_features.csv")))}
 EXPT = {"GdFe2_validation": 2.99, "BFe14Gd2_nat": 1.46, "Fe5GdV_nat": 1.30}
+APPROX = {"Fe17Gd2N2_nat": 1.30}     # Ho2Fe17 INS value (Loewenhaupt, 1.2-1.4) stood in for the 2:17 Fe framework
 for n, lab in marks.items():
     if n in names:
         i = names.index(n)
         ax.scatter([H[i]], [D[i]], s=120, facecolor="none", edgecolor=GOLD, linewidth=2.0, zorder=5)
-        off = {"GdFe2_validation": (10, -16), "Fe17Gd2H3_nat": (8, -22), "Co17Gd2_sub": (10, -22), "BFe14Gd2_nat": (-62, 12), "Fe5GdV_nat": (-72, -20)}[n]
+        off = {"GdFe2_validation": (10, -16), "Fe17Gd2H3_nat": (8, -22), "Co17Gd2_sub": (10, -24), "BFe14Gd2_nat": (-62, 12), "Fe5GdV_nat": (-72, -20), "Fe17Gd2N2_nat": (-70, 10)}[n]
         ax.annotate(lab, (H[i], D[i]), textcoords="offset points", xytext=off, fontsize=7.5, color=INK)
         if n in EXPT:
             f = feat[n]; gap_x = EXPT[n] / 1.602 * 4 * 3.5 * float(f["m_TM_avg"]) / 2 * float(f["N_TM_nn"])
             ax.scatter([H[i]], [gap_x], marker="*", s=150, c="white", edgecolor=FE, linewidth=1.4, zorder=7)
+        if n in APPROX:
+            f = feat[n]; gap_x = APPROX[n] / 1.602 * 4 * 3.5 * float(f["m_TM_avg"]) / 2 * float(f["N_TM_nn"])
+            ax.scatter([H[i]], [gap_x], marker="*", s=150, c="white", edgecolor=MUTE, linewidth=1.2, linestyle="--", zorder=7)
 ax.scatter([], [], s=120, facecolor="none", edgecolor=GOLD, linewidth=2.0, label="circled: compounds with a measured J_RT")
 ax.scatter([], [], marker="*", s=150, c="white", edgecolor=FE, linewidth=1.4, label="star: gap implied by the experimental J_RT")
+ax.scatter([], [], marker="*", s=150, c="white", edgecolor=MUTE, linewidth=1.2, label="grey star: Ho₂Fe₁₇ value stood in for the 2:17 framework")
 # Tao hosts: their Y / f-frozen Sm site moment is h directly
 tao = {"SmFe₅": 0.25, "Sm₃Fe₁₄Mn": 0.24, "Sm₃Fe₁₄Cr": 0.27, "Y₂Fe₇": 0.33, "Y₃Fe₁₄Mn": 0.25, "Y₃Fe₁₄Cr": 0.27}
 for j, (n, h) in enumerate(tao.items()):
