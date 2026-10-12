@@ -1074,12 +1074,14 @@ dash2(xs[4] + wT / 2, yT + hT, xs[4] + wT / 2, yL);                 // results -
 dash2(xs[2] + 0.5, yL, xs[2] + 0.5, yT + hT);                       // rules -> GP mean
 dash2(xs[3] + 1.1, yL, xs[3] + 1.1, yT + hT);                       // targets -> acquisition
 dash2(xs[0] + 0.5, yL, xs[0] + 0.5, yT + hT, FE);                   // conditioning -> diffusion
-dash2(xs[2] + 1.6, yT + hT, xs[0] + wT, yT + hT + 0.9, FE);         // GP posterior -> diffusion (inverse design)
+s.addShape(pres.ShapeType.line, { x: xs[2] + 1.6, y: yT + hT, w: 0, h: 0.42, line: { color: FE, width: 1.4, dashType: "dash" } });
+s.addShape(pres.ShapeType.line, { x: xs[0] + wT - 0.4, y: yT + hT + 0.42, w: xs[2] + 1.6 - (xs[0] + wT - 0.4), h: 0, line: { color: FE, width: 1.4, dashType: "dash" } });
+s.addShape(pres.ShapeType.line, { x: xs[0] + wT - 0.4, y: yT + hT, w: 0, h: 0.42, line: { color: FE, width: 1.4, dashType: "dash", endArrowType: "triangle" }, flipV: true });   // GP posterior -> diffusion (inverse design)
 s.addText("DFT results", { x: xs[4] + wT / 2 + 0.08, y: yT + hT + 0.08, w: 1.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
-s.addText("rules → mean", { x: xs[2] + 0.58, y: yT + hT + 0.08, w: 1.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
+s.addText("rules → mean", { x: xs[2] + 0.58, y: yT + hT + 0.68, w: 1.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
 s.addText("disambiguation targets", { x: xs[3] + 1.18, y: yT + hT + 0.3, w: 1.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
 s.addText("causal parents = conditioning variables", { x: xs[0] + 0.58, y: yT + hT + 0.08, w: 2.4, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: FE });
-s.addText("GP posterior → inverse design toward the empty Pareto corner", { x: xs[0] + wT + 0.1, y: yT + hT + 0.55, w: 3.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: FE });
+s.addText("GP posterior → inverse design toward the empty Pareto corner", { x: xs[0] + wT + 0.3, y: yT + hT + 0.46, w: 3.6, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: FE });
 card(s, M, 6.3, W, 0.85, PANEL);
 s.addText("Minor modifications, in order: (1) add the diffusion model as one more generator - its proposals enter the same MLIP filter and the same GP; (2) condition it on the variables the causal graph names as parents of coupling and Ms, so it proposes short-bonded, Fe-dense, Co-tuned, H-free frameworks; (3) reserve acquisition slots for generated cells so novelty is sampled, not just exploited; (4) once waves give interventional data, run ENCO to audit the hand-built graph. Nothing downstream of the generator changes.",
   { x: M + 0.25, y: 6.3, w: W - 0.5, h: 0.85, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.3, color: INK, valign: "middle" });
