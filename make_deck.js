@@ -991,6 +991,50 @@ s.addText("Every variant → MACE relax → same-model hull → descriptors → 
   { x: 6.9, y: 6.05, w: 5.45, h: 0.55, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, italic: true, color: INK });
 s.addNotes("Counts: 146 original decorations (first six rows of the old slide 24, by prototype), 30 kagome, 224 interstitial cells on 60 Fe-rich passers, 9 mixed 1:12 supercells, 369 campaign host structures (180 credible + 189 unlabelled).");
 
+
+// ================= 10q. TWO LOOPS =================
+s = pres.addSlide();
+titleBar(s, "TWO LOOPS", "An operational loop that proposes and tests; an understanding loop that explains and feeds back", false);
+const TEAL = "3E9AA8";
+function lbox(slide, x, y, w, h, t1, t2, fill, tc1, tc2, fs1, fs2) {
+  slide.addShape(pres.ShapeType.rect, { x, y, w, h, fill: { color: fill }, line: { color: fill, width: 0.5 } });
+  slide.addText(t1, { x: x + 0.1, y: y + 0.12, w: w - 0.2, h: 0.36, isTextBox: true, margin: 0, fontFace: BF, fontSize: fs1 || 13, bold: true, color: tc1, align: "center" });
+  slide.addText(t2, { x: x + 0.1, y: y + 0.5, w: w - 0.2, h: h - 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: fs2 || 9.5, color: tc2, align: "center", valign: "top" });
+}
+const yT = 1.6, hT = 1.35, wT = 2.2, gap = 0.22;
+const xs = [M, M + (wT + gap), M + 2 * (wT + gap), M + 3 * (wT + gap), M + 4 * (wT + gap)];
+lbox(s, xs[0], yT, wT, hT, "Generators", "prototypes · levers · neighbourhood of winners\n(pool = 1,427 cells)", NAVY2, WHITE, "C6D2E4");
+lbox(s, xs[1], yT, wT, hT, "MLIP filter", "MACE relax · same-model hull\nE_hull ≤ 30 meV · Ms ≥ 1.5 T", NAVY2, WHITE, "C6D2E4");
+lbox(s, xs[2], yT, wT, hT, "GP surrogate", "mean = physics rules\n+ Matern residual on h", NAVY2, WHITE, "C6D2E4");
+lbox(s, xs[3], yT, wT, hT, "Acquisition", "batch Thompson sampling\n+ contrast slots that resolve\nopen causal questions", NAVY2, WHITE, "C6D2E4");
+lbox(s, xs[4], yT, wT, hT, "DFT, then experiment", "one f-in-core run per cell\n→ h, Ms, V  (ground truth)", "C6472A", WHITE, "FBE3DC");
+for (let i = 0; i < 4; i++) farrow(s, xs[i] + wT, yT + hT / 2, xs[i + 1], yT + hT / 2, INK);
+// loop 2 box
+const yL = 4.05, hL = 1.55, xL = xs[1] + 0.3, wL = xs[4] - xs[1] - 0.6;
+s.addShape(pres.ShapeType.rect, { x: xs[0] + 0.3, y: yL - 0.25, w: xs[4] + wT - xs[0] - 0.6, h: hL + 0.7, fill: { color: WHITE, transparency: 100 }, line: { color: FE, width: 2, dashType: "dash" } });
+lbox(s, xL, yL, wL, hL, "Understanding loop: interpretable pipeline on every label", "effect sizes (what each lever does)  →  causal graph (host → S₅d → gap; Fe density → Ms)  →  symbolic rule (ΔE = 1574·h, de Gennes scaling)  →  checked against literature constants", TEAL, WHITE, "F0F7F8", 12.5, 10);
+// dashed edges: labels -> loop2 ; loop2 -> GP mean ; loop2 -> acquisition targets ; loop2 -> generators (levers)
+const dash = (x1, y1, x2, y2, label, lx, ly) => {
+  s.addShape(pres.ShapeType.line, { x: Math.min(x1, x2), y: Math.min(y1, y2), w: Math.abs(x2 - x1), h: Math.abs(y2 - y1), flipH: x2 < x1, flipV: y2 < y1, line: { color: "7A8DA8", width: 1.4, dashType: "dash", endArrowType: "triangle" } });
+  if (label) s.addText(label, { x: lx, y: ly, w: 2.4, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
+};
+dash(xs[4] + wT / 2, yT + hT, xs[4] + wT / 2, yL + hL / 2, "DFT results", xs[4] + wT / 2 + 0.08, yT + hT + 0.08);
+s.addShape(pres.ShapeType.line, { x: xL + wL, y: yL + hL / 2, w: xs[4] + wT / 2 - xL - wL, h: 0, line: { color: "7A8DA8", width: 1.4, dashType: "dash" } });
+dash(xs[2] + 0.5, yL, xs[2] + 0.5, yT + hT, "sets the mean function", xs[2] + 0.58, yT + hT + 0.08);
+dash(xs[3] + 1.1, yL, xs[3] + 1.1, yT + hT, "disambiguation targets", xs[3] + 1.18, yT + hT + 0.3);
+s.addShape(pres.ShapeType.line, { x: xs[0] + 0.5, y: yL + hL / 2, w: xL - xs[0] - 0.5, h: 0, line: { color: "7A8DA8", width: 1.4, dashType: "dash" }, flipH: true });
+dash(xs[0] + 0.5, yL + hL / 2, xs[0] + 0.5, yT + hT, "which levers to generate", xs[0] + 0.58, yT + hT + 0.08);
+// loop 1 return
+s.addShape(pres.ShapeType.line, { x: xs[0] + 1.6, y: yL + hL + 0.65, w: xs[4] + wT / 2 - xs[0] - 1.6, h: 0, line: { color: "7A8DA8", width: 1.4 } });
+s.addShape(pres.ShapeType.line, { x: xs[4] + wT / 2, y: yL + hL + 0.45, w: 0, h: 0.2, line: { color: "7A8DA8", width: 1.4 } });
+s.addShape(pres.ShapeType.line, { x: xs[0] + 1.6, y: yT + hT, w: 0, h: yL + hL + 0.65 - yT - hT, line: { color: "7A8DA8", width: 1.4, endArrowType: "triangle" }, flipV: true });
+s.addText("labels retrain the surrogate every round", { x: xs[1], y: yL + hL + 0.7, w: 4.5, h: 0.22, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.6, italic: true, color: MUTE });
+// examples of loop-2 outputs
+card(s, M, 6.55, W, 0.6, PANEL);
+s.addText("Loop 2 so far: 'the gap is set by h' became the GP mean and the one-run label · 'H kills coupling, Co raises it, early TM unresolved' became the generator levers and a contrast target (an early-TM series on one lattice) · 'Mn cannot flip the sign' retired a whole branch.",
+  { x: M + 0.25, y: 6.55, w: W - 0.5, h: 0.6, isTextBox: true, margin: 0, fontFace: BF, fontSize: 9.5, color: INK, valign: "middle" });
+s.addNotes("Adapted from the two-loop picture (operational loop + causal/interpretable loop). Differences in NEEL: the MLIP filter sits BEFORE the GP (constraints first, surrogate on survivors); generation precedes acquisition (one cannot score what does not exist), with the generator conditioned by loop 2's levers; the interpretable pipeline is effect sizes -> hand-specified structural causal model validated on the data -> symbolic rule, rather than a long tool chain (RF/SOM/EBM/SymReg/LogReg/ENCO), because 180-300 labels in 15-19 dimensions do not support data-driven causal discovery; 'disambiguation targets' are implemented as contrast experiments (same host, one lever changed) that the acquisition reserves slots for.");
+
 // ================= 10a. CANDIDATE GENERATION =================
 s = pres.addSlide();
 titleBar(s, "CANDIDATE GENERATION", "Seven sources feed one pool; every structure gets the same relaxation, hull and descriptors", false);
@@ -1009,7 +1053,7 @@ srcs.forEach(([h, d, n, fill, tc], i) => {
   fbox(s, x, y, 2.8, 1.65, h, d, fill, tc, tc, 11.5);
   s.addText(n, { x: x + 0.1, y: y + 1.32, w: 2.6, h: 0.28, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10, bold: true, color: tc, align: "center" });
 });
-fbox(s, M + 9.0, 3.45, 2.8, 1.65, "The pool today", "1,220 unique structures relaxed\nall with a same-model hull energy\n94 pass hull ≤ 30 meV and Ms ≥ 1.5 T\n→ Thompson sampling draws the wave", NAVY2, GOLD, "C6D2E4");
+fbox(s, M + 9.0, 3.45, 2.8, 1.65, "The pool today", "1,427 unique structures relaxed\nall with a same-model hull energy\n~140 pass hull ≤ 30 meV and Ms ≥ 1.5 T\n→ Thompson sampling drew wave 1 (120)", NAVY2, GOLD, "C6D2E4");
 s.addText("Generated ≠ stable: database candidates arrive with a hull distance, generated ones do not - which is why every source goes through the MACE hull before the GP ever sees it (next slide).",
   { x: M, y: 5.45, w: W, h: 0.5, isTextBox: true, margin: 0, fontFace: BF, fontSize: 10.5, italic: true, color: INK });
 card(s, M, 6.05, W, 0.7, NAVY2);
