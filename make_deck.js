@@ -615,7 +615,7 @@ s.addText("Learnt: of the levers the field uses, only partial Co and short RE-TM
 
 // ================= 8e. FROM DATA TO NEW COMPOSITIONS =================
 s = pres.addSlide();
-titleBar(s, "HYPOTHESIS: THE LEVERS COMPOSE", "If the measured levers add, the dataset's strongest hosts become new light-RE magnets", false);
+titleBar(s, "HYPOTHESIS: THE LEVERS COMPOSE", "Hypothesis: a strongly coupled Gd host plus a light rare earth is a hard-magnet candidate", false);
 const leverFunnel = [
   ["180", "credible Gd hosts", "the labelled dataset", WHITE, INK],
   ["96", "project ≥ 1.4 T with Nd", "Fe sublattice moment + free-ion Nd, same cell", "FFF3D6", "8A6A1E"],
