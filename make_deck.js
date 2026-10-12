@@ -1161,7 +1161,7 @@ const nodes = [
   ["Labelled data", "180 Gd pairs → gap, h, moments, geometry\n+ 20 light-RE runs\n+ MACE hull for every cell", RE],
   ["Gaussian process", "on physics descriptors (h, Fe density,\nd_RE-TM, Z_RT, Co fraction, interstitial)\n→ gap, Ms, E_hull with uncertainty", "3E7FA6"],
   ["Causal layer", "structural causal model\nhost → S₅d → gap; interventions,\nnot correlations, rank the levers", GOLD],
-  ["Generative proposal", "diffusion / MatterGen conditioned on\ndense Fe, short RE-TM, early TM;\nMACE hull as the first filter", FE],
+  ["Generative proposal", "now: rule-based generators\nnext: diffusion conditioned on the\ncausal parents; MACE hull first", FE],
   ["One run per cell", "f-in-core relaxation gives\nMs, h → gap, T*; results\nre-train every layer", "C6472A"],
 ];
 nodes.forEach(([h, d, c], i) => {
@@ -1202,14 +1202,14 @@ s.addShape(pres.ShapeType.line, { x: M + 1.8, y: 6.3, w: 2.5, h: 0, line: { colo
 s.addText("mediator: every host lever acts through S₅d (r = 0.89); Ms is set separately by Fe density and the RE. Interventions on the left are what a generative model may propose; the dashed edge is the Co trade-off.",
   { x: M + 0.2, y: 6.6, w: 5.7, h: 0.2, isTextBox: true, margin: 0, fontFace: BF, fontSize: 7.6, italic: true, color: "AEBBD0" });
 const lanes = [
-  ["Gaussian process", "180 points, smooth physics descriptors, batch size fixed by one packed job. Mean function = 1574·h so the GP learns residuals; q-EI with a diversity penalty picks each batch. Each label is now ONE f-in-core run, so a round is 150-200 compounds per 25-node job."],
-  ["Generative + causal", "The pool is exhausted above ≈ 1.75 T. A diffusion model conditioned on the causal parents - dense Fe, RE-TM < 3.0 Å, 12-fold coordination, partial Co, no H in the RE shell - proposes frameworks; MACE hull filters; the causal graph tells it which knobs are real and which are confounded."],
+  ["Gaussian process (running)", "Mean = physics rules, Matern residual on h, Thompson batches sized to one packed job. Each label is one f-in-core run; a round is 120 labels per ~48 h."],
+  ["Generative models (the extension)", "Phase 1, now: rule-based generators - substitution, interstitials, neighbourhood of winners.\nPhase 2, after wave 2-3: a conditional diffusion model (MatterGen / DOSMatGen class) fine-tuned on the pool, conditioned on the causal parents - Fe density, RE-TM distance, coordination, Co fraction, no H in the RE shell - proposing frameworks that are not decorations of known ones; MACE hull as the first filter, the GP as the second.\nPhase 3: inverse design - condition on the GP posterior toward the empty region of the Pareto front; every proposal still earns its label the same way."],
 ];
 lanes.forEach(([h, d], i) => {
-  const x = 7.0 + i * 2.85;
-  s.addShape(pres.ShapeType.roundRect, { x, y: 4.7, w: 2.75, h: 2.1, rectRadius: 0.06, fill: { color: NAVY2 } });
-  s.addText(h, { x: x + 0.18, y: 4.8, w: 2.4, h: 0.3, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11.5, bold: true, color: GOLD });
-  s.addText(d, { x: x + 0.18, y: 5.12, w: 2.42, h: 1.62, isTextBox: true, margin: 0, fontFace: BF, fontSize: 8.4, color: "C6D2E4" });
+  const x = 7.0 + i * 2.4, w = i === 0 ? 2.2 : 3.45;
+  s.addShape(pres.ShapeType.roundRect, { x, y: 4.7, w, h: 2.1, rectRadius: 0.06, fill: { color: i === 1 ? "2A3F66" : NAVY2 } });
+  s.addText(h, { x: x + 0.15, y: 4.78, w: w - 0.3, h: 0.3, isTextBox: true, margin: 0, fontFace: BF, fontSize: 11, bold: true, color: GOLD });
+  s.addText(d, { x: x + 0.15, y: 5.08, w: w - 0.3, h: 1.68, isTextBox: true, margin: 0, fontFace: BF, fontSize: i === 0 ? 8.6 : 7.9, color: "C6D2E4" });
 });
 s.addText("The campaign's product is not a compound; it is a calibrated instrument for RE-TM exchange and the first dataset a learning loop can be trained on.",
   { x: M, y: 6.92, w: W, h: 0.35, isTextBox: true, margin: 0,
