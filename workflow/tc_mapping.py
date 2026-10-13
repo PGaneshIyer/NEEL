@@ -87,7 +87,7 @@ def write_static(src_relax, dest, s, pat, magmag=2.5):
         out.append(line)
     # POSCAR written by pymatgen keeps the site order of s; MAGMOM per site
     mm = " ".join(f"{magmag * p:.2f}" if p else "0.00" for p in pat)
-    comp = os.path.basename(os.path.dirname(os.path.dirname(dest)))
+    comp = os.path.basename(os.path.dirname(os.path.dirname(os.path.normpath(dest))))
     out += [f"SYSTEM = {comp} {os.path.basename(dest)} Tc mapping",
             "IBRION = -1", "NSW = 0", f"MAGMOM = {mm}", "LORBIT = 11"]
     open(os.path.join(dest, "INCAR"), "w").write("\n".join(out) + "\n")
