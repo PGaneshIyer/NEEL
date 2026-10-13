@@ -249,6 +249,16 @@ def main():
     pool = [v[1] for v in best.values()]
     if A.only_source:
         pool = [r for r in pool if r["source"] in A.only_source.split(",")]
+    # interstitial N/C cells are made topotactically (nitriding the parent), so their own hull
+    # distance is the wrong criterion: use nitride_access.py's verdict (parent on hull + exothermic
+    # insertion) by giving accessible cells the PARENT's hull energy and inaccessible ones none.
+    acc_p = os.path.join(OUT, "interstitial_access.csv")
+    if os.path.isfile(acc_p):
+        acc = {(r["compound"], r["re_el"]): r for r in csv.DictReader(open(acc_p))}
+        for r in pool:
+            if r["source"] == "interstitial":
+                a = acc.get((r["formula"], r["re_el"]))
+                r["E_hull_meV"] = a["parent_E_hull_meV"] if (a and a["accessible"] == "True") else ""
     # exclude anything already run or queued
     done = set()
     for p in (os.path.join(OUT, "labels.csv"), *[os.path.join(OUT, f"wave_{k}.csv") for k in range(1, A.wave)]):
