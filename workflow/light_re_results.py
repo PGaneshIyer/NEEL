@@ -9,8 +9,9 @@ Per run (runs/light/<RE>/<polytype>/<name>/relax):
     whole RE moment is hybridisation-induced; sign convention: positive =
     antiparallel to the TM, as in apply_5d_method.py)
   * mu0 Ms = (TM total + n_RE * gJ*J) / V, light-RE free-ion moment parallel
-  * predicted RE-TM gap: Gd-equivalent 1574 h meV, scaled by (gJ-1)J/3.5 for
-    the actual RE; T* = gap_RE / (2 k_B); B_RT = gap_Gd / (2 * 7 mu_B)
+  * predicted RE-TM gap: the measured f-in-core h is divided by the H1 factor
+    (Nd 1.55, Sm 1.62) to the Gd-pair scale, then 1574 h meV, scaled by
+    (gJ-1)J/3.5 for the actual RE; T* = gap_RE / (2 k_B); B_RT = gap_Gd / (2 * 7 mu_B)
 Writes analysis/light_re/vasp_results.csv and prints the table.
 
 Usage:  python3 light_re_results.py
@@ -22,7 +23,11 @@ import os
 import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-K_H = 1574.0                 # meV per mu_B of h (apply_5d_method.py, 180 Gd pairs, r=0.89)
+K_H = 1574.0                 # meV per mu_B of Gd-pair h (apply_5d_method.py, 180 Gd pairs, r=0.89)
+# H1 result (2026-10-12, 17 hosts, r = 0.98): the f-in-core RE s+p+d polarisation is a constant
+# factor larger than the TM-tied h extracted from the Gd pair of the same host -
+# Nd_3: x1.55, Sm_3: x1.62 (sd 0.05). Convert to Gd-equivalent h before using the calibration.
+FC_TO_GD = {"Nd": 1.546, "Sm": 1.616, "Pr": 1.52}
 GJ1J = {"Nd": 1.227, "Sm": 1.786}
 GJJ = {"Nd": 3.27, "Sm": 0.71}
 KB = 0.08617                 # meV/K
@@ -81,7 +86,9 @@ def parse(d):
     if n_re and "V_A3" in out:
         sign = 1 if tm_tot >= 0 else -1
         h = -sign * sum(re_spd) / n_re           # positive = antiparallel to TM
-        out["h_uB"] = round(h, 3)
+        out["h_uB"] = round(h, 3)                               # as measured (f-in-core)
+        h = h / FC_TO_GD.get(re_el, 1.55)                       # Gd-equivalent, what 1574 was fitted on
+        out["h_gd_equiv_uB"] = round(h, 3)
         out["mu0Ms_T"] = round((abs(tm_tot) + n_re * GJJ[re_el]) / out["V_A3"] * C_T, 3)
         out["mu0Ms_TM_only_T"] = round(abs(tm_tot) / out["V_A3"] * C_T, 3)
         gap_gd = K_H * h
@@ -106,7 +113,7 @@ def main():
             pv = res.get(m["parent_run"], {}).get("ferri", {}).get("volume_A3")
             if pv and "V_A3" in r:
                 r["dV_vs_Gd_pct"] = round(100 * (r["V_A3"] / pv - 1), 1)
-    keys = ["run", "status", "ionic_steps", "V_A3", "dV_vs_Gd_pct", "P_kB", "m_TM_total_uB", "h_uB",
+    keys = ["run", "status", "ionic_steps", "V_A3", "dV_vs_Gd_pct", "P_kB", "m_TM_total_uB", "h_uB", "h_gd_equiv_uB",
             "mu0Ms_T", "mu0Ms_TM_only_T", "gap_Gd_equiv_meV", "gap_RE_meV", "T_star_K", "B_RT_T", "E_eV", "parent"]
     os.makedirs(os.path.join(HERE, "analysis", "light_re"), exist_ok=True)
     with open(os.path.join(HERE, "analysis", "light_re", "vasp_results.csv"), "w", newline="") as f:
